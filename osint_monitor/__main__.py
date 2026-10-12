@@ -6,6 +6,9 @@ Usage:
 """
 
 import argparse
+import json
+from datetime import datetime, timezone
+from pathlib import Path
 
 from .analyzer import analyze
 from .collector import collect, connect
@@ -29,8 +32,15 @@ def main():
     conn = connect(args.db)
 
     if args.command == "collect":
-        for source, result in collect(conn, SOURCES).items():
+        results = collect(conn, SOURCES)
+        for source, result in results.items():
             print(f"{source:<22} {result}")
+        # Keep a record of which sources worked on this run (source health).
+        status = Path(args.db).parent / "source_status.json"
+        status.write_text(json.dumps({
+            "checked": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+            "sources": results,
+        }, indent=2), encoding="utf-8")
     else:
         result = analyze(conn, args.keywords, args.days)
         path = make_report(result, args.out)

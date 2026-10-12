@@ -25,15 +25,15 @@ def test_collect_skips_duplicates():
     conn = connect(":memory:")
     first = collect(conn, {"Sample": FEED})
     second = collect(conn, {"Sample": FEED})
-    assert first == {"Sample": 4}
-    assert second == {"Sample": 0}
+    assert first == {"Sample": {"fetched": 4, "new": 4}}
+    assert second == {"Sample": {"fetched": 4, "new": 0}}
 
 
 def test_bad_source_does_not_stop_others():
     conn = connect(":memory:")
     results = collect(conn, {"Broken": "/no/such/file.xml", "Sample": FEED})
-    assert str(results["Broken"]).startswith("error")
-    assert results["Sample"] == 4
+    assert "error" in results["Broken"]
+    assert results["Sample"]["new"] == 4
 
 
 def test_keyword_match_uses_whole_words():

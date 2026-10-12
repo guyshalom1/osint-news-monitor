@@ -90,12 +90,16 @@ def save(conn, articles):
 def collect(conn, sources):
     """Fetch every source. One failing source does not stop the others.
 
-    Returns a dict: source name -> number of new articles, or an error message.
+    Returns a dict per source: {"fetched": items in the feed, "new": items
+    not seen before}, or {"error": message} if the source could not be read.
     """
     results = {}
     for name, url in sources.items():
         try:
-            results[name] = save(conn, fetch_feed(name, url))
-        except Exception as err:  # network errors, bad XML, etc.
-            results[name] = f"error: {err}"
+            articles = fetch_feed(name, url)
+            if not articles:
+                raise ValueError("feed is empty")
+            results[name] = {"fetched": len(articles), "new": save(conn, articles)}
+        except Exception as err:  # network errors, blocked access, bad XML
+            results[name] = {"error": str(err)[:200]}
     return results
