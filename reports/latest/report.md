@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Hezbollah, Lebanon
 
-Generated 2026-10-12 20:06 UTC. Period: last 7 days. Matching articles: 1.
+Generated 2026-10-12 20:07 UTC. Period: last 7 days. Matching articles: 1.
 
 ![Coverage per day](coverage.png)
 
@@ -20,10 +20,10 @@ Generated 2026-10-12 20:06 UTC. Period: last 7 days. Matching articles: 1.
 
 | Name | Articles |
 |---|---|
-| Hassan | 1 |
-| BBC | 1 |
 | Austin Tice | 1 |
+| Hassan | 1 |
 | Syrian | 1 |
+| US | 1 |
 | Bassam | 1 |
 
 ## Latest headlines
