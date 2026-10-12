@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-12 20:24 UTC. Period: last 7 days. Matching articles: 38.
+Generated 2026-10-12 20:30 UTC. Period: last 7 days. Matching articles: 42.
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-12 20:24 UTC. Period: last 7 days. Matching articles: 38.
 - Peak coverage on 2026-10-12: 19 articles.
 - Collection started 2026-10-12. Earlier days are incomplete and are left out of peak and spike detection.
 - No unusual spikes; coverage was steady.
-- Haaretz carried the most coverage (24% of articles).
+- Haaretz carried the most coverage (21% of articles).
 
 ## Coverage by source
 
@@ -18,6 +18,7 @@ Generated 2026-10-12 20:24 UTC. Period: last 7 days. Matching articles: 38.
 | Haaretz | 9 |
 | CBS News | 6 |
 | The Guardian World | 4 |
+| Ynetnews | 4 |
 | Jerusalem Post | 3 |
 | New York Times | 3 |
 | BBC Middle East | 3 |
@@ -38,10 +39,10 @@ Generated 2026-10-12 20:24 UTC. Period: last 7 days. Matching articles: 38.
 | Yemen | 10 |
 | Saudi Arabia | 10 |
 | Trump | 6 |
-| Israeli | 4 |
+| Israel | 5 |
+| Israeli | 5 |
+| RAF Fairford | 4 |
 | American | 3 |
-| RAF Fairford | 3 |
-| Washington | 3 |
 
 ## Israeli vs US media
 
@@ -49,15 +50,15 @@ Generated 2026-10-12 20:24 UTC. Period: last 7 days. Matching articles: 38.
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 15 of 186 (8.1%) | 13 of 147 (8.8%) |
-| Mentions Houthi | 40% | 54% |
-| Mentions Saudi | 33% | 46% |
-| Mentions Riyadh | 20% | 31% |
-| Mentions Saudi Arabia | 27% | 23% |
-| Mentions Yemen | 7% | 31% |
-| Mentions Trump | 20% | 8% |
-| Mentions Israeli | 13% | 15% |
-| Mentions American | 7% | 15% |
+| Articles about the topic | 19 of 219 (8.7%) | 13 of 147 (8.8%) |
+| Mentions Houthi | 32% | 54% |
+| Mentions Saudi | 26% | 46% |
+| Mentions Riyadh | 16% | 31% |
+| Mentions Saudi Arabia | 21% | 23% |
+| Mentions Yemen | 5% | 31% |
+| Mentions Israeli | 16% | 15% |
+| Mentions Israel | 26% | 0% |
+| Mentions Trump | 16% | 8% |
 
 **Latest Israel headlines**
 
