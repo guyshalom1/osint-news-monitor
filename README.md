@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python -m osint_monitor collect
 
 # report on a topic for the last 7 days
-python -m osint_monitor report --keywords Hezbollah Lebanon --days 7
+python -m osint_monitor report --keywords Iran Iranian Tehran --days 7
 ```
 
 The report is written to `output/report.md` with `output/coverage.png`.

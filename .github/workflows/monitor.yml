@@ -28,7 +28,7 @@ jobs:
         run: python -m osint_monitor --db data/articles.db collect
 
       - name: Build report
-        run: python -m osint_monitor --db data/articles.db report --keywords Hezbollah Lebanon --days 7 --out reports/latest
+        run: python -m osint_monitor --db data/articles.db report --keywords Iran Iranian Tehran --days 7 --out reports/latest
 
       - name: Save results to the repository
         run: |
