@@ -4,6 +4,12 @@ A Python tool that tracks how a topic is covered across open news sources. It co
 
 Built as a personal project to automate a task I do manually as a delegate intern at Israel's Permanent Mission to the UN: following how an issue develops across sources before a meeting.
 
+## Live report
+
+A scheduled GitHub Actions workflow collects new articles every 6 hours and rebuilds the report on real data. Latest report: [reports/latest/report.md](reports/latest/report.md)
+
+![Coverage per day](reports/latest/coverage.png)
+
 ## What it does
 
 1. **Collect** articles from 6 RSS feeds (Times of Israel, Jerusalem Post, BBC, Al Jazeera, The Guardian, UN News) into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.

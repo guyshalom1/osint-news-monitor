@@ -9,6 +9,7 @@ import hashlib
 import html
 import re
 import sqlite3
+from pathlib import Path
 from datetime import datetime, timezone
 
 import feedparser
@@ -28,6 +29,8 @@ CREATE TABLE IF NOT EXISTS articles (
 
 def connect(db_path):
     """Open the database and make sure the table exists."""
+    if db_path != ":memory:":
+        Path(db_path).parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
     conn.execute(SCHEMA)
     return conn
