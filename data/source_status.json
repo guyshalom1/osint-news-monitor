@@ -1,14 +1,14 @@
 {
-  "checked": "2026-10-12T20:22+00:00",
+  "checked": "2026-10-12T20:24+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 100,
+      "new": 0,
       "newest": "2026-10-12"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 26,
+      "new": 0,
       "newest": "2026-10-12"
     },
     "Israel Hayom": {
@@ -18,17 +18,17 @@
     },
     "Israel National News": {
       "fetched": 10,
-      "new": 3,
+      "new": 0,
       "newest": "2026-10-12"
     },
     "JNS": {
       "fetched": 30,
-      "new": 30,
+      "new": 1,
       "newest": "2026-10-12"
     },
     "Globes": {
       "fetched": 10,
-      "new": 10,
+      "new": 1,
       "newest": "2026-10-12"
     },
     "New York Times": {
@@ -53,7 +53,7 @@
     },
     "ABC News": {
       "fetched": 25,
-      "new": 1,
+      "new": 7,
       "newest": "2026-10-12"
     },
     "BBC Middle East": {
@@ -63,7 +63,7 @@
     },
     "Al Jazeera": {
       "fetched": 25,
-      "new": 1,
+      "new": 0,
       "newest": "2026-10-12"
     },
     "The Guardian World": {

@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-12 20:22 UTC. Period: last 7 days. Matching articles: 38.
+Generated 2026-10-12 20:24 UTC. Period: last 7 days. Matching articles: 38.
 
 ![Coverage per day](coverage.png)
 
@@ -32,16 +32,50 @@ Generated 2026-10-12 20:22 UTC. Period: last 7 days. Matching articles: 38.
 
 | Name | Articles |
 |---|---|
-| Saudi | 14 |
-| Houthi | 12 |
+| Houthi | 21 |
+| Saudi | 16 |
+| Riyadh | 12 |
+| Yemen | 10 |
 | Saudi Arabia | 10 |
-| Yemen | 9 |
-| Riyadh | 7 |
 | Trump | 6 |
-| Riyadh's | 5 |
-| Houthis | 5 |
 | Israeli | 4 |
 | American | 3 |
+| RAF Fairford | 3 |
+| Washington | 3 |
+
+## Israeli vs US media
+
+![Israeli vs US media](comparison.png)
+
+| | Israel | US |
+|---|---|---|
+| Articles about the topic | 15 of 186 (8.1%) | 13 of 147 (8.8%) |
+| Mentions Houthi | 40% | 54% |
+| Mentions Saudi | 33% | 46% |
+| Mentions Riyadh | 20% | 31% |
+| Mentions Saudi Arabia | 27% | 23% |
+| Mentions Yemen | 7% | 31% |
+| Mentions Trump | 20% | 8% |
+| Mentions Israeli | 13% | 15% |
+| Mentions American | 7% | 15% |
+
+**Latest Israel headlines**
+
+- Jerusalem Post: [Iran's Araghchi offers to mediate Saudi-Houthi talks, calls for diplomatic end to hostilities](https://www.jpost.com/middle-east/iran-news/article-911479)
+- Jerusalem Post: [Iran’s two-front war on Israel: From October 7 to election interference - opinion](https://www.jpost.com/opinion/article-911423)
+- Haaretz: [U.K. PM Burnham: Iran's IRGC likely behind RAF Fairford incident](https://www.haaretz.com/world-news/europe/2026-10-12/ty-article/u-k-pm-burnham-irans-irgc-likely-behind-raf-fairford-incident/000001a1-30d4-dbe9-ade9-72deccca0000)
+- Jerusalem Post: [Bennett's comments about sitting with Netanyahu in next gov't were 'unsuccesful irony,' Lapid says](https://www.jpost.com/israel-news/politics-and-diplomacy/article-911408)
+- JNS: [Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia](https://www.jns.org/jns-tv/jlminute/trump-weighs-new-iran-strikes-as-houthis-escalate-attacks-on-saudi-arabia)
+
+**Latest US headlines**
+
+- CBS News: [Saudi airport stays shut as Houthi attacks kill 20 people in a week](https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/)
+- New York Times: [Saudi Arabia Faces More Attacks as It Reels From Airport Strikes](https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html)
+- CBS News: [Breaking down how the Iran war could continue to impact fuel prices](https://www.cbsnews.com/video/breaking-down-how-the-iran-war-could-continue-to-impact-fuel-prices/)
+- CBS News: [Iranian-backed Houthi rebels in Yemen claim deadly attacks on Saudi airport](https://www.cbsnews.com/video/iranian-backed-houthi-rebels-in-yemen-claim-deadly-attacks-on-saudi-airport/)
+- CBS News: [Saudi airport hit again, a day after deadly strike killed 13](https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/)
+
+Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
