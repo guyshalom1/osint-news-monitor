@@ -89,7 +89,7 @@ def top_entities(articles, keywords, limit=10):
         for name in NAME_PATTERN.findall(f"{a['title']}. {a['summary']}"):
             words = [w for w in name.split() if w not in STOPWORDS]
             name = " ".join(words)
-            if len(name) > 2 and name.lower() not in skip:
+            if len(name) >= 2 and name.lower() not in skip:
                 found.add(name)
         counter.update(found)
     return counter.most_common(limit)
