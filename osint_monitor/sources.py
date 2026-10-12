@@ -8,19 +8,21 @@ All feeds are in English, so the same keywords work for every country.
 """
 
 # name: (country, feed URL)
+# Removed after testing from GitHub's servers: Times of Israel and i24NEWS
+# (return a web page, not a feed), Wall Street Journal and the old Ynetnews
+# feed (no longer updated).
 FEEDS = {
     # Israel
-    "Times of Israel": ("Israel", "https://www.timesofisrael.com/feed/"),
-    "Jerusalem Post": ("Israel", "https://www.jpost.com/rss/rssfeedsheadlines.aspx"),
+    "Haaretz": ("Israel", "https://www.haaretz.com/srv/haaretz-latest-headlines"),
+    "Jerusalem Post": ("Israel", "https://rss.jpost.com/rss/rssfeedsfrontpage.aspx"),
     "Israel Hayom": ("Israel", "https://www.israelhayom.com/feed/"),
-    "Ynetnews": ("Israel", "https://www.ynetnews.com/Integration/StoryRss3089.xml"),
     "Israel National News": ("Israel", "https://www.israelnationalnews.com/Rss.aspx"),
-    "i24NEWS": ("Israel", "https://www.i24news.tv/en/rss"),
+    "JNS": ("Israel", "https://www.jns.org/feed/"),
+    "Globes": ("Israel", "https://en.globes.co.il/WebService/Rss/RssFeeder.asmx/FeederNode?iID=942"),
     # United States (world sections)
     "New York Times": ("US", "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"),
     "NPR": ("US", "https://feeds.npr.org/1004/rss.xml"),
     "Fox News": ("US", "https://moxie.foxnews.com/google-publisher/world.xml"),
-    "Wall Street Journal": ("US", "https://feeds.a.dj.com/rss/RSSWorldNews.xml"),
     "CBS News": ("US", "https://www.cbsnews.com/latest/rss/world"),
     "ABC News": ("US", "https://abcnews.go.com/abcnews/internationalheadlines"),
     # International
@@ -37,7 +39,7 @@ COUNTRY = {name: country for name, (country, _) in FEEDS.items()}
 # part of the story, so the entity analysis ignores them.
 OUTLET_NAMES = {
     "BBC", "Al Jazeera", "Times of Israel", "Jerusalem Post", "Guardian",
-    "The Guardian", "UN News", "Israel Hayom", "Ynet", "Ynetnews", "i24NEWS",
+    "The Guardian", "UN News", "Israel Hayom", "Haaretz", "JNS", "Globes",
     "Israel National News", "New York Times", "NPR", "Fox News", "Fox",
     "Wall Street Journal", "WSJ", "CBS News", "CBS", "ABC News", "ABC",
 }

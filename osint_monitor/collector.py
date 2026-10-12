@@ -10,7 +10,7 @@ import html
 import re
 import sqlite3
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import feedparser
 
@@ -100,6 +100,13 @@ def collect(conn, sources):
             if not articles:
                 raise ValueError("feed is empty")
             results[name] = {"fetched": len(articles), "new": save(conn, articles)}
+            # A feed can respond normally but have stopped updating.
+            dates = [a["published"] for a in articles if a["published"]]
+            newest = max(dates) if dates else None
+            week_ago = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+            results[name]["newest"] = newest[:10] if newest else None
+            if not newest or newest < week_ago:
+                results[name]["stale"] = True
         except Exception as err:  # network errors, blocked access, bad XML
             results[name] = {"error": str(err)[:200]}
     return results

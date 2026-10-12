@@ -25,8 +25,14 @@ def test_collect_skips_duplicates():
     conn = connect(":memory:")
     first = collect(conn, {"Sample": FEED})
     second = collect(conn, {"Sample": FEED})
-    assert first == {"Sample": {"fetched": 4, "new": 4}}
-    assert second == {"Sample": {"fetched": 4, "new": 0}}
+    assert (first["Sample"]["fetched"], first["Sample"]["new"]) == (4, 4)
+    assert (second["Sample"]["fetched"], second["Sample"]["new"]) == (4, 0)
+
+
+def test_newest_item_date_recorded():
+    conn = connect(":memory:")
+    result = collect(conn, {"Sample": FEED})["Sample"]
+    assert result["newest"] == "2026-10-10"
 
 
 def test_bad_source_does_not_stop_others():
