@@ -45,7 +45,10 @@ def test_keyword_match_uses_whole_words():
 
 def test_daily_counts():
     result = analyze(make_db(), ["Hezbollah"], days=7, now=NOW)
-    assert result["by_day"] == {"2026-10-09": 1, "2026-10-10": 1}
+    assert result["by_day"]["2026-10-09"] == 1
+    assert result["by_day"]["2026-10-10"] == 1
+    assert result["by_day"]["2026-10-11"] == 0  # empty days are kept
+    assert len(result["by_day"]) == 7
 
 
 def test_find_spikes():

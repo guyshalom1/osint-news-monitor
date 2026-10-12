@@ -61,6 +61,17 @@ def source_counts(articles):
     return dict(Counter(a["source"] for a in articles).most_common())
 
 
+def fill_days(counts, days, now):
+    """Add the days with no articles, so the timeline has no gaps.
+
+    Without this, a quiet day simply disappears from the chart and the
+    coverage looks continuous when it was not.
+    """
+    end = now.date()
+    all_days = [(end - timedelta(days=i)).isoformat() for i in range(days - 1, -1, -1)]
+    return {day: counts.get(day, 0) for day in all_days}
+
+
 def find_spikes(counts, threshold=1.5, min_articles=3):
     """Days where coverage is well above the period's average.
 
@@ -97,21 +108,32 @@ def top_entities(articles, keywords, limit=10):
 
 def analyze(conn, keywords, days=7, now=None):
     """Run the full analysis and return the results as one dict."""
+    now = now or datetime.now(timezone.utc)
     articles = [a for a in load_articles(conn, days, now) if matches(a, keywords)]
-    by_day = daily_counts(articles)
+    by_day = fill_days(daily_counts(articles), days, now)
 
-    sources_per_day = defaultdict(set)
+    # For each day, how many articles each source published: {day: {source: n}}
+    by_day_source = defaultdict(Counter)
     for a in articles:
-        sources_per_day[a["published"][:10]].add(a["source"])
+        by_day_source[a["published"][:10]][a["source"]] += 1
+
+    # Days before collection began are incomplete: RSS feeds only keep recent
+    # items, so a low count there may mean "not collected", not "not covered".
+    first = conn.execute("SELECT MIN(collected) FROM articles").fetchone()[0]
+    start = first[:10] if first else now.date().isoformat()
+    partial = [d for d in by_day if d < start]
 
     return {
         "keywords": keywords,
+        "collection_start": start,
+        "partial_days": partial,
         "days": days,
         "total": len(articles),
         "by_day": by_day,
         "by_source": source_counts(articles),
-        "spikes": find_spikes(by_day),
+        "spikes": find_spikes({d: n for d, n in by_day.items() if d not in partial}),
         "entities": top_entities(articles, keywords),
-        "sources_per_day": {d: sorted(s) for d, s in sorted(sources_per_day.items())},
+        "by_day_source": {d: dict(c) for d, c in by_day_source.items()},
+        "sources_per_day": {d: sorted(c) for d, c in sorted(by_day_source.items())},
         "articles": articles,
     }
