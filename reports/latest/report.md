@@ -1,12 +1,13 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-12 20:11 UTC. Period: last 7 days. Matching articles: 10.
+Generated 2026-10-12 20:17 UTC. Period: last 7 days. Matching articles: 10.
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
-- Peak coverage on 2026-10-11: 4 articles.
+- Peak coverage on 2026-10-12: 4 articles.
+- Collection started 2026-10-12. Earlier days are incomplete and are left out of peak and spike detection.
 - No unusual spikes; coverage was steady.
 - The Guardian World carried the most coverage (40% of articles).
 
