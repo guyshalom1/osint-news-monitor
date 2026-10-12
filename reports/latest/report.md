@@ -25,13 +25,13 @@ Generated 2026-10-12 20:11 UTC. Period: last 7 days. Matching articles: 10.
 |---|---|
 | Houthi | 6 |
 | Riyadh | 5 |
-| Continue | 4 |
 | Saudi | 4 |
 | Yemen | 4 |
 | Saudi Arabia | 3 |
 | UK | 2 |
 | RAF Fairford | 2 |
 | Houthis | 2 |
+| King Khalid | 2 |
 | Trump | 2 |
 
 ## Latest headlines
