@@ -3,7 +3,7 @@
 from datetime import datetime, timezone
 from pathlib import Path
 
-from osint_monitor.analyzer import analyze, find_spikes, top_entities
+from osint_monitor.analyzer import analyze, clean_name, find_spikes, top_entities
 from osint_monitor.collector import clean_text, collect, connect
 from osint_monitor.report import make_report
 
@@ -84,3 +84,18 @@ def test_entities_exclude_source_names():
     assert "BBC" not in names
     assert "Iran" in names
     assert "UN" in names
+
+
+def test_clean_name():
+    skip = {"iran"}
+    assert clean_name("Riyadh's", skip) == "Riyadh"
+    assert clean_name("Iran's Houthi", skip) == "Houthi"
+    assert clean_name("Iran-backed Houthis", skip) == "Houthis"
+
+
+def test_plurals_merged():
+    articles = [
+        {"source": "X", "title": "Houthi attack", "summary": "", "published": "2026-10-10"},
+        {"source": "X", "title": "Houthis claim strike", "summary": "", "published": "2026-10-10"},
+    ]
+    assert dict(top_entities(articles, ["strike"]))["Houthi"] == 2

@@ -2,7 +2,7 @@
 
 Usage:
     python -m osint_monitor collect
-    python -m osint_monitor report --keywords Hezbollah Lebanon --days 7
+    python -m osint_monitor report --keywords Iran Iranian Tehran --days 7
 """
 
 import argparse
@@ -10,7 +10,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .analyzer import analyze
+from .analyzer import analyze, compare_countries
 from .collector import collect, connect
 from .report import make_report
 from .sources import SOURCES
@@ -43,7 +43,8 @@ def main():
         }, indent=2), encoding="utf-8")
     else:
         result = analyze(conn, args.keywords, args.days)
-        path = make_report(result, args.out)
+        comparison = compare_countries(conn, args.keywords, args.days)
+        path = make_report(result, args.out, comparison)
         print(f"{result['total']} matching articles. Report: {path}")
 
 

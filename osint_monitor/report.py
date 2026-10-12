@@ -12,6 +12,8 @@ from matplotlib.ticker import MaxNLocator
 # Colors. One color for all data: the chart never needs to tell sources
 # apart by color, because each source gets its own labeled row instead.
 BAR, PARTIAL = "#2a78d6", "#cde2fb"
+# Country comparison: two validated colors, always paired with a legend/labels.
+COUNTRY_COLORS = {"Israel": "#2a78d6", "US": "#eb6834"}
 INK, MUTED, GRID, SURFACE = "#1f1f1e", "#6b6a64", "#e6e5e0", "#fcfcfb"
 
 
@@ -95,7 +97,94 @@ def make_chart(result, path):
     plt.close(fig)
 
 
-def make_report(result, out_dir):
+def make_comparison_chart(comp, path):
+    """Two panels: how much attention each country gives the topic (left),
+    and which names each country mentions alongside it (right)."""
+    countries = list(comp["countries"])
+    data = comp["countries"]
+
+    fig, (ax1, ax2) = plt.subplots(
+        1, 2, figsize=(11, 5.2), gridspec_kw={"width_ratios": [1, 1.6]}
+    )
+    fig.patch.set_facecolor(SURFACE)
+
+    # Left: % of each country's articles that are about the topic.
+    shares = [data[c]["share"] for c in countries]
+    ax1.barh(countries[::-1], shares[::-1], height=0.5,
+             color=[COUNTRY_COLORS[c] for c in countries[::-1]])
+    for y, c in enumerate(countries[::-1]):
+        d = data[c]
+        ax1.text(d["share"] + max(shares) * 0.04, y,
+                 f"{d['share']}%  ({d['matching']} of {d['total']})",
+                 va="center", fontsize=9.5, color=INK)
+    ax1.set_xlim(0, max(shares) * 1.8 or 1)
+    ax1.set_title("Share of all articles about the topic", loc="left",
+                  fontsize=11, color=INK)
+    ax1.grid(axis="x", color=GRID, linewidth=1)
+    ax1.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
+    style(ax1)
+
+    # Right: % of each country's topic articles that mention each name.
+    names = comp["top_names"][::-1]
+    height = 0.38
+    for i, c in enumerate(countries):
+        values = [data[c]["names"].get(n, 0) for n in names]
+        offsets = [y + (height / 2 if i == 0 else -height / 2) for y in range(len(names))]
+        ax2.barh(offsets, values, height=height, color=COUNTRY_COLORS[c],
+                 edgecolor=SURFACE, linewidth=1.5, label=c)
+        for y, v in zip(offsets, values):
+            ax2.text(v + 1, y, f"{v}%", va="center", fontsize=8, color=MUTED)
+    ax2.set_yticks(range(len(names)), names)
+    ax2.set_xlim(0, 100)
+    ax2.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
+    ax2.grid(axis="x", color=GRID, linewidth=1)
+    ax2.set_title("Names mentioned alongside the topic\n(% of that country's topic articles)",
+                  loc="left", fontsize=11, color=INK)
+    ax2.legend(loc="lower right", frameon=False, fontsize=9)
+    style(ax2)
+
+    small = min(data[c]["matching"] for c in countries)
+    note = "Israeli outlets: " + ", ".join(data["Israel"]["sources"]) + ". US outlets: " \
+        + ", ".join(data["US"]["sources"]) + "."
+    if small < 30:
+        note += f"\nSmall samples (fewest: {small} articles): read differences as indicative, not conclusive."
+    fig.suptitle(f"Israeli vs US media: {', '.join(comp['keywords'])}",
+                 x=0.012, y=0.985, ha="left", va="top", fontsize=14, color=INK)
+    fig.text(0.012, 0.915, note, ha="left", va="top", fontsize=9, color=MUTED)
+    fig.tight_layout(rect=(0, 0, 1, 0.87))
+    fig.savefig(path, dpi=150, facecolor=SURFACE)
+    plt.close(fig)
+
+
+def comparison_lines(comp):
+    """Markdown section comparing the countries."""
+    data = comp["countries"]
+    lines = ["## Israeli vs US media", ""]
+    if not all(d["matching"] for d in data.values()):
+        lines += ["Not enough matching articles in both countries to compare.", ""]
+        return lines
+    lines += ["![Israeli vs US media](comparison.png)", ""]
+    lines += ["| | " + " | ".join(data) + " |", "|---|" + "---|" * len(data)]
+    lines.append("| Articles about the topic | " + " | ".join(
+        f"{d['matching']} of {d['total']} ({d['share']}%)" for d in data.values()) + " |")
+    for name in comp["top_names"]:
+        lines.append(f"| Mentions {name} | " + " | ".join(
+            f"{d['names'].get(name, 0)}%" for d in data.values()) + " |")
+    lines.append("")
+    for country, d in data.items():
+        lines += [f"**Latest {country} headlines**", ""]
+        lines += [f"- {a['source']}: [{a['title']}]({a['link']})" for a in d["headlines"]]
+        lines.append("")
+    lines += [
+        "Caveats: Israeli feeds are general news, US feeds are world sections, "
+        "so the share of attention is not a like-for-like comparison. Outlets "
+        "with longer feeds weigh more within their country.",
+        "",
+    ]
+    return lines
+
+
+def make_report(result, out_dir, comparison=None):
     """Write report.md and coverage.png into out_dir. Returns the report path."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -150,6 +239,11 @@ def make_report(result, out_dir):
     lines += ["| Name | Articles |", "|---|---|"]
     lines += [f"| {name} | {n} |" for name, n in result["entities"]]
     lines.append("")
+
+    if comparison:
+        make_comparison_chart(comparison, out_dir / "comparison.png") \
+            if all(d["matching"] for d in comparison["countries"].values()) else None
+        lines += comparison_lines(comparison)
 
     lines += ["## Latest headlines", ""]
     for a in result["articles"][:10]:

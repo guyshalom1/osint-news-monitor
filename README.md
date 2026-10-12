@@ -10,14 +10,25 @@ A scheduled GitHub Actions workflow collects new articles every 6 hours and rebu
 
 ![Coverage per day](reports/latest/coverage.png)
 
+### Israeli vs US media
+
+The same topic, compared between 6 Israeli and 5 US outlets: how much attention each country's media gives it, and which names and places each puts alongside it. Shares are used instead of raw counts, since the two countries' feeds differ in size.
+
+![Israeli vs US media](reports/latest/comparison.png)
+
 ## What it does
 
-1. **Collect** articles from 6 RSS feeds (Times of Israel, Jerusalem Post, BBC, Al Jazeera, The Guardian, UN News) into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.
+1. **Collect** articles from 15 English-language RSS feeds, each tagged by country, into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.
+   - Israel: Haaretz, Jerusalem Post, Israel Hayom, Israel National News, JNS, Globes
+   - US: New York Times, NPR, Fox News, CBS News, ABC News
+   - International: BBC, Al Jazeera, The Guardian, UN News
+   - Every run records source health in `data/source_status.json`, including feeds that respond but have stopped updating.
 2. **Filter** articles by keywords (whole-word, case-insensitive).
 3. **Analyze**
    - articles per day and per source
    - spike detection: days above the period's mean + 1.5 standard deviations
-   - co-occurring names and places (capitalized-phrase extraction)
+   - co-occurring names and places (capitalized-phrase extraction, with possessives, keywords and plurals normalized)
+   - country comparison: share of attention and names mentioned, Israel vs US
 4. **Report** a Markdown file with key findings, tables, latest headlines and a coverage chart.
 
 ## Usage
@@ -52,6 +63,7 @@ Run the tests with `pytest`.
 
 - RSS feeds only carry recent items, so trends become meaningful after the collector has run for several days.
 - Entity extraction is a simple heuristic, not a trained NLP model. It can pick up generic capitalized words.
+- Israeli feeds are general news while US feeds are world sections, so attention shares are indicative, not like-for-like. Times of Israel and i24NEWS block automated access from cloud servers.
 - Coverage volume is not importance: one outlet publishing many short updates can inflate a day's count.
 
 ## Possible next steps

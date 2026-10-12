@@ -11,7 +11,7 @@ import statistics
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
-from .sources import OUTLET_NAMES
+from .sources import COUNTRY, OUTLET_NAMES
 
 # Capitalized words that start sentences or are too generic to be useful.
 STOPWORDS = {
@@ -86,6 +86,24 @@ def find_spikes(counts, threshold=1.5, min_articles=3):
     return [day for day, n in counts.items() if n > cutoff and n >= min_articles]
 
 
+def clean_name(name, skip):
+    """Normalize one capitalized phrase, or return "" to drop it.
+
+    "Riyadh's" -> "Riyadh", "Iran's Houthi" -> "Houthi" (keyword removed),
+    "Iran-backed Houthis" -> "Houthis".
+    """
+    words = []
+    for word in name.split():
+        word = re.sub(r"'s$", "", word)
+        lower = word.lower()
+        if word in STOPWORDS or lower in skip:
+            continue
+        if any(lower.startswith(k + "-") for k in skip):  # "Iran-backed"
+            continue
+        words.append(word)
+    return " ".join(words)
+
+
 def top_entities(articles, keywords, limit=10):
     """Most frequent names/places mentioned alongside the keywords.
 
@@ -98,11 +116,15 @@ def top_entities(articles, keywords, limit=10):
     for a in articles:
         found = set()  # count each name once per article
         for name in NAME_PATTERN.findall(f"{a['title']}. {a['summary']}"):
-            words = [w for w in name.split() if w not in STOPWORDS]
-            name = " ".join(words)
+            name = clean_name(name, skip)
             if len(name) >= 2 and name.lower() not in skip:
                 found.add(name)
         counter.update(found)
+
+    # Merge plurals into the singular when both appear: "Houthis" -> "Houthi".
+    for name in list(counter):
+        if name.endswith("s") and name[:-1] in counter:
+            counter[name[:-1]] += counter.pop(name)
     return counter.most_common(limit)
 
 
@@ -137,3 +159,36 @@ def analyze(conn, keywords, days=7, now=None):
         "sources_per_day": {d: sorted(c) for d, c in sorted(by_day_source.items())},
         "articles": articles,
     }
+
+
+def compare_countries(conn, keywords, days=7, now=None, countries=("Israel", "US")):
+    """Compare how media in different countries cover the same topic.
+
+    Counts differ a lot between countries (more feeds, longer feeds), so the
+    comparison uses shares instead of raw numbers:
+    - attention: % of a country's articles that are about the topic
+    - framing:   % of a country's topic articles that mention each name
+    """
+    all_articles = load_articles(conn, days, now)
+    result = {"keywords": keywords, "countries": {}}
+
+    for country in countries:
+        pool = [a for a in all_articles if COUNTRY.get(a["source"]) == country]
+        topic = [a for a in pool if matches(a, keywords)]
+        names = top_entities(topic, keywords, limit=50)
+        result["countries"][country] = {
+            "total": len(pool),
+            "matching": len(topic),
+            "share": round(100 * len(topic) / len(pool), 1) if pool else 0.0,
+            "sources": sorted({a["source"] for a in pool}),
+            # % of this country's topic articles that mention each name
+            "names": {n: round(100 * c / len(topic)) for n, c in names} if topic else {},
+            "headlines": topic[:5],
+        }
+
+    # Names to compare: the most mentioned overall, by combined share.
+    combined = Counter()
+    for data in result["countries"].values():
+        combined.update(data["names"])
+    result["top_names"] = [n for n, _ in combined.most_common(8)]
+    return result
