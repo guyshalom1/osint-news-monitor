@@ -12,14 +12,14 @@ A scheduled GitHub Actions workflow collects new articles every 6 hours and rebu
 
 ### Israeli vs US media
 
-The same topic, compared between 6 Israeli and 5 US outlets: how much attention each country's media gives it, and which names and places each puts alongside it. Shares are used instead of raw counts, since the two countries' feeds differ in size.
+The same topic, compared between 7 Israeli and 5 US outlets: how much attention each country's media gives it, and which names and places each puts alongside it. Shares are used instead of raw counts, since the two countries' feeds differ in size.
 
 ![Israeli vs US media](reports/latest/comparison.png)
 
 ## What it does
 
-1. **Collect** articles from 15 English-language RSS feeds, each tagged by country, into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.
-   - Israel: Haaretz, Jerusalem Post, Israel Hayom, Israel National News, JNS, Globes
+1. **Collect** articles from 16 English-language RSS feeds, each tagged by country, into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.
+   - Israel: Haaretz, Jerusalem Post, Israel Hayom, Israel National News, JNS, Ynetnews, Globes
    - US: New York Times, NPR, Fox News, CBS News, ABC News
    - International: BBC, Al Jazeera, The Guardian, UN News
    - Every run records source health in `data/source_status.json`, including feeds that respond but have stopped updating.

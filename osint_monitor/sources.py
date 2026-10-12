@@ -9,8 +9,8 @@ All feeds are in English, so the same keywords work for every country.
 
 # name: (country, feed URL)
 # Removed after testing from GitHub's servers: Times of Israel and i24NEWS
-# (return a web page, not a feed), Wall Street Journal and the old Ynetnews
-# feed (no longer updated).
+# (return a web page, not a feed) and Wall Street Journal (no longer updated).
+# Ynetnews: the old feed (3089) died; 3082 works but updates slowly.
 FEEDS = {
     # Israel
     "Haaretz": ("Israel", "https://www.haaretz.com/srv/haaretz-latest-headlines"),
@@ -18,6 +18,7 @@ FEEDS = {
     "Israel Hayom": ("Israel", "https://www.israelhayom.com/feed/"),
     "Israel National News": ("Israel", "https://www.israelnationalnews.com/Rss.aspx"),
     "JNS": ("Israel", "https://www.jns.org/feed/"),
+    "Ynetnews": ("Israel", "https://www.ynetnews.com/Integration/StoryRss3082.xml"),
     "Globes": ("Israel", "https://en.globes.co.il/WebService/Rss/RssFeeder.asmx/FeederNode?iID=942"),
     # United States (world sections)
     "New York Times": ("US", "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"),
@@ -39,7 +40,7 @@ COUNTRY = {name: country for name, (country, _) in FEEDS.items()}
 # part of the story, so the entity analysis ignores them.
 OUTLET_NAMES = {
     "BBC", "Al Jazeera", "Times of Israel", "Jerusalem Post", "Guardian",
-    "The Guardian", "UN News", "Israel Hayom", "Haaretz", "JNS", "Globes",
+    "The Guardian", "UN News", "Israel Hayom", "Haaretz", "JNS", "Globes", "Ynet", "Ynetnews",
     "Israel National News", "New York Times", "NPR", "Fox News", "Fox",
     "Wall Street Journal", "WSJ", "CBS News", "CBS", "ABC News", "ABC",
 }
