@@ -20,7 +20,7 @@ STOPWORDS = {
     "He", "She", "It", "They", "We", "His", "Her", "Their", "This", "That",
     "These", "Those", "What", "Who", "Why", "How", "When", "Where", "Is",
     "Are", "Was", "Were", "Will", "Would", "Could", "Should", "Says", "Said",
-    "New", "Live", "Watch", "Update", "Monday", "Tuesday", "Wednesday",
+    "New", "Live", "Watch", "Update", "Continue", "Read", "More", "Monday", "Tuesday", "Wednesday",
     "Thursday", "Friday", "Saturday", "Sunday", "January", "February",
     "March", "April", "May", "June", "July", "August", "September",
     "October", "November", "December",
