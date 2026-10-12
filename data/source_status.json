@@ -1,0 +1,67 @@
+{
+  "checked": "2026-10-12T20:20+00:00",
+  "sources": {
+    "Times of Israel": {
+      "error": "Could not read feed for Times of Israel: <unknown>:10:43: mismatched tag"
+    },
+    "Jerusalem Post": {
+      "fetched": 30,
+      "new": 0
+    },
+    "Israel Hayom": {
+      "fetched": 10,
+      "new": 10
+    },
+    "Ynetnews": {
+      "fetched": 4,
+      "new": 4
+    },
+    "Israel National News": {
+      "fetched": 10,
+      "new": 10
+    },
+    "i24NEWS": {
+      "error": "Could not read feed for i24NEWS: <unknown>:2:2136: not well-formed (invalid token)"
+    },
+    "New York Times": {
+      "fetched": 50,
+      "new": 50
+    },
+    "NPR": {
+      "fetched": 10,
+      "new": 10
+    },
+    "Fox News": {
+      "fetched": 25,
+      "new": 25
+    },
+    "Wall Street Journal": {
+      "fetched": 20,
+      "new": 20
+    },
+    "CBS News": {
+      "fetched": 30,
+      "new": 30
+    },
+    "ABC News": {
+      "fetched": 25,
+      "new": 25
+    },
+    "BBC Middle East": {
+      "fetched": 35,
+      "new": 0
+    },
+    "Al Jazeera": {
+      "fetched": 25,
+      "new": 0
+    },
+    "The Guardian World": {
+      "fetched": 45,
+      "new": 0
+    },
+    "UN News": {
+      "fetched": 30,
+      "new": 0
+    }
+  }
+}
