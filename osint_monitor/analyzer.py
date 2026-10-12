@@ -11,6 +11,8 @@ import statistics
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
+from .sources import OUTLET_NAMES
+
 # Capitalized words that start sentences or are too generic to be useful.
 STOPWORDS = {
     "The", "A", "An", "In", "On", "At", "For", "And", "But", "Or", "Of", "To",
@@ -80,6 +82,7 @@ def top_entities(articles, keywords, limit=10):
     NLP model, but fast, transparent and good enough to surface patterns.
     """
     skip = {k.lower() for k in keywords}
+    skip |= {name.lower() for name in OUTLET_NAMES}
     counter = Counter()
     for a in articles:
         found = set()  # count each name once per article

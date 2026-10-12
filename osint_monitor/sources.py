@@ -12,3 +12,10 @@ SOURCES = {
     "The Guardian World": "https://www.theguardian.com/world/rss",
     "UN News": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
 }
+
+# Outlets' own names. They appear in headlines ("BBC finds...") but are not
+# part of the story, so the entity analysis ignores them.
+OUTLET_NAMES = {
+    "BBC", "Al Jazeera", "Times of Israel", "Jerusalem Post",
+    "Guardian", "The Guardian", "UN News",
+}

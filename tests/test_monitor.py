@@ -66,3 +66,12 @@ def test_report_written(tmp_path):
     text = path.read_text()
     assert "Hezbollah" in text
     assert (tmp_path / "coverage.png").exists()
+
+
+def test_entities_exclude_source_names():
+    articles = [{"source": "BBC Middle East", "title": "BBC finds UN and Iran link",
+                 "summary": "", "published": "2026-10-10"}]
+    names = dict(top_entities(articles, ["link"]))
+    assert "BBC" not in names
+    assert "Iran" in names
+    assert "UN" in names
