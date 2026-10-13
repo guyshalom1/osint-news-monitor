@@ -190,3 +190,16 @@ def test_plain_text_reply_is_an_error_not_an_empty_day():
     out = backfill(conn, ["Iran"], days=2, now=NOW, opener=text_reply, pause=0)
     assert all("unexpected reply" in v["error"] for v in out.values())
     assert conn.execute("SELECT COUNT(*) FROM backfills").fetchone()[0] == 0
+
+
+def test_backfill_stops_after_repeated_errors_and_skips_empty_days_as_complete():
+    conn = connect(":memory:")
+
+    def broken(request, timeout=0):
+        raise RuntimeError("rate limited")
+    out = backfill(conn, ["Iran"], days=5, now=NOW, opener=broken, pause=0)
+    assert sum("error" in v for v in out.values()) == 2
+    assert sum("skipped" in v for v in out.values()) == 3
+
+    empty = backfill(conn, ["Iran"], days=2, now=NOW, opener=fake_opener([]), pause=0)
+    assert conn.execute("SELECT COUNT(*) FROM backfills").fetchone()[0] == 0

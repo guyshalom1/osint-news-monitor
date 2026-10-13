@@ -21,7 +21,8 @@ from .collector import clean_text, save
 
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 MAX_RECORDS = 250      # the API's maximum per request
-PAUSE_SECONDS = 5.5    # GDELT asks for at most one request per 5 seconds
+PAUSE_SECONDS = 10     # GDELT asks for one request per 5 seconds; shared CI IPs get 429s, so be slower
+MAX_CONSECUTIVE_ERRORS = 2
 
 
 def query_key(keywords):
@@ -77,7 +78,7 @@ def normalize(item, now):
     }
 
 
-def fetch_day(params, opener=urllib.request.urlopen, retries=2,
+def fetch_day(params, opener=urllib.request.urlopen, retries=3,
               pause=PAUSE_SECONDS):
     """Download one day of results. Returns a list of raw GDELT items."""
     url = f"{API}?{urllib.parse.urlencode(params)}"
@@ -100,7 +101,7 @@ def fetch_day(params, opener=urllib.request.urlopen, retries=2,
         except (urllib.error.URLError, RuntimeError):
             if attempt == retries:
                 raise
-            time.sleep(pause * (attempt + 2))
+            time.sleep(pause * 3 * (attempt + 1))
     return []
 
 
@@ -118,10 +119,14 @@ def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
     done = {row[0] for row in conn.execute(
         "SELECT day FROM backfills WHERE query = ?", (key,))}
     results = {}
+    errors_in_a_row = 0
     first_request = True
     for offset in range(days - 1, -1, -1):
         day = today - timedelta(days=offset)
         if day.isoformat() in done:
+            continue
+        if errors_in_a_row >= MAX_CONSECUTIVE_ERRORS:
+            results[day.isoformat()] = {"skipped": "stopped after repeated errors"}
             continue
         if not first_request:
             time.sleep(pause)
@@ -130,11 +135,14 @@ def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
             items = fetch_day(day_params(day, keywords), opener, pause=pause)
         except Exception as err:  # one bad day should not stop the others
             results[day.isoformat()] = {"error": str(err)[:200]}
+            errors_in_a_row += 1
             continue
+        errors_in_a_row = 0
         articles = [a for a in (normalize(i, now) for i in items) if a]
         results[day.isoformat()] = save(conn, articles)
-        # A day is only complete once it is over and the API did not truncate it.
-        if day < today and len(items) < MAX_RECORDS:
+        # A day is complete once it is over, was not truncated by the API, and
+        # returned something (an empty day for a real topic means a bad reply).
+        if day < today and 0 < len(items) < MAX_RECORDS:
             conn.execute("INSERT OR IGNORE INTO backfills VALUES (?, ?)",
                          (key, day.isoformat()))
             conn.commit()
