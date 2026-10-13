@@ -1,15 +1,24 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-13 20:14 UTC. Period: last 7 days. Matching articles: 68.
+Generated 2026-10-13 20:48 UTC. Period: last 7 days. Matching articles: 70 (1 reprints removed).
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
-- Peak coverage on 2026-10-12: 20 articles.
+- Peak coverage on 2026-10-13: 21 articles.
 - Collection started 2026-10-12. Earlier days are incomplete and are left out of peak and spike detection.
+- Most widely covered story: "Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia", reported by 2 outlets.
 - No unusual spikes; coverage was steady.
-- CBS News carried the most coverage (15% of articles).
+- CBS News carried the most coverage (14% of articles).
+
+## Stories covered by the most outlets
+
+| Story | Outlets | First seen |
+|---|---|---|
+| Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia | 2 | 2026-10-12 |
+
+Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 
 ## Coverage by source
 
@@ -21,17 +30,16 @@ Generated 2026-10-13 20:14 UTC. Period: last 7 days. Matching articles: 68.
 | The Guardian World | 6 |
 | New York Times | 5 |
 | JNS | 4 |
+| Ynetnews | 4 |
+| Israel National News | 3 |
 | Al Jazeera | 3 |
 | Israel Hayom | 3 |
 | BBC Middle East | 3 |
 | Fox News | 3 |
-| Israel National News | 2 |
 | ABC News | 2 |
 | jpost.com | 2 |
 | middleeasteye.net | 2 |
-| Ynetnews | 2 |
 | economictimes.indiatimes.com | 1 |
-| gazettextra.com | 1 |
 | UN News | 1 |
 | business-standard.com | 1 |
 
@@ -41,12 +49,12 @@ Generated 2026-10-13 20:14 UTC. Period: last 7 days. Matching articles: 68.
 |---|---|
 | Houthi | 28 |
 | Saudi | 18 |
-| Saudi Arabia | 16 |
+| Saudi Arabia | 17 |
 | Trump | 15 |
+| US | 14 |
 | Yemen | 14 |
 | Riyadh | 13 |
-| US | 12 |
-| Israel | 8 |
+| Israel | 9 |
 | American | 5 |
 | Israeli | 5 |
 
@@ -56,23 +64,23 @@ Generated 2026-10-13 20:14 UTC. Period: last 7 days. Matching articles: 68.
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 28 of 316 (8.9%) | 20 of 211 (9.5%) |
-| Mentions Houthi | 32% | 50% |
-| Mentions Saudi | 18% | 35% |
-| Mentions Saudi Arabia | 25% | 25% |
-| Mentions Trump | 25% | 15% |
+| Articles about the topic | 31 of 347 (8.9%) | 20 of 213 (9.4%) |
+| Mentions Houthi | 29% | 50% |
+| Mentions Saudi Arabia | 26% | 25% |
+| Mentions Saudi | 16% | 35% |
+| Mentions Trump | 26% | 15% |
 | Mentions Yemen | 0% | 35% |
-| Mentions Riyadh | 11% | 20% |
-| Mentions US | 21% | 5% |
-| Mentions Israel | 21% | 0% |
+| Mentions US | 29% | 5% |
+| Mentions Riyadh | 10% | 20% |
+| Mentions Israel | 23% | 0% |
 
 **Latest Israel headlines**
 
 - Jerusalem Post: [Netanyahu, Trump discussed possibility of renewing strikes against Iran before elections - report](https://www.jpost.com/israel-news/article-911609)
+- Israel National News: [Tzvi Yechezkeli: 'Iran is exposing Saudi Arabia's weakness'](https://www.israelnationalnews.com/flashes/695317)
 - Israel National News: [Trump warns Houthis after attacks on Saudi Arabia: 'I will never forget!'](https://www.israelnationalnews.com/flashes/695316)
 - Jerusalem Post: [Trump: Houthis 'behaving very badly,' striking Saudi Arabia to drive up oil prices](https://www.jpost.com/middle-east/iran-news/article-911598)
 - Israel National News: [Special interview with Iran’s chief rabbi](https://www.israelnationalnews.com/flashes/695311)
-- Jerusalem Post: [Iran fortifies nuclear sites, rebuilds missile arsenal as it prepares for the next war - analysis](https://www.jpost.com/middle-east/iran-news/article-911555)
 
 **Latest US headlines**
 
@@ -87,6 +95,7 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 ## Latest headlines
 
 - 2026-10-13 | Jerusalem Post | [Netanyahu, Trump discussed possibility of renewing strikes against Iran before elections - report](https://www.jpost.com/israel-news/article-911609)
+- 2026-10-13 | Israel National News | [Tzvi Yechezkeli: 'Iran is exposing Saudi Arabia's weakness'](https://www.israelnationalnews.com/flashes/695317)
 - 2026-10-13 | Israel National News | [Trump warns Houthis after attacks on Saudi Arabia: 'I will never forget!'](https://www.israelnationalnews.com/flashes/695316)
 - 2026-10-13 | Jerusalem Post | [Trump: Houthis 'behaving very badly,' striking Saudi Arabia to drive up oil prices](https://www.jpost.com/middle-east/iran-news/article-911598)
 - 2026-10-13 | Israel National News | [Special interview with Iran’s chief rabbi](https://www.israelnationalnews.com/flashes/695311)
@@ -95,4 +104,3 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 - 2026-10-13 | New York Times | [Saudi Arabia and Yemen’s Houthis Trade Threats to Hit Oil Facilities](https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html)
 - 2026-10-13 | The Guardian World | [Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ](https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital)
 - 2026-10-13 | CBS News | [Houthi attacks leave Trump with "a difficult dilemma"](https://www.cbsnews.com/news/iran-war-houthis-saudi-arabia-trump-faces-difficult-dilemma/)
-- 2026-10-13 | Al Jazeera | [UK spy chief says Iran is stepping up targeting of military bases](https://www.aljazeera.com/news/2026/10/13/uk-spy-chief-says-iran-is-stepping-up-targeting-of-military-bases?traffic_source=rss)
