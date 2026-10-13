@@ -109,3 +109,74 @@ def test_report_written_when_all_days_partial(tmp_path):
     result = analyze(conn, ["Hezbollah"], days=7, now=NOW)
     path = make_report(result, tmp_path)
     assert "Not enough complete days" in path.read_text()
+
+
+# --- GDELT backfill (no internet: responses are faked) ---
+
+import json
+
+from osint_monitor.gdelt import backfill, build_query, normalize, query_key
+
+
+class FakeResponse:
+    def __init__(self, body):
+        self.body = body.encode()
+
+    def read(self):
+        return self.body
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+
+def fake_opener(items):
+    def opener(request, timeout=0):
+        return FakeResponse(json.dumps({"articles": items}))
+    return opener
+
+
+GDELT_ITEM = {"url": "https://example.com/a", "title": "Iran talks resume",
+              "seendate": "20261010T120000Z", "domain": "example.com"}
+
+
+def test_build_query_quotes_phrases():
+    assert build_query(["Iran", "Security Council"]) == \
+        '(Iran OR "Security Council") sourcelang:english'
+
+
+def test_gdelt_normalize():
+    article = normalize(GDELT_ITEM, NOW)
+    assert article["source"] == "example.com"
+    assert article["published"].startswith("2026-10-10")
+    assert normalize({"url": "", "title": "x", "seendate": "bad"}, NOW) is None
+
+
+def test_backfill_marks_past_days_complete_and_dedupes():
+    conn = connect(":memory:")
+    opener = fake_opener([GDELT_ITEM])
+    first = backfill(conn, ["Iran"], days=3, now=NOW, opener=opener, pause=0)
+    assert sum(first.values()) == 1          # same link on every day: saved once
+    covered = {r[0] for r in conn.execute(
+        "SELECT day FROM backfills WHERE query = ?", (query_key(["Iran"]),))}
+    assert covered == {"2026-10-10", "2026-10-11"}   # today is never marked
+    second = backfill(conn, ["Iran"], days=3, now=NOW, opener=opener, pause=0)
+    assert list(second) == ["2026-10-12"]    # only today is refreshed
+
+
+def test_backfilled_days_are_not_partial():
+    conn = connect(":memory:")
+    backfill(conn, ["Iran"], days=3, now=NOW, opener=fake_opener([GDELT_ITEM]), pause=0)
+    result = analyze(conn, ["Iran"], days=3, now=NOW)
+    assert result["partial_days"] == []
+
+
+def test_backfill_survives_a_failing_day():
+    conn = connect(":memory:")
+
+    def broken(request, timeout=0):
+        raise RuntimeError("rate limited")
+    out = backfill(conn, ["Iran"], days=2, now=NOW, opener=broken, pause=0)
+    assert all("error" in v for v in out.values())

@@ -23,13 +23,14 @@ The same topic, compared between 7 Israeli and 5 US outlets: how much attention 
    - US: New York Times, NPR, Fox News, CBS News, ABC News
    - International: BBC, Al Jazeera, The Guardian, UN News
    - Every run records source health in `data/source_status.json`, including feeds that respond but have stopped updating.
-2. **Filter** articles by keywords (whole-word, case-insensitive).
-3. **Analyze**
+2. **Backfill** past days for a topic from [GDELT](https://www.gdeltproject.org/), which indexes thousands of outlets and can be queried by day. A new database gets a usable history immediately instead of after a week of collection. Backfilled days are recorded per keyword set and treated as complete in the report.
+3. **Filter** articles by keywords (whole-word, case-insensitive).
+4. **Analyze**
    - articles per day and per source
    - spike detection: days above the period's mean + 1.5 standard deviations
    - co-occurring names and places (capitalized-phrase extraction, with possessives, keywords and plurals normalized)
    - country comparison: share of attention and names mentioned, Israel vs US
-4. **Report** a Markdown file with key findings, tables, latest headlines and a coverage chart.
+5. **Report** a Markdown file with key findings, tables, latest headlines and a coverage chart.
 
 ## Usage
 
@@ -38,6 +39,9 @@ pip install -r requirements.txt
 
 # collect new articles (run daily or a few times a day to build history)
 python -m osint_monitor collect
+
+# fill the last 7 days for a topic from GDELT (optional, needs internet)
+python -m osint_monitor backfill --keywords Iran Iranian Tehran --days 7
 
 # report on a topic for the last 7 days
 python -m osint_monitor report --keywords Iran Iranian Tehran --days 7
@@ -51,6 +55,7 @@ The report is written to `output/report.md` with `output/coverage.png`.
 osint_monitor/
   sources.py    list of RSS feeds
   collector.py  fetch, clean, deduplicate and store articles
+  gdelt.py      historical backfill from the GDELT DOC API
   analyzer.py   keyword filter, daily counts, spikes, entities
   report.py     Markdown report and chart
   __main__.py   command-line interface
@@ -66,8 +71,11 @@ Run the tests with `pytest`.
 - Israeli feeds are general news while US feeds are world sections, so attention shares are indicative, not like-for-like. Times of Israel and i24NEWS block automated access from cloud servers.
 - Coverage volume is not importance: one outlet publishing many short updates can inflate a day's count.
 
+- GDELT results carry titles only, and it matches keywords in the full article text, so backfilled articles whose title lacks the keyword are filtered out of the report. It is capped at 250 articles per day per query; a capped day is not marked complete.
+- The same outlet can appear under an RSS name and a GDELT domain in the source table. Duplicate links are skipped, but the labels differ.
+
 ## Possible next steps
 
 - Named-entity recognition with spaCy
 - Hebrew and Arabic sources
-- Scheduled collection and email alerts on spikes
+- Alerts on spikes (failed runs already open a GitHub issue)

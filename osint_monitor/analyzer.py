@@ -11,6 +11,7 @@ import statistics
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
+from .gdelt import query_key
 from .sources import COUNTRY, OUTLET_NAMES
 
 # Capitalized words that start sentences or are too generic to be useful.
@@ -143,7 +144,10 @@ def analyze(conn, keywords, days=7, now=None):
     # items, so a low count there may mean "not collected", not "not covered".
     first = conn.execute("SELECT MIN(collected) FROM articles").fetchone()[0]
     start = first[:10] if first else now.date().isoformat()
-    partial = [d for d in by_day if d < start]
+    # Days backfilled from GDELT for these keywords count as complete.
+    covered = {row[0] for row in conn.execute(
+        "SELECT day FROM backfills WHERE query = ?", (query_key(keywords),))}
+    partial = [d for d in by_day if d < start and d not in covered]
 
     return {
         "keywords": keywords,

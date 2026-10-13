@@ -29,6 +29,10 @@ jobs:
       - name: Collect articles
         run: python -m osint_monitor --db data/articles.db collect
 
+      - name: Backfill history from GDELT
+        continue-on-error: true   # GDELT is a bonus source; RSS collection must not depend on it
+        run: python -m osint_monitor --db data/articles.db backfill --keywords Iran Iranian Tehran --days 7
+
       - name: Build report
         run: python -m osint_monitor --db data/articles.db report --keywords Iran Iranian Tehran --days 7 --out reports/latest
 

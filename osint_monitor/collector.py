@@ -27,12 +27,22 @@ CREATE TABLE IF NOT EXISTS articles (
 """
 
 
+BACKFILLS = """
+CREATE TABLE IF NOT EXISTS backfills (
+    query TEXT NOT NULL,            -- keyword set, see gdelt.query_key
+    day   TEXT NOT NULL,            -- UTC date fully covered by a backfill
+    PRIMARY KEY (query, day)
+)
+"""
+
+
 def connect(db_path):
     """Open the database and make sure the table exists."""
     if db_path != ":memory:":
         Path(db_path).parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
     conn.execute(SCHEMA)
+    conn.execute(BACKFILLS)
     return conn
 
 
