@@ -11,6 +11,7 @@ import statistics
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
+from .dedupe import remove_reprints, story_clusters
 from .gdelt import query_key
 from .sources import COUNTRY, OUTLET_NAMES
 
@@ -132,7 +133,9 @@ def top_entities(articles, keywords, limit=10):
 def analyze(conn, keywords, days=7, now=None):
     """Run the full analysis and return the results as one dict."""
     now = now or datetime.now(timezone.utc)
-    articles = [a for a in load_articles(conn, days, now) if matches(a, keywords)]
+    matched = [a for a in load_articles(conn, days, now) if matches(a, keywords)]
+    # Wire copy republished under other domains would inflate every count.
+    articles, reprints_removed = remove_reprints(matched)
     by_day = fill_days(daily_counts(articles), days, now)
 
     # For each day, how many articles each source published: {day: {source: n}}
@@ -155,6 +158,8 @@ def analyze(conn, keywords, days=7, now=None):
         "partial_days": partial,
         "days": days,
         "total": len(articles),
+        "reprints_removed": reprints_removed,
+        "stories": story_clusters(articles)[:8],
         "by_day": by_day,
         "by_source": source_counts(articles),
         "spikes": find_spikes({d: n for d, n in by_day.items() if d not in partial}),

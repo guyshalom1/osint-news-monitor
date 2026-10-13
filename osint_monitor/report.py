@@ -195,7 +195,9 @@ def make_report(result, out_dir, comparison=None):
         f"# OSINT Coverage Report: {keywords}",
         "",
         f"Generated {now}. Period: last {result['days']} days. "
-        f"Matching articles: {result['total']}.",
+        f"Matching articles: {result['total']}"
+        + (f" ({result['reprints_removed']} reprints removed)."
+           if result["reprints_removed"] else "."),
         "",
     ]
 
@@ -223,6 +225,12 @@ def make_report(result, out_dir, comparison=None):
             f"- Collection started {result['collection_start']}. Earlier days are "
             "incomplete and are left out of peak and spike detection."
         )
+    if result["stories"]:
+        top = result["stories"][0]
+        lines.append(
+            f"- Most widely covered story: \"{top['headline']}\", "
+            f"reported by {len(top['outlets'])} outlets."
+        )
     if result["spikes"]:
         for day in result["spikes"]:
             srcs = ", ".join(result["sources_per_day"][day])
@@ -233,6 +241,14 @@ def make_report(result, out_dir, comparison=None):
     share = round(100 * top_n / result["total"])
     lines.append(f"- {top_source} carried the most coverage ({share}% of articles).")
     lines.append("")
+
+    if result["stories"]:
+        lines += ["## Stories covered by the most outlets", "",
+                  "| Story | Outlets | First seen |", "|---|---|---|"]
+        lines += [f"| {st['headline']} | {len(st['outlets'])} | {st['first']} |"
+                  for st in result["stories"]]
+        lines += ["", "Stories are groups of articles with similar headlines. "
+                  "Different outlets reporting the same event count once here.", ""]
 
     lines += ["## Coverage by source", "", "| Source | Articles |", "|---|---|"]
     lines += [f"| {s} | {n} |" for s, n in result["by_source"].items()]

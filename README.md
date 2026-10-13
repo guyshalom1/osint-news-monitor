@@ -29,6 +29,8 @@ The same topic, compared between 7 Israeli and 5 US outlets: how much attention 
    - articles per day and per source
    - spike detection: days above the period's mean + 1.5 standard deviations
    - co-occurring names and places (capitalized-phrase extraction, with possessives, keywords and plurals normalized)
+   - reprint removal: copies of the same headline under other domains (mostly wire copy on regional sites) are dropped before counting, keeping the earliest
+   - stories: articles with similar headlines from different outlets are grouped, so the report shows which events the most outlets picked up
    - country comparison: share of attention and names mentioned, Israel vs US
 5. **Report** a Markdown file with key findings, tables, latest headlines and a coverage chart.
 
@@ -56,6 +58,7 @@ osint_monitor/
   sources.py    list of RSS feeds
   collector.py  fetch, clean, deduplicate and store articles
   gdelt.py      historical backfill from the GDELT DOC API
+  dedupe.py     reprint removal and story grouping by headline similarity
   analyzer.py   keyword filter, daily counts, spikes, entities
   report.py     Markdown report and chart
   __main__.py   command-line interface
@@ -73,6 +76,8 @@ Run the tests with `pytest`.
 
 - GDELT results carry titles only, and it matches keywords in the full article text, so backfilled articles whose title lacks the keyword are filtered out of the report. It is capped at 250 articles per day per query; a capped day is not marked complete.
 - The same outlet can appear under an RSS name and a GDELT domain in the source table. Duplicate links are skipped, but the labels differ.
+
+- Reprint removal and story grouping compare headline words only (Jaccard similarity), so paraphrased headlines that share few words are treated as different stories. Grouping is deliberately conservative: one event can show up as two or three stories rather than risk merging unrelated ones.
 
 ## Possible next steps
 

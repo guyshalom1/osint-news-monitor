@@ -203,3 +203,54 @@ def test_backfill_stops_after_repeated_errors_and_skips_empty_days_as_complete()
 
     empty = backfill(conn, ["Iran"], days=2, now=NOW, opener=fake_opener([]), pause=0)
     assert conn.execute("SELECT COUNT(*) FROM backfills").fetchone()[0] == 0
+
+
+# --- reprints and story clusters ---
+
+from osint_monitor.dedupe import remove_reprints, story_clusters, title_words
+
+
+def art(source, title, day="2026-10-10"):
+    return {"source": source, "title": title, "summary": "", "link": title + source,
+            "published": f"{day}T10:00:00+00:00"}
+
+
+def test_title_words_ignores_outlet_tag_and_stopwords():
+    assert title_words("Iran talks resume in Geneva - Reuters") == \
+        frozenset({"iran", "talks", "resume", "geneva"})
+
+
+def test_reprints_removed_keeping_earliest():
+    a = art("wire.com", "Minister issues hard no on Russian diesel imports", "2026-10-10")
+    b = art("regional.com.au", "Minister issues hard no on Russian diesel imports", "2026-10-11")
+    other = art("bbc.com", "Storm hits the coast of Mexico overnight")
+    kept, removed = remove_reprints([b, a, other])
+    assert removed == 1
+    assert a in kept and b not in kept and other in kept
+
+
+def test_reprints_far_apart_in_time_are_kept():
+    a = art("x.com", "Minister issues hard no on Russian diesel imports", "2026-10-01")
+    b = art("y.com", "Minister issues hard no on Russian diesel imports", "2026-10-10")
+    assert remove_reprints([a, b])[1] == 0
+
+
+def test_short_titles_are_never_treated_as_duplicates():
+    kept, removed = remove_reprints([art("a", "Live updates"), art("b", "Live updates")])
+    assert removed == 0
+
+
+def test_stories_group_different_outlets_and_ignore_single_outlet():
+    arts = [
+        art("NYT", "Pope Leo undergoes successful surgery to remove lung nodule"),
+        art("Fox", "Pope Leo surgery to remove lung nodule was successful"),
+        art("BBC", "Hurricane lashes Mexico Pacific coast resorts"),
+        art("CBS", "Hurricane lashes Mexico Pacific coast resorts towns"),
+        art("CBS", "Transcript: Sen. Murphy on Face the Nation"),
+        art("CBS", "Transcript: Sen. Barrasso on Face the Nation"),
+    ]
+    stories = story_clusters(arts)
+    outlets = [set(s["outlets"]) for s in stories]
+    assert {"NYT", "Fox"} in outlets
+    assert {"BBC", "CBS"} in outlets
+    assert not any(s["outlets"] == ["CBS"] for s in stories)  # one outlet is not a story
