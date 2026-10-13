@@ -51,8 +51,9 @@ def parse_date(entry):
     return datetime(*parsed[:6], tzinfo=timezone.utc).isoformat()
 
 
-def normalize(entry, source):
+def normalize(entry, source, now=None):
     """Turn one raw feed entry into a clean article dict."""
+    now = now or datetime.now(timezone.utc)
     link = entry.get("link", "")
     title = clean_text(entry.get("title", ""))
     key = link or title  # some feeds omit links; fall back to the title
@@ -63,16 +64,16 @@ def normalize(entry, source):
         "summary": clean_text(entry.get("summary", "")),
         "link": link,
         "published": parse_date(entry),
-        "collected": datetime.now(timezone.utc).isoformat(),
+        "collected": now.isoformat(),
     }
 
 
-def fetch_feed(source, url_or_path):
+def fetch_feed(source, url_or_path, now=None):
     """Download and parse one feed. Accepts a URL or a local file path."""
     feed = feedparser.parse(url_or_path)
     if feed.bozo and not feed.entries:
         raise ValueError(f"Could not read feed for {source}: {feed.bozo_exception}")
-    return [normalize(entry, source) for entry in feed.entries if entry.get("title")]
+    return [normalize(entry, source, now) for entry in feed.entries if entry.get("title")]
 
 
 def save(conn, articles):
@@ -87,23 +88,24 @@ def save(conn, articles):
     return conn.total_changes - before
 
 
-def collect(conn, sources):
+def collect(conn, sources, now=None):
     """Fetch every source. One failing source does not stop the others.
 
     Returns a dict per source: {"fetched": items in the feed, "new": items
     not seen before}, or {"error": message} if the source could not be read.
     """
+    now = now or datetime.now(timezone.utc)
     results = {}
     for name, url in sources.items():
         try:
-            articles = fetch_feed(name, url)
+            articles = fetch_feed(name, url, now)
             if not articles:
                 raise ValueError("feed is empty")
             results[name] = {"fetched": len(articles), "new": save(conn, articles)}
             # A feed can respond normally but have stopped updating.
             dates = [a["published"] for a in articles if a["published"]]
             newest = max(dates) if dates else None
-            week_ago = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+            week_ago = (now - timedelta(days=7)).isoformat()
             results[name]["newest"] = newest[:10] if newest else None
             if not newest or newest < week_ago:
                 results[name]["stale"] = True

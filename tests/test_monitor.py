@@ -13,7 +13,7 @@ NOW = datetime(2026, 10, 12, tzinfo=timezone.utc)
 
 def make_db():
     conn = connect(":memory:")
-    collect(conn, {"Sample": FEED})
+    collect(conn, {"Sample": FEED}, now=NOW)
     return conn
 
 
@@ -23,15 +23,15 @@ def test_clean_text_strips_html():
 
 def test_collect_skips_duplicates():
     conn = connect(":memory:")
-    first = collect(conn, {"Sample": FEED})
-    second = collect(conn, {"Sample": FEED})
+    first = collect(conn, {"Sample": FEED}, now=NOW)
+    second = collect(conn, {"Sample": FEED}, now=NOW)
     assert (first["Sample"]["fetched"], first["Sample"]["new"]) == (4, 4)
     assert (second["Sample"]["fetched"], second["Sample"]["new"]) == (4, 0)
 
 
 def test_newest_item_date_recorded():
     conn = connect(":memory:")
-    result = collect(conn, {"Sample": FEED})["Sample"]
+    result = collect(conn, {"Sample": FEED}, now=NOW)["Sample"]
     assert result["newest"] == "2026-10-10"
 
 
@@ -99,3 +99,13 @@ def test_plurals_merged():
         {"source": "X", "title": "Houthis claim strike", "summary": "", "published": "2026-10-10"},
     ]
     assert dict(top_entities(articles, ["strike"]))["Houthi"] == 2
+
+
+def test_report_written_when_all_days_partial(tmp_path):
+    """Collection that started after the whole window must not crash the report."""
+    later = datetime(2026, 10, 20, tzinfo=timezone.utc)
+    conn = connect(":memory:")
+    collect(conn, {"Sample": FEED}, now=later)
+    result = analyze(conn, ["Hezbollah"], days=7, now=NOW)
+    path = make_report(result, tmp_path)
+    assert "Not enough complete days" in path.read_text()

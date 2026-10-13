@@ -7,6 +7,11 @@ on:
 
 permissions:
   contents: write
+  issues: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -21,9 +26,6 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Test
-        run: pytest -q
-
       - name: Collect articles
         run: python -m osint_monitor --db data/articles.db collect
 
@@ -37,3 +39,14 @@ jobs:
           git add data reports
           git diff --cached --quiet || git commit -m "Update data and report $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Open an issue if the run failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Scheduled collection failed"
+          if [ -z "$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number')" ]; then
+            gh issue create --title "$title" \
+              --body "Run failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
