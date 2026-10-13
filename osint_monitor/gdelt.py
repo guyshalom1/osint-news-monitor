@@ -23,6 +23,7 @@ API = "https://api.gdeltproject.org/api/v2/doc/doc"
 MAX_RECORDS = 250      # the API's maximum per request
 PAUSE_SECONDS = 10     # GDELT asks for one request per 5 seconds; shared CI IPs get 429s, so be slower
 MAX_CONSECUTIVE_ERRORS = 2
+TIME_BUDGET_SECONDS = 240   # stop early; the next scheduled run continues where this one left off
 
 
 def query_key(keywords):
@@ -106,7 +107,7 @@ def fetch_day(params, opener=urllib.request.urlopen, retries=3,
 
 
 def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
-             pause=PAUSE_SECONDS):
+             pause=PAUSE_SECONDS, budget=TIME_BUDGET_SECONDS, clock=time.monotonic):
     """Fill the last `days` days (including today) for a keyword set.
 
     Past days already recorded for these keywords are skipped; today is always
@@ -119,6 +120,7 @@ def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
     done = {row[0] for row in conn.execute(
         "SELECT day FROM backfills WHERE query = ?", (key,))}
     results = {}
+    deadline = clock() + budget
     errors_in_a_row = 0
     first_request = True
     for offset in range(days - 1, -1, -1):
@@ -127,6 +129,9 @@ def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
             continue
         if errors_in_a_row >= MAX_CONSECUTIVE_ERRORS:
             results[day.isoformat()] = {"skipped": "stopped after repeated errors"}
+            continue
+        if clock() > deadline:
+            results[day.isoformat()] = {"skipped": "time budget used up"}
             continue
         if not first_request:
             time.sleep(pause)

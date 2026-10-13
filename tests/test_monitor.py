@@ -254,3 +254,12 @@ def test_stories_group_different_outlets_and_ignore_single_outlet():
     assert {"NYT", "Fox"} in outlets
     assert {"BBC", "CBS"} in outlets
     assert not any(s["outlets"] == ["CBS"] for s in stories)  # one outlet is not a story
+
+
+def test_backfill_respects_time_budget():
+    conn = connect(":memory:")
+    ticks = iter(range(0, 1000, 100))   # every clock() call jumps 100 seconds
+    out = backfill(conn, ["Iran"], days=4, now=NOW, opener=fake_opener([GDELT_ITEM]),
+                   pause=0, budget=150, clock=lambda: next(ticks))
+    assert any("time budget" in v.get("skipped", "") for v in out.values()
+               if isinstance(v, dict))

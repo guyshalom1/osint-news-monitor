@@ -30,6 +30,7 @@ jobs:
         run: python -m osint_monitor --db data/articles.db collect
 
       - name: Backfill history from GDELT
+        timeout-minutes: 8
         continue-on-error: true   # GDELT is a bonus source; RSS collection must not depend on it
         run: python -m osint_monitor --db data/articles.db backfill --keywords Iran Iranian Tehran --days 7
 
