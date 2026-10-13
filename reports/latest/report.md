@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-13 20:48 UTC. Period: last 7 days. Matching articles: 70 (1 reprints removed).
+Generated 2026-10-13 20:53 UTC. Period: last 7 days. Matching articles: 70 (1 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -64,7 +64,7 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 31 of 347 (8.9%) | 20 of 213 (9.4%) |
+| Articles about the topic | 31 of 350 (8.9%) | 20 of 213 (9.4%) |
 | Mentions Houthi | 29% | 50% |
 | Mentions Saudi Arabia | 26% | 25% |
 | Mentions Saudi | 16% | 35% |
