@@ -211,10 +211,13 @@ def make_report(result, out_dir, comparison=None):
     lines += ["## Key findings", ""]
     complete = {d: n for d, n in result["by_day"].items()
                 if d not in result["partial_days"]}
-    peak_day = max(complete, key=complete.get)
-    lines.append(
-        f"- Peak coverage on {peak_day}: {plural(result['by_day'][peak_day])}."
-    )
+    if complete:
+        peak_day = max(complete, key=complete.get)
+        lines.append(
+            f"- Peak coverage on {peak_day}: {plural(result['by_day'][peak_day])}."
+        )
+    else:
+        lines.append("- Not enough complete days of data yet to identify a peak.")
     if result["partial_days"]:
         lines.append(
             f"- Collection started {result['collection_start']}. Earlier days are "
