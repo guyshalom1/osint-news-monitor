@@ -48,8 +48,16 @@ def main():
             "sources": results,
         }, indent=2), encoding="utf-8")
     elif args.command == "backfill":
-        for day, outcome in backfill(conn, args.keywords, args.days).items():
+        outcomes = backfill(conn, args.keywords, args.days)
+        for day, outcome in outcomes.items():
             print(f"{day}  {outcome}")
+        # Keep a record of what GDELT returned, so a failing day can be diagnosed.
+        status = Path(args.db).parent / "backfill_status.json"
+        status.write_text(json.dumps({
+            "checked": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+            "keywords": args.keywords,
+            "days": outcomes,
+        }, indent=2), encoding="utf-8")
     else:
         result = analyze(conn, args.keywords, args.days)
         comparison = compare_countries(conn, args.keywords, args.days)

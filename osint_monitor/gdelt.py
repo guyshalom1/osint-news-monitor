@@ -86,13 +86,18 @@ def fetch_day(params, opener=urllib.request.urlopen, retries=2,
         try:
             with opener(request, timeout=30) as response:
                 body = response.read().decode("utf-8", errors="replace")
-            # Rate-limit and "no results" replies are plain text, not JSON.
             if body.lstrip().startswith("{"):
                 return json.loads(body).get("articles", [])
+            if not body.strip():
+                return []  # an empty reply means no matches
+            # Anything else is plain text: a rate-limit notice or a query error.
+            # Never treat it as "no results", or a day would look covered.
             if "limit" in body.lower():
                 raise RuntimeError("rate limited")
-            return []
-        except (urllib.error.URLError, RuntimeError, json.JSONDecodeError):
+            raise ValueError(f"unexpected reply: {body.strip()[:150]}")
+        except ValueError:
+            raise
+        except (urllib.error.URLError, RuntimeError):
             if attempt == retries:
                 raise
             time.sleep(pause * (attempt + 2))

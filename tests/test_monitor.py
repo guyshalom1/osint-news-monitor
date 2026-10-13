@@ -180,3 +180,13 @@ def test_backfill_survives_a_failing_day():
         raise RuntimeError("rate limited")
     out = backfill(conn, ["Iran"], days=2, now=NOW, opener=broken, pause=0)
     assert all("error" in v for v in out.values())
+
+
+def test_plain_text_reply_is_an_error_not_an_empty_day():
+    conn = connect(":memory:")
+
+    def text_reply(request, timeout=0):
+        return FakeResponse("The specified phrase is too short.")
+    out = backfill(conn, ["Iran"], days=2, now=NOW, opener=text_reply, pause=0)
+    assert all("unexpected reply" in v["error"] for v in out.values())
+    assert conn.execute("SELECT COUNT(*) FROM backfills").fetchone()[0] == 0
