@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-13 19:52 UTC. Period: last 7 days. Matching articles: 62.
+Generated 2026-10-13 20:00 UTC. Period: last 7 days. Matching articles: 68.
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-13 19:52 UTC. Period: last 7 days. Matching articles: 62.
 - Peak coverage on 2026-10-12: 20 articles.
 - Collection started 2026-10-12. Earlier days are incomplete and are left out of peak and spike detection.
 - No unusual spikes; coverage was steady.
-- CBS News carried the most coverage (16% of articles).
+- CBS News carried the most coverage (15% of articles).
 
 ## Coverage by source
 
@@ -27,7 +27,11 @@ Generated 2026-10-13 19:52 UTC. Period: last 7 days. Matching articles: 62.
 | Fox News | 3 |
 | Israel National News | 2 |
 | ABC News | 2 |
+| jpost.com | 2 |
+| middleeasteye.net | 2 |
 | Ynetnews | 2 |
+| economictimes.indiatimes.com | 1 |
+| gazettextra.com | 1 |
 | UN News | 1 |
 | business-standard.com | 1 |
 
@@ -38,11 +42,11 @@ Generated 2026-10-13 19:52 UTC. Period: last 7 days. Matching articles: 62.
 | Houthi | 28 |
 | Saudi | 18 |
 | Saudi Arabia | 16 |
+| Trump | 15 |
 | Yemen | 14 |
-| Trump | 13 |
 | Riyadh | 13 |
-| US | 9 |
-| Israel | 6 |
+| US | 12 |
+| Israel | 8 |
 | American | 5 |
 | Israeli | 5 |
 
@@ -52,7 +56,7 @@ Generated 2026-10-13 19:52 UTC. Period: last 7 days. Matching articles: 62.
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 28 of 316 (8.9%) | 20 of 211 (9.5%) |
+| Articles about the topic | 28 of 317 (8.8%) | 20 of 211 (9.5%) |
 | Mentions Houthi | 32% | 50% |
 | Mentions Saudi | 18% | 35% |
 | Mentions Saudi Arabia | 25% | 25% |
