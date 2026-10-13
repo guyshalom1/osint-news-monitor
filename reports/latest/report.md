@@ -1,48 +1,50 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-12 20:30 UTC. Period: last 7 days. Matching articles: 42.
+Generated 2026-10-13 19:52 UTC. Period: last 7 days. Matching articles: 62.
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
-- Peak coverage on 2026-10-12: 19 articles.
+- Peak coverage on 2026-10-12: 20 articles.
 - Collection started 2026-10-12. Earlier days are incomplete and are left out of peak and spike detection.
 - No unusual spikes; coverage was steady.
-- Haaretz carried the most coverage (21% of articles).
+- CBS News carried the most coverage (16% of articles).
 
 ## Coverage by source
 
 | Source | Articles |
 |---|---|
-| Haaretz | 9 |
-| CBS News | 6 |
-| The Guardian World | 4 |
-| Ynetnews | 4 |
-| Jerusalem Post | 3 |
-| New York Times | 3 |
+| CBS News | 10 |
+| Haaretz | 10 |
+| Jerusalem Post | 7 |
+| The Guardian World | 6 |
+| New York Times | 5 |
+| JNS | 4 |
+| Al Jazeera | 3 |
+| Israel Hayom | 3 |
 | BBC Middle East | 3 |
 | Fox News | 3 |
-| Al Jazeera | 2 |
-| Israel Hayom | 2 |
-| JNS | 1 |
-| ABC News | 1 |
+| Israel National News | 2 |
+| ABC News | 2 |
+| Ynetnews | 2 |
 | UN News | 1 |
+| business-standard.com | 1 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| Houthi | 21 |
-| Saudi | 16 |
-| Riyadh | 12 |
-| Yemen | 10 |
-| Saudi Arabia | 10 |
-| Trump | 6 |
-| Israel | 5 |
+| Houthi | 28 |
+| Saudi | 18 |
+| Saudi Arabia | 16 |
+| Yemen | 14 |
+| Trump | 13 |
+| Riyadh | 13 |
+| US | 9 |
+| Israel | 6 |
+| American | 5 |
 | Israeli | 5 |
-| RAF Fairford | 4 |
-| American | 3 |
 
 ## Israeli vs US media
 
@@ -50,43 +52,43 @@ Generated 2026-10-12 20:30 UTC. Period: last 7 days. Matching articles: 42.
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 19 of 219 (8.7%) | 13 of 147 (8.8%) |
-| Mentions Houthi | 32% | 54% |
-| Mentions Saudi | 26% | 46% |
-| Mentions Riyadh | 16% | 31% |
-| Mentions Saudi Arabia | 21% | 23% |
-| Mentions Yemen | 5% | 31% |
-| Mentions Israeli | 16% | 15% |
-| Mentions Israel | 26% | 0% |
-| Mentions Trump | 16% | 8% |
+| Articles about the topic | 28 of 316 (8.9%) | 20 of 211 (9.5%) |
+| Mentions Houthi | 32% | 50% |
+| Mentions Saudi | 18% | 35% |
+| Mentions Saudi Arabia | 25% | 25% |
+| Mentions Trump | 25% | 15% |
+| Mentions Yemen | 0% | 35% |
+| Mentions Riyadh | 11% | 20% |
+| Mentions US | 21% | 5% |
+| Mentions Israel | 21% | 0% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Iran's Araghchi offers to mediate Saudi-Houthi talks, calls for diplomatic end to hostilities](https://www.jpost.com/middle-east/iran-news/article-911479)
-- Jerusalem Post: [Iran’s two-front war on Israel: From October 7 to election interference - opinion](https://www.jpost.com/opinion/article-911423)
-- Haaretz: [U.K. PM Burnham: Iran's IRGC likely behind RAF Fairford incident](https://www.haaretz.com/world-news/europe/2026-10-12/ty-article/u-k-pm-burnham-irans-irgc-likely-behind-raf-fairford-incident/000001a1-30d4-dbe9-ade9-72deccca0000)
-- Jerusalem Post: [Bennett's comments about sitting with Netanyahu in next gov't were 'unsuccesful irony,' Lapid says](https://www.jpost.com/israel-news/politics-and-diplomacy/article-911408)
-- JNS: [Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia](https://www.jns.org/jns-tv/jlminute/trump-weighs-new-iran-strikes-as-houthis-escalate-attacks-on-saudi-arabia)
+- Jerusalem Post: [Netanyahu, Trump discussed possibility of renewing strikes against Iran before elections - report](https://www.jpost.com/israel-news/article-911609)
+- Israel National News: [Trump warns Houthis after attacks on Saudi Arabia: 'I will never forget!'](https://www.israelnationalnews.com/flashes/695316)
+- Jerusalem Post: [Trump: Houthis 'behaving very badly,' striking Saudi Arabia to drive up oil prices](https://www.jpost.com/middle-east/iran-news/article-911598)
+- Israel National News: [Special interview with Iran’s chief rabbi](https://www.israelnationalnews.com/flashes/695311)
+- Jerusalem Post: [Iran fortifies nuclear sites, rebuilds missile arsenal as it prepares for the next war - analysis](https://www.jpost.com/middle-east/iran-news/article-911555)
 
 **Latest US headlines**
 
-- CBS News: [Saudi airport stays shut as Houthi attacks kill 20 people in a week](https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/)
-- New York Times: [Saudi Arabia Faces More Attacks as It Reels From Airport Strikes](https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html)
-- CBS News: [Breaking down how the Iran war could continue to impact fuel prices](https://www.cbsnews.com/video/breaking-down-how-the-iran-war-could-continue-to-impact-fuel-prices/)
-- CBS News: [Iranian-backed Houthi rebels in Yemen claim deadly attacks on Saudi airport](https://www.cbsnews.com/video/iranian-backed-houthi-rebels-in-yemen-claim-deadly-attacks-on-saudi-airport/)
-- CBS News: [Saudi airport hit again, a day after deadly strike killed 13](https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/)
+- CBS News: [Iran focused on attacking "harder targets," U.K. spy chief warns](https://www.cbsnews.com/news/iran-harder-targets-military-sites-sabotage-attacks-uk-spy-chief/)
+- New York Times: [Saudi Arabia and Yemen’s Houthis Trade Threats to Hit Oil Facilities](https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html)
+- CBS News: [Houthi attacks leave Trump with "a difficult dilemma"](https://www.cbsnews.com/news/iran-war-houthis-saudi-arabia-trump-faces-difficult-dilemma/)
+- New York Times: [MI5 Chief Warns of Escalating Hybrid Threats From Iran and Russia on British Soil](https://www.nytimes.com/2026/10/13/world/europe/mi5-uk-threat-iran-russia.html)
+- CBS News: [How Iran made the Houthis into such a problem](https://www.cbsnews.com/news/how-iran-made-houthis-threat-saudi-arabia-us-interests/)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
-- 2026-10-12 | Jerusalem Post | [Iran's Araghchi offers to mediate Saudi-Houthi talks, calls for diplomatic end to hostilities](https://www.jpost.com/middle-east/iran-news/article-911479)
-- 2026-10-12 | CBS News | [Saudi airport stays shut as Houthi attacks kill 20 people in a week](https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/)
-- 2026-10-12 | Jerusalem Post | [Iran’s two-front war on Israel: From October 7 to election interference - opinion](https://www.jpost.com/opinion/article-911423)
-- 2026-10-12 | Al Jazeera | [UK blames Iran for airbase plot, sanctions two Iranian nationals](https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss)
-- 2026-10-12 | Al Jazeera | [UK PM says RAF base incidents ‘likely coordinated’ by Iran](https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss)
-- 2026-10-12 | The Guardian World | [Iran’s Revolutionary Guards ‘almost certainly’ behind RAF Fairford threats, says Burnham](https://www.theguardian.com/uk-news/2026/oct/12/iran-revolutionary-guards-irgc-raf-fairford-threats)
-- 2026-10-12 | Haaretz | [U.K. PM Burnham: Iran's IRGC likely behind RAF Fairford incident](https://www.haaretz.com/world-news/europe/2026-10-12/ty-article/u-k-pm-burnham-irans-irgc-likely-behind-raf-fairford-incident/000001a1-30d4-dbe9-ade9-72deccca0000)
-- 2026-10-12 | New York Times | [Saudi Arabia Faces More Attacks as It Reels From Airport Strikes](https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html)
-- 2026-10-12 | CBS News | [Breaking down how the Iran war could continue to impact fuel prices](https://www.cbsnews.com/video/breaking-down-how-the-iran-war-could-continue-to-impact-fuel-prices/)
-- 2026-10-12 | CBS News | [Iranian-backed Houthi rebels in Yemen claim deadly attacks on Saudi airport](https://www.cbsnews.com/video/iranian-backed-houthi-rebels-in-yemen-claim-deadly-attacks-on-saudi-airport/)
+- 2026-10-13 | Jerusalem Post | [Netanyahu, Trump discussed possibility of renewing strikes against Iran before elections - report](https://www.jpost.com/israel-news/article-911609)
+- 2026-10-13 | Israel National News | [Trump warns Houthis after attacks on Saudi Arabia: 'I will never forget!'](https://www.israelnationalnews.com/flashes/695316)
+- 2026-10-13 | Jerusalem Post | [Trump: Houthis 'behaving very badly,' striking Saudi Arabia to drive up oil prices](https://www.jpost.com/middle-east/iran-news/article-911598)
+- 2026-10-13 | Israel National News | [Special interview with Iran’s chief rabbi](https://www.israelnationalnews.com/flashes/695311)
+- 2026-10-13 | The Guardian World | [Far-right and Iran add to mix of terror threats UK faces – not to mention AI](https://www.theguardian.com/uk-news/2026/oct/13/far-right-iran-terror-threat-uk-mi5-annual-update)
+- 2026-10-13 | CBS News | [Iran focused on attacking "harder targets," U.K. spy chief warns](https://www.cbsnews.com/news/iran-harder-targets-military-sites-sabotage-attacks-uk-spy-chief/)
+- 2026-10-13 | New York Times | [Saudi Arabia and Yemen’s Houthis Trade Threats to Hit Oil Facilities](https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html)
+- 2026-10-13 | The Guardian World | [Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ](https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital)
+- 2026-10-13 | CBS News | [Houthi attacks leave Trump with "a difficult dilemma"](https://www.cbsnews.com/news/iran-war-houthis-saudi-arabia-trump-faces-difficult-dilemma/)
+- 2026-10-13 | Al Jazeera | [UK spy chief says Iran is stepping up targeting of military bases](https://www.aljazeera.com/news/2026/10/13/uk-spy-chief-says-iran-is-stepping-up-targeting-of-military-bases?traffic_source=rss)
