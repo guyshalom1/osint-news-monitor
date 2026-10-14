@@ -263,3 +263,60 @@ def test_backfill_respects_time_budget():
                    pause=0, budget=150, clock=lambda: next(ticks))
     assert any("time budget" in v.get("skipped", "") for v in out.values()
                if isinstance(v, dict))
+
+
+def test_old_database_gets_fulltext_column(tmp_path):
+    import sqlite3
+    path = str(tmp_path / "old.db")
+    old = sqlite3.connect(path)
+    old.execute("CREATE TABLE articles (id TEXT PRIMARY KEY, source TEXT NOT NULL, "
+                "title TEXT NOT NULL, summary TEXT, link TEXT, published TEXT, "
+                "collected TEXT NOT NULL)")
+    old.commit()
+    old.close()
+    conn = connect(path)
+    assert "fulltext" in {r[1] for r in conn.execute("PRAGMA table_info(articles)")}
+
+
+def test_enrich_fetches_only_matching_articles_once():
+    from osint_monitor.fulltext import enrich
+    conn = make_db()
+    calls = []
+
+    def fake_fetch(url):
+        calls.append(url)
+        return "Full text mentioning Beirut and Nabatieh."
+
+    first = enrich(conn, ["Hezbollah"], days=7, delay=0, fetch=fake_fetch, now=NOW)
+    second = enrich(conn, ["Hezbollah"], days=7, delay=0, fetch=fake_fetch, now=NOW)
+    assert first == {"fetched": 2, "empty": 0, "remaining": 0}
+    assert second == {"fetched": 0, "empty": 0, "remaining": 0}
+    assert len(calls) == 2  # the two matching articles, each fetched once
+
+
+def test_enrich_marks_failures_so_they_are_not_retried():
+    from osint_monitor.fulltext import enrich
+    conn = make_db()
+
+    def broken(url):
+        raise OSError("blocked")
+
+    result = enrich(conn, ["Hezbollah"], days=7, delay=0, fetch=broken, now=NOW)
+    assert result["empty"] == 2
+    again = enrich(conn, ["Hezbollah"], days=7, delay=0, fetch=broken, now=NOW)
+    assert again == {"fetched": 0, "empty": 0, "remaining": 0}
+
+
+def test_enrich_respects_limit():
+    from osint_monitor.fulltext import enrich
+    conn = make_db()
+    result = enrich(conn, ["Hezbollah"], days=7, limit=1, delay=0,
+                    fetch=lambda url: "text", now=NOW)
+    assert result == {"fetched": 1, "empty": 0, "remaining": 1}
+
+
+def test_entities_use_article_lead():
+    articles = [{"title": "Strike reported", "summary": "",
+                 "fulltext": "Israeli aircraft hit targets near Nabatieh overnight."}]
+    names = dict(top_entities(articles, ["Hezbollah"]))
+    assert "Nabatieh" in names

@@ -22,7 +22,8 @@ CREATE TABLE IF NOT EXISTS articles (
     summary     TEXT,
     link        TEXT,
     published   TEXT,               -- ISO date, UTC
-    collected   TEXT NOT NULL
+    collected   TEXT NOT NULL,
+    fulltext    TEXT                -- article body, filled by the enrich step
 )
 """
 
@@ -43,6 +44,10 @@ def connect(db_path):
     conn = sqlite3.connect(db_path)
     conn.execute(SCHEMA)
     conn.execute(BACKFILLS)
+    # Databases created before full-text support lack the column.
+    columns = {row[1] for row in conn.execute("PRAGMA table_info(articles)")}
+    if "fulltext" not in columns:
+        conn.execute("ALTER TABLE articles ADD COLUMN fulltext TEXT")
     return conn
 
 
@@ -90,7 +95,8 @@ def save(conn, articles):
     """Insert articles, ignoring ones already stored. Returns how many were new."""
     before = conn.total_changes
     conn.executemany(
-        "INSERT OR IGNORE INTO articles VALUES "
+        "INSERT OR IGNORE INTO articles "
+        "(id, source, title, summary, link, published, collected) VALUES "
         "(:id, :source, :title, :summary, :link, :published, :collected)",
         articles,
     )

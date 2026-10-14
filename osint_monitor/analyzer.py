@@ -28,6 +28,9 @@ STOPWORDS = {
     "October", "November", "December",
 }
 
+# How much of the article body is scanned for names.
+LEAD_CHARS = 1500
+
 # One or more capitalized words in a row, e.g. "Security Council", "Gaza".
 NAME_PATTERN = re.compile(r"\b[A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+)*\b")
 
@@ -37,11 +40,11 @@ def load_articles(conn, days, now=None):
     now = now or datetime.now(timezone.utc)
     since = (now - timedelta(days=days)).isoformat()
     rows = conn.execute(
-        "SELECT source, title, summary, link, published FROM articles "
+        "SELECT source, title, summary, link, published, fulltext FROM articles "
         "WHERE published >= ? ORDER BY published DESC",
         (since,),
     ).fetchall()
-    keys = ("source", "title", "summary", "link", "published")
+    keys = ("source", "title", "summary", "link", "published", "fulltext")
     return [dict(zip(keys, row)) for row in rows]
 
 
@@ -117,7 +120,10 @@ def top_entities(articles, keywords, limit=10):
     counter = Counter()
     for a in articles:
         found = set()  # count each name once per article
-        for name in NAME_PATTERN.findall(f"{a['title']}. {a['summary']}"):
+        # The lead of the article body (when fetched) adds names the headline
+        # omits. Only the lead is used: later paragraphs bring in background.
+        lead = (a.get("fulltext") or "")[:LEAD_CHARS]
+        for name in NAME_PATTERN.findall(f"{a['title']}. {a['summary']}. {lead}"):
             name = clean_name(name, skip)
             if len(name) >= 2 and name.lower() not in skip:
                 found.add(name)

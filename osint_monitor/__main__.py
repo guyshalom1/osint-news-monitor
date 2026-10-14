@@ -3,6 +3,7 @@
 Usage:
     python -m osint_monitor collect
     python -m osint_monitor backfill --keywords Iran Iranian Tehran --days 7
+    python -m osint_monitor enrich --keywords Iran Iranian Tehran --days 7
     python -m osint_monitor report --keywords Iran Iranian Tehran --days 7
 """
 
@@ -13,6 +14,7 @@ from pathlib import Path
 
 from .analyzer import analyze, compare_countries
 from .collector import collect, connect
+from .fulltext import enrich
 from .gdelt import backfill
 from .report import make_report
 from .sources import SOURCES
@@ -28,6 +30,11 @@ def main():
     bf = sub.add_parser("backfill", help="fill past days for keywords from GDELT")
     bf.add_argument("--keywords", nargs="+", required=True)
     bf.add_argument("--days", type=int, default=7)
+
+    en = sub.add_parser("enrich", help="fetch full text for matching articles")
+    en.add_argument("--keywords", nargs="+", required=True)
+    en.add_argument("--days", type=int, default=7)
+    en.add_argument("--limit", type=int, default=40, help="max pages per run")
 
     rep = sub.add_parser("report", help="analyze coverage of keywords")
     rep.add_argument("--keywords", nargs="+", required=True)
@@ -58,6 +65,8 @@ def main():
             "keywords": args.keywords,
             "days": outcomes,
         }, indent=2), encoding="utf-8")
+    elif args.command == "enrich":
+        print(enrich(conn, args.keywords, args.days, args.limit))
     else:
         result = analyze(conn, args.keywords, args.days)
         comparison = compare_countries(conn, args.keywords, args.days)
