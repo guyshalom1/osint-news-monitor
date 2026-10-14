@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-14T17:17+00:00",
+  "checked": "2026-10-14T21:46+00:00",
   "keywords": [
     "Iran",
     "Iranian",
@@ -9,17 +9,15 @@
     "2026-10-09": {
       "error": "HTTP Error 429: Too Many Requests"
     },
-    "2026-10-11": {
-      "error": "HTTP Error 429: Too Many Requests"
-    },
+    "2026-10-11": 0,
     "2026-10-12": {
-      "skipped": "stopped after repeated errors"
+      "skipped": "time budget used up"
     },
     "2026-10-13": {
-      "skipped": "stopped after repeated errors"
+      "skipped": "time budget used up"
     },
     "2026-10-14": {
-      "skipped": "stopped after repeated errors"
+      "skipped": "time budget used up"
     }
   }
 }
