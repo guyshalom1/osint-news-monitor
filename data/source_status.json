@@ -1,20 +1,18 @@
 {
-  "checked": "2026-10-15T04:36+00:00",
+  "checked": "2026-10-15T11:27+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 5,
-      "newest": "2026-10-14"
+      "new": 9,
+      "newest": "2026-10-15"
     },
     "Jerusalem Post": {
-      "fetched": 26,
-      "new": 11,
-      "newest": "2026-10-15"
+      "error": "Could not read feed for Jerusalem Post: <unknown>:2:0: syntax error"
     },
     "Israel Hayom": {
       "fetched": 10,
-      "new": 0,
-      "newest": "2026-10-14"
+      "new": 10,
+      "newest": "2026-10-15"
     },
     "Israel National News": {
       "fetched": 10,
@@ -23,28 +21,28 @@
     },
     "JNS": {
       "fetched": 30,
-      "new": 5,
+      "new": 25,
       "newest": "2026-10-15"
     },
     "Ynetnews": {
       "fetched": 30,
-      "new": 0,
-      "newest": "2026-10-08"
+      "new": 30,
+      "newest": "2026-10-15"
     },
     "Globes": {
       "fetched": 10,
-      "new": 0,
-      "newest": "2026-10-14"
+      "new": 2,
+      "newest": "2026-10-15"
     },
     "New York Times": {
-      "fetched": 56,
-      "new": 5,
+      "fetched": 59,
+      "new": 7,
       "newest": "2026-10-15"
     },
     "NPR": {
       "fetched": 10,
-      "new": 0,
-      "newest": "2026-10-14"
+      "new": 5,
+      "newest": "2026-10-15"
     },
     "Fox News": {
       "fetched": 25,
@@ -53,27 +51,27 @@
     },
     "CBS News": {
       "fetched": 30,
-      "new": 4,
+      "new": 1,
       "newest": "2026-10-15"
     },
     "ABC News": {
       "fetched": 25,
-      "new": 7,
+      "new": 3,
       "newest": "2026-10-15"
     },
     "BBC Middle East": {
-      "fetched": 36,
-      "new": 0,
-      "newest": "2026-10-14"
+      "fetched": 35,
+      "new": 2,
+      "newest": "2026-10-15"
     },
     "Al Jazeera": {
       "fetched": 25,
-      "new": 24,
+      "new": 25,
       "newest": "2026-10-15"
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 12,
+      "new": 18,
       "newest": "2026-10-15"
     },
     "UN News": {
