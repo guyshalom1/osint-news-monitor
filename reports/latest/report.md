@@ -1,16 +1,16 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-14 21:46 UTC. Period: last 7 days. Matching articles: 104 (1 reprints removed).
+Generated 2026-10-15 04:41 UTC. Period: last 7 days. Matching articles: 109 (1 reprints removed).
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
-- Peak coverage on 2026-10-14: 33 articles.
+- Peak coverage on 2026-10-14: 34 articles.
 - Collection started 2026-10-12. Earlier days are incomplete and are left out of peak and spike detection.
 - Most widely covered story: "Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia", reported by 2 outlets.
 - No unusual spikes; coverage was steady.
-- Jerusalem Post carried the most coverage (14% of articles).
+- Jerusalem Post carried the most coverage (16% of articles).
 
 ## Stories covered by the most outlets
 
@@ -25,12 +25,12 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 15 |
+| Jerusalem Post | 17 |
 | Haaretz | 14 |
 | CBS News | 12 |
+| Al Jazeera | 9 |
 | The Guardian World | 9 |
-| Al Jazeera | 7 |
-| Israel National News | 7 |
+| Israel National News | 8 |
 | Israel Hayom | 7 |
 | JNS | 7 |
 | New York Times | 6 |
@@ -49,15 +49,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Name | Articles |
 |---|---|
 | Houthi | 35 |
-| US | 25 |
+| US | 29 |
+| Trump | 23 |
 | Saudi | 23 |
-| Trump | 21 |
 | Saudi Arabia | 20 |
 | Israel | 15 |
 | Yemen | 15 |
 | Riyadh | 13 |
+| Hormuz | 10 |
 | Israeli | 10 |
-| Hormuz | 8 |
 
 ## Israeli vs US media
 
@@ -65,23 +65,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 55 of 574 (9.6%) | 23 of 289 (8.0%) |
-| Mentions Houthi | 24% | 52% |
-| Mentions Saudi | 15% | 35% |
+| Articles about the topic | 58 of 598 (9.7%) | 23 of 306 (7.5%) |
+| Mentions Houthi | 22% | 52% |
+| Mentions Saudi | 14% | 35% |
 | Mentions Saudi Arabia | 16% | 30% |
-| Mentions Trump | 22% | 17% |
-| Mentions US | 31% | 4% |
+| Mentions Trump | 24% | 17% |
+| Mentions US | 33% | 4% |
 | Mentions Yemen | 0% | 30% |
-| Mentions Israeli | 15% | 9% |
+| Mentions Israeli | 14% | 9% |
 | Mentions Riyadh | 5% | 17% |
 
 **Latest Israel headlines**
 
+- Jerusalem Post: [US Space Force electromagnetic weapons played key role in Venezuela, Iran operations - report](https://www.jpost.com/defense-and-tech/article-911749)
+- Israel National News: [Iran's parliament speaker calls for war readiness despite negotiations with US](https://www.israelnationalnews.com/flashes/695406)
+- Jerusalem Post: [Trump says ‘leakers should be shot’ at Arizona rally, days after approving firing-squad execution](https://www.jpost.com/international/article-911745)
 - Jerusalem Post: [US military destroys Iranian-affiliated ship in Gulf of Oman after evacuating crew](https://www.jpost.com/middle-east/iran-news/article-911742)
 - Jerusalem Post: [Iranian leaders believe renewed US strikes are inevitable, warn Washington against attacking](https://www.jpost.com/middle-east/article-911729)
-- Jerusalem Post: [Iran's 'soft war': How Tehran turned antisemitism into a weapon against the West](https://www.jpost.com/diaspora/antisemitism/article-911698)
-- Haaretz: [War is hell for Saudi dreams](https://www.haaretz.com/middle-east-news/2026-10-14/ty-article/.premium/war-is-hell-for-saudi-dreams/000001a1-3a20-decd-afef-3e39649d0000)
-- Israel National News: [Iranian, Turkish delegates protest October 7 mention at interfaith summit](https://www.israelnationalnews.com/flashes/695377)
 
 **Latest US headlines**
 
@@ -95,13 +95,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-15 | Jerusalem Post | [US Space Force electromagnetic weapons played key role in Venezuela, Iran operations - report](https://www.jpost.com/defense-and-tech/article-911749)
+- 2026-10-15 | Israel National News | [Iran's parliament speaker calls for war readiness despite negotiations with US](https://www.israelnationalnews.com/flashes/695406)
+- 2026-10-15 | Jerusalem Post | [Trump says ‘leakers should be shot’ at Arizona rally, days after approving firing-squad execution](https://www.jpost.com/international/article-911745)
+- 2026-10-15 | Al Jazeera | [Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz](https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss)
+- 2026-10-14 | Al Jazeera | [US destroys dhow suspected of Iranian command and control](https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss)
 - 2026-10-14 | Jerusalem Post | [US military destroys Iranian-affiliated ship in Gulf of Oman after evacuating crew](https://www.jpost.com/middle-east/iran-news/article-911742)
 - 2026-10-14 | Jerusalem Post | [Iranian leaders believe renewed US strikes are inevitable, warn Washington against attacking](https://www.jpost.com/middle-east/article-911729)
 - 2026-10-14 | Jerusalem Post | [Iran's 'soft war': How Tehran turned antisemitism into a weapon against the West](https://www.jpost.com/diaspora/antisemitism/article-911698)
 - 2026-10-14 | CBS News | [What are Iran and Russia's mounting hybrid attacks on Europe?](https://www.cbsnews.com/news/iran-russia-uk-mi5-hybrid-attacks-spy-chief-says-mccallum/)
 - 2026-10-14 | Haaretz | [War is hell for Saudi dreams](https://www.haaretz.com/middle-east-news/2026-10-14/ty-article/.premium/war-is-hell-for-saudi-dreams/000001a1-3a20-decd-afef-3e39649d0000)
-- 2026-10-14 | The Guardian World | [Container ship sinks near strait of Hormuz amid surge in Iranian attacks](https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections)
-- 2026-10-14 | Al Jazeera | [At least two security officials killed near Iran’s critical Chabahar port](https://www.aljazeera.com/news/2026/10/14/at-least-two-security-officials-killed-near-irans-critical-chabahar-port?traffic_source=rss)
-- 2026-10-14 | Israel National News | [Iranian, Turkish delegates protest October 7 mention at interfaith summit](https://www.israelnationalnews.com/flashes/695377)
-- 2026-10-14 | Jerusalem Post | [Iran's stock market climbs despite US blockade, energy shortages, collapsing currency](https://www.jpost.com/middle-east/iran-news/article-911670)
-- 2026-10-14 | Al Jazeera | [Iran targets Starlink as ‘tool of war’ with hints of more internet curbs](https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions?traffic_source=rss)
