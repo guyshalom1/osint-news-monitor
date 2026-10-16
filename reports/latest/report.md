@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-16 16:45 UTC. Period: last 7 days. Matching articles: 158 (1 reprints removed).
+Generated 2026-10-16 21:10 UTC. Period: last 7 days. Matching articles: 160 (1 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -27,12 +27,12 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Source | Articles |
 |---|---|
 | Jerusalem Post | 26 |
-| JNS | 17 |
+| JNS | 18 |
+| Al Jazeera | 15 |
 | CBS News | 15 |
 | The Guardian World | 15 |
-| Haaretz | 15 |
+| Haaretz | 14 |
 | Israel National News | 13 |
-| Al Jazeera | 13 |
 | Ynetnews | 12 |
 | Israel Hayom | 12 |
 | New York Times | 8 |
@@ -47,14 +47,14 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 42 |
+| US | 44 |
 | Houthi | 40 |
 | Israel | 30 |
 | Trump | 30 |
 | Saudi | 25 |
 | Saudi Arabia | 22 |
 | Yemen | 18 |
-| Israeli | 16 |
+| Israeli | 15 |
 | Hormuz | 14 |
 | Riyadh | 12 |
 
@@ -64,23 +64,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 95 of 909 (10.5%) | 28 of 383 (7.3%) |
+| Articles about the topic | 95 of 934 (10.2%) | 28 of 386 (7.3%) |
 | Mentions Houthi | 16% | 54% |
 | Mentions Saudi Arabia | 11% | 29% |
 | Mentions Saudi | 8% | 32% |
 | Mentions Trump | 20% | 14% |
 | Mentions Yemen | 2% | 32% |
-| Mentions US | 31% | 0% |
+| Mentions US | 32% | 0% |
 | Mentions Israel | 27% | 0% |
-| Mentions Israeli | 15% | 7% |
+| Mentions Israeli | 14% | 7% |
 
 **Latest Israel headlines**
 
+- JNS: [Iran using ‘asymmetric warfare’ to spread Jew-hatred in US to sow division, report says](https://www.jns.org/news/u-s-news/iran-using-asymmetric-warfare-to-spread-jew-hatred-in-us-to-sow-division-report-says)
 - JNS: [Iran, Hezbollah trying to disrupt upcoming Israeli elections, Danon tells UN Security Council](https://www.jns.org/news/world/iran-hezbollah-trying-to-disrupt-upcoming-israeli-elections-danon-tells-un-security-council)
 - Jerusalem Post: [Iran manages to ship some gas, jet fuel despite US blockade, sanctions, data shows](https://www.jpost.com/middle-east/iran-news/article-911922)
 - Israel National News: [19-year-old Norwegian recruited for murder for €25,000 sentenced to 20 years in UK](https://www.israelnationalnews.com/flashes/695518)
 - Jerusalem Post: ['We'll knock it out fast': Trump threatens Iran's Pickaxe Mountain nuclear site with strikes](https://www.jpost.com/middle-east/iran-news/article-911901)
-- JNS: [New report exposes suspected Iranian election interference](https://www.jns.org/jns-tv/axis-of-truth/new-report-exposes-suspected-iranian-election-interference)
 
 **Latest US headlines**
 
@@ -94,6 +94,9 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-16 | Al Jazeera | [How Iran messaging highlights cost of war ahead of US midterm elections](https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss)
+- 2026-10-16 | JNS | [Iran using ‘asymmetric warfare’ to spread Jew-hatred in US to sow division, report says](https://www.jns.org/news/u-s-news/iran-using-asymmetric-warfare-to-spread-jew-hatred-in-us-to-sow-division-report-says)
+- 2026-10-16 | Al Jazeera | [Iran’s president condemns environmental impact of war in Middle East](https://www.aljazeera.com/video/newsfeed/2026/10/16/irans-president-condemns-environmental-impact-of-war-in-middle-eas?traffic_source=rss)
 - 2026-10-16 | CBS News | [Iran says Strait of Hormuz will reopen if U.S. leaves region](https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/)
 - 2026-10-16 | JNS | [Iran, Hezbollah trying to disrupt upcoming Israeli elections, Danon tells UN Security Council](https://www.jns.org/news/world/iran-hezbollah-trying-to-disrupt-upcoming-israeli-elections-danon-tells-un-security-council)
 - 2026-10-16 | New York Times | [Houthi Attacks on Saudi Arabia Put In Doubt Kingdom’s Sports and Business Events](https://www.nytimes.com/2026/10/16/world/middleeast/saudi-arabia-houthi-attack-fii-events.html)
@@ -101,6 +104,3 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 - 2026-10-16 | Israel National News | [19-year-old Norwegian recruited for murder for €25,000 sentenced to 20 years in UK](https://www.israelnationalnews.com/flashes/695518)
 - 2026-10-16 | The Guardian World | [Norwegian teenage hitman hired for UK murder by Iran-backed crime gang jailed for 20 years](https://www.theguardian.com/uk-news/2026/oct/16/norwegian-teenager-hired-hitman-iranian-gang-jailed-20-years)
 - 2026-10-16 | Al Jazeera | [Trump rules out using a nuclear bomb on Iran: Why that matters](https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters?traffic_source=rss)
-- 2026-10-16 | Jerusalem Post | ['We'll knock it out fast': Trump threatens Iran's Pickaxe Mountain nuclear site with strikes](https://www.jpost.com/middle-east/iran-news/article-911901)
-- 2026-10-16 | JNS | [New report exposes suspected Iranian election interference](https://www.jns.org/jns-tv/axis-of-truth/new-report-exposes-suspected-iranian-election-interference)
-- 2026-10-16 | JNS | [Israel Police 'prepared for any scenario' on election day](https://www.jns.org/news/israel-news/israel-police-prepared-for-any-scenario-on-election-day)
