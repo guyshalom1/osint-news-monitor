@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-17 10:49 UTC. Period: last 7 days. Matching articles: 163.
+Generated 2026-10-17 15:38 UTC. Period: last 7 days. Matching articles: 165.
 
 ![Coverage per day](coverage.png)
 
@@ -28,12 +28,12 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Source | Articles |
 |---|---|
 | Jerusalem Post | 30 |
-| JNS | 18 |
-| Al Jazeera | 17 |
+| JNS | 19 |
+| Al Jazeera | 18 |
+| The Guardian World | 16 |
 | CBS News | 15 |
-| The Guardian World | 15 |
-| Haaretz | 14 |
 | Israel National News | 14 |
+| Haaretz | 13 |
 | Ynetnews | 12 |
 | Israel Hayom | 12 |
 | New York Times | 8 |
@@ -45,16 +45,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 44 |
-| Houthi | 42 |
+| US | 45 |
+| Houthi | 44 |
 | Trump | 31 |
 | Israel | 28 |
+| Saudi Arabia | 25 |
 | Saudi | 25 |
-| Saudi Arabia | 24 |
-| Yemen | 19 |
-| Israeli | 17 |
-| Hormuz | 14 |
-| Riyadh | 12 |
+| Yemen | 20 |
+| Israeli | 16 |
+| Hormuz | 15 |
+| Strait | 12 |
 
 ## Israeli vs US media
 
@@ -62,7 +62,7 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 100 of 969 (10.3%) | 29 of 410 (7.1%) |
+| Articles about the topic | 100 of 982 (10.2%) | 29 of 420 (6.9%) |
 | Mentions Houthi | 16% | 55% |
 | Mentions Saudi Arabia | 11% | 31% |
 | Mentions Saudi | 8% | 31% |
@@ -70,15 +70,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Mentions Yemen | 3% | 31% |
 | Mentions US | 32% | 0% |
 | Mentions Israel | 26% | 0% |
-| Mentions Israeli | 15% | 7% |
+| Mentions Israeli | 14% | 7% |
 
 **Latest Israel headlines**
 
+- JNS: [Norwegian teen given kill mission in UK by Iranian-linked criminal group](https://www.jns.org/news/world/norwegian-teen-given-kill-mission-in-uk-by-iranian-linked-criminal-group)
 - Jerusalem Post: [Iran giving Yemen's Houthis target intelligence for drone, missile strikes on Saudi Arabia - report](https://www.jpost.com/middle-east/article-911957)
 - Jerusalem Post: [Now-ousted US general warned of defense munition shortage months before Iran war - report](https://www.jpost.com/international/article-911953)
 - Jerusalem Post: [Trump mocks popularity of the name Mohammad, says 'nobody wants to be president' in Iran](https://www.jpost.com/international/article-911950)
 - Jerusalem Post: [Norwegian teen jailed for 20 years in UK for Iran-linked murder plot after being recruited online](https://www.jpost.com/international/article-911948)
-- Haaretz: [Israel holds back Lebanon's government and opens the door to Hezbollah's recovery](https://www.haaretz.com/middle-east-news/lebanonnews/2026-10-17/ty-article/.premium/israel-holds-back-lebanons-government-and-opens-the-door-to-hezbollah-recovery/000001a1-44ad-da52-a3f1-4eff4caa0000)
 
 **Latest US headlines**
 
@@ -92,6 +92,9 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-17 | JNS | [Norwegian teen given kill mission in UK by Iranian-linked criminal group](https://www.jns.org/news/world/norwegian-teen-given-kill-mission-in-uk-by-iranian-linked-criminal-group)
+- 2026-10-17 | Al Jazeera | [US and Iran both claim control of Strait of Hormuz amid attacks on vessels](https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels?traffic_source=rss)
+- 2026-10-17 | The Guardian World | [UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains](https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains)
 - 2026-10-17 | Al Jazeera | [Solar power booms in Philippines as war on Iran spikes energy costs](https://www.aljazeera.com/news/2026/10/17/solar-power-booms-in-philippines-as-war-on-iran-spikes-energy-costs?traffic_source=rss)
 - 2026-10-17 | Jerusalem Post | [Iran giving Yemen's Houthis target intelligence for drone, missile strikes on Saudi Arabia - report](https://www.jpost.com/middle-east/article-911957)
 - 2026-10-17 | Jerusalem Post | [Now-ousted US general warned of defense munition shortage months before Iran war - report](https://www.jpost.com/international/article-911953)
@@ -99,6 +102,3 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 - 2026-10-17 | Jerusalem Post | [Trump mocks popularity of the name Mohammad, says 'nobody wants to be president' in Iran](https://www.jpost.com/international/article-911950)
 - 2026-10-17 | Jerusalem Post | [Norwegian teen jailed for 20 years in UK for Iran-linked murder plot after being recruited online](https://www.jpost.com/international/article-911948)
 - 2026-10-17 | Al Jazeera | [Iran war live: IRGC says supertanker hit naval mine in Hormuz, catches fire](https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss)
-- 2026-10-16 | Haaretz | [Israel holds back Lebanon's government and opens the door to Hezbollah's recovery](https://www.haaretz.com/middle-east-news/lebanonnews/2026-10-17/ty-article/.premium/israel-holds-back-lebanons-government-and-opens-the-door-to-hezbollah-recovery/000001a1-44ad-da52-a3f1-4eff4caa0000)
-- 2026-10-16 | Israel National News | [Iran's President: We're ready for dialogue but won't bow to coercion](https://www.israelnationalnews.com/flashes/695527)
-- 2026-10-16 | Al Jazeera | [How Iran messaging highlights cost of war ahead of US midterm elections](https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss)
