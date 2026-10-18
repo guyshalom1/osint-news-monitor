@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-18 11:07 UTC. Period: last 7 days. Matching articles: 178.
+Generated 2026-10-18 15:58 UTC. Period: last 7 days. Matching articles: 190.
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-18 11:07 UTC. Period: last 7 days. Matching articles: 178.
 - Peak coverage on 2026-10-15: 39 articles.
 - Most widely covered story: "Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia", reported by 2 outlets.
 - Spike on 2026-10-15, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, New York Times, The Guardian World, Ynetnews.
-- Jerusalem Post carried the most coverage (20% of articles).
+- Jerusalem Post carried the most coverage (22% of articles).
 
 ## Stories covered by the most outlets
 
@@ -26,15 +26,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 36 |
-| JNS | 24 |
-| Al Jazeera | 22 |
-| The Guardian World | 16 |
-| Israel National News | 15 |
+| Jerusalem Post | 41 |
+| JNS | 25 |
+| Al Jazeera | 23 |
+| Israel National News | 17 |
+| Israel Hayom | 15 |
+| The Guardian World | 15 |
 | CBS News | 15 |
 | Ynetnews | 12 |
-| Israel Hayom | 12 |
-| Haaretz | 10 |
+| Haaretz | 11 |
 | New York Times | 7 |
 | Fox News | 4 |
 | ABC News | 3 |
@@ -44,16 +44,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 48 |
+| US | 51 |
 | Houthi | 45 |
-| Israel | 33 |
-| Trump | 32 |
+| Israel | 39 |
+| Trump | 34 |
 | Saudi Arabia | 24 |
 | Saudi | 24 |
+| Israeli | 19 |
 | Hormuz | 19 |
-| Yemen | 19 |
-| Israeli | 17 |
-| Strait | 14 |
+| Yemen | 18 |
+| Netanyahu | 14 |
 
 ## Israeli vs US media
 
@@ -61,23 +61,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 109 of 1080 (10.1%) | 29 of 454 (6.4%) |
-| Mentions Houthi | 16% | 55% |
+| Articles about the topic | 121 of 1116 (10.8%) | 29 of 452 (6.4%) |
+| Mentions Houthi | 15% | 55% |
 | Mentions Saudi Arabia | 10% | 28% |
 | Mentions Saudi | 6% | 31% |
-| Mentions Trump | 20% | 14% |
+| Mentions Trump | 21% | 14% |
 | Mentions Yemen | 2% | 31% |
 | Mentions US | 32% | 0% |
-| Mentions Israel | 28% | 0% |
-| Mentions Riyadh | 4% | 14% |
+| Mentions Israel | 31% | 0% |
+| Mentions Riyadh | 3% | 14% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Iran's parliament approves Mehrdad Akhlachi as defense minister after predecessor killed by Israel](https://www.jpost.com/middle-east/iran-news/article-912028)
-- Jerusalem Post: ['You are the real target': Netanyahu warns Iran developing ICBMs, nuclear weapons to target US](https://www.jpost.com/israel-news/politics-and-diplomacy/article-912021)
-- JNS: [Iran’s diplomatic cover](https://www.jns.org/opinion/erfan-fard/irans-diplomatic-cover)
-- JNS: [Netanyahu: Only way to end Iran threat is to 'get rid of this regime'](https://www.jns.org/news/israel-news/netanyahu-only-way-to-end-iran-threat-is-to-get-rid-of-this-regime)
-- JNS: [Katz threatens strikes on Iranian energy infrastructure](https://www.jns.org/news/israel-news/katz-threatens-strikes-on-iranian-energy-infrastructure)
+- Jerusalem Post: [Trump endorses Netanyahu days before Israeli election, warns US could face Iran alone if PM loses](https://www.jpost.com/israel-election-2026/article-912080)
+- Jerusalem Post: [Netanyahu: Russia aiding Iran's antisemitic bot networks, acting against Israeli interests](https://www.jpost.com/international/article-912079)
+- Jerusalem Post: [Iran's IRGC exploits women through sex trafficking, uses children to fund proxy wars, report finds](https://www.jpost.com/middle-east/article-912058)
+- Israel Hayom: [Netanyahu: Israel prepared to launch preemptive strike on Iran without US support](https://www.israelhayom.com/2026/10/18/netanyahu-israel-prepared-to-launch-preemptive-strike-on-iran-without-us-support/)
+- Israel Hayom: [Another Iran round is inevitable, IDF chief of staff believes](https://www.israelhayom.com/2026/10/18/idf-chief-zamir-iran-round-after-election/)
 
 **Latest US headlines**
 
@@ -91,13 +91,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
-- 2026-10-18 | Jerusalem Post | [Iran's parliament approves Mehrdad Akhlachi as defense minister after predecessor killed by Israel](https://www.jpost.com/middle-east/iran-news/article-912028)
-- 2026-10-18 | Jerusalem Post | ['You are the real target': Netanyahu warns Iran developing ICBMs, nuclear weapons to target US](https://www.jpost.com/israel-news/politics-and-diplomacy/article-912021)
-- 2026-10-18 | JNS | [Iran’s diplomatic cover](https://www.jns.org/opinion/erfan-fard/irans-diplomatic-cover)
-- 2026-10-18 | JNS | [Netanyahu: Only way to end Iran threat is to 'get rid of this regime'](https://www.jns.org/news/israel-news/netanyahu-only-way-to-end-iran-threat-is-to-get-rid-of-this-regime)
-- 2026-10-18 | Al Jazeera | [Why Iran-US negotiations keep failing](https://www.aljazeera.com/opinions/2026/10/18/why-iran-us-negotiations-keep-failing?traffic_source=rss)
-- 2026-10-18 | JNS | [Katz threatens strikes on Iranian energy infrastructure](https://www.jns.org/news/israel-news/katz-threatens-strikes-on-iranian-energy-infrastructure)
-- 2026-10-18 | Jerusalem Post | [Sanctions strangle Iranian economy as IRGC goes on high alert over civil unrest risks - analysis](https://www.jpost.com/middle-east/iran-news/article-911995)
-- 2026-10-18 | Al Jazeera | [Iran says two tankers catch fire after hitting mines in Strait of Hormuz](https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss)
-- 2026-10-18 | Israel National News | [Netanyahu on Iran: Only way you can deal with it is basically to get rid of this regime](https://www.israelnationalnews.com/flashes/695549)
-- 2026-10-18 | Jerusalem Post | [Iranian fishermen scramble for loot from sunken container ship after explosion](https://www.jpost.com/middle-east/iran-news/article-911993)
+- 2026-10-18 | Jerusalem Post | [Trump endorses Netanyahu days before Israeli election, warns US could face Iran alone if PM loses](https://www.jpost.com/israel-election-2026/article-912080)
+- 2026-10-18 | Jerusalem Post | [Netanyahu: Russia aiding Iran's antisemitic bot networks, acting against Israeli interests](https://www.jpost.com/international/article-912079)
+- 2026-10-18 | Jerusalem Post | [Iran's IRGC exploits women through sex trafficking, uses children to fund proxy wars, report finds](https://www.jpost.com/middle-east/article-912058)
+- 2026-10-18 | Israel Hayom | [Netanyahu: Israel prepared to launch preemptive strike on Iran without US support](https://www.israelhayom.com/2026/10/18/netanyahu-israel-prepared-to-launch-preemptive-strike-on-iran-without-us-support/)
+- 2026-10-18 | Israel Hayom | [Another Iran round is inevitable, IDF chief of staff believes](https://www.israelhayom.com/2026/10/18/idf-chief-zamir-iran-round-after-election/)
+- 2026-10-18 | Haaretz | [Trump endorses Netanyahu in Israel's upcoming election, citing war in Iran](https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/.premium/trump-endorses-netanyahu-in-israels-upcoming-election-citing-war-in-iran/000001a1-4f80-d25a-a7ff-7fd8ba620000)
+- 2026-10-18 | Jerusalem Post | [Who is Mehrdad Akhlaghi, Iran’s new defense minister and veteran of its missile program?](https://www.jpost.com/middle-east/iran-news/article-912052)
+- 2026-10-18 | Jerusalem Post | [How could Israel help Saudi Arabia defend against the Houthis - and at what cost? - analysis](https://www.jpost.com/middle-east/article-912048)
+- 2026-10-18 | Israel National News | [New Iranian FM: 'I’ve been on the hit list for 35 years. Trump will be picking up bodies'](https://www.israelnationalnews.com/flashes/695590)
+- 2026-10-18 | Israel Hayom | [Lebanon confronts Iran, demands end to Hezbollah arms shipments](https://www.israelhayom.com/2026/10/18/lebanon-confronts-iran-demands-end-to-hezbollah-arms-shipments-and-interference/)

@@ -1,14 +1,14 @@
 {
-  "checked": "2026-10-18T11:02+00:00",
+  "checked": "2026-10-18T15:51+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 5,
+      "new": 8,
       "newest": "2026-10-18"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 17,
+      "new": 15,
       "newest": "2026-10-18"
     },
     "Israel Hayom": {
@@ -23,7 +23,7 @@
     },
     "JNS": {
       "fetched": 30,
-      "new": 20,
+      "new": 5,
       "newest": "2026-10-18"
     },
     "Ynetnews": {
@@ -33,11 +33,11 @@
     },
     "Globes": {
       "fetched": 10,
-      "new": 4,
+      "new": 2,
       "newest": "2026-10-18"
     },
     "New York Times": {
-      "fetched": 51,
+      "fetched": 50,
       "new": 2,
       "newest": "2026-10-18"
     },
@@ -53,32 +53,32 @@
     },
     "CBS News": {
       "fetched": 30,
-      "new": 0,
+      "new": 6,
       "newest": "2026-10-18"
     },
     "ABC News": {
       "fetched": 25,
-      "new": 6,
+      "new": 0,
       "newest": "2026-10-18"
     },
     "BBC Middle East": {
       "fetched": 36,
       "new": 0,
-      "newest": "2026-10-17"
+      "newest": "2026-10-18"
     },
     "Al Jazeera": {
       "fetched": 25,
-      "new": 25,
+      "new": 20,
       "newest": "2026-10-18"
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 9,
+      "new": 13,
       "newest": "2026-10-18"
     },
     "UN News": {
       "fetched": 30,
-      "new": 1,
+      "new": 0,
       "newest": "2026-10-17"
     }
   }
