@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-18 04:36 UTC. Period: last 7 days. Matching articles: 173.
+Generated 2026-10-18 11:07 UTC. Period: last 7 days. Matching articles: 178.
 
 ![Coverage per day](coverage.png)
 
@@ -8,7 +8,7 @@ Generated 2026-10-18 04:36 UTC. Period: last 7 days. Matching articles: 173.
 
 - Peak coverage on 2026-10-15: 39 articles.
 - Most widely covered story: "Trump weighs new Iran strikes as Houthis escalate attacks on Saudi Arabia", reported by 2 outlets.
-- No unusual spikes; coverage was steady.
+- Spike on 2026-10-15, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, New York Times, The Guardian World, Ynetnews.
 - Jerusalem Post carried the most coverage (20% of articles).
 
 ## Stories covered by the most outlets
@@ -26,16 +26,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 34 |
-| Al Jazeera | 21 |
-| JNS | 21 |
+| Jerusalem Post | 36 |
+| JNS | 24 |
+| Al Jazeera | 22 |
 | The Guardian World | 16 |
 | Israel National News | 15 |
 | CBS News | 15 |
 | Ynetnews | 12 |
 | Israel Hayom | 12 |
 | Haaretz | 10 |
-| New York Times | 8 |
+| New York Times | 7 |
 | Fox News | 4 |
 | ABC News | 3 |
 | BBC Middle East | 2 |
@@ -44,15 +44,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 47 |
+| US | 48 |
 | Houthi | 45 |
+| Israel | 33 |
 | Trump | 32 |
-| Israel | 32 |
-| Saudi Arabia | 25 |
+| Saudi Arabia | 24 |
 | Saudi | 24 |
 | Hormuz | 19 |
 | Yemen | 19 |
-| Israeli | 18 |
+| Israeli | 17 |
 | Strait | 14 |
 
 ## Israeli vs US media
@@ -61,23 +61,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 104 of 1026 (10.1%) | 30 of 449 (6.7%) |
-| Mentions Houthi | 16% | 53% |
-| Mentions Saudi Arabia | 11% | 30% |
-| Mentions Saudi | 7% | 30% |
-| Mentions Trump | 21% | 13% |
-| Mentions US | 33% | 0% |
-| Mentions Yemen | 2% | 30% |
-| Mentions Israel | 29% | 0% |
-| Mentions Israeli | 14% | 7% |
+| Articles about the topic | 109 of 1080 (10.1%) | 29 of 454 (6.4%) |
+| Mentions Houthi | 16% | 55% |
+| Mentions Saudi Arabia | 10% | 28% |
+| Mentions Saudi | 6% | 31% |
+| Mentions Trump | 20% | 14% |
+| Mentions Yemen | 2% | 31% |
+| Mentions US | 32% | 0% |
+| Mentions Israel | 28% | 0% |
+| Mentions Riyadh | 4% | 14% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Sanctions strangle Iranian economy as IRGC goes on high alert over civil unrest risks - analysis](https://www.jpost.com/middle-east/iran-news/article-911995)
-- Israel National News: [Netanyahu on Iran: Only way you can deal with it is basically to get rid of this regime](https://www.israelnationalnews.com/flashes/695549)
-- Jerusalem Post: [Iranian fishermen scramble for loot from sunken container ship after explosion](https://www.jpost.com/middle-east/iran-news/article-911993)
-- Jerusalem Post: [Oil prices over $100 could affect war with Iran, leading to escalation before elections - analysis](https://www.jpost.com/middle-east/iran-news/article-911988)
-- Jerusalem Post: [Israel must treat the media war as seriously as Iran’s nuclear threat, Gil Hoffman says](https://www.jpost.com/israel-news/article-911877)
+- Jerusalem Post: [Iran's parliament approves Mehrdad Akhlachi as defense minister after predecessor killed by Israel](https://www.jpost.com/middle-east/iran-news/article-912028)
+- Jerusalem Post: ['You are the real target': Netanyahu warns Iran developing ICBMs, nuclear weapons to target US](https://www.jpost.com/israel-news/politics-and-diplomacy/article-912021)
+- JNS: [Iran’s diplomatic cover](https://www.jns.org/opinion/erfan-fard/irans-diplomatic-cover)
+- JNS: [Netanyahu: Only way to end Iran threat is to 'get rid of this regime'](https://www.jns.org/news/israel-news/netanyahu-only-way-to-end-iran-threat-is-to-get-rid-of-this-regime)
+- JNS: [Katz threatens strikes on Iranian energy infrastructure](https://www.jns.org/news/israel-news/katz-threatens-strikes-on-iranian-energy-infrastructure)
 
 **Latest US headlines**
 
@@ -91,13 +91,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-18 | Jerusalem Post | [Iran's parliament approves Mehrdad Akhlachi as defense minister after predecessor killed by Israel](https://www.jpost.com/middle-east/iran-news/article-912028)
+- 2026-10-18 | Jerusalem Post | ['You are the real target': Netanyahu warns Iran developing ICBMs, nuclear weapons to target US](https://www.jpost.com/israel-news/politics-and-diplomacy/article-912021)
+- 2026-10-18 | JNS | [Iran’s diplomatic cover](https://www.jns.org/opinion/erfan-fard/irans-diplomatic-cover)
+- 2026-10-18 | JNS | [Netanyahu: Only way to end Iran threat is to 'get rid of this regime'](https://www.jns.org/news/israel-news/netanyahu-only-way-to-end-iran-threat-is-to-get-rid-of-this-regime)
+- 2026-10-18 | Al Jazeera | [Why Iran-US negotiations keep failing](https://www.aljazeera.com/opinions/2026/10/18/why-iran-us-negotiations-keep-failing?traffic_source=rss)
+- 2026-10-18 | JNS | [Katz threatens strikes on Iranian energy infrastructure](https://www.jns.org/news/israel-news/katz-threatens-strikes-on-iranian-energy-infrastructure)
 - 2026-10-18 | Jerusalem Post | [Sanctions strangle Iranian economy as IRGC goes on high alert over civil unrest risks - analysis](https://www.jpost.com/middle-east/iran-news/article-911995)
 - 2026-10-18 | Al Jazeera | [Iran says two tankers catch fire after hitting mines in Strait of Hormuz](https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss)
 - 2026-10-18 | Israel National News | [Netanyahu on Iran: Only way you can deal with it is basically to get rid of this regime](https://www.israelnationalnews.com/flashes/695549)
 - 2026-10-18 | Jerusalem Post | [Iranian fishermen scramble for loot from sunken container ship after explosion](https://www.jpost.com/middle-east/iran-news/article-911993)
-- 2026-10-18 | Al Jazeera | [Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh](https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss)
-- 2026-10-17 | Jerusalem Post | [Oil prices over $100 could affect war with Iran, leading to escalation before elections - analysis](https://www.jpost.com/middle-east/iran-news/article-911988)
-- 2026-10-17 | Al Jazeera | [Iranian TV airs video said to show tanker explosion in Hormuz](https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss)
-- 2026-10-17 | Jerusalem Post | [Israel must treat the media war as seriously as Iran’s nuclear threat, Gil Hoffman says](https://www.jpost.com/israel-news/article-911877)
-- 2026-10-17 | JNS | [Trump says Israel helped Saudi Arabia, suggests Abraham Accords talk revival](https://www.jns.org/news/israel-news/trump-says-israel-helped-saudi-arabia-suggests-abraham-accords-talk-revival)
-- 2026-10-17 | Fox News | ['Vast majority' of Iran's attempted attacks on Strait of Hormuz are unsuccessful, CENTCOM spokesman says](https://www.foxnews.com/world/vast-majority-irans-attempted-attacks-strait-hormuz-unsuccessful-centcom-spokesman-says)
