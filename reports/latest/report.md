@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-18 15:58 UTC. Period: last 7 days. Matching articles: 190.
+Generated 2026-10-18 20:45 UTC. Period: last 7 days. Matching articles: 187.
 
 ![Coverage per day](coverage.png)
 
@@ -31,13 +31,13 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Al Jazeera | 23 |
 | Israel National News | 17 |
 | Israel Hayom | 15 |
-| The Guardian World | 15 |
-| CBS News | 15 |
+| The Guardian World | 14 |
+| CBS News | 14 |
 | Ynetnews | 12 |
 | Haaretz | 11 |
-| New York Times | 7 |
-| Fox News | 4 |
-| ABC News | 3 |
+| New York Times | 6 |
+| ABC News | 4 |
+| Fox News | 3 |
 | BBC Middle East | 2 |
 
 ## Names and places mentioned alongside the topic
@@ -45,14 +45,14 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Name | Articles |
 |---|---|
 | US | 51 |
-| Houthi | 45 |
+| Houthi | 42 |
 | Israel | 39 |
 | Trump | 34 |
-| Saudi Arabia | 24 |
-| Saudi | 24 |
-| Israeli | 19 |
+| Saudi Arabia | 23 |
+| Saudi | 21 |
 | Hormuz | 19 |
-| Yemen | 18 |
+| Israeli | 18 |
+| Yemen | 17 |
 | Netanyahu | 14 |
 
 ## Israeli vs US media
@@ -61,15 +61,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 121 of 1116 (10.8%) | 29 of 452 (6.4%) |
-| Mentions Houthi | 15% | 55% |
-| Mentions Saudi Arabia | 10% | 28% |
-| Mentions Saudi | 6% | 31% |
-| Mentions Trump | 21% | 14% |
-| Mentions Yemen | 2% | 31% |
+| Articles about the topic | 121 of 1142 (10.6%) | 27 of 457 (5.9%) |
+| Mentions Houthi | 15% | 56% |
+| Mentions Saudi Arabia | 10% | 30% |
+| Mentions Trump | 21% | 15% |
+| Mentions Saudi | 6% | 30% |
+| Mentions Yemen | 2% | 33% |
 | Mentions US | 32% | 0% |
 | Mentions Israel | 31% | 0% |
-| Mentions Riyadh | 3% | 14% |
+| Mentions Hormuz | 8% | 7% |
 
 **Latest Israel headlines**
 
@@ -81,16 +81,17 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest US headlines**
 
+- ABC News: [Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks](https://abcnews.com/International/wireStory/egypts-top-security-body-agrees-saudi-arabia-defend-137364690)
 - Fox News: ['Vast majority' of Iran's attempted attacks on Strait of Hormuz are unsuccessful, CENTCOM spokesman says](https://www.foxnews.com/world/vast-majority-irans-attempted-attacks-strait-hormuz-unsuccessful-centcom-spokesman-says)
 - ABC News: [Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength](https://abcnews.com/International/wireStory/houthi-strikes-saudi-arabia-show-yemeni-rebels-growing-137341692)
 - CBS News: [Iran says Strait of Hormuz will reopen if U.S. leaves region](https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/)
 - New York Times: [Houthi Attacks on Saudi Arabia Put In Doubt Kingdom’s Sports and Business Events](https://www.nytimes.com/2026/10/16/world/middleeast/saudi-arabia-houthi-attack-fii-events.html)
-- Fox News: [Houthis emerge as global threat beyond Iran control amid Saudi strikes, former envoy warns](https://www.foxnews.com/world/houthis-emerge-global-threat-iran-control-saudi-attacks-says-former-envoy)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
+- 2026-10-18 | ABC News | [Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks](https://abcnews.com/International/wireStory/egypts-top-security-body-agrees-saudi-arabia-defend-137364690)
 - 2026-10-18 | Jerusalem Post | [Trump endorses Netanyahu days before Israeli election, warns US could face Iran alone if PM loses](https://www.jpost.com/israel-election-2026/article-912080)
 - 2026-10-18 | Jerusalem Post | [Netanyahu: Russia aiding Iran's antisemitic bot networks, acting against Israeli interests](https://www.jpost.com/international/article-912079)
 - 2026-10-18 | Jerusalem Post | [Iran's IRGC exploits women through sex trafficking, uses children to fund proxy wars, report finds](https://www.jpost.com/middle-east/article-912058)
@@ -100,4 +101,3 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 - 2026-10-18 | Jerusalem Post | [Who is Mehrdad Akhlaghi, Iran’s new defense minister and veteran of its missile program?](https://www.jpost.com/middle-east/iran-news/article-912052)
 - 2026-10-18 | Jerusalem Post | [How could Israel help Saudi Arabia defend against the Houthis - and at what cost? - analysis](https://www.jpost.com/middle-east/article-912048)
 - 2026-10-18 | Israel National News | [New Iranian FM: 'I’ve been on the hit list for 35 years. Trump will be picking up bodies'](https://www.israelnationalnews.com/flashes/695590)
-- 2026-10-18 | Israel Hayom | [Lebanon confronts Iran, demands end to Hezbollah arms shipments](https://www.israelhayom.com/2026/10/18/lebanon-confronts-iran-demands-end-to-hezbollah-arms-shipments-and-interference/)
