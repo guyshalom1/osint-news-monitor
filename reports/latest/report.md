@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-20 17:09 UTC. Period: last 7 days. Matching articles: 249 (28 reprints removed).
+Generated 2026-10-20 21:42 UTC. Period: last 7 days. Matching articles: 254 (28 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -27,19 +27,19 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 46 |
-| Al Jazeera | 34 |
+| Jerusalem Post | 45 |
+| Al Jazeera | 37 |
 | JNS | 34 |
-| Israel National News | 25 |
-| Israel Hayom | 17 |
-| The Guardian World | 14 |
+| Israel National News | 23 |
+| Israel Hayom | 18 |
+| Haaretz | 13 |
+| The Guardian World | 12 |
 | Ynetnews | 11 |
-| Haaretz | 10 |
-| CBS News | 9 |
+| CBS News | 10 |
 | New York Times | 8 |
-| Fox News | 6 |
+| Fox News | 7 |
+| ABC News | 3 |
 | theyeshivaworld.com | 3 |
-| ABC News | 2 |
 | punchng.com | 2 |
 | zerohedge.com | 2 |
 | naturalnews.com | 2 |
@@ -72,16 +72,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 66 |
-| Israel | 55 |
-| Trump | 45 |
-| Houthi | 32 |
-| Netanyahu | 27 |
-| Hormuz | 25 |
-| Saudi Arabia | 22 |
-| Israeli | 20 |
-| Strait | 18 |
-| Yemen | 15 |
+| US | 65 |
+| Israel | 57 |
+| Trump | 44 |
+| Netanyahu | 30 |
+| Houthi | 30 |
+| Hormuz | 26 |
+| Strait | 19 |
+| Israeli | 19 |
+| Saudi Arabia | 18 |
+| Hezbollah | 14 |
 
 ## Israeli vs US media
 
@@ -89,43 +89,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 143 of 1274 (11.2%) | 26 of 463 (5.6%) |
-| Mentions Houthi | 9% | 38% |
-| Mentions Saudi Arabia | 6% | 35% |
-| Mentions Israel | 32% | 8% |
-| Mentions Trump | 23% | 12% |
-| Mentions US | 29% | 0% |
-| Mentions Netanyahu | 15% | 8% |
-| Mentions Yemen | 0% | 23% |
-| Mentions Hormuz | 8% | 12% |
+| Articles about the topic | 144 of 1270 (11.3%) | 29 of 471 (6.2%) |
+| Mentions Houthi | 8% | 38% |
+| Mentions Israel | 33% | 7% |
+| Mentions Saudi Arabia | 4% | 31% |
+| Mentions Trump | 22% | 10% |
+| Mentions US | 28% | 0% |
+| Mentions Netanyahu | 16% | 7% |
+| Mentions Hormuz | 8% | 14% |
+| Mentions Strait | 7% | 14% |
 
 **Latest Israel headlines**
 
+- Haaretz: [U.K. police rearrest two men over suspected Iran link in Fairford air base incident](https://www.haaretz.com/world-news/europe/2026-10-20/ty-article/u-k-rearrests-two-men-over-suspected-iran-link-in-fairford-air-base-incident/000001a1-5ac2-da49-abe9-5ffa0b160000)
+- Haaretz: [Hegseth confirms Israel visit, declines to discuss private talks with Netanyahu](https://www.haaretz.com/israel-news/israel-security/2026-10-20/ty-article/u-s-defense-secretary-hegseth-confirms-israel-trip-declines-to-detail-talks/000001a1-5ad9-d551-a3b5-fefd96680000)
+- Jerusalem Post: [UK police re-arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident](https://www.jpost.com/international/article-912329)
 - Jerusalem Post: [Pentagon deploys USS Theodore Roosevelt to Middle East as Trump weighs Iran strikes - report](https://www.jpost.com/middle-east/article-912321)
-- Jerusalem Post: [Netanyahu vows to eliminate Iran regime, sources tell 'Post' Trump 'very close' to renewing strikes](https://www.jpost.com/middle-east/iran-news/article-912315)
-- Israel Hayom: [After two wars with Iran, Israel still faces the same threats](https://www.israelhayom.com/2026/10/20/after-two-wars-with-iran-israel-still-faces-the-same-threats/)
-- Israel National News: [Netanyahu: 'We must complete the elimination of the Iranian regime'](https://www.israelnationalnews.com/flashes/695732)
-- Israel National News: [Katz threatens to expand control in Lebanon if Hezbollah attacks](https://www.israelnationalnews.com/flashes/695728)
+- Israel National News: [Kedumim: 9-year-old spots suspicious object in Samaria, prevents disaster](https://www.israelnationalnews.com/flashes/695742)
 
 **Latest US headlines**
 
-- CBS News: [Egypt weighs sending troops to Saudi Arabia in war with Iran-backed rebels](https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/)
-- New York Times: [Yemeni City of Taiz Running Out of Essentials as Houthis Close in](https://www.nytimes.com/2026/10/20/world/middleeast/yemen-taiz-houthi-siege.html)
-- New York Times: [UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks](https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html)
-- Fox News: [Iran regime under pressure as rebel groups escalate attacks in volatile southeast](https://www.foxnews.com/world/iran-regime-under-pressure-rebel-groups-escalate-attacks-volatile-southeast)
-- New York Times: [Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu](https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html)
+- New York Times: [The British Police Rearrest Two in Connection With Alleged Terror Plot](https://www.nytimes.com/2026/10/20/world/europe/raf-fairfield-arrests-iran.html)
+- CBS News: [U.S. ramps up warnings to Americans in Middle East after Houthi strikes](https://www.cbsnews.com/news/us-warnings-americans-middle-east-houthis/)
+- Fox News: [Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal](https://www.foxnews.com/world/sea-mine-crisis-re-emerges-strait-hormuz-tehran-urges-washington-accept-deal)
+- ABC News: [2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base](https://abcnews.com/International/wireStory/2-men-rearrested-uk-suspicion-assisting-iran-suspected-137418182)
+- CBS News: [2 men rearrested for alleged spying for Iran in U.K. air base incident](https://www.cbsnews.com/news/raf-fairford-security-incident-arrests-suspected-spying-iran/)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
+- 2026-10-20 | Haaretz | [U.K. police rearrest two men over suspected Iran link in Fairford air base incident](https://www.haaretz.com/world-news/europe/2026-10-20/ty-article/u-k-rearrests-two-men-over-suspected-iran-link-in-fairford-air-base-incident/000001a1-5ac2-da49-abe9-5ffa0b160000)
+- 2026-10-20 | Al Jazeera | [Why the war on Iran could backfire on US regime-change goals](https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_war-on-iran-could-strengthen-nationalism-201026?traffic_source=rss)
+- 2026-10-20 | Al Jazeera | [UK police re-arrest two men on suspicion of assisting Iran’s intelligence](https://www.aljazeera.com/news/2026/10/20/uk-police-re-arrest-two-men-on-suspicion-of-assisting-iranian-intelligence?traffic_source=rss)
+- 2026-10-20 | Haaretz | [Hegseth confirms Israel visit, declines to discuss private talks with Netanyahu](https://www.haaretz.com/israel-news/israel-security/2026-10-20/ty-article/u-s-defense-secretary-hegseth-confirms-israel-trip-declines-to-detail-talks/000001a1-5ad9-d551-a3b5-fefd96680000)
+- 2026-10-20 | New York Times | [The British Police Rearrest Two in Connection With Alleged Terror Plot](https://www.nytimes.com/2026/10/20/world/europe/raf-fairfield-arrests-iran.html)
+- 2026-10-20 | Jerusalem Post | [UK police re-arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident](https://www.jpost.com/international/article-912329)
+- 2026-10-20 | Al Jazeera | [Netanyahu says he discussed ‘eliminating’ Iran’s regime with Trump](https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss)
+- 2026-10-20 | CBS News | [U.S. ramps up warnings to Americans in Middle East after Houthi strikes](https://www.cbsnews.com/news/us-warnings-americans-middle-east-houthis/)
 - 2026-10-20 | Jerusalem Post | [Pentagon deploys USS Theodore Roosevelt to Middle East as Trump weighs Iran strikes - report](https://www.jpost.com/middle-east/article-912321)
-- 2026-10-20 | Jerusalem Post | [Netanyahu vows to eliminate Iran regime, sources tell 'Post' Trump 'very close' to renewing strikes](https://www.jpost.com/middle-east/iran-news/article-912315)
-- 2026-10-20 | Israel Hayom | [After two wars with Iran, Israel still faces the same threats](https://www.israelhayom.com/2026/10/20/after-two-wars-with-iran-israel-still-faces-the-same-threats/)
-- 2026-10-20 | CBS News | [Egypt weighs sending troops to Saudi Arabia in war with Iran-backed rebels](https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/)
-- 2026-10-20 | Al Jazeera | [Lavrov backs Tehran, but does Russia also gain from the US-Iran crisis?](https://www.aljazeera.com/news/2026/10/20/lavrov-backs-tehran-but-does-russia-also-gain-from-the-us-iran-crisis?traffic_source=rss)
-- 2026-10-20 | Israel National News | [Netanyahu: 'We must complete the elimination of the Iranian regime'](https://www.israelnationalnews.com/flashes/695732)
-- 2026-10-20 | Al Jazeera | [Pakistan army chief in Tehran: Can diplomacy prevent new US-Iran fighting?](https://www.aljazeera.com/news/2026/10/20/pakistan-army-chief-in-tehran-can-diplomacy-prevent-new-us-iran-fighting?traffic_source=rss)
-- 2026-10-20 | Israel National News | [Katz threatens to expand control in Lebanon if Hezbollah attacks](https://www.israelnationalnews.com/flashes/695728)
-- 2026-10-20 | New York Times | [Yemeni City of Taiz Running Out of Essentials as Houthis Close in](https://www.nytimes.com/2026/10/20/world/middleeast/yemen-taiz-houthi-siege.html)
-- 2026-10-20 | Israel National News | [$6 billion deal? New proposal aims to open Iran’s nuclear sites to inspectors](https://www.israelnationalnews.com/flashes/695727)
+- 2026-10-20 | Israel National News | [Kedumim: 9-year-old spots suspicious object in Samaria, prevents disaster](https://www.israelnationalnews.com/flashes/695742)
