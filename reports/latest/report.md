@@ -1,21 +1,20 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-20 11:38 UTC. Period: last 7 days. Matching articles: 239 (28 reprints removed).
+Generated 2026-10-20 17:09 UTC. Period: last 7 days. Matching articles: 249 (28 reprints removed).
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
 - Peak coverage on 2026-10-15: 70 articles.
-- Most widely covered story: "Spy chief says Iran targeting military sites, suspected plot at RAF base 'not unique’", reported by 2 outlets.
+- Most widely covered story: "Report: U.S. weighing use of 'mother of all bombs' against Iran", reported by 2 outlets.
 - Spike on 2026-10-15, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, New York Times, The Guardian World, Ynetnews, breitbart.com, clevelandjewishnews.com, econotimes.com, hometownregister.com, independent.co.ug, jpost.com, kristv.com, kvia.com, livemint.com, mynbc5.com, naturalnews.com, nbc16.com, presstv.co.uk, punchng.com, shanghaisun.com, shipandbunker.com, spencerdailyreporter.com, stardem.com, theepochtimes.com, thenationalnews.com, theyeshivaworld.com, tribune.com.pk, voanews.com, warontherocks.com, wthitv.com, zerohedge.com.
-- Jerusalem Post carried the most coverage (19% of articles).
+- Jerusalem Post carried the most coverage (18% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
-| Spy chief says Iran targeting military sites, suspected plot at RAF base 'not unique’ | 2 | 2026-10-13 |
 | Report: U.S. weighing use of 'mother of all bombs' against Iran | 2 | 2026-10-15 |
 | Ousted general warned of missile defense shortage before Iran war | 2 | 2026-10-15 |
 | CNN sources : US considering using mother of all bomb against Iran | 2 | 2026-10-15 |
@@ -28,19 +27,19 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 45 |
-| JNS | 33 |
-| Al Jazeera | 30 |
-| Israel National News | 22 |
-| Israel Hayom | 15 |
+| Jerusalem Post | 46 |
+| Al Jazeera | 34 |
+| JNS | 34 |
+| Israel National News | 25 |
+| Israel Hayom | 17 |
 | The Guardian World | 14 |
-| Haaretz | 11 |
 | Ynetnews | 11 |
-| CBS News | 10 |
-| New York Times | 7 |
-| Fox News | 5 |
-| ABC News | 3 |
+| Haaretz | 10 |
+| CBS News | 9 |
+| New York Times | 8 |
+| Fox News | 6 |
 | theyeshivaworld.com | 3 |
+| ABC News | 2 |
 | punchng.com | 2 |
 | zerohedge.com | 2 |
 | naturalnews.com | 2 |
@@ -73,15 +72,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 62 |
-| Israel | 54 |
-| Trump | 44 |
+| US | 66 |
+| Israel | 55 |
+| Trump | 45 |
 | Houthi | 32 |
-| Netanyahu | 25 |
-| Hormuz | 24 |
+| Netanyahu | 27 |
+| Hormuz | 25 |
+| Saudi Arabia | 22 |
 | Israeli | 20 |
-| Saudi Arabia | 20 |
-| Strait | 17 |
+| Strait | 18 |
 | Yemen | 15 |
 
 ## Israeli vs US media
@@ -90,43 +89,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 137 of 1271 (10.8%) | 26 of 474 (5.5%) |
+| Articles about the topic | 143 of 1274 (11.2%) | 26 of 463 (5.6%) |
 | Mentions Houthi | 9% | 38% |
-| Mentions Israel | 34% | 8% |
-| Mentions Trump | 23% | 15% |
-| Mentions Saudi Arabia | 7% | 27% |
+| Mentions Saudi Arabia | 6% | 35% |
+| Mentions Israel | 32% | 8% |
+| Mentions Trump | 23% | 12% |
 | Mentions US | 29% | 0% |
+| Mentions Netanyahu | 15% | 8% |
 | Mentions Yemen | 0% | 23% |
-| Mentions Netanyahu | 14% | 8% |
 | Mentions Hormuz | 8% | 12% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Pakistani army chief, key mediator in US-Iran war, arrives in Tehran to meet senior officials](https://www.jpost.com/middle-east/iran-news/article-912278)
-- JNS: [Iran, Hamas and Hezbollah rebuilding capabilities as elections approach](https://www.jns.org/jns-tv/the-quad/iran-hamas-and-hezbollah-rebuilding-capabilities-as-elections-approach)
-- JNS: [Iran’s Islamic regime faces growing armed opposition from within](https://www.jns.org/jns-tv/meira-k-show/irans-islamic-regime-faces-growing-armed-opposition-from-within)
-- JNS: [IDF: Lebanese Army failed to dismantle Hezbollah weapons site](https://www.jns.org/news/israel-news/idf-lebanese-army-failed-to-dismantle-hezbollah-weapons-site)
-- Israel Hayom: [Will Iran's nuclear facilities be attacked before the elections?](https://www.israelhayom.com/2026/10/20/will-irans-nuclear-facilities-be-attacked-before-the-elections/)
+- Jerusalem Post: [Pentagon deploys USS Theodore Roosevelt to Middle East as Trump weighs Iran strikes - report](https://www.jpost.com/middle-east/article-912321)
+- Jerusalem Post: [Netanyahu vows to eliminate Iran regime, sources tell 'Post' Trump 'very close' to renewing strikes](https://www.jpost.com/middle-east/iran-news/article-912315)
+- Israel Hayom: [After two wars with Iran, Israel still faces the same threats](https://www.israelhayom.com/2026/10/20/after-two-wars-with-iran-israel-still-faces-the-same-threats/)
+- Israel National News: [Netanyahu: 'We must complete the elimination of the Iranian regime'](https://www.israelnationalnews.com/flashes/695732)
+- Israel National News: [Katz threatens to expand control in Lebanon if Hezbollah attacks](https://www.israelnationalnews.com/flashes/695728)
 
 **Latest US headlines**
 
+- CBS News: [Egypt weighs sending troops to Saudi Arabia in war with Iran-backed rebels](https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/)
+- New York Times: [Yemeni City of Taiz Running Out of Essentials as Houthis Close in](https://www.nytimes.com/2026/10/20/world/middleeast/yemen-taiz-houthi-siege.html)
+- New York Times: [UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks](https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html)
+- Fox News: [Iran regime under pressure as rebel groups escalate attacks in volatile southeast](https://www.foxnews.com/world/iran-regime-under-pressure-rebel-groups-escalate-attacks-volatile-southeast)
 - New York Times: [Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu](https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html)
-- CBS News: [Hegseth meets Netanyahu ahead of elections, possible Iran war restart](https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/)
-- Fox News: [Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism](https://www.foxnews.com/world/beleaguered-macron-cites-us-iran-war-factor-protests-amid-trump-vance-criticism)
-- New York Times: [Houthi Strikes Kill Dozens in Yemeni Desert Military Camp, Officials Say](https://www.nytimes.com/2026/10/19/world/middleeast/houthis-strike-yemen-military-camp.html)
-- CBS News: [Russian envoy says visit to Iran aimed at averting return to war](https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
-- 2026-10-20 | Jerusalem Post | [Pakistani army chief, key mediator in US-Iran war, arrives in Tehran to meet senior officials](https://www.jpost.com/middle-east/iran-news/article-912278)
-- 2026-10-20 | New York Times | [Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu](https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html)
-- 2026-10-20 | Al Jazeera | [Masoud Pezeshkian: Peace, Not Surrender](https://www.aljazeera.com/video/al-jazeera-world/2026/10/20/masoud-pezeshkian-peace-not-surrender?traffic_source=rss)
-- 2026-10-20 | JNS | [Iran, Hamas and Hezbollah rebuilding capabilities as elections approach](https://www.jns.org/jns-tv/the-quad/iran-hamas-and-hezbollah-rebuilding-capabilities-as-elections-approach)
-- 2026-10-20 | JNS | [Iran’s Islamic regime faces growing armed opposition from within](https://www.jns.org/jns-tv/meira-k-show/irans-islamic-regime-faces-growing-armed-opposition-from-within)
-- 2026-10-20 | JNS | [IDF: Lebanese Army failed to dismantle Hezbollah weapons site](https://www.jns.org/news/israel-news/idf-lebanese-army-failed-to-dismantle-hezbollah-weapons-site)
-- 2026-10-20 | Israel Hayom | [Will Iran's nuclear facilities be attacked before the elections?](https://www.israelhayom.com/2026/10/20/will-irans-nuclear-facilities-be-attacked-before-the-elections/)
-- 2026-10-20 | JNS | [War is coming ...](https://www.jns.org/opinion/sarah-n-stern/war-is-coming)
-- 2026-10-20 | Jerusalem Post | [Trump accuses Iran of killing 75,000, says asking NATO for help during war was test](https://www.jpost.com/middle-east/iran-news/article-912228)
-- 2026-10-20 | CBS News | [Hegseth meets Netanyahu ahead of elections, possible Iran war restart](https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/)
+- 2026-10-20 | Jerusalem Post | [Pentagon deploys USS Theodore Roosevelt to Middle East as Trump weighs Iran strikes - report](https://www.jpost.com/middle-east/article-912321)
+- 2026-10-20 | Jerusalem Post | [Netanyahu vows to eliminate Iran regime, sources tell 'Post' Trump 'very close' to renewing strikes](https://www.jpost.com/middle-east/iran-news/article-912315)
+- 2026-10-20 | Israel Hayom | [After two wars with Iran, Israel still faces the same threats](https://www.israelhayom.com/2026/10/20/after-two-wars-with-iran-israel-still-faces-the-same-threats/)
+- 2026-10-20 | CBS News | [Egypt weighs sending troops to Saudi Arabia in war with Iran-backed rebels](https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/)
+- 2026-10-20 | Al Jazeera | [Lavrov backs Tehran, but does Russia also gain from the US-Iran crisis?](https://www.aljazeera.com/news/2026/10/20/lavrov-backs-tehran-but-does-russia-also-gain-from-the-us-iran-crisis?traffic_source=rss)
+- 2026-10-20 | Israel National News | [Netanyahu: 'We must complete the elimination of the Iranian regime'](https://www.israelnationalnews.com/flashes/695732)
+- 2026-10-20 | Al Jazeera | [Pakistan army chief in Tehran: Can diplomacy prevent new US-Iran fighting?](https://www.aljazeera.com/news/2026/10/20/pakistan-army-chief-in-tehran-can-diplomacy-prevent-new-us-iran-fighting?traffic_source=rss)
+- 2026-10-20 | Israel National News | [Katz threatens to expand control in Lebanon if Hezbollah attacks](https://www.israelnationalnews.com/flashes/695728)
+- 2026-10-20 | New York Times | [Yemeni City of Taiz Running Out of Essentials as Houthis Close in](https://www.nytimes.com/2026/10/20/world/middleeast/yemen-taiz-houthi-siege.html)
+- 2026-10-20 | Israel National News | [$6 billion deal? New proposal aims to open Iran’s nuclear sites to inspectors](https://www.israelnationalnews.com/flashes/695727)
