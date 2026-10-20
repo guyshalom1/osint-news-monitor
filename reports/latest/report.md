@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-20 04:52 UTC. Period: last 7 days. Matching articles: 236 (28 reprints removed).
+Generated 2026-10-20 11:38 UTC. Period: last 7 days. Matching articles: 239 (28 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -29,15 +29,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Source | Articles |
 |---|---|
 | Jerusalem Post | 45 |
-| JNS | 32 |
-| Al Jazeera | 29 |
+| JNS | 33 |
+| Al Jazeera | 30 |
 | Israel National News | 22 |
 | Israel Hayom | 15 |
 | The Guardian World | 14 |
-| Ynetnews | 12 |
 | Haaretz | 11 |
-| CBS News | 9 |
-| New York Times | 6 |
+| Ynetnews | 11 |
+| CBS News | 10 |
+| New York Times | 7 |
 | Fox News | 5 |
 | ABC News | 3 |
 | theyeshivaworld.com | 3 |
@@ -73,15 +73,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 66 |
-| Israel | 51 |
-| Trump | 45 |
-| Houthi | 33 |
-| Netanyahu | 23 |
-| Hormuz | 23 |
-| Saudi Arabia | 21 |
-| Israeli | 19 |
-| Strait | 16 |
+| US | 62 |
+| Israel | 54 |
+| Trump | 44 |
+| Houthi | 32 |
+| Netanyahu | 25 |
+| Hormuz | 24 |
+| Israeli | 20 |
+| Saudi Arabia | 20 |
+| Strait | 17 |
 | Yemen | 15 |
 
 ## Israeli vs US media
@@ -90,43 +90,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 137 of 1242 (11.0%) | 24 of 467 (5.1%) |
-| Mentions Houthi | 10% | 42% |
-| Mentions Trump | 23% | 17% |
-| Mentions Saudi Arabia | 7% | 29% |
-| Mentions Israel | 33% | 0% |
-| Mentions US | 32% | 0% |
-| Mentions Yemen | 0% | 25% |
-| Mentions Hormuz | 7% | 12% |
-| Mentions Strait | 6% | 12% |
+| Articles about the topic | 137 of 1271 (10.8%) | 26 of 474 (5.5%) |
+| Mentions Houthi | 9% | 38% |
+| Mentions Israel | 34% | 8% |
+| Mentions Trump | 23% | 15% |
+| Mentions Saudi Arabia | 7% | 27% |
+| Mentions US | 29% | 0% |
+| Mentions Yemen | 0% | 23% |
+| Mentions Netanyahu | 14% | 8% |
+| Mentions Hormuz | 8% | 12% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Trump accuses Iran of killing 75,000, says asking NATO for help during war was test](https://www.jpost.com/middle-east/iran-news/article-912228)
-- Jerusalem Post: [Netanyahu, Hegseth hold covert meeting at Israel's Ovda air base days before Israel's election](https://www.jpost.com/israel-news/politics-and-diplomacy/article-912217)
-- Israel National News: [Germany summons Iranian ambassador over plot to attack Jewish leaders](https://www.israelnationalnews.com/flashes/695685)
-- Israel National News: [Iran's Revolutionary Guards threaten to target internet cables in Strait of Hormuz](https://www.israelnationalnews.com/flashes/695684)
-- JNS: [Israel’s foes have more influence on its elections than its friends](https://www.jns.org/opinion/jonathan-s-tobin/israels-foes-have-more-influence-on-its-elections-than-its-friends)
+- Jerusalem Post: [Pakistani army chief, key mediator in US-Iran war, arrives in Tehran to meet senior officials](https://www.jpost.com/middle-east/iran-news/article-912278)
+- JNS: [Iran, Hamas and Hezbollah rebuilding capabilities as elections approach](https://www.jns.org/jns-tv/the-quad/iran-hamas-and-hezbollah-rebuilding-capabilities-as-elections-approach)
+- JNS: [Iran’s Islamic regime faces growing armed opposition from within](https://www.jns.org/jns-tv/meira-k-show/irans-islamic-regime-faces-growing-armed-opposition-from-within)
+- JNS: [IDF: Lebanese Army failed to dismantle Hezbollah weapons site](https://www.jns.org/news/israel-news/idf-lebanese-army-failed-to-dismantle-hezbollah-weapons-site)
+- Israel Hayom: [Will Iran's nuclear facilities be attacked before the elections?](https://www.israelhayom.com/2026/10/20/will-irans-nuclear-facilities-be-attacked-before-the-elections/)
 
 **Latest US headlines**
 
+- New York Times: [Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu](https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html)
+- CBS News: [Hegseth meets Netanyahu ahead of elections, possible Iran war restart](https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/)
 - Fox News: [Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism](https://www.foxnews.com/world/beleaguered-macron-cites-us-iran-war-factor-protests-amid-trump-vance-criticism)
 - New York Times: [Houthi Strikes Kill Dozens in Yemeni Desert Military Camp, Officials Say](https://www.nytimes.com/2026/10/19/world/middleeast/houthis-strike-yemen-military-camp.html)
 - CBS News: [Russian envoy says visit to Iran aimed at averting return to war](https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/)
-- NPR: [Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection](https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu)
-- Fox News: [Strait of Hormuz crisis traps 6,000 sailors as attacks on ships mount, UN maritime chief says](https://www.foxnews.com/world/strait-hormuz-crisis-traps-6000-sailors-attacks-ships-mount-un-maritime-chief-says)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
+- 2026-10-20 | Jerusalem Post | [Pakistani army chief, key mediator in US-Iran war, arrives in Tehran to meet senior officials](https://www.jpost.com/middle-east/iran-news/article-912278)
+- 2026-10-20 | New York Times | [Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu](https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html)
+- 2026-10-20 | Al Jazeera | [Masoud Pezeshkian: Peace, Not Surrender](https://www.aljazeera.com/video/al-jazeera-world/2026/10/20/masoud-pezeshkian-peace-not-surrender?traffic_source=rss)
+- 2026-10-20 | JNS | [Iran, Hamas and Hezbollah rebuilding capabilities as elections approach](https://www.jns.org/jns-tv/the-quad/iran-hamas-and-hezbollah-rebuilding-capabilities-as-elections-approach)
+- 2026-10-20 | JNS | [Iran’s Islamic regime faces growing armed opposition from within](https://www.jns.org/jns-tv/meira-k-show/irans-islamic-regime-faces-growing-armed-opposition-from-within)
+- 2026-10-20 | JNS | [IDF: Lebanese Army failed to dismantle Hezbollah weapons site](https://www.jns.org/news/israel-news/idf-lebanese-army-failed-to-dismantle-hezbollah-weapons-site)
+- 2026-10-20 | Israel Hayom | [Will Iran's nuclear facilities be attacked before the elections?](https://www.israelhayom.com/2026/10/20/will-irans-nuclear-facilities-be-attacked-before-the-elections/)
+- 2026-10-20 | JNS | [War is coming ...](https://www.jns.org/opinion/sarah-n-stern/war-is-coming)
 - 2026-10-20 | Jerusalem Post | [Trump accuses Iran of killing 75,000, says asking NATO for help during war was test](https://www.jpost.com/middle-east/iran-news/article-912228)
-- 2026-10-20 | Jerusalem Post | [Netanyahu, Hegseth hold covert meeting at Israel's Ovda air base days before Israel's election](https://www.jpost.com/israel-news/politics-and-diplomacy/article-912217)
-- 2026-10-20 | Israel National News | [Germany summons Iranian ambassador over plot to attack Jewish leaders](https://www.israelnationalnews.com/flashes/695685)
-- 2026-10-20 | Israel National News | [Iran's Revolutionary Guards threaten to target internet cables in Strait of Hormuz](https://www.israelnationalnews.com/flashes/695684)
-- 2026-10-20 | Al Jazeera | [Iran war live: Trump says US hits Iran hard ‘economically and militarily’](https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3?traffic_source=rss)
-- 2026-10-19 | JNS | [Israel’s foes have more influence on its elections than its friends](https://www.jns.org/opinion/jonathan-s-tobin/israels-foes-have-more-influence-on-its-elections-than-its-friends)
-- 2026-10-19 | Al Jazeera | [Tehran rejects any role in plot to kill leaders of German Jewish groups](https://www.aljazeera.com/news/2026/10/19/tehran-rejects-any-role-in-plot-to-kill-leaders-of-jewish-groups?traffic_source=rss)
-- 2026-10-19 | Jerusalem Post | [US, Israel weigh renewed strikes on Iran as experts warn renewed conflict may be inevitable](https://www.jpost.com/middle-east/article-912207)
-- 2026-10-19 | Fox News | [Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism](https://www.foxnews.com/world/beleaguered-macron-cites-us-iran-war-factor-protests-amid-trump-vance-criticism)
-- 2026-10-19 | JNS | [NYPD hate-crimes unit probes anti-Israel vandalism at Manhattan bank](https://www.jns.org/news/u-s-news/nypd-hate-crimes-unit-probes-anti-israel-vandalism-at-manhattan-bank)
+- 2026-10-20 | CBS News | [Hegseth meets Netanyahu ahead of elections, possible Iran war restart](https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/)

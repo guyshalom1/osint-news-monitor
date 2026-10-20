@@ -1,17 +1,15 @@
 {
-  "checked": "2026-10-20T04:52+00:00",
+  "checked": "2026-10-20T11:38+00:00",
   "keywords": [
     "Iran",
     "Iranian",
     "Tehran"
   ],
   "days": {
-    "2026-10-14": {
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    "2026-10-15": 248,
+    "2026-10-14": 0,
+    "2026-10-15": 0,
     "2026-10-16": {
-      "skipped": "time budget used up"
+      "error": "HTTP Error 429: Too Many Requests"
     },
     "2026-10-17": {
       "skipped": "time budget used up"
