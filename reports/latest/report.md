@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-21 11:52 UTC. Period: last 7 days. Matching articles: 275 (36 reprints removed).
+Generated 2026-10-21 17:18 UTC. Period: last 7 days. Matching articles: 272 (36 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-21 11:52 UTC. Period: last 7 days. Matching articles: 275 (36 
 - Peak coverage on 2026-10-15: 70 articles.
 - Most widely covered story: "Report: U.S. weighing use of 'mother of all bombs' against Iran", reported by 2 outlets.
 - Spike on 2026-10-15, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, New York Times, The Guardian World, Ynetnews, breitbart.com, clevelandjewishnews.com, econotimes.com, hometownregister.com, independent.co.ug, jpost.com, kristv.com, kvia.com, livemint.com, mynbc5.com, naturalnews.com, nbc16.com, presstv.co.uk, punchng.com, shanghaisun.com, shipandbunker.com, spencerdailyreporter.com, stardem.com, theepochtimes.com, thenationalnews.com, theyeshivaworld.com, tribune.com.pk, voanews.com, warontherocks.com, wthitv.com, zerohedge.com.
-- Jerusalem Post carried the most coverage (16% of articles).
+- Jerusalem Post carried the most coverage (17% of articles).
 
 ## Stories covered by the most outlets
 
@@ -28,14 +28,14 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 44 |
-| JNS | 37 |
-| Al Jazeera | 36 |
+| Jerusalem Post | 45 |
+| JNS | 36 |
+| Al Jazeera | 35 |
 | Israel National News | 24 |
-| Israel Hayom | 17 |
-| Ynetnews | 15 |
-| The Guardian World | 13 |
-| Haaretz | 12 |
+| Israel Hayom | 16 |
+| The Guardian World | 14 |
+| Ynetnews | 14 |
+| Haaretz | 11 |
 | CBS News | 9 |
 | New York Times | 7 |
 | Fox News | 7 |
@@ -86,16 +86,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 72 |
-| Israel | 62 |
-| Trump | 48 |
-| Netanyahu | 40 |
+| US | 70 |
+| Israel | 61 |
+| Trump | 49 |
+| Netanyahu | 42 |
 | Houthi | 27 |
-| Hormuz | 26 |
-| Israeli | 21 |
+| Hormuz | 25 |
+| Israeli | 20 |
 | Saudi Arabia | 18 |
 | Strait | 16 |
-| Hezbollah | 15 |
+| UK | 14 |
 
 ## Israeli vs US media
 
@@ -103,43 +103,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 149 of 1287 (11.6%) | 27 of 462 (5.8%) |
+| Articles about the topic | 146 of 1280 (11.4%) | 27 of 463 (5.8%) |
 | Mentions Israel | 36% | 7% |
 | Mentions Houthi | 5% | 33% |
-| Mentions Trump | 23% | 7% |
-| Mentions US | 29% | 0% |
-| Mentions Netanyahu | 22% | 7% |
+| Mentions Trump | 23% | 11% |
+| Mentions Netanyahu | 24% | 7% |
 | Mentions Saudi Arabia | 3% | 26% |
-| Mentions Hormuz | 7% | 15% |
+| Mentions US | 28% | 0% |
+| Mentions Hormuz | 8% | 15% |
 | Mentions Strait | 5% | 15% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [IDF was not planning to strike Iran on Oct. 10 despite reports of attack blocked by Trump](https://www.jpost.com/israel-news/defense-news/article-912399)
-- JNS: [Hegseth met with Netanyahu at Israeli air force base amid Mideast tensions](https://www.jns.org/news/u-s-news/hegseth-met-with-netanyahu-at-israeli-air-force-base-amid-mideast-tensions)
-- JNS: [Iran's security chief: 'Not a single gram' of uranium will leave Iran](https://www.jns.org/news/world/irans-security-chief-not-a-single-gram-of-uranium-will-leave-iran)
-- Israel Hayom: [Netanyahu pushed to resume strikes on Iran, Trump blocked offensive ahead of US midterms](https://www.israelhayom.com/2026/10/21/netanyahu-pushed-to-resume-strikes-on-iran-trump-blocked-offensive-ahead-of-us-midterms/)
-- JNS: [Barrack: Iran is 'not an evil regime'](https://www.jns.org/news/u-s-news/barrack-iran-is-not-an-evil-regime)
+- Jerusalem Post: [Why Netanyahu is making the Iranian regime’s overthrow a personal promise - analysis](https://www.jpost.com/israel-news/article-912452)
+- Jerusalem Post: [Netanyahu to ‘Post’: Iran, its proxies plotting ways to influence Israel’s election](https://www.jpost.com/israel-election-2026/article-912451)
+- Jerusalem Post: ['Overthrow Iranian regime': Netanyahu lays out directive to IDF, Mossad at officer ceremony](https://www.jpost.com/israel-news/defense-news/article-912445)
+- Jerusalem Post: [Iran's Baloch minority want Israeli strikes to continue until regime falls, activist tells 'Post'](https://www.jpost.com/middle-east/article-912435)
+- Israel National News: [Iranian Parliament Ghalibaf meets with Supreme Leader Mojtaba Khamenei](https://www.israelnationalnews.com/flashes/695802)
 
 **Latest US headlines**
 
+- CBS News: [Iran says indirect talks with U.S. on ceasefire proposal continue](https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/)
 - New York Times: [The British Police Rearrest Two in Connection With Alleged Terror Plot](https://www.nytimes.com/2026/10/20/world/europe/raf-fairfield-arrests-iran.html)
 - CBS News: [U.S. ramps up warnings to Americans in Middle East after Houthi strikes](https://www.cbsnews.com/news/us-warnings-americans-middle-east-houthis/)
 - Fox News: [Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal](https://www.foxnews.com/world/sea-mine-crisis-re-emerges-strait-hormuz-tehran-urges-washington-accept-deal)
 - ABC News: [2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base](https://abcnews.com/International/wireStory/2-men-rearrested-uk-suspicion-assisting-iran-suspected-137418182)
-- CBS News: [2 men rearrested for alleged spying for Iran in U.K. air base incident](https://www.cbsnews.com/news/raf-fairford-security-incident-arrests-suspected-spying-iran/)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
+- 2026-10-21 | Jerusalem Post | [Why Netanyahu is making the Iranian regime’s overthrow a personal promise - analysis](https://www.jpost.com/israel-news/article-912452)
+- 2026-10-21 | Jerusalem Post | [Netanyahu to ‘Post’: Iran, its proxies plotting ways to influence Israel’s election](https://www.jpost.com/israel-election-2026/article-912451)
+- 2026-10-21 | Jerusalem Post | ['Overthrow Iranian regime': Netanyahu lays out directive to IDF, Mossad at officer ceremony](https://www.jpost.com/israel-news/defense-news/article-912445)
+- 2026-10-21 | CBS News | [Iran says indirect talks with U.S. on ceasefire proposal continue](https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/)
+- 2026-10-21 | Jerusalem Post | [Iran's Baloch minority want Israeli strikes to continue until regime falls, activist tells 'Post'](https://www.jpost.com/middle-east/article-912435)
+- 2026-10-21 | Israel National News | [Iranian Parliament Ghalibaf meets with Supreme Leader Mojtaba Khamenei](https://www.israelnationalnews.com/flashes/695802)
+- 2026-10-21 | The Guardian World | [Trump’s approval rating drops to 36% two weeks before midterms, poll finds](https://www.theguardian.com/us-news/2026/oct/21/trump-approval-rating-midterms-poll)
+- 2026-10-21 | The Guardian World | [Besieged Yemeni city on verge of ‘unmanageable’ crisis, aid workers warn](https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers)
 - 2026-10-21 | Jerusalem Post | [IDF was not planning to strike Iran on Oct. 10 despite reports of attack blocked by Trump](https://www.jpost.com/israel-news/defense-news/article-912399)
-- 2026-10-21 | The Guardian World | [Trump hails Russia’s release of US teacher amid Witkoff’s visit – live](https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates)
-- 2026-10-21 | The Guardian World | [Race for crucial midterms attracting vast sums of money on both sides | First Thing](https://www.theguardian.com/us-news/2026/oct/21/first-thing-midterms-spending-money-donations-michael-bloomberg)
-- 2026-10-21 | JNS | [Hegseth met with Netanyahu at Israeli air force base amid Mideast tensions](https://www.jns.org/news/u-s-news/hegseth-met-with-netanyahu-at-israeli-air-force-base-amid-mideast-tensions)
-- 2026-10-21 | JNS | [Iran's security chief: 'Not a single gram' of uranium will leave Iran](https://www.jns.org/news/world/irans-security-chief-not-a-single-gram-of-uranium-will-leave-iran)
-- 2026-10-21 | Israel Hayom | [Netanyahu pushed to resume strikes on Iran, Trump blocked offensive ahead of US midterms](https://www.israelhayom.com/2026/10/21/netanyahu-pushed-to-resume-strikes-on-iran-trump-blocked-offensive-ahead-of-us-midterms/)
-- 2026-10-21 | JNS | [Barrack: Iran is 'not an evil regime'](https://www.jns.org/news/u-s-news/barrack-iran-is-not-an-evil-regime)
-- 2026-10-21 | JNS | [UK re-arrests two men suspected of assisting Iranian intelligence at airbase](https://www.jns.org/news/world/uk-re-arrests-two-men-suspected-of-assisting-iranian-intelligence-at-airbase)
-- 2026-10-21 | JNS | [Netanyahu ‘committed’ to complete elimination of Iranian regime, Hezbollah](https://www.jns.org/news/israel-news/netanyahu-committed-to-complete-elimination-of-iranian-regime-hezbollah)
-- 2026-10-21 | Israel Hayom | [Iran sets conditions for reopening Strait of Hormuz within 7 days](https://www.israelhayom.com/2026/10/21/iran-sets-conditions-for-reopening-strait-of-hormuz-within-7-days/)
+- 2026-10-21 | Al Jazeera | [Iran’s enriched uranium re-emerges as point of contention in US talks](https://www.aljazeera.com/news/2026/10/21/irans-enriched-uranium-re-emerges-as-point-of-contention-in-us-talks?traffic_source=rss)
