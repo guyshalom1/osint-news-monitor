@@ -1,30 +1,30 @@
 {
-  "checked": "2026-10-20T21:36+00:00",
+  "checked": "2026-10-21T04:44+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 11,
-      "newest": "2026-10-20"
+      "new": 9,
+      "newest": "2026-10-21"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 12,
-      "newest": "2026-10-20"
+      "new": 15,
+      "newest": "2026-10-21"
     },
     "Israel Hayom": {
       "fetched": 10,
-      "new": 1,
+      "new": 0,
       "newest": "2026-10-20"
     },
     "Israel National News": {
       "fetched": 10,
-      "new": 8,
-      "newest": "2026-10-20"
+      "new": 10,
+      "newest": "2026-10-21"
     },
     "JNS": {
       "fetched": 30,
-      "new": 8,
-      "newest": "2026-10-20"
+      "new": 7,
+      "newest": "2026-10-21"
     },
     "Ynetnews": {
       "fetched": 30,
@@ -33,32 +33,32 @@
     },
     "Globes": {
       "fetched": 10,
-      "new": 1,
+      "new": 0,
       "newest": "2026-10-20"
     },
     "New York Times": {
       "fetched": 53,
-      "new": 8,
-      "newest": "2026-10-20"
+      "new": 3,
+      "newest": "2026-10-21"
     },
     "NPR": {
       "fetched": 10,
-      "new": 2,
+      "new": 0,
       "newest": "2026-10-20"
     },
     "Fox News": {
       "fetched": 25,
-      "new": 2,
+      "new": 0,
       "newest": "2026-10-20"
     },
     "CBS News": {
       "fetched": 30,
-      "new": 2,
-      "newest": "2026-10-20"
+      "new": 6,
+      "newest": "2026-10-21"
     },
     "ABC News": {
       "fetched": 25,
-      "new": 11,
+      "new": 0,
       "newest": "2026-10-20"
     },
     "BBC Middle East": {
@@ -68,17 +68,17 @@
     },
     "Al Jazeera": {
       "fetched": 25,
-      "new": 22,
-      "newest": "2026-10-20"
+      "new": 19,
+      "newest": "2026-10-21"
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 14,
-      "newest": "2026-10-20"
+      "new": 12,
+      "newest": "2026-10-21"
     },
     "UN News": {
       "fetched": 30,
-      "new": 3,
+      "new": 1,
       "newest": "2026-10-20"
     }
   }
