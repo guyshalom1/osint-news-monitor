@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-21T17:18+00:00",
+  "checked": "2026-10-21T21:47+00:00",
   "keywords": [
     "Iran",
     "Iranian",
@@ -8,12 +8,8 @@
   "days": {
     "2026-10-15": 0,
     "2026-10-16": 0,
-    "2026-10-17": {
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    "2026-10-18": {
-      "skipped": "time budget used up"
-    },
+    "2026-10-17": 247,
+    "2026-10-18": 248,
     "2026-10-19": {
       "skipped": "time budget used up"
     },
