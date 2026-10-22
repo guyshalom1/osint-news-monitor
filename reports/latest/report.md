@@ -1,15 +1,15 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-21 21:47 UTC. Period: last 7 days. Matching articles: 329 (76 reprints removed).
+Generated 2026-10-22 04:48 UTC. Period: last 7 days. Matching articles: 337 (76 reprints removed).
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
-- Peak coverage on 2026-10-15: 70 articles.
+- Peak coverage on 2026-10-18: 56 articles.
 - Most widely covered story: "Iran says oil tankers struck by mines in Strait of Hormuz", reported by 3 outlets.
-- Spike on 2026-10-15, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, New York Times, The Guardian World, Ynetnews, breitbart.com, clevelandjewishnews.com, econotimes.com, hometownregister.com, independent.co.ug, jpost.com, kristv.com, kvia.com, livemint.com, mynbc5.com, naturalnews.com, nbc16.com, presstv.co.uk, punchng.com, shanghaisun.com, shipandbunker.com, spencerdailyreporter.com, stardem.com, theepochtimes.com, thenationalnews.com, theyeshivaworld.com, tribune.com.pk, voanews.com, warontherocks.com, wthitv.com, zerohedge.com.
-- Jerusalem Post carried the most coverage (14% of articles).
+- No unusual spikes; coverage was steady.
+- Jerusalem Post carried the most coverage (13% of articles).
 
 ## Stories covered by the most outlets
 
@@ -30,15 +30,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 46 |
-| JNS | 38 |
-| Al Jazeera | 36 |
-| Israel National News | 26 |
-| Israel Hayom | 16 |
-| Haaretz | 14 |
-| The Guardian World | 14 |
-| Ynetnews | 13 |
-| CBS News | 10 |
+| Jerusalem Post | 44 |
+| JNS | 39 |
+| Al Jazeera | 37 |
+| Israel National News | 28 |
+| Ynetnews | 18 |
+| Haaretz | 15 |
+| The Guardian World | 15 |
+| Israel Hayom | 14 |
+| CBS News | 11 |
 | Fox News | 8 |
 | presstv.co.uk | 8 |
 | New York Times | 7 |
@@ -114,16 +114,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 78 |
-| Israel | 70 |
-| Trump | 57 |
-| Netanyahu | 49 |
-| Hormuz | 36 |
-| Houthi | 29 |
-| Israeli | 22 |
-| Strait | 21 |
-| Saudi Arabia | 18 |
-| UK | 14 |
+| US | 79 |
+| Israel | 77 |
+| Trump | 60 |
+| Netanyahu | 53 |
+| Houthi | 35 |
+| Hormuz | 34 |
+| Israeli | 26 |
+| Saudi Arabia | 22 |
+| Strait | 20 |
+| Report | 16 |
 
 ## Israeli vs US media
 
@@ -131,43 +131,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 154 of 1274 (12.1%) | 29 of 455 (6.4%) |
-| Mentions Israel | 38% | 7% |
-| Mentions Houthi | 4% | 38% |
+| Articles about the topic | 159 of 1277 (12.5%) | 30 of 461 (6.5%) |
+| Mentions Israel | 42% | 7% |
+| Mentions Houthi | 4% | 40% |
+| Mentions Netanyahu | 26% | 7% |
 | Mentions Trump | 23% | 10% |
-| Mentions Netanyahu | 25% | 7% |
-| Mentions Saudi Arabia | 3% | 28% |
+| Mentions Saudi Arabia | 3% | 30% |
 | Mentions US | 28% | 0% |
-| Mentions Hormuz | 8% | 14% |
-| Mentions Strait | 6% | 14% |
+| Mentions Hormuz | 7% | 13% |
+| Mentions Strait | 5% | 13% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Dozens of IAF jets, refueling aircraft flew 'as far as Iran border' in practice sortie - report](https://www.jpost.com/middle-east/iran-news/article-912463)
-- Haaretz: [Netanyahu's Iran war plans: A dangerous gamble with Israel's election](https://www.haaretz.com/opinion/editorial/2026-10-22/ty-article-opinion/netanyahus-iran-war-plans-a-dangerous-gamble-with-israels-election/000001a1-6018-da49-abe9-6ff85c650000)
-- Jerusalem Post: [Israel bans United Airlines pilot over Iran sympathies weeks after flydubai hijacking attempt](https://www.jpost.com/israel-news/article-912433)
-- Israel National News: [Report: IAF conducts show of force near Iranian border](https://www.israelnationalnews.com/flashes/695818)
-- Jerusalem Post: [Why Netanyahu is making the Iranian regime’s overthrow a personal promise - analysis](https://www.jpost.com/israel-news/article-912452)
+- Jerusalem Post: [US, Israel plan renewed Iran strikes after US midterms, focusing on short, intense attacks - report](https://www.jpost.com/middle-east/iran-news/article-912476)
+- Israel National News: [Trump: We obliterated Iran's nuclear program, war will end 'very soon'](https://www.israelnationalnews.com/flashes/695829)
+- Haaretz: [Report: U.S. and Israel have drawn up plans for Iran strikes after midterms](https://www.haaretz.com/israel-news/israel-security/2026-10-22/ty-article/u-s-and-israel-have-drawn-up-plans-for-iran-strikes-after-midterms-nyt-reports/000001a1-6122-da49-abe9-6ffa052f0000)
+- Ynetnews: [US, Israel prepare for renewed strikes on Iran after midterms, report says](https://www.ynetnews.com/article/hk111url2mx)
+- Israel National News: [Report: US and Israel prepare new Iran strikes after midterm elections](https://www.israelnationalnews.com/flashes/695827)
 
 **Latest US headlines**
 
+- CBS News: [U.S. ordering some government staff to depart Saudi Arabia](https://www.cbsnews.com/news/us-saudi-arabia-ordered-departure-houthis/)
 - Fox News: [Bibas family relative takes fight to ICC after mother, two young boys murdered by Hamas](https://www.foxnews.com/world/bibas-family-relative-takes-fight-icc-after-mother-two-young-boys-murdered-hamas)
 - CBS News: [Why can't Saudi Arabia stop the Houthis' deadly attacks?](https://www.cbsnews.com/news/why-saudi-arabia-cant-stop-houthi-attacks-iran-war-yemen-oil-prices/)
 - CBS News: [Iran says indirect talks with U.S. on ceasefire proposal continue](https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/)
 - New York Times: [The British Police Rearrest Two in Connection With Alleged Terror Plot](https://www.nytimes.com/2026/10/20/world/europe/raf-fairfield-arrests-iran.html)
-- CBS News: [U.S. ramps up warnings to Americans in Middle East after Houthi strikes](https://www.cbsnews.com/news/us-warnings-americans-middle-east-houthis/)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
-- 2026-10-21 | Jerusalem Post | [Dozens of IAF jets, refueling aircraft flew 'as far as Iran border' in practice sortie - report](https://www.jpost.com/middle-east/iran-news/article-912463)
-- 2026-10-21 | Haaretz | [Netanyahu's Iran war plans: A dangerous gamble with Israel's election](https://www.haaretz.com/opinion/editorial/2026-10-22/ty-article-opinion/netanyahus-iran-war-plans-a-dangerous-gamble-with-israels-election/000001a1-6018-da49-abe9-6ff85c650000)
-- 2026-10-21 | Jerusalem Post | [Israel bans United Airlines pilot over Iran sympathies weeks after flydubai hijacking attempt](https://www.jpost.com/israel-news/article-912433)
-- 2026-10-21 | Israel National News | [Report: IAF conducts show of force near Iranian border](https://www.israelnationalnews.com/flashes/695818)
-- 2026-10-21 | Jerusalem Post | [Why Netanyahu is making the Iranian regime’s overthrow a personal promise - analysis](https://www.jpost.com/israel-news/article-912452)
-- 2026-10-21 | Jerusalem Post | [Netanyahu to ‘Post’: Iran, its proxies plotting ways to influence Israel’s election](https://www.jpost.com/israel-election-2026/article-912451)
-- 2026-10-21 | JNS | [Iran beyond the elections](https://www.jns.org/opinion/column/fiamma-nirenstein/iran-beyond-the-elections)
-- 2026-10-21 | Al Jazeera | [Iran determined to keep uranium amid increased war odds, flurry of meetings](https://www.aljazeera.com/news/2026/10/21/iran-determined-to-keep-uranium-amid-increased-war-odds-flurry-of-meetings?traffic_source=rss)
-- 2026-10-21 | Haaretz | [Kushner shares WSJ article urging Israel to cooperate with Gaza Board of Peace before election](https://www.haaretz.com/israel-news/israel-security/2026-10-21/ty-article/.premium/kushner-shares-article-urging-israel-to-cooperate-with-gaza-board-of-peace/000001a1-5ebb-da79-a5fd-5efb1c3f0000)
-- 2026-10-21 | Israel National News | [Iranian news agency Nour News: Explosions heard in the port city of Sirik, near the Strait of Hormuz](https://www.israelnationalnews.com/flashes/695812)
+- 2026-10-22 | Jerusalem Post | [US, Israel plan renewed Iran strikes after US midterms, focusing on short, intense attacks - report](https://www.jpost.com/middle-east/iran-news/article-912476)
+- 2026-10-22 | Israel National News | [Trump: We obliterated Iran's nuclear program, war will end 'very soon'](https://www.israelnationalnews.com/flashes/695829)
+- 2026-10-22 | Haaretz | [Report: U.S. and Israel have drawn up plans for Iran strikes after midterms](https://www.haaretz.com/israel-news/israel-security/2026-10-22/ty-article/u-s-and-israel-have-drawn-up-plans-for-iran-strikes-after-midterms-nyt-reports/000001a1-6122-da49-abe9-6ffa052f0000)
+- 2026-10-22 | Ynetnews | [US, Israel prepare for renewed strikes on Iran after midterms, report says](https://www.ynetnews.com/article/hk111url2mx)
+- 2026-10-22 | The Guardian World | [Some US diplomats told to leave Saudi Arabia amid Houthi attacks](https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks)
+- 2026-10-22 | Israel National News | [Report: US and Israel prepare new Iran strikes after midterm elections](https://www.israelnationalnews.com/flashes/695827)
+- 2026-10-22 | Al Jazeera | [Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’](https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss)
+- 2026-10-21 | CBS News | [U.S. ordering some government staff to depart Saudi Arabia](https://www.cbsnews.com/news/us-saudi-arabia-ordered-departure-houthis/)
+- 2026-10-21 | Israel National News | [Trump: Iran war was one of my administration's greatest achievements](https://www.israelnationalnews.com/flashes/695825)
+- 2026-10-21 | Al Jazeera | [US orders departure of personnel from Saudi Arabia, citing Houthi threat](https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss)

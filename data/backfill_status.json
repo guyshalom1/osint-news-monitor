@@ -1,15 +1,16 @@
 {
-  "checked": "2026-10-21T21:47+00:00",
+  "checked": "2026-10-22T04:48+00:00",
   "keywords": [
     "Iran",
     "Iranian",
     "Tehran"
   ],
   "days": {
-    "2026-10-15": 0,
     "2026-10-16": 0,
-    "2026-10-17": 247,
-    "2026-10-18": 248,
+    "2026-10-17": 0,
+    "2026-10-18": {
+      "skipped": "time budget used up"
+    },
     "2026-10-19": {
       "skipped": "time budget used up"
     },
@@ -17,6 +18,9 @@
       "skipped": "time budget used up"
     },
     "2026-10-21": {
+      "skipped": "time budget used up"
+    },
+    "2026-10-22": {
       "skipped": "time budget used up"
     }
   }
