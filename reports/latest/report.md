@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-22 11:54 UTC. Period: last 7 days. Matching articles: 350 (77 reprints removed).
+Generated 2026-10-22 17:14 UTC. Period: last 7 days. Matching articles: 347 (77 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -30,14 +30,14 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 47 |
-| JNS | 41 |
-| Al Jazeera | 38 |
-| Israel National News | 28 |
-| The Guardian World | 17 |
-| Ynetnews | 17 |
-| Israel Hayom | 16 |
+| Jerusalem Post | 46 |
+| JNS | 40 |
+| Al Jazeera | 39 |
+| Israel National News | 30 |
+| The Guardian World | 16 |
 | Haaretz | 16 |
+| Israel Hayom | 15 |
+| Ynetnews | 15 |
 | CBS News | 11 |
 | New York Times | 8 |
 | Fox News | 8 |
@@ -114,15 +114,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| Israel | 81 |
 | US | 81 |
+| Israel | 78 |
 | Trump | 65 |
-| Netanyahu | 59 |
-| Houthi | 37 |
-| Hormuz | 36 |
-| Israeli | 27 |
-| Saudi Arabia | 24 |
-| Strait | 21 |
+| Netanyahu | 60 |
+| Hormuz | 37 |
+| Houthi | 36 |
+| Israeli | 28 |
+| Saudi Arabia | 25 |
+| Strait | 22 |
 | Yemen | 16 |
 
 ## Israeli vs US media
@@ -131,23 +131,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 167 of 1280 (13.0%) | 33 of 458 (7.2%) |
-| Mentions Israel | 41% | 12% |
+| Articles about the topic | 164 of 1284 (12.8%) | 33 of 460 (7.2%) |
+| Mentions Israel | 39% | 12% |
 | Mentions Houthi | 4% | 39% |
-| Mentions Netanyahu | 29% | 6% |
-| Mentions Trump | 24% | 9% |
+| Mentions Netanyahu | 30% | 6% |
+| Mentions Trump | 25% | 9% |
 | Mentions Saudi Arabia | 3% | 27% |
-| Mentions US | 28% | 0% |
-| Mentions Hormuz | 7% | 12% |
-| Mentions Strait | 5% | 12% |
+| Mentions US | 29% | 0% |
+| Mentions Hormuz | 8% | 12% |
+| Mentions Strait | 6% | 12% |
 
 **Latest Israel headlines**
 
+- Jerusalem Post: [WATCH: Fueled by a life's mission, Netanyahu asks Israelis for time to 'finish the job' in Iran](https://www.jpost.com/israel-election-2026/article-912495)
+- JNS: [Former Iranian policeman, convicted in US of aiding sanctions evasion, faces Canadian deportation](https://www.jns.org/news/u-s-news/former-iranian-policeman-convicted-in-us-of-aiding-sanctions-evasion-faces-canadian-deportation)
+- Israel National News: [Who will bear the cost of confronting Iran?](https://www.israelnationalnews.com/flashes/695874)
+- Israel National News: [Trump: Iran trying to drive up oil prices ahead of US midterm elections](https://www.israelnationalnews.com/flashes/695873)
 - Jerusalem Post: [Netanyahu, Katz's warnings of Iranian strikes could spur regime into attacking first, officials say](https://www.jpost.com/israel-news/defense-news/article-912546)
-- Jerusalem Post: [Iran's floating oil reserves, used for China sales, completely depleted, analysts say - report](https://www.jpost.com/middle-east/iran-news/article-912528)
-- JNS: [Netanyahu denies report Trump blocked Iran strike](https://www.jns.org/news/israel-news/netanyahu-denies-report-trump-blocked-iran-strike)
-- Jerusalem Post: [Striking Iran ahead of elections could constitute political interference, officials warn - report](https://www.jpost.com/israel-election-2026/article-912507)
-- Jerusalem Post: [Iran preparing to reveal 'Father of All Bombs,' IRGC spox. warns in wake of Trump's MOAB threat](https://www.jpost.com/middle-east/iran-news/article-912509)
 
 **Latest US headlines**
 
@@ -161,13 +161,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-22 | Jerusalem Post | [WATCH: Fueled by a life's mission, Netanyahu asks Israelis for time to 'finish the job' in Iran](https://www.jpost.com/israel-election-2026/article-912495)
+- 2026-10-22 | JNS | [Former Iranian policeman, convicted in US of aiding sanctions evasion, faces Canadian deportation](https://www.jns.org/news/u-s-news/former-iranian-policeman-convicted-in-us-of-aiding-sanctions-evasion-faces-canadian-deportation)
+- 2026-10-22 | The Guardian World | [Revealed: billionaire Reform donor was in business with foundation linked to Iranian regime](https://www.theguardian.com/politics/2026/oct/22/reform-farage-donor-business-ties-iran-ayatollahs)
+- 2026-10-22 | Israel National News | [Who will bear the cost of confronting Iran?](https://www.israelnationalnews.com/flashes/695874)
+- 2026-10-22 | Israel National News | [Trump: Iran trying to drive up oil prices ahead of US midterm elections](https://www.israelnationalnews.com/flashes/695873)
+- 2026-10-22 | Al Jazeera | [Netanyahu promises Iran regime change: Can Israel topple Tehran government?](https://www.aljazeera.com/news/2026/10/22/netanyahu-promises-iran-regime-change-can-israel-topple-tehran-government?traffic_source=rss)
 - 2026-10-22 | Jerusalem Post | [Netanyahu, Katz's warnings of Iranian strikes could spur regime into attacking first, officials say](https://www.jpost.com/israel-news/defense-news/article-912546)
 - 2026-10-22 | Jerusalem Post | [Iran's floating oil reserves, used for China sales, completely depleted, analysts say - report](https://www.jpost.com/middle-east/iran-news/article-912528)
+- 2026-10-22 | Al Jazeera | [Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?](https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent?traffic_source=rss)
 - 2026-10-22 | JNS | [Netanyahu denies report Trump blocked Iran strike](https://www.jns.org/news/israel-news/netanyahu-denies-report-trump-blocked-iran-strike)
-- 2026-10-22 | NPR | [U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging](https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla)
-- 2026-10-22 | The Guardian World | [Oil prices jump to five-month high as attacks threaten global supply](https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply)
-- 2026-10-22 | Jerusalem Post | [Striking Iran ahead of elections could constitute political interference, officials warn - report](https://www.jpost.com/israel-election-2026/article-912507)
-- 2026-10-22 | New York Times | [Strike on Saudi Airport Kills 2 as U.S. Tells Some Diplomats to Leave](https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html)
-- 2026-10-22 | The Guardian World | [Israel using US-made electroshock weapons on Palestinian detainees | First Thing](https://www.theguardian.com/us-news/2026/oct/22/first-thing-israel-using-us-made-electroshock-weapons-on-palestinian-detainees)
-- 2026-10-22 | Jerusalem Post | [Iran preparing to reveal 'Father of All Bombs,' IRGC spox. warns in wake of Trump's MOAB threat](https://www.jpost.com/middle-east/iran-news/article-912509)
-- 2026-10-22 | Israel Hayom | [Mediators push for diplomatic breakthrough to avert US strikes on Iran](https://www.israelhayom.com/2026/10/22/diplomats-race-iran-escalation-talks/)
