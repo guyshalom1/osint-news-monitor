@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-23 17:13 UTC. Period: last 7 days. Matching articles: 307 (50 reprints removed).
+Generated 2026-10-23 21:31 UTC. Period: last 7 days. Matching articles: 314 (50 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -17,7 +17,6 @@ Generated 2026-10-23 17:13 UTC. Period: last 7 days. Matching articles: 307 (50 
 |---|---|---|
 | Iran says oil tankers struck by mines in Strait of Hormuz | 3 | 2026-10-17 |
 | Retail price impacts from Iran war uneven , add up before midterms – NBC 5 Dallas - Fort Worth | 3 | 2026-10-17 |
-| Iran's President: We're ready for dialogue but won't bow to coercion | 2 | 2026-10-16 |
 | Trump endorses Netanyahu days before Israeli election, warns US could face Iran alone if PM loses | 2 | 2026-10-18 |
 | Iran says its seven - day plan to reopen Hormuz Strait still on table | 2 | 2026-10-18 |
 | Germany summons Iranian envoy over plot to kill leaders of local Jewish organizations | 2 | 2026-10-19 |
@@ -30,12 +29,12 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 45 |
-| Al Jazeera | 44 |
+| Jerusalem Post | 48 |
+| Al Jazeera | 43 |
 | JNS | 34 |
-| Israel National News | 28 |
-| Haaretz | 19 |
-| The Guardian World | 14 |
+| Israel National News | 30 |
+| Haaretz | 21 |
+| The Guardian World | 15 |
 | Israel Hayom | 14 |
 | Ynetnews | 12 |
 | CBS News | 9 |
@@ -94,15 +93,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
+| Israel | 76 |
 | US | 75 |
-| Israel | 73 |
-| Trump | 66 |
-| Netanyahu | 60 |
-| Hormuz | 34 |
+| Trump | 68 |
+| Netanyahu | 61 |
+| Hormuz | 35 |
+| Israeli | 32 |
 | Houthi | 30 |
-| Israeli | 27 |
-| Saudi Arabia | 24 |
-| Strait | 20 |
+| Saudi Arabia | 25 |
+| Strait | 21 |
 | IRGC | 14 |
 
 ## Israeli vs US media
@@ -111,23 +110,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 155 of 1277 (12.1%) | 32 of 494 (6.5%) |
-| Mentions Israel | 39% | 16% |
+| Articles about the topic | 162 of 1276 (12.7%) | 32 of 498 (6.4%) |
+| Mentions Israel | 38% | 16% |
 | Mentions Trump | 28% | 16% |
-| Mentions Netanyahu | 32% | 9% |
-| Mentions Houthi | 5% | 31% |
+| Mentions Netanyahu | 31% | 9% |
+| Mentions Houthi | 4% | 31% |
 | Mentions Saudi Arabia | 5% | 25% |
-| Mentions US | 28% | 0% |
-| Mentions Israeli | 15% | 3% |
+| Mentions US | 27% | 0% |
+| Mentions Israeli | 18% | 3% |
 | Mentions Hormuz | 7% | 9% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Saudi missile plant expansion may produce more powerful missiles, study says](https://www.jpost.com/defense-and-tech/article-912662)
-- Jerusalem Post: [In Syria, Israel’s female field intelligence soldiers power the IDF's covert operations](https://www.jpost.com/israel-news/defense-news/article-912622)
-- Jerusalem Post: [Trump, the peacemaker, can make peace in Israel - opinion](https://www.jpost.com/opinion/article-912564)
-- Israel Hayom: [How Iran's strategy has shifted from nuclear denial to bomb threats](https://www.israelhayom.com/2026/10/23/how-irans-strategy-has-shifted-from-nuclear-denial-to-bomb-threats/)
-- Jerusalem Post: [Trump claims Iran is 'making up fake hits' on tankers to drive up oil costs ahead of elections](https://www.jpost.com/middle-east/iran-news/article-912639)
+- Jerusalem Post: [Voices from the Arab Press: Iran, the Kurds, and the future of Arab power](https://www.jpost.com/middle-east/article-912511)
+- Jerusalem Post: [Turkey says renewed attack on Iran would expand conflict, diplomacy only way](https://www.jpost.com/middle-east/iran-news/article-912670)
+- Jerusalem Post: [Iran threatens to sever Gulf internet cables in retaliation for renewed US, Israeli attacks](https://www.jpost.com/middle-east/iran-news/article-912668)
+- Israel National News: [Trump: We may do another little operation in Iran](https://www.israelnationalnews.com/flashes/695952)
+- Israel National News: [US Ambassador to Turkey: Could there be an Iran strike this weekend? Absolutely](https://www.israelnationalnews.com/flashes/695951)
 
 **Latest US headlines**
 
@@ -141,13 +140,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-23 | Jerusalem Post | [Voices from the Arab Press: Iran, the Kurds, and the future of Arab power](https://www.jpost.com/middle-east/article-912511)
+- 2026-10-23 | Jerusalem Post | [Turkey says renewed attack on Iran would expand conflict, diplomacy only way](https://www.jpost.com/middle-east/iran-news/article-912670)
+- 2026-10-23 | Jerusalem Post | [Iran threatens to sever Gulf internet cables in retaliation for renewed US, Israeli attacks](https://www.jpost.com/middle-east/iran-news/article-912668)
+- 2026-10-23 | Israel National News | [Trump: We may do another little operation in Iran](https://www.israelnationalnews.com/flashes/695952)
+- 2026-10-23 | Israel National News | [US Ambassador to Turkey: Could there be an Iran strike this weekend? Absolutely](https://www.israelnationalnews.com/flashes/695951)
+- 2026-10-23 | JNS | [The intelligence victory and strategic trap](https://www.jns.org/opinion/erfan-fard/the-intelligence-victory-and-strategic-trap)
+- 2026-10-23 | Haaretz | [Instead of averting sanctions, Netanyahu offers Israelis an Iran-style blockchain economy](https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/.premium/netanyahu-cant-block-sanctions-on-israel-so-he-offers-blockchain-instead/000001a1-69ff-d29a-a1a5-ebff39f00000)
+- 2026-10-23 | Israel National News | [Trump on Iran: We could take the whole country](https://www.israelnationalnews.com/flashes/695949)
+- 2026-10-23 | Haaretz | [Two Iranians to stand trial over alleged plot to attack Jews in the U.K. on Yom Kippur](https://www.haaretz.com/jewish/2026-10-23/ty-article/two-iranians-to-stand-trial-over-alleged-plot-to-attack-u-k-jews-on-yom-kippur/000001a1-6933-d46d-a1fd-e9334a400000)
 - 2026-10-23 | Jerusalem Post | [Saudi missile plant expansion may produce more powerful missiles, study says](https://www.jpost.com/defense-and-tech/article-912662)
-- 2026-10-23 | Jerusalem Post | [In Syria, Israel’s female field intelligence soldiers power the IDF's covert operations](https://www.jpost.com/israel-news/defense-news/article-912622)
-- 2026-10-23 | The Guardian World | [Oil price rises above $117 a barrel amid fears US will renew strikes on Iran](https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran)
-- 2026-10-23 | Al Jazeera | [European, Middle East ministers urge US-Iran diplomacy, not new attacks](https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks?traffic_source=rss)
-- 2026-10-23 | Al Jazeera | [‘Foreign policy is the economy’: How Iran war is shaping US midterm vote](https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss)
-- 2026-10-23 | Jerusalem Post | [Trump, the peacemaker, can make peace in Israel - opinion](https://www.jpost.com/opinion/article-912564)
-- 2026-10-23 | NPR | [Military reinforcements move to Mideast. And, millions of Americans vote early](https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc)
-- 2026-10-23 | CBS News | [Trump's U.N. envoy says Iran war could drag on for another year](https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/)
-- 2026-10-23 | NPR | [Retired general discusses the U.S. and Israeli plan for possible attack on Iran](https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran)
-- 2026-10-23 | Al Jazeera | [New electronics reach Iran, but prices soar as gov’t fees, US sanctions hit](https://www.aljazeera.com/features/2026/10/23/new-electronics-reach-iran-but-prices-soar-as-govt-fees-us-sanctions-hit?traffic_source=rss)
