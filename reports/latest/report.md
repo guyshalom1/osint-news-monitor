@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-23 04:51 UTC. Period: last 7 days. Matching articles: 307 (49 reprints removed).
+Generated 2026-10-23 11:41 UTC. Period: last 7 days. Matching articles: 308 (49 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-23 04:51 UTC. Period: last 7 days. Matching articles: 307 (49 
 - Peak coverage on 2026-10-18: 56 articles.
 - Most widely covered story: "Iran says oil tankers struck by mines in Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Jerusalem Post carried the most coverage (14% of articles).
+- Al Jazeera carried the most coverage (14% of articles).
 
 ## Stories covered by the most outlets
 
@@ -30,19 +30,19 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 44 |
-| Al Jazeera | 41 |
-| JNS | 38 |
+| Al Jazeera | 43 |
+| Jerusalem Post | 43 |
+| JNS | 35 |
 | Israel National News | 29 |
 | Haaretz | 19 |
 | The Guardian World | 14 |
 | Israel Hayom | 14 |
 | Ynetnews | 12 |
-| CBS News | 9 |
+| CBS News | 10 |
 | New York Times | 8 |
 | Fox News | 7 |
 | presstv.co.uk | 7 |
-| NPR | 4 |
+| NPR | 6 |
 | politicaldog101.com | 4 |
 | ABC News | 3 |
 | middleeasteye.net | 3 |
@@ -94,13 +94,13 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 74 |
+| US | 73 |
 | Israel | 72 |
-| Trump | 65 |
+| Trump | 64 |
 | Netanyahu | 60 |
-| Hormuz | 34 |
+| Hormuz | 35 |
 | Houthi | 29 |
-| Israeli | 27 |
+| Israeli | 28 |
 | Saudi Arabia | 23 |
 | Strait | 21 |
 | IRGC | 14 |
@@ -111,15 +111,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 158 of 1268 (12.5%) | 31 of 459 (6.8%) |
-| Mentions Israel | 37% | 16% |
-| Mentions Netanyahu | 31% | 10% |
-| Mentions Trump | 27% | 13% |
-| Mentions Houthi | 4% | 32% |
-| Mentions Saudi Arabia | 4% | 26% |
-| Mentions US | 28% | 0% |
-| Mentions Hormuz | 7% | 13% |
-| Mentions Strait | 6% | 13% |
+| Articles about the topic | 154 of 1268 (12.1%) | 34 of 477 (7.1%) |
+| Mentions Israel | 38% | 15% |
+| Mentions Trump | 27% | 15% |
+| Mentions Netanyahu | 32% | 9% |
+| Mentions Houthi | 4% | 29% |
+| Mentions US | 29% | 0% |
+| Mentions Saudi Arabia | 4% | 24% |
+| Mentions Israeli | 16% | 3% |
+| Mentions Hormuz | 7% | 12% |
 
 **Latest Israel headlines**
 
@@ -131,23 +131,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest US headlines**
 
+- NPR: [Military reinforcements move to Mideast. And, millions of Americans vote early](https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc)
+- CBS News: [Trump's U.N. envoy says Iran war could drag on for another year](https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/)
+- NPR: [Retired general discusses the U.S. and Israeli plan for possible attack on Iran](https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran)
 - NPR: [What we know about war plans that Trump and Netanyahu are drawing up](https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up)
 - New York Times: [Above Iran’s Capital, a Trump Impersonator Dances in a Jail Cell](https://www.nytimes.com/2026/10/22/world/europe/iran-trump-impersonator-billboard.html)
-- NPR: [U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging](https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla)
-- New York Times: [Strike on Saudi Airport Kills 2 as U.S. Tells Some Diplomats to Leave](https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html)
-- NPR: [U.S. and Israel are planning for a possible attack on Iran, source tells NPR](https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
+- 2026-10-23 | NPR | [Military reinforcements move to Mideast. And, millions of Americans vote early](https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc)
+- 2026-10-23 | CBS News | [Trump's U.N. envoy says Iran war could drag on for another year](https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/)
+- 2026-10-23 | NPR | [Retired general discusses the U.S. and Israeli plan for possible attack on Iran](https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran)
+- 2026-10-23 | Al Jazeera | [New electronics reach Iran, but prices soar as gov’t fees, US sanctions hit](https://www.aljazeera.com/features/2026/10/23/new-electronics-reach-iran-but-prices-soar-as-govt-fees-us-sanctions-hit?traffic_source=rss)
+- 2026-10-23 | Al Jazeera | [Are global oil reserves sufficient to withstand renewed US-Iran war?](https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss)
+- 2026-10-23 | Al Jazeera | [EU entering winter with lowest gas reserves on record, IEA boss warns](https://www.aljazeera.com/economy/2026/10/23/eu-entering-winter-with-lowest-gas-reserves-on-record-iea-boss-warns?traffic_source=rss)
 - 2026-10-23 | Jerusalem Post | [Trump claims Iran is 'making up fake hits' on tankers to drive up oil costs ahead of elections](https://www.jpost.com/middle-east/iran-news/article-912639)
 - 2026-10-23 | Israel National News | [Iranian lawmaker calls for nuclear response if US launches new attack](https://www.israelnationalnews.com/flashes/695902)
 - 2026-10-23 | Haaretz | [Amid dismal polls and defecting allies, Netanyahu looks to Iran for salvation](https://www.haaretz.com/israel-news/israel-politics/2026-10-23/ty-article/.premium/amid-dismal-polls-and-defecting-allies-netanyahu-looks-to-iran-for-salvation/000001a1-652f-d5c9-adad-f77fae600000)
 - 2026-10-23 | Haaretz | [Netanyahu and Trump's private war could bring Iran closer to a regional deal](https://www.haaretz.com/israel-news/israel-security/2026-10-23/ty-article/.premium/netanyahu-and-trumps-private-war-could-bring-iran-closer-to-a-regional-deal/000001a1-65cb-d29a-a1a5-e7eb77fb0000)
-- 2026-10-23 | Haaretz | [Will post-election uncertainty push Netanyahu toward a new Iran confrontation?](https://www.haaretz.com/israel-news/israel-security/2026-10-23/ty-article/.premium/will-post-election-uncertainty-push-netanyahu-toward-a-new-iran-confrontation/000001a1-64fd-d29a-a1a5-e6ffa3150000)
-- 2026-10-23 | Israel National News | [Trump: Iran war will end very soon, gas prices will tumble](https://www.israelnationalnews.com/flashes/695899)
-- 2026-10-23 | Al Jazeera | [Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran](https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran?traffic_source=rss)
-- 2026-10-22 | NPR | [What we know about war plans that Trump and Netanyahu are drawing up](https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up)
-- 2026-10-22 | New York Times | [Above Iran’s Capital, a Trump Impersonator Dances in a Jail Cell](https://www.nytimes.com/2026/10/22/world/europe/iran-trump-impersonator-billboard.html)
-- 2026-10-22 | Al Jazeera | [Epstein, Iran and ‘drain the swamp’: Have Republicans shifted before vote?](https://www.aljazeera.com/news/2026/10/22/epstein-iran-and-drain-the-swamp-have-republicans-shifted-before-vote?traffic_source=rss)
