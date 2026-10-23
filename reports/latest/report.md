@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-23 11:41 UTC. Period: last 7 days. Matching articles: 308 (49 reprints removed).
+Generated 2026-10-23 17:13 UTC. Period: last 7 days. Matching articles: 307 (50 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-23 11:41 UTC. Period: last 7 days. Matching articles: 308 (49 
 - Peak coverage on 2026-10-18: 56 articles.
 - Most widely covered story: "Iran says oil tankers struck by mines in Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Al Jazeera carried the most coverage (14% of articles).
+- Jerusalem Post carried the most coverage (15% of articles).
 
 ## Stories covered by the most outlets
 
@@ -30,16 +30,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Al Jazeera | 43 |
-| Jerusalem Post | 43 |
-| JNS | 35 |
-| Israel National News | 29 |
+| Jerusalem Post | 45 |
+| Al Jazeera | 44 |
+| JNS | 34 |
+| Israel National News | 28 |
 | Haaretz | 19 |
 | The Guardian World | 14 |
 | Israel Hayom | 14 |
 | Ynetnews | 12 |
-| CBS News | 10 |
-| New York Times | 8 |
+| CBS News | 9 |
+| New York Times | 7 |
 | Fox News | 7 |
 | presstv.co.uk | 7 |
 | NPR | 6 |
@@ -94,15 +94,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 73 |
-| Israel | 72 |
-| Trump | 64 |
+| US | 75 |
+| Israel | 73 |
+| Trump | 66 |
 | Netanyahu | 60 |
-| Hormuz | 35 |
-| Houthi | 29 |
-| Israeli | 28 |
-| Saudi Arabia | 23 |
-| Strait | 21 |
+| Hormuz | 34 |
+| Houthi | 30 |
+| Israeli | 27 |
+| Saudi Arabia | 24 |
+| Strait | 20 |
 | IRGC | 14 |
 
 ## Israeli vs US media
@@ -111,23 +111,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 154 of 1268 (12.1%) | 34 of 477 (7.1%) |
-| Mentions Israel | 38% | 15% |
-| Mentions Trump | 27% | 15% |
+| Articles about the topic | 155 of 1277 (12.1%) | 32 of 494 (6.5%) |
+| Mentions Israel | 39% | 16% |
+| Mentions Trump | 28% | 16% |
 | Mentions Netanyahu | 32% | 9% |
-| Mentions Houthi | 4% | 29% |
-| Mentions US | 29% | 0% |
-| Mentions Saudi Arabia | 4% | 24% |
-| Mentions Israeli | 16% | 3% |
-| Mentions Hormuz | 7% | 12% |
+| Mentions Houthi | 5% | 31% |
+| Mentions Saudi Arabia | 5% | 25% |
+| Mentions US | 28% | 0% |
+| Mentions Israeli | 15% | 3% |
+| Mentions Hormuz | 7% | 9% |
 
 **Latest Israel headlines**
 
+- Jerusalem Post: [Saudi missile plant expansion may produce more powerful missiles, study says](https://www.jpost.com/defense-and-tech/article-912662)
+- Jerusalem Post: [In Syria, Israel’s female field intelligence soldiers power the IDF's covert operations](https://www.jpost.com/israel-news/defense-news/article-912622)
+- Jerusalem Post: [Trump, the peacemaker, can make peace in Israel - opinion](https://www.jpost.com/opinion/article-912564)
+- Israel Hayom: [How Iran's strategy has shifted from nuclear denial to bomb threats](https://www.israelhayom.com/2026/10/23/how-irans-strategy-has-shifted-from-nuclear-denial-to-bomb-threats/)
 - Jerusalem Post: [Trump claims Iran is 'making up fake hits' on tankers to drive up oil costs ahead of elections](https://www.jpost.com/middle-east/iran-news/article-912639)
-- Israel National News: [Iranian lawmaker calls for nuclear response if US launches new attack](https://www.israelnationalnews.com/flashes/695902)
-- Haaretz: [Amid dismal polls and defecting allies, Netanyahu looks to Iran for salvation](https://www.haaretz.com/israel-news/israel-politics/2026-10-23/ty-article/.premium/amid-dismal-polls-and-defecting-allies-netanyahu-looks-to-iran-for-salvation/000001a1-652f-d5c9-adad-f77fae600000)
-- Haaretz: [Netanyahu and Trump's private war could bring Iran closer to a regional deal](https://www.haaretz.com/israel-news/israel-security/2026-10-23/ty-article/.premium/netanyahu-and-trumps-private-war-could-bring-iran-closer-to-a-regional-deal/000001a1-65cb-d29a-a1a5-e7eb77fb0000)
-- Haaretz: [Will post-election uncertainty push Netanyahu toward a new Iran confrontation?](https://www.haaretz.com/israel-news/israel-security/2026-10-23/ty-article/.premium/will-post-election-uncertainty-push-netanyahu-toward-a-new-iran-confrontation/000001a1-64fd-d29a-a1a5-e6ffa3150000)
 
 **Latest US headlines**
 
@@ -141,13 +141,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-23 | Jerusalem Post | [Saudi missile plant expansion may produce more powerful missiles, study says](https://www.jpost.com/defense-and-tech/article-912662)
+- 2026-10-23 | Jerusalem Post | [In Syria, Israel’s female field intelligence soldiers power the IDF's covert operations](https://www.jpost.com/israel-news/defense-news/article-912622)
+- 2026-10-23 | The Guardian World | [Oil price rises above $117 a barrel amid fears US will renew strikes on Iran](https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran)
+- 2026-10-23 | Al Jazeera | [European, Middle East ministers urge US-Iran diplomacy, not new attacks](https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks?traffic_source=rss)
+- 2026-10-23 | Al Jazeera | [‘Foreign policy is the economy’: How Iran war is shaping US midterm vote](https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss)
+- 2026-10-23 | Jerusalem Post | [Trump, the peacemaker, can make peace in Israel - opinion](https://www.jpost.com/opinion/article-912564)
 - 2026-10-23 | NPR | [Military reinforcements move to Mideast. And, millions of Americans vote early](https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc)
 - 2026-10-23 | CBS News | [Trump's U.N. envoy says Iran war could drag on for another year](https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/)
 - 2026-10-23 | NPR | [Retired general discusses the U.S. and Israeli plan for possible attack on Iran](https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran)
 - 2026-10-23 | Al Jazeera | [New electronics reach Iran, but prices soar as gov’t fees, US sanctions hit](https://www.aljazeera.com/features/2026/10/23/new-electronics-reach-iran-but-prices-soar-as-govt-fees-us-sanctions-hit?traffic_source=rss)
-- 2026-10-23 | Al Jazeera | [Are global oil reserves sufficient to withstand renewed US-Iran war?](https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss)
-- 2026-10-23 | Al Jazeera | [EU entering winter with lowest gas reserves on record, IEA boss warns](https://www.aljazeera.com/economy/2026/10/23/eu-entering-winter-with-lowest-gas-reserves-on-record-iea-boss-warns?traffic_source=rss)
-- 2026-10-23 | Jerusalem Post | [Trump claims Iran is 'making up fake hits' on tankers to drive up oil costs ahead of elections](https://www.jpost.com/middle-east/iran-news/article-912639)
-- 2026-10-23 | Israel National News | [Iranian lawmaker calls for nuclear response if US launches new attack](https://www.israelnationalnews.com/flashes/695902)
-- 2026-10-23 | Haaretz | [Amid dismal polls and defecting allies, Netanyahu looks to Iran for salvation](https://www.haaretz.com/israel-news/israel-politics/2026-10-23/ty-article/.premium/amid-dismal-polls-and-defecting-allies-netanyahu-looks-to-iran-for-salvation/000001a1-652f-d5c9-adad-f77fae600000)
-- 2026-10-23 | Haaretz | [Netanyahu and Trump's private war could bring Iran closer to a regional deal](https://www.haaretz.com/israel-news/israel-security/2026-10-23/ty-article/.premium/netanyahu-and-trumps-private-war-could-bring-iran-closer-to-a-regional-deal/000001a1-65cb-d29a-a1a5-e7eb77fb0000)
