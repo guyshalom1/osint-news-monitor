@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-24 11:03 UTC. Period: last 7 days. Matching articles: 349 (100 reprints removed).
+Generated 2026-10-24 16:02 UTC. Period: last 7 days. Matching articles: 348 (99 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-24 11:03 UTC. Period: last 7 days. Matching articles: 349 (100
 - Peak coverage on 2026-10-21: 72 articles.
 - Most widely covered story: "Iran says oil tankers struck by mines in Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Jerusalem Post carried the most coverage (13% of articles).
+- Jerusalem Post carried the most coverage (14% of articles).
 
 ## Stories covered by the most outlets
 
@@ -30,18 +30,18 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 46 |
-| Al Jazeera | 42 |
-| JNS | 34 |
+| Jerusalem Post | 47 |
+| Al Jazeera | 43 |
+| JNS | 32 |
 | Israel National News | 30 |
 | Haaretz | 23 |
-| The Guardian World | 16 |
+| The Guardian World | 15 |
 | Israel Hayom | 14 |
 | Ynetnews | 12 |
 | CBS News | 10 |
 | New York Times | 8 |
 | NPR | 7 |
-| Fox News | 7 |
+| Fox News | 6 |
 | theyeshivaworld.com | 6 |
 | presstv.co.uk | 6 |
 | jpost.com | 5 |
@@ -94,6 +94,7 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | dunyanews.tv | 1 |
 | prokerala.com | 1 |
 | europesun.com | 1 |
+| peakoil.com | 1 |
 | moneycontrol.com | 1 |
 | sputnikglobe.com | 1 |
 | tribune.com.pk | 1 |
@@ -114,16 +115,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 84 |
-| Israel | 79 |
-| Trump | 69 |
+| US | 86 |
+| Israel | 80 |
+| Trump | 70 |
 | Netanyahu | 63 |
-| Hormuz | 37 |
+| Hormuz | 35 |
 | Israeli | 32 |
-| Houthi | 27 |
-| Strait | 22 |
-| Saudi Arabia | 21 |
-| Middle East | 18 |
+| Houthi | 26 |
+| Saudi Arabia | 20 |
+| Strait | 20 |
+| Middle East | 19 |
 
 ## Israeli vs US media
 
@@ -131,23 +132,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 162 of 1282 (12.6%) | 35 of 501 (7.0%) |
-| Mentions Israel | 38% | 14% |
-| Mentions Trump | 28% | 14% |
+| Articles about the topic | 161 of 1287 (12.5%) | 34 of 494 (6.9%) |
+| Mentions Israel | 39% | 15% |
+| Mentions Trump | 28% | 15% |
 | Mentions Netanyahu | 31% | 9% |
-| Mentions Houthi | 4% | 31% |
+| Mentions Houthi | 4% | 32% |
 | Mentions US | 28% | 0% |
-| Mentions Saudi Arabia | 4% | 23% |
+| Mentions Saudi Arabia | 4% | 24% |
 | Mentions Israeli | 17% | 3% |
-| Mentions Hormuz | 7% | 9% |
+| Mentions Yemen | 0% | 15% |
 
 **Latest Israel headlines**
 
+- Jerusalem Post: [US updates Israel travel warning, cites growing threat from Iran-backed Houthis](https://www.jpost.com/israel-news/article-912701)
 - Haaretz: [U.S. has repeatedly asked Musk to switch Starlink on or off in Iran](https://www.haaretz.com/us-news/2026-10-24/ty-article/u-s-has-repeatedly-asked-musk-to-switch-starlink-on-or-off-in-iran/000001a1-6cfe-d29a-a1a5-eeff9b0e0000)
 - Haaretz: [Report: Iran steps up efforts to assassinate U.S. officials in Middle East, officials say](https://www.haaretz.com/middle-east-news/iran/2026-10-24/ty-article/report-iran-steps-up-efforts-to-assassinate-u-s-officials-in-middle-east/000001a1-6c48-d34e-a1b9-fe4f04050000)
 - Jerusalem Post: [Rubio received intel warning of Iranian plots against US diplomats, official confirms to ‘Post’](https://www.jpost.com/middle-east/iran-news/article-912677)
 - Jerusalem Post: [Trump says US may renew strikes against Iran, 'do another little Epic Fury'](https://www.jpost.com/international/article-912674)
-- Haaretz: [Iran has plans to hit Gulf undersea cables if war resumes, officials say](https://www.haaretz.com/middle-east-news/iran/2026-10-24/ty-article/iran-has-plans-to-hit-gulf-undersea-cables-if-war-resumes-officials-say/000001a1-6a66-d29a-a1a5-eae7e53d0000)
 
 **Latest US headlines**
 
@@ -161,6 +162,9 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-24 | Jerusalem Post | [US updates Israel travel warning, cites growing threat from Iran-backed Houthis](https://www.jpost.com/israel-news/article-912701)
+- 2026-10-24 | Al Jazeera | [Iran says won’t allow US warships to get close as Trump ponders new attacks](https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss)
+- 2026-10-24 | Al Jazeera | [Is Iran planning attacks on Americans; why is the US on alert?](https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss)
 - 2026-10-24 | Haaretz | [U.S. has repeatedly asked Musk to switch Starlink on or off in Iran](https://www.haaretz.com/us-news/2026-10-24/ty-article/u-s-has-repeatedly-asked-musk-to-switch-starlink-on-or-off-in-iran/000001a1-6cfe-d29a-a1a5-eeff9b0e0000)
 - 2026-10-24 | BBC Middle East | [Iran trying harder to target US personnel in Middle East, intelligence chief warns](https://www.bbc.co.uk/news/articles/cmn8w1ddg2x9o?at_medium=RSS&at_campaign=rss)
 - 2026-10-24 | NPR | [Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels](https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels)
@@ -168,6 +172,3 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 - 2026-10-24 | New York Times | [Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say](https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html)
 - 2026-10-24 | CBS News | [Iran has "increased efforts to target U.S. personnel," intel chief warns](https://www.cbsnews.com/news/iran-target-u-s-personnel/)
 - 2026-10-24 | Jerusalem Post | [Rubio received intel warning of Iranian plots against US diplomats, official confirms to ‘Post’](https://www.jpost.com/middle-east/iran-news/article-912677)
-- 2026-10-24 | Jerusalem Post | [Trump says US may renew strikes against Iran, 'do another little Epic Fury'](https://www.jpost.com/international/article-912674)
-- 2026-10-24 | The Guardian World | [Rubio tells Cubans ‘now is the time’ to act to see political change](https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump)
-- 2026-10-24 | Al Jazeera | [Iran war live: Saudi downs Houthi ballistic missile targeting Riyadh](https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss)
