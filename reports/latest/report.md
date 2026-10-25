@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-24 20:54 UTC. Period: last 7 days. Matching articles: 333 (72 reprints removed).
+Generated 2026-10-25 04:45 UTC. Period: last 7 days. Matching articles: 333 (71 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-24 20:54 UTC. Period: last 7 days. Matching articles: 333 (72 
 - Peak coverage on 2026-10-21: 72 articles.
 - Most widely covered story: "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Jerusalem Post carried the most coverage (15% of articles).
+- Jerusalem Post carried the most coverage (14% of articles).
 
 ## Stories covered by the most outlets
 
@@ -30,24 +30,24 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 49 |
-| Al Jazeera | 42 |
-| Israel National News | 31 |
-| JNS | 31 |
-| Haaretz | 24 |
+| Jerusalem Post | 47 |
+| Al Jazeera | 43 |
+| Israel National News | 32 |
+| JNS | 32 |
+| Haaretz | 25 |
 | The Guardian World | 15 |
 | Israel Hayom | 14 |
 | Ynetnews | 12 |
 | CBS News | 10 |
-| New York Times | 8 |
+| New York Times | 9 |
 | NPR | 7 |
 | Fox News | 6 |
 | theyeshivaworld.com | 6 |
 | politicaldog101.com | 5 |
 | ABC News | 3 |
-| middleeasteye.net | 3 |
 | trend.az | 3 |
 | wrp.org.uk | 3 |
+| middleeasteye.net | 2 |
 | aljazeera.com | 2 |
 | article.wn.com | 2 |
 | pjmedia.com | 2 |
@@ -98,23 +98,21 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | moneycontrol.com | 1 |
 | sputnikglobe.com | 1 |
 | tribune.com.pk | 1 |
-| bignewsnetwork.com | 1 |
-| nbcmiami.com | 1 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 86 |
-| Israel | 80 |
-| Trump | 69 |
+| US | 88 |
+| Israel | 81 |
+| Trump | 72 |
 | Netanyahu | 64 |
-| Israeli | 31 |
-| Hormuz | 30 |
-| Houthi | 24 |
+| Israeli | 30 |
+| Hormuz | 26 |
+| Houthi | 23 |
 | Middle East | 19 |
 | Saudi Arabia | 19 |
-| Strait | 17 |
+| Report | 16 |
 
 ## Israeli vs US media
 
@@ -122,43 +120,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 163 of 1282 (12.7%) | 35 of 493 (7.1%) |
-| Mentions Israel | 38% | 14% |
+| Articles about the topic | 164 of 1291 (12.7%) | 36 of 490 (7.3%) |
+| Mentions Israel | 38% | 17% |
 | Mentions Trump | 27% | 14% |
-| Mentions Netanyahu | 31% | 9% |
-| Mentions Houthi | 4% | 31% |
-| Mentions US | 28% | 3% |
-| Mentions Saudi Arabia | 4% | 23% |
-| Mentions Israeli | 17% | 3% |
+| Mentions Netanyahu | 31% | 8% |
+| Mentions Houthi | 3% | 31% |
+| Mentions US | 29% | 3% |
+| Mentions Saudi Arabia | 4% | 22% |
+| Mentions Israeli | 16% | 3% |
 | Mentions Yemen | 0% | 14% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Iraq believes Israel may have struck militia weapons supplied by Iran - report](https://www.jpost.com/middle-east/article-912720)
-- Jerusalem Post: ['Bibicoin will destroy Israel': Eisenkot slams Netanyahu's crypto plan for alternative funding](https://www.jpost.com/israel-election-2026/article-912715)
-- Israel National News: [US intelligence warns of advanced Iranian assassination plots](https://www.israelnationalnews.com/flashes/695964)
-- Haaretz: [Iranian hackers expose senior IDF commander, leak data endangering top officers](https://www.haaretz.com/israel-news/security-aviation/2026-10-24/ty-article/.premium/iranian-hackers-expose-senior-idf-commander-leak-data-endangering-top-officers/000001a1-6ea2-d7e8-a9bf-eee2e9a80000)
-- Jerusalem Post: [US updates Israel travel warning, cites growing threat from Iran-backed Houthis](https://www.jpost.com/israel-news/article-912701)
+- Jerusalem Post: [Tehran threatens strikes on energy, civilian targets, and nuclear escalation if attacked](https://www.jpost.com/middle-east/iran-news/article-912728)
+- Israel National News: [Trump on Iran: We have to make sure they never have a nuclear weapon](https://www.israelnationalnews.com/flashes/695975)
+- Haaretz: [Four more years of Netanyahu will bring Israel to its knees](https://www.haaretz.com/opinion/2026-10-25/ty-article-opinion/.premium/four-more-years-of-netanyahu-will-bring-israel-to-its-knees/000001a1-6f34-d9e6-a5b1-6f7d34b60000)
+- JNS: [The unholy alliance between socialists and Islamists](https://www.jns.org/opinion/daniel-winston/the-unholy-alliance-between-socialists-and-islamists)
+- Israel National News: [Report: US military has strike plans ready for Iran](https://www.israelnationalnews.com/flashes/695972)
 
 **Latest US headlines**
 
+- New York Times: [Iranians Face Anxious Wait as Threat of Attack Looms](https://www.nytimes.com/2026/10/24/world/middleeast/iranians-face-anxious-wait-as-threat-of-attack-looms.html)
 - ABC News: [Iran remains open to talks with US under Pakistan-brokered deal, envoy says](https://abcnews.com/International/wireStory/iran-remains-open-talks-us-pakistan-brokered-deal-137539415)
 - ABC News: [Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels](https://abcnews.com/International/wireStory/drinking-water-supplies-dwindle-yemeni-city-besieged-houthi-137532423)
 - NPR: [Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels](https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels)
 - New York Times: [Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say](https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html)
-- CBS News: [Iran has "increased efforts to target U.S. personnel," intel chief warns](https://www.cbsnews.com/news/iran-target-u-s-personnel/)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
+- 2026-10-25 | Jerusalem Post | [Tehran threatens strikes on energy, civilian targets, and nuclear escalation if attacked](https://www.jpost.com/middle-east/iran-news/article-912728)
+- 2026-10-25 | Israel National News | [Trump on Iran: We have to make sure they never have a nuclear weapon](https://www.israelnationalnews.com/flashes/695975)
+- 2026-10-25 | Haaretz | [Four more years of Netanyahu will bring Israel to its knees](https://www.haaretz.com/opinion/2026-10-25/ty-article-opinion/.premium/four-more-years-of-netanyahu-will-bring-israel-to-its-knees/000001a1-6f34-d9e6-a5b1-6f7d34b60000)
+- 2026-10-25 | JNS | [The unholy alliance between socialists and Islamists](https://www.jns.org/opinion/daniel-winston/the-unholy-alliance-between-socialists-and-islamists)
+- 2026-10-25 | New York Times | [Iranians Face Anxious Wait as Threat of Attack Looms](https://www.nytimes.com/2026/10/24/world/middleeast/iranians-face-anxious-wait-as-threat-of-attack-looms.html)
+- 2026-10-25 | Al Jazeera | [Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats](https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss)
+- 2026-10-25 | Israel National News | [Report: US military has strike plans ready for Iran](https://www.israelnationalnews.com/flashes/695972)
+- 2026-10-25 | Al Jazeera | [Iran war live: Trump hints at possible Sunday Iran attack or deal reached](https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss)
 - 2026-10-24 | Jerusalem Post | [Iraq believes Israel may have struck militia weapons supplied by Iran - report](https://www.jpost.com/middle-east/article-912720)
-- 2026-10-24 | Jerusalem Post | ['Bibicoin will destroy Israel': Eisenkot slams Netanyahu's crypto plan for alternative funding](https://www.jpost.com/israel-election-2026/article-912715)
-- 2026-10-24 | Israel National News | [US intelligence warns of advanced Iranian assassination plots](https://www.israelnationalnews.com/flashes/695964)
-- 2026-10-24 | Haaretz | [Iranian hackers expose senior IDF commander, leak data endangering top officers](https://www.haaretz.com/israel-news/security-aviation/2026-10-24/ty-article/.premium/iranian-hackers-expose-senior-idf-commander-leak-data-endangering-top-officers/000001a1-6ea2-d7e8-a9bf-eee2e9a80000)
-- 2026-10-24 | ABC News | [Iran remains open to talks with US under Pakistan-brokered deal, envoy says](https://abcnews.com/International/wireStory/iran-remains-open-talks-us-pakistan-brokered-deal-137539415)
-- 2026-10-24 | Jerusalem Post | [US updates Israel travel warning, cites growing threat from Iran-backed Houthis](https://www.jpost.com/israel-news/article-912701)
-- 2026-10-24 | Al Jazeera | [Iran says won’t allow US warships to get close as Trump ponders new attacks](https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss)
-- 2026-10-24 | Al Jazeera | [Is Iran planning attacks on Americans; why is the US on alert?](https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss)
-- 2026-10-24 | Haaretz | [U.S. has repeatedly asked Musk to switch Starlink on or off in Iran](https://www.haaretz.com/us-news/2026-10-24/ty-article/u-s-has-repeatedly-asked-musk-to-switch-starlink-on-or-off-in-iran/000001a1-6cfe-d29a-a1a5-eeff9b0e0000)
-- 2026-10-24 | BBC Middle East | [Iran trying harder to target US personnel in Middle East, intelligence chief warns](https://www.bbc.co.uk/news/articles/cmn8w1ddg2x9o?at_medium=RSS&at_campaign=rss)
+- 2026-10-24 | Al Jazeera | [Iran blames US for deal failure, urges new try amid fear of new attacks](https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss)
