@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-25 11:29 UTC. Period: last 7 days. Matching articles: 336 (71 reprints removed).
+Generated 2026-10-25 16:22 UTC. Period: last 7 days. Matching articles: 334 (71 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -9,7 +9,7 @@ Generated 2026-10-25 11:29 UTC. Period: last 7 days. Matching articles: 336 (71 
 - Peak coverage on 2026-10-21: 72 articles.
 - Most widely covered story: "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base", reported by 3 outlets.
 - Spike on 2026-10-21, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, The Guardian World, Ynetnews, al-monitor.com, aljazeera.com, article.wn.com, asiaone.com, channelnewsasia.com, en.apa.az, english.news.cn, foxcarolina.com, investinglive.com, israelnationalnews.com, japantoday.com, jpost.com, middleeaststar.com, mymotherlode.com, naturalnews.com, navytimes.com, nypost.com, pjmedia.com, theepochtimes.com, trend.az, wjdx.iheart.com.
-- Jerusalem Post carried the most coverage (14% of articles).
+- Al Jazeera carried the most coverage (14% of articles).
 
 ## Stories covered by the most outlets
 
@@ -30,16 +30,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 46 |
-| Al Jazeera | 45 |
-| Israel National News | 33 |
-| JNS | 31 |
-| Haaretz | 26 |
-| Israel Hayom | 15 |
+| Al Jazeera | 46 |
+| Jerusalem Post | 45 |
+| JNS | 32 |
+| Israel National News | 31 |
+| Haaretz | 25 |
 | The Guardian World | 15 |
+| Israel Hayom | 14 |
 | Ynetnews | 12 |
+| New York Times | 10 |
 | CBS News | 10 |
-| New York Times | 9 |
 | NPR | 7 |
 | Fox News | 6 |
 | theyeshivaworld.com | 6 |
@@ -103,16 +103,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 89 |
-| Israel | 83 |
-| Trump | 74 |
+| US | 86 |
+| Israel | 80 |
+| Trump | 73 |
 | Netanyahu | 63 |
 | Israeli | 31 |
 | Hormuz | 26 |
-| Houthi | 23 |
+| Houthi | 24 |
 | Middle East | 19 |
-| Saudi Arabia | 19 |
-| Report | 17 |
+| Report | 18 |
+| Saudi Arabia | 18 |
 
 ## Israeli vs US media
 
@@ -120,43 +120,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 165 of 1297 (12.7%) | 36 of 492 (7.3%) |
-| Mentions Israel | 39% | 17% |
+| Articles about the topic | 161 of 1302 (12.4%) | 37 of 495 (7.5%) |
+| Mentions Israel | 38% | 16% |
 | Mentions Trump | 27% | 14% |
-| Mentions Netanyahu | 30% | 8% |
-| Mentions Houthi | 3% | 31% |
-| Mentions US | 28% | 3% |
-| Mentions Saudi Arabia | 4% | 22% |
+| Mentions Netanyahu | 31% | 8% |
+| Mentions Houthi | 3% | 32% |
+| Mentions US | 27% | 3% |
+| Mentions Saudi Arabia | 3% | 22% |
 | Mentions Israeli | 17% | 3% |
 | Mentions Yemen | 0% | 14% |
 
 **Latest Israel headlines**
 
-- Haaretz: [Report: Iranian officials say U.S. diplomats 'fair game' as war tensions mount](https://www.haaretz.com/middle-east-news/iran/2026-10-25/ty-article/report-iranian-officials-say-u-s-diplomats-fair-game-as-war-tensions-mount/000001a1-71d7-d46d-a1fd-f1d7fbb40000)
-- JNS: [Israel not initiating Iran campaign before election, Katz says](https://www.jns.org/news/israel-news/israel-not-initiating-iran-campaign-before-election-katz-says)
-- JNS: [The Netanyahu Doctrine: How Israeli military primacy could reshape Saudi security](https://www.jns.org/opinion/barak-seener/the-netanyahu-doctrine-how-israeli-military-primacy-could-reshape-saudi-security)
-- Israel National News: [IDF eliminates two terrorists who transferred millions to Hamas](https://www.israelnationalnews.com/flashes/695989)
-- Israel Hayom: [Netanyahu could order strike on Iran even if he loses election](https://www.israelhayom.com/2026/10/25/netanyahu-could-order-strike-on-iran-even-if-he-loses-election/)
+- Jerusalem Post: [Ex-Mossad chief Barnea intended for Iran to see Israel's operations to overwhelm IRGC](https://www.jpost.com/middle-east/iran-news/article-912809)
+- Jerusalem Post: [Netanyahu shares AI-generated image of nuclear explosion in Tel Aviv, two days before election](https://www.jpost.com/israel-election-2026/article-912797)
+- Israel Hayom: [Iran's threat remains as Israel risks an endless cycle of war](https://www.israelhayom.com/2026/10/25/irans-threat-remains-as-israel-risks-an-endless-cycle-of-war/)
+- Jerusalem Post: [Iraq braces for renewed Iran conflict after 1,000 strikes on Kurdistan, 600 militia attacks](https://www.jpost.com/middle-east/article-912785)
+- Israel Hayom: [Ex-US sanctions architect dismantles Netanyahu's crypto escape plan](https://www.israelhayom.com/2026/10/25/malki-israel-sanctions-blockchain-bypass-economy/)
 
 **Latest US headlines**
 
+- New York Times: [Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes](https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html)
 - New York Times: [Iranians Face Anxious Wait as Threat of Attack Looms](https://www.nytimes.com/2026/10/24/world/middleeast/iranians-face-anxious-wait-as-threat-of-attack-looms.html)
 - ABC News: [Iran remains open to talks with US under Pakistan-brokered deal, envoy says](https://abcnews.com/International/wireStory/iran-remains-open-talks-us-pakistan-brokered-deal-137539415)
 - ABC News: [Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels](https://abcnews.com/International/wireStory/drinking-water-supplies-dwindle-yemeni-city-besieged-houthi-137532423)
 - NPR: [Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels](https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels)
-- New York Times: [Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say](https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
-- 2026-10-25 | Haaretz | [Report: Iranian officials say U.S. diplomats 'fair game' as war tensions mount](https://www.haaretz.com/middle-east-news/iran/2026-10-25/ty-article/report-iranian-officials-say-u-s-diplomats-fair-game-as-war-tensions-mount/000001a1-71d7-d46d-a1fd-f1d7fbb40000)
-- 2026-10-25 | JNS | [Israel not initiating Iran campaign before election, Katz says](https://www.jns.org/news/israel-news/israel-not-initiating-iran-campaign-before-election-katz-says)
-- 2026-10-25 | Al Jazeera | [Iran’s authorities take ‘self-sacrifice’ mobilisation campaign nationwide](https://www.aljazeera.com/news/2026/10/25/irans-authorities-take-self-sacrifice-mobilisation-campaign-nationwide?traffic_source=rss)
-- 2026-10-25 | Al Jazeera | [Trump mocks reporter asking about Iran strikes, as Tehran says US derailed](https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss)
-- 2026-10-25 | JNS | [The Netanyahu Doctrine: How Israeli military primacy could reshape Saudi security](https://www.jns.org/opinion/barak-seener/the-netanyahu-doctrine-how-israeli-military-primacy-could-reshape-saudi-security)
-- 2026-10-25 | Israel National News | [IDF eliminates two terrorists who transferred millions to Hamas](https://www.israelnationalnews.com/flashes/695989)
-- 2026-10-25 | Al Jazeera | [Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms](https://www.aljazeera.com/news/2026/10/25/obamas-ohio-michigan-speeches-key-takeaways-on-trump-iran-war-midterms?traffic_source=rss)
-- 2026-10-25 | Israel Hayom | [Netanyahu could order strike on Iran even if he loses election](https://www.israelhayom.com/2026/10/25/netanyahu-could-order-strike-on-iran-even-if-he-loses-election/)
-- 2026-10-25 | Jerusalem Post | [Tehran threatens strikes on energy, civilian targets, and nuclear escalation if attacked](https://www.jpost.com/middle-east/iran-news/article-912728)
-- 2026-10-25 | Israel National News | [Trump on Iran: We have to make sure they never have a nuclear weapon](https://www.israelnationalnews.com/flashes/695975)
+- 2026-10-25 | Jerusalem Post | [Ex-Mossad chief Barnea intended for Iran to see Israel's operations to overwhelm IRGC](https://www.jpost.com/middle-east/iran-news/article-912809)
+- 2026-10-25 | Jerusalem Post | [Netanyahu shares AI-generated image of nuclear explosion in Tel Aviv, two days before election](https://www.jpost.com/israel-election-2026/article-912797)
+- 2026-10-25 | New York Times | [Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes](https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html)
+- 2026-10-25 | Israel Hayom | [Iran's threat remains as Israel risks an endless cycle of war](https://www.israelhayom.com/2026/10/25/irans-threat-remains-as-israel-risks-an-endless-cycle-of-war/)
+- 2026-10-25 | Al Jazeera | [How is the US-Israeli war on Iran causing havoc in Europe?](https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss)
+- 2026-10-25 | Jerusalem Post | [Iraq braces for renewed Iran conflict after 1,000 strikes on Kurdistan, 600 militia attacks](https://www.jpost.com/middle-east/article-912785)
+- 2026-10-25 | Israel Hayom | [Ex-US sanctions architect dismantles Netanyahu's crypto escape plan](https://www.israelhayom.com/2026/10/25/malki-israel-sanctions-blockchain-bypass-economy/)
+- 2026-10-25 | JNS | [Top Iranian lawmaker threatens to make Israel 'uninhabitable'](https://www.jns.org/news/world/top-iranian-lawmaker-threatens-to-make-israel-uninhabitable)
+- 2026-10-25 | JNS | [Iranian FM Araghchi: End of war 'must be on all fronts'](https://www.jns.org/news/world/iranian-fm-araghchi-end-of-war-must-be-on-all-fronts)
+- 2026-10-25 | Al Jazeera | [CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?](https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss)
