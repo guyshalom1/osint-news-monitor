@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-25 04:45 UTC. Period: last 7 days. Matching articles: 333 (71 reprints removed).
+Generated 2026-10-25 11:29 UTC. Period: last 7 days. Matching articles: 336 (71 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -8,7 +8,7 @@ Generated 2026-10-25 04:45 UTC. Period: last 7 days. Matching articles: 333 (71 
 
 - Peak coverage on 2026-10-21: 72 articles.
 - Most widely covered story: "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base", reported by 3 outlets.
-- No unusual spikes; coverage was steady.
+- Spike on 2026-10-21, reported by: Al Jazeera, CBS News, Fox News, Haaretz, Israel Hayom, Israel National News, JNS, Jerusalem Post, The Guardian World, Ynetnews, al-monitor.com, aljazeera.com, article.wn.com, asiaone.com, channelnewsasia.com, en.apa.az, english.news.cn, foxcarolina.com, investinglive.com, israelnationalnews.com, japantoday.com, jpost.com, middleeaststar.com, mymotherlode.com, naturalnews.com, navytimes.com, nypost.com, pjmedia.com, theepochtimes.com, trend.az, wjdx.iheart.com.
 - Jerusalem Post carried the most coverage (14% of articles).
 
 ## Stories covered by the most outlets
@@ -30,13 +30,13 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 47 |
-| Al Jazeera | 43 |
-| Israel National News | 32 |
-| JNS | 32 |
-| Haaretz | 25 |
+| Jerusalem Post | 46 |
+| Al Jazeera | 45 |
+| Israel National News | 33 |
+| JNS | 31 |
+| Haaretz | 26 |
+| Israel Hayom | 15 |
 | The Guardian World | 15 |
-| Israel Hayom | 14 |
 | Ynetnews | 12 |
 | CBS News | 10 |
 | New York Times | 9 |
@@ -103,16 +103,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 88 |
-| Israel | 81 |
-| Trump | 72 |
-| Netanyahu | 64 |
-| Israeli | 30 |
+| US | 89 |
+| Israel | 83 |
+| Trump | 74 |
+| Netanyahu | 63 |
+| Israeli | 31 |
 | Hormuz | 26 |
 | Houthi | 23 |
 | Middle East | 19 |
 | Saudi Arabia | 19 |
-| Report | 16 |
+| Report | 17 |
 
 ## Israeli vs US media
 
@@ -120,23 +120,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 164 of 1291 (12.7%) | 36 of 490 (7.3%) |
-| Mentions Israel | 38% | 17% |
+| Articles about the topic | 165 of 1297 (12.7%) | 36 of 492 (7.3%) |
+| Mentions Israel | 39% | 17% |
 | Mentions Trump | 27% | 14% |
-| Mentions Netanyahu | 31% | 8% |
+| Mentions Netanyahu | 30% | 8% |
 | Mentions Houthi | 3% | 31% |
-| Mentions US | 29% | 3% |
+| Mentions US | 28% | 3% |
 | Mentions Saudi Arabia | 4% | 22% |
-| Mentions Israeli | 16% | 3% |
+| Mentions Israeli | 17% | 3% |
 | Mentions Yemen | 0% | 14% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Tehran threatens strikes on energy, civilian targets, and nuclear escalation if attacked](https://www.jpost.com/middle-east/iran-news/article-912728)
-- Israel National News: [Trump on Iran: We have to make sure they never have a nuclear weapon](https://www.israelnationalnews.com/flashes/695975)
-- Haaretz: [Four more years of Netanyahu will bring Israel to its knees](https://www.haaretz.com/opinion/2026-10-25/ty-article-opinion/.premium/four-more-years-of-netanyahu-will-bring-israel-to-its-knees/000001a1-6f34-d9e6-a5b1-6f7d34b60000)
-- JNS: [The unholy alliance between socialists and Islamists](https://www.jns.org/opinion/daniel-winston/the-unholy-alliance-between-socialists-and-islamists)
-- Israel National News: [Report: US military has strike plans ready for Iran](https://www.israelnationalnews.com/flashes/695972)
+- Haaretz: [Report: Iranian officials say U.S. diplomats 'fair game' as war tensions mount](https://www.haaretz.com/middle-east-news/iran/2026-10-25/ty-article/report-iranian-officials-say-u-s-diplomats-fair-game-as-war-tensions-mount/000001a1-71d7-d46d-a1fd-f1d7fbb40000)
+- JNS: [Israel not initiating Iran campaign before election, Katz says](https://www.jns.org/news/israel-news/israel-not-initiating-iran-campaign-before-election-katz-says)
+- JNS: [The Netanyahu Doctrine: How Israeli military primacy could reshape Saudi security](https://www.jns.org/opinion/barak-seener/the-netanyahu-doctrine-how-israeli-military-primacy-could-reshape-saudi-security)
+- Israel National News: [IDF eliminates two terrorists who transferred millions to Hamas](https://www.israelnationalnews.com/flashes/695989)
+- Israel Hayom: [Netanyahu could order strike on Iran even if he loses election](https://www.israelhayom.com/2026/10/25/netanyahu-could-order-strike-on-iran-even-if-he-loses-election/)
 
 **Latest US headlines**
 
@@ -150,13 +150,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-25 | Haaretz | [Report: Iranian officials say U.S. diplomats 'fair game' as war tensions mount](https://www.haaretz.com/middle-east-news/iran/2026-10-25/ty-article/report-iranian-officials-say-u-s-diplomats-fair-game-as-war-tensions-mount/000001a1-71d7-d46d-a1fd-f1d7fbb40000)
+- 2026-10-25 | JNS | [Israel not initiating Iran campaign before election, Katz says](https://www.jns.org/news/israel-news/israel-not-initiating-iran-campaign-before-election-katz-says)
+- 2026-10-25 | Al Jazeera | [Iran’s authorities take ‘self-sacrifice’ mobilisation campaign nationwide](https://www.aljazeera.com/news/2026/10/25/irans-authorities-take-self-sacrifice-mobilisation-campaign-nationwide?traffic_source=rss)
+- 2026-10-25 | Al Jazeera | [Trump mocks reporter asking about Iran strikes, as Tehran says US derailed](https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss)
+- 2026-10-25 | JNS | [The Netanyahu Doctrine: How Israeli military primacy could reshape Saudi security](https://www.jns.org/opinion/barak-seener/the-netanyahu-doctrine-how-israeli-military-primacy-could-reshape-saudi-security)
+- 2026-10-25 | Israel National News | [IDF eliminates two terrorists who transferred millions to Hamas](https://www.israelnationalnews.com/flashes/695989)
+- 2026-10-25 | Al Jazeera | [Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms](https://www.aljazeera.com/news/2026/10/25/obamas-ohio-michigan-speeches-key-takeaways-on-trump-iran-war-midterms?traffic_source=rss)
+- 2026-10-25 | Israel Hayom | [Netanyahu could order strike on Iran even if he loses election](https://www.israelhayom.com/2026/10/25/netanyahu-could-order-strike-on-iran-even-if-he-loses-election/)
 - 2026-10-25 | Jerusalem Post | [Tehran threatens strikes on energy, civilian targets, and nuclear escalation if attacked](https://www.jpost.com/middle-east/iran-news/article-912728)
 - 2026-10-25 | Israel National News | [Trump on Iran: We have to make sure they never have a nuclear weapon](https://www.israelnationalnews.com/flashes/695975)
-- 2026-10-25 | Haaretz | [Four more years of Netanyahu will bring Israel to its knees](https://www.haaretz.com/opinion/2026-10-25/ty-article-opinion/.premium/four-more-years-of-netanyahu-will-bring-israel-to-its-knees/000001a1-6f34-d9e6-a5b1-6f7d34b60000)
-- 2026-10-25 | JNS | [The unholy alliance between socialists and Islamists](https://www.jns.org/opinion/daniel-winston/the-unholy-alliance-between-socialists-and-islamists)
-- 2026-10-25 | New York Times | [Iranians Face Anxious Wait as Threat of Attack Looms](https://www.nytimes.com/2026/10/24/world/middleeast/iranians-face-anxious-wait-as-threat-of-attack-looms.html)
-- 2026-10-25 | Al Jazeera | [Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats](https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss)
-- 2026-10-25 | Israel National News | [Report: US military has strike plans ready for Iran](https://www.israelnationalnews.com/flashes/695972)
-- 2026-10-25 | Al Jazeera | [Iran war live: Trump hints at possible Sunday Iran attack or deal reached](https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss)
-- 2026-10-24 | Jerusalem Post | [Iraq believes Israel may have struck militia weapons supplied by Iran - report](https://www.jpost.com/middle-east/article-912720)
-- 2026-10-24 | Al Jazeera | [Iran blames US for deal failure, urges new try amid fear of new attacks](https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss)
