@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-26 04:50 UTC. Period: last 7 days. Matching articles: 309 (60 reprints removed).
+Generated 2026-10-26 13:07 UTC. Period: last 7 days. Matching articles: 313 (59 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -27,28 +27,28 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 47 |
-| Al Jazeera | 46 |
-| JNS | 33 |
-| Israel National News | 31 |
-| Haaretz | 27 |
-| Israel Hayom | 14 |
-| The Guardian World | 14 |
+| Jerusalem Post | 48 |
+| Al Jazeera | 43 |
+| Israel National News | 33 |
+| JNS | 31 |
+| Haaretz | 28 |
+| The Guardian World | 15 |
+| Israel Hayom | 15 |
 | Ynetnews | 12 |
-| New York Times | 10 |
+| New York Times | 11 |
 | CBS News | 10 |
-| NPR | 7 |
+| NPR | 6 |
+| ABC News | 4 |
 | Fox News | 4 |
 | theyeshivaworld.com | 4 |
-| ABC News | 3 |
 | wrp.org.uk | 3 |
+| BBC Middle East | 2 |
 | aljazeera.com | 2 |
 | pjmedia.com | 2 |
 | jpost.com | 2 |
 | trend.az | 2 |
 | nypost.com | 2 |
 | businesstimes.com.sg | 2 |
-| BBC Middle East | 1 |
 | UN News | 1 |
 | middleeasteye.net | 1 |
 | israelnationalnews.com | 1 |
@@ -68,6 +68,7 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | english.news.cn | 1 |
 | japantoday.com | 1 |
 | theintercept.com | 1 |
+| jewishtimes.com | 1 |
 | imra.org.il | 1 |
 | thehindu.com | 1 |
 | politicaldog101.com | 1 |
@@ -85,16 +86,16 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 82 |
-| Israel | 77 |
-| Trump | 67 |
-| Netanyahu | 61 |
-| Israeli | 30 |
-| Houthi | 23 |
-| Hormuz | 20 |
-| Report | 18 |
-| Middle East | 17 |
-| Saudi Arabia | 16 |
+| Israel | 84 |
+| US | 80 |
+| Trump | 68 |
+| Netanyahu | 64 |
+| Israeli | 32 |
+| Houthi | 22 |
+| Report | 21 |
+| Saudi Arabia | 20 |
+| IDF | 19 |
+| Hormuz | 19 |
 
 ## Israeli vs US media
 
@@ -102,43 +103,43 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 166 of 1303 (12.7%) | 35 of 503 (7.0%) |
-| Mentions Israel | 37% | 17% |
-| Mentions Netanyahu | 32% | 9% |
+| Articles about the topic | 169 of 1306 (12.9%) | 36 of 486 (7.4%) |
+| Mentions Israel | 40% | 22% |
+| Mentions Netanyahu | 34% | 6% |
 | Mentions Trump | 26% | 14% |
-| Mentions Houthi | 3% | 29% |
-| Mentions US | 26% | 3% |
-| Mentions Saudi Arabia | 3% | 17% |
-| Mentions Israeli | 16% | 3% |
-| Mentions Middle East | 4% | 9% |
+| Mentions US | 25% | 3% |
+| Mentions Houthi | 0% | 28% |
+| Mentions Saudi Arabia | 4% | 22% |
+| Mentions Israeli | 17% | 3% |
+| Mentions Prime Minister Benjamin Netanyahu | 6% | 6% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [How purchases of sanctioned Iranian jet fuel were disguised by Myanmar](https://www.jpost.com/middle-east/iran-news/article-912857)
-- Jerusalem Post: [Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say](https://www.jpost.com/middle-east/iran-news/article-912855)
-- JNS: [Behind Iran’s Iron Curtain, a quiet Zionism](https://www.jns.org/opinion/ali-siadatan/behind-irans-iron-curtain-a-quiet-zionism)
-- Israel National News: [Trump on Iran: I’m going to make a great deal](https://www.israelnationalnews.com/flashes/696045)
-- Haaretz: [Trump renews Netanyahu endorsement, urges Israelis to reelect him](https://www.haaretz.com/israel-news/elections/2026-10-26/ty-article/.premium/trump-renews-netanyahu-endorsement-urges-israelis-to-reelect-him/000001a1-755d-de0d-a7fd-ffdf19c90000)
+- Jerusalem Post: [Saudi Arabia, Turkey, Pakistan test new defense pact with high-stakes Iran talks - analysis](https://www.jpost.com/international/article-912911)
+- Jerusalem Post: [US ready to strike Iran 'within 96 hours' of Trump's order, Israel pushes for joint attack - report](https://www.jpost.com/middle-east/iran-news/article-912872)
+- JNS: [David Friedman on Trump, Iran and Israel's next strategic moves](https://www.jns.org/jns-tv/talx-with-alex-traiman/david-friedman-on-trump-iran-and-israels-next-strategic-moves)
+- Haaretz: [Report: IDF chief warned U.S. that striking Iran would disrupt Israel's election](https://www.haaretz.com/israel-news/elections/2026-10-26/ty-article/.premium/report-idf-chief-warned-u-s-that-striking-iran-would-disrupt-israels-election/000001a1-7721-dddd-a1ad-f735b3a10000)
+- JNS: [Report of rift between political echelon, IDF ‘baseless and false,’ Katz says](https://www.jns.org/news/israel-news/report-of-rift-between-political-echelon-idf-baseless-and-false-katz-says)
 
 **Latest US headlines**
 
+- New York Times: [Flurry of Diplomacy in Iran Amid Reports of U.S. and Israeli Plans to Renew War](https://www.nytimes.com/2026/10/26/world/middleeast/iran-war-new-attacks-diplomacy.html)
+- CBS News: [Iran shrugs off Trump's attack threats, says diplomacy ongoing](https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/)
+- ABC News: [Delegations meet in Iran with Mideast on edge over potential for renewed fighting](https://abcnews.com/International/wireStory/delegations-meet-iran-mideast-region-edge-potential-renewed-137563622)
 - ABC News: [Sri Lanka provides medical help and repatriates 40 Iranian sailors stranded in the Indian Ocean](https://abcnews.com/International/wireStory/sri-lanka-medical-repatriates-40-iranian-sailors-stranded-137553790)
 - New York Times: [Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes](https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html)
-- New York Times: [Iranians Face Anxious Wait as Threat of Attack Looms](https://www.nytimes.com/2026/10/24/world/middleeast/iranians-face-anxious-wait-as-threat-of-attack-looms.html)
-- ABC News: [Iran remains open to talks with US under Pakistan-brokered deal, envoy says](https://abcnews.com/International/wireStory/iran-remains-open-talks-us-pakistan-brokered-deal-137539415)
-- ABC News: [Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels](https://abcnews.com/International/wireStory/drinking-water-supplies-dwindle-yemeni-city-besieged-houthi-137532423)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country.
 
 ## Latest headlines
 
-- 2026-10-26 | Jerusalem Post | [How purchases of sanctioned Iranian jet fuel were disguised by Myanmar](https://www.jpost.com/middle-east/iran-news/article-912857)
-- 2026-10-26 | Jerusalem Post | [Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say](https://www.jpost.com/middle-east/iran-news/article-912855)
-- 2026-10-26 | JNS | [Behind Iran’s Iron Curtain, a quiet Zionism](https://www.jns.org/opinion/ali-siadatan/behind-irans-iron-curtain-a-quiet-zionism)
-- 2026-10-26 | Israel National News | [Trump on Iran: I’m going to make a great deal](https://www.israelnationalnews.com/flashes/696045)
-- 2026-10-26 | Al Jazeera | [Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh](https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss)
-- 2026-10-25 | Haaretz | [Trump renews Netanyahu endorsement, urges Israelis to reelect him](https://www.haaretz.com/israel-news/elections/2026-10-26/ty-article/.premium/trump-renews-netanyahu-endorsement-urges-israelis-to-reelect-him/000001a1-755d-de0d-a7fd-ffdf19c90000)
-- 2026-10-25 | Israel National News | [Trump renews endorsement of Netanyahu: We have to finish the job we started](https://www.israelnationalnews.com/flashes/696037)
-- 2026-10-25 | Jerusalem Post | [IDF chief pushed back on Netanyahu order for ‘action’ against Iran, fearing political motives](https://www.jpost.com/israel-news/defense-news/article-912842)
-- 2026-10-25 | Jerusalem Post | [Iran fears only Netanyahu. On Tuesday, make sure it stays that way - opinion](https://www.jpost.com/opinion/article-912840)
-- 2026-10-25 | Haaretz | [IDF brass fears Netanyahu may launch Iran offensive before Tuesday's election](https://www.haaretz.com/israel-news/elections/2026-10-25/ty-article/.premium/weary-of-the-polls-netanyahu-may-seek-to-strike-iran-before-tuesdays-elections/000001a1-74c9-db53-a9ed-feffbd090000)
+- 2026-10-26 | Jerusalem Post | [Saudi Arabia, Turkey, Pakistan test new defense pact with high-stakes Iran talks - analysis](https://www.jpost.com/international/article-912911)
+- 2026-10-26 | New York Times | [Flurry of Diplomacy in Iran Amid Reports of U.S. and Israeli Plans to Renew War](https://www.nytimes.com/2026/10/26/world/middleeast/iran-war-new-attacks-diplomacy.html)
+- 2026-10-26 | CBS News | [Iran shrugs off Trump's attack threats, says diplomacy ongoing](https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/)
+- 2026-10-26 | The Guardian World | [European gas prices soar to four-year high over winter supply fears](https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east)
+- 2026-10-26 | Jerusalem Post | [US ready to strike Iran 'within 96 hours' of Trump's order, Israel pushes for joint attack - report](https://www.jpost.com/middle-east/iran-news/article-912872)
+- 2026-10-26 | JNS | [David Friedman on Trump, Iran and Israel's next strategic moves](https://www.jns.org/jns-tv/talx-with-alex-traiman/david-friedman-on-trump-iran-and-israels-next-strategic-moves)
+- 2026-10-26 | Haaretz | [Report: IDF chief warned U.S. that striking Iran would disrupt Israel's election](https://www.haaretz.com/israel-news/elections/2026-10-26/ty-article/.premium/report-idf-chief-warned-u-s-that-striking-iran-would-disrupt-israels-election/000001a1-7721-dddd-a1ad-f735b3a10000)
+- 2026-10-26 | JNS | [Report of rift between political echelon, IDF ‘baseless and false,’ Katz says](https://www.jns.org/news/israel-news/report-of-rift-between-political-echelon-idf-baseless-and-false-katz-says)
+- 2026-10-26 | ABC News | [Delegations meet in Iran with Mideast on edge over potential for renewed fighting](https://abcnews.com/International/wireStory/delegations-meet-iran-mideast-region-edge-potential-renewed-137563622)
+- 2026-10-26 | Israel National News | [Netanyahu rejects CNN report that Trump blocked Iran strike](https://www.israelnationalnews.com/flashes/696060)
