@@ -13,36 +13,19 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install feedparser
-      - name: Try candidate feeds
+      - name: Inspect working feeds
         run: |
           python - <<'PY'
-          import feedparser, datetime
-          CANDIDATES = {
-              "Press TV": "https://www.presstv.ir/rss.xml",
-              "Press TV (alt)": "https://www.presstv.ir/rss/rss.xml",
-              "Tasnim": "https://www.tasnimnews.com/en/rss/feed/0/8/0/all-stories",
-              "Tasnim (alt)": "https://www.tasnimnews.com/en/rss",
-              "IRNA English": "https://en.irna.ir/rss",
-              "Tehran Times": "https://www.tehrantimes.com/rss",
-              "Mehr News": "https://en.mehrnews.com/rss",
-              "Fars News": "https://www.farsnews.ir/en/rss",
-              "IRIB World": "https://www.irib.ir/rss",
-              "Iran International": "https://www.iranintl.com/en/rss",
+          import feedparser
+          URLS = {
+              "Mehr": "https://en.mehrnews.com/rss",
+              "TehranTimes": "https://www.tehrantimes.com/rss",
+              "IRNA": "https://en.irna.ir/rss",
+              "PressTV": "https://www.presstv.ir/rss.xml",
           }
-          for name, url in CANDIDATES.items():
-              try:
-                  f = feedparser.parse(url, agent="Mozilla/5.0 (osint-news-monitor probe)")
-                  status = getattr(f, "status", "no-status")
-                  n = len(f.entries)
-                  newest = None
-                  dates = [e.get("published_parsed") or e.get("updated_parsed") for e in f.entries]
-                  dates = [d for d in dates if d]
-                  if dates:
-                      newest = datetime.datetime(*max(dates)[:6]).date().isoformat()
-                  title = f.entries[0].get("title", "")[:60] if n else ""
-                  msg = f"{name}: status={status} entries={n} newest={newest} first='{title}' bozo={bool(f.bozo)}"
-              except Exception as e:
-                  msg = f"{name}: ERROR {str(e)[:120]}"
-              print(msg)
-              print(f"::notice title=probe::{msg}")
+          for name, url in URLS.items():
+              f = feedparser.parse(url, agent="Mozilla/5.0 (osint-news-monitor probe)")
+              print(f"::notice title=probe::{name}: href={f.get('href')} n={len(f.entries)} bozo={f.bozo} exc={str(f.get('bozo_exception'))[:80]}")
+              for e in f.entries[:4]:
+                  print(f"::notice title=probe::{name} | {e.get('title','')[:70]} | pub={e.get('published') or e.get('updated') or e.get('pubDate')} | keys={sorted(e.keys())[:12]}")
           PY
