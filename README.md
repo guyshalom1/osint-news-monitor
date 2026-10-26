@@ -10,17 +10,18 @@ A scheduled GitHub Actions workflow collects new articles every 6 hours and rebu
 
 ![Coverage per day](reports/latest/coverage.png)
 
-### Israeli vs US media
+### Israeli vs US vs Iranian media
 
-The same topic, compared between 7 Israeli and 5 US outlets: how much attention each country's media gives it, and which names and places each puts alongside it. Shares are used instead of raw counts, since the two countries' feeds differ in size.
+The same topic, compared between 7 Israeli, 5 US and 3 Iranian state or state-affiliated outlets: how much attention each country's media gives it, and which names and places each puts alongside it. Shares are used instead of raw counts, since the feeds differ in size. Iranian outlets cover Iran as home news, so they are left out of the attention comparison and only compared on framing.
 
-![Israeli vs US media](reports/latest/comparison.png)
+![Israeli vs US vs Iranian media](reports/latest/comparison.png)
 
 ## What it does
 
-1. **Collect** articles from 16 English-language RSS feeds, each tagged by country, into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.
+1. **Collect** articles from 19 English-language RSS feeds, each tagged by country, into a SQLite database. Duplicates are skipped, so it can run repeatedly and build a history.
    - Israel: Haaretz, Jerusalem Post, Israel Hayom, Israel National News, JNS, Ynetnews, Globes
    - US: New York Times, NPR, Fox News, CBS News, ABC News
+   - Iran (state-affiliated, so they show the official line): IRNA, Mehr News, Tehran Times
    - International: BBC, Al Jazeera, The Guardian, UN News
    - Every run records source health in `data/source_status.json`, including feeds that respond but have stopped updating.
 2. **Backfill** past days for a topic from [GDELT](https://www.gdeltproject.org/), which indexes thousands of outlets and can be queried by day. A new database gets a usable history immediately instead of after a week of collection. Backfilled days are recorded per keyword set and treated as complete in the report.
@@ -31,8 +32,9 @@ The same topic, compared between 7 Israeli and 5 US outlets: how much attention 
    - co-occurring names and places (capitalized-phrase extraction, with possessives, keywords and plurals normalized)
    - reprint removal: copies of the same headline under other domains (mostly wire copy on regional sites) are dropped before counting, keeping the earliest
    - stories: articles with similar headlines from different outlets are grouped, so the report shows which events the most outlets picked up
-   - country comparison: share of attention and names mentioned, Israel vs US
-5. **Report** a Markdown file with key findings, tables, latest headlines and a coverage chart.
+   - country comparison: share of attention and names mentioned, Israel vs US vs Iran
+5. **Assess**: a short written assessment at the top of the report, comparing the last 24 hours with the 24 hours before. It gives three judgments, each with a confidence level and the numbers behind it: is coverage rising or falling, is the language shifting toward escalation or diplomacy (two short word lists), and do countries frame the topic differently. It then lists what changed: new stories, and names mentioned more or less. It is rule-based, with no language model, so the same data always gives the same text. Confidence is High with 60+ articles from 5+ outlets, Medium with 20+ from 3+, otherwise Low.
+6. **Report** a Markdown file with the assessment, key findings, tables, latest headlines and a coverage chart.
 
 ## Usage
 
@@ -59,7 +61,8 @@ osint_monitor/
   collector.py  fetch, clean, deduplicate and store articles
   gdelt.py      historical backfill from the GDELT DOC API
   dedupe.py     reprint removal and story grouping by headline similarity
-  analyzer.py   keyword filter, daily counts, spikes, entities
+  analyzer.py   keyword filter, daily counts, spikes, entities, country comparison
+  assessment.py key judgments with confidence, and what changed in 24 hours
   report.py     Markdown report and chart
   __main__.py   command-line interface
 tests/          tests on a local sample feed (no internet needed)
@@ -71,6 +74,8 @@ Run the tests with `pytest`.
 
 - RSS feeds only carry recent items, so trends become meaningful after the collector has run for several days.
 - Entity extraction is a simple heuristic, not a trained NLP model. It can pick up generic capitalized words.
+- The assessment describes what media report, not what happens on the ground. Tone uses short word lists, so it misses sarcasm and context.
+- Iranian outlets are state-affiliated. Press TV (no dates), Tasnim and Fars (no connection from cloud servers) and Iran International (empty feed) could not be used.
 - Israeli feeds are general news while US feeds are world sections, so attention shares are indicative, not like-for-like. Times of Israel and i24NEWS block automated access from cloud servers.
 - Coverage volume is not importance: one outlet publishing many short updates can inflate a day's count.
 

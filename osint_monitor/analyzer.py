@@ -23,9 +23,19 @@ STOPWORDS = {
     "These", "Those", "What", "Who", "Why", "How", "When", "Where", "Is",
     "Are", "Was", "Were", "Will", "Would", "Could", "Should", "Says", "Said",
     "New", "Live", "Watch", "Update", "Continue", "Read", "More", "Monday", "Tuesday", "Wednesday",
+    "Report", "Reports", "Analysis", "Opinion", "Exclusive",
     "Thursday", "Friday", "Saturday", "Sunday", "January", "February",
     "March", "April", "May", "June", "July", "August", "September",
     "October", "November", "December",
+}
+
+# Job titles. They are not part of a person's name, so "Prime Minister Benjamin
+# Netanyahu" and "Netanyahu" must count as the same name.
+TITLES = {
+    "Prime", "Minister", "President", "Vice", "Foreign", "Defense", "Defence",
+    "Secretary", "Senator", "Sen", "Rep", "Representative", "General", "Gen",
+    "Supreme", "Leader", "Ayatollah", "King", "Prince", "Crown", "Mr", "Mrs",
+    "Dr", "Chairman", "Ambassador", "Speaker", "Premier", "Chancellor",
 }
 
 # One or more capitalized words in a row, e.g. "Security Council", "Gaza".
@@ -98,7 +108,7 @@ def clean_name(name, skip):
     for word in name.split():
         word = re.sub(r"'s$", "", word)
         lower = word.lower()
-        if word in STOPWORDS or lower in skip:
+        if word in STOPWORDS or word in TITLES or lower in skip:
             continue
         if any(lower.startswith(k + "-") for k in skip):  # "Iran-backed"
             continue
@@ -127,7 +137,21 @@ def top_entities(articles, keywords, limit=10):
     for name in list(counter):
         if name.endswith("s") and name[:-1] in counter:
             counter[name[:-1]] += counter.pop(name)
+    merge_full_names(counter)
     return counter.most_common(limit)
+
+
+def merge_full_names(counter):
+    """Merge a longer name into its last word when that word is also counted.
+
+    "Benjamin Netanyahu" -> "Netanyahu", "Donald Trump" -> "Trump". Only the
+    last word is used, so "Saudi Arabia" stays as is unless "Arabia" alone is
+    also a counted name. Changes the counter in place.
+    """
+    for name in sorted(counter, key=lambda n: -len(n.split())):
+        words = name.split()
+        if len(words) >= 2 and words[-1] in counter and name in counter:
+            counter[words[-1]] += counter.pop(name)
 
 
 def analyze(conn, keywords, days=7, now=None):
@@ -170,22 +194,29 @@ def analyze(conn, keywords, days=7, now=None):
     }
 
 
-def compare_countries(conn, keywords, days=7, now=None, countries=("Israel", "US")):
+def compare_countries(conn, keywords, days=7, now=None,
+                      countries=("Israel", "US", "Iran")):
     """Compare how media in different countries cover the same topic.
 
     Counts differ a lot between countries (more feeds, longer feeds), so the
     comparison uses shares instead of raw numbers:
     - attention: % of a country's articles that are about the topic
     - framing:   % of a country's topic articles that mention each name
+
+    A country named in the keywords (Iran, when tracking Iran) is the "home"
+    press for the topic. It covers the topic as domestic news, so its share of
+    attention is not comparable with the others. Its framing still is.
     """
     all_articles = load_articles(conn, days, now)
     result = {"keywords": keywords, "countries": {}}
+    keyword_set = {k.lower() for k in keywords}
 
     for country in countries:
         pool = [a for a in all_articles if COUNTRY.get(a["source"]) == country]
         topic = [a for a in pool if matches(a, keywords)]
         names = top_entities(topic, keywords, limit=50)
         result["countries"][country] = {
+            "home": country.lower() in keyword_set,
             "total": len(pool),
             "matching": len(topic),
             "share": round(100 * len(topic) / len(pool), 1) if pool else 0.0,
