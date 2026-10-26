@@ -1,6 +1,6 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-25 20:57 UTC. Period: last 7 days. Matching articles: 312 (63 reprints removed).
+Generated 2026-10-26 04:50 UTC. Period: last 7 days. Matching articles: 309 (60 reprints removed).
 
 ![Coverage per day](coverage.png)
 
@@ -27,18 +27,18 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Jerusalem Post | 46 |
+| Jerusalem Post | 47 |
 | Al Jazeera | 46 |
-| Israel National News | 32 |
-| JNS | 32 |
-| Haaretz | 26 |
-| The Guardian World | 15 |
+| JNS | 33 |
+| Israel National News | 31 |
+| Haaretz | 27 |
 | Israel Hayom | 14 |
+| The Guardian World | 14 |
 | Ynetnews | 12 |
 | New York Times | 10 |
 | CBS News | 10 |
 | NPR | 7 |
-| Fox News | 6 |
+| Fox News | 4 |
 | theyeshivaworld.com | 4 |
 | ABC News | 3 |
 | wrp.org.uk | 3 |
@@ -80,23 +80,21 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | oilprice.com | 1 |
 | zerohedge.com | 1 |
 | econotimes.com | 1 |
-| hellenicshippingnews.com | 1 |
-| abc7amarillo.com | 1 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
 | US | 82 |
-| Israel | 78 |
-| Trump | 68 |
-| Netanyahu | 62 |
-| Israeli | 29 |
+| Israel | 77 |
+| Trump | 67 |
+| Netanyahu | 61 |
+| Israeli | 30 |
 | Houthi | 23 |
-| Hormuz | 22 |
+| Hormuz | 20 |
 | Report | 18 |
 | Middle East | 17 |
-| Saudi Arabia | 17 |
+| Saudi Arabia | 16 |
 
 ## Israeli vs US media
 
@@ -104,23 +102,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US |
 |---|---|---|
-| Articles about the topic | 164 of 1305 (12.6%) | 37 of 493 (7.5%) |
-| Mentions Israel | 37% | 16% |
-| Mentions Netanyahu | 32% | 8% |
+| Articles about the topic | 166 of 1303 (12.7%) | 35 of 503 (7.0%) |
+| Mentions Israel | 37% | 17% |
+| Mentions Netanyahu | 32% | 9% |
 | Mentions Trump | 26% | 14% |
-| Mentions Houthi | 3% | 30% |
+| Mentions Houthi | 3% | 29% |
 | Mentions US | 26% | 3% |
-| Mentions Saudi Arabia | 3% | 19% |
+| Mentions Saudi Arabia | 3% | 17% |
 | Mentions Israeli | 16% | 3% |
-| Mentions Middle East | 4% | 8% |
+| Mentions Middle East | 4% | 9% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [IDF chief pushed back on Netanyahu order for ‘action’ against Iran, fearing political motives](https://www.jpost.com/israel-news/defense-news/article-912842)
-- Jerusalem Post: [Iran fears only Netanyahu. On Tuesday, make sure it stays that way - opinion](https://www.jpost.com/opinion/article-912840)
-- Haaretz: ['Missiles from Iran': Facebook, TikTok and Instagram feed us scary news from the past](https://www.haaretz.com/israel-news/security-aviation/2026-10-25/ty-article-magazine/missiles-from-iran-tiktok-and-instagram-feed-us-scary-news-from-the-past/000001a1-5ea2-df33-a7e5-5faaa9220000)
-- Jerusalem Post: [Trump rules out Sunday strike on Iran as Netanyahu warns Israel faces imminent existential threat](https://www.jpost.com/middle-east/iran-news/article-912822)
-- Israel National News: [Can military action topple Iran's regime? Netanyahu's inner circle has doubts](https://www.israelnationalnews.com/flashes/696026)
+- Jerusalem Post: [How purchases of sanctioned Iranian jet fuel were disguised by Myanmar](https://www.jpost.com/middle-east/iran-news/article-912857)
+- Jerusalem Post: [Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say](https://www.jpost.com/middle-east/iran-news/article-912855)
+- JNS: [Behind Iran’s Iron Curtain, a quiet Zionism](https://www.jns.org/opinion/ali-siadatan/behind-irans-iron-curtain-a-quiet-zionism)
+- Israel National News: [Trump on Iran: I’m going to make a great deal](https://www.israelnationalnews.com/flashes/696045)
+- Haaretz: [Trump renews Netanyahu endorsement, urges Israelis to reelect him](https://www.haaretz.com/israel-news/elections/2026-10-26/ty-article/.premium/trump-renews-netanyahu-endorsement-urges-israelis-to-reelect-him/000001a1-755d-de0d-a7fd-ffdf19c90000)
 
 **Latest US headlines**
 
@@ -134,13 +132,13 @@ Caveats: Israeli feeds are general news, US feeds are world sections, so the sha
 
 ## Latest headlines
 
+- 2026-10-26 | Jerusalem Post | [How purchases of sanctioned Iranian jet fuel were disguised by Myanmar](https://www.jpost.com/middle-east/iran-news/article-912857)
+- 2026-10-26 | Jerusalem Post | [Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say](https://www.jpost.com/middle-east/iran-news/article-912855)
+- 2026-10-26 | JNS | [Behind Iran’s Iron Curtain, a quiet Zionism](https://www.jns.org/opinion/ali-siadatan/behind-irans-iron-curtain-a-quiet-zionism)
+- 2026-10-26 | Israel National News | [Trump on Iran: I’m going to make a great deal](https://www.israelnationalnews.com/flashes/696045)
+- 2026-10-26 | Al Jazeera | [Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh](https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss)
+- 2026-10-25 | Haaretz | [Trump renews Netanyahu endorsement, urges Israelis to reelect him](https://www.haaretz.com/israel-news/elections/2026-10-26/ty-article/.premium/trump-renews-netanyahu-endorsement-urges-israelis-to-reelect-him/000001a1-755d-de0d-a7fd-ffdf19c90000)
+- 2026-10-25 | Israel National News | [Trump renews endorsement of Netanyahu: We have to finish the job we started](https://www.israelnationalnews.com/flashes/696037)
 - 2026-10-25 | Jerusalem Post | [IDF chief pushed back on Netanyahu order for ‘action’ against Iran, fearing political motives](https://www.jpost.com/israel-news/defense-news/article-912842)
 - 2026-10-25 | Jerusalem Post | [Iran fears only Netanyahu. On Tuesday, make sure it stays that way - opinion](https://www.jpost.com/opinion/article-912840)
-- 2026-10-25 | Haaretz | ['Missiles from Iran': Facebook, TikTok and Instagram feed us scary news from the past](https://www.haaretz.com/israel-news/security-aviation/2026-10-25/ty-article-magazine/missiles-from-iran-tiktok-and-instagram-feed-us-scary-news-from-the-past/000001a1-5ea2-df33-a7e5-5faaa9220000)
-- 2026-10-25 | Jerusalem Post | [Trump rules out Sunday strike on Iran as Netanyahu warns Israel faces imminent existential threat](https://www.jpost.com/middle-east/iran-news/article-912822)
-- 2026-10-25 | Israel National News | [Can military action topple Iran's regime? Netanyahu's inner circle has doubts](https://www.israelnationalnews.com/flashes/696026)
-- 2026-10-25 | ABC News | [Sri Lanka provides medical help and repatriates 40 Iranian sailors stranded in the Indian Ocean](https://abcnews.com/International/wireStory/sri-lanka-medical-repatriates-40-iranian-sailors-stranded-137553790)
-- 2026-10-25 | Jerusalem Post | [Ex-Mossad chief Barnea intended for Iran to see Israel's operations to overwhelm IRGC](https://www.jpost.com/middle-east/iran-news/article-912809)
-- 2026-10-25 | Jerusalem Post | [Netanyahu shares AI-generated image of nuclear explosion in Tel Aviv, two days before election](https://www.jpost.com/israel-election-2026/article-912797)
-- 2026-10-25 | New York Times | [Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes](https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html)
-- 2026-10-25 | Israel Hayom | [Iran's threat remains as Israel risks an endless cycle of war](https://www.israelhayom.com/2026/10/25/irans-threat-remains-as-israel-risks-an-endless-cycle-of-war/)
+- 2026-10-25 | Haaretz | [IDF brass fears Netanyahu may launch Iran offensive before Tuesday's election](https://www.haaretz.com/israel-news/elections/2026-10-25/ty-article/.premium/weary-of-the-polls-netanyahu-may-seek-to-strike-iran-before-tuesdays-elections/000001a1-74c9-db53-a9ed-feffbd090000)
