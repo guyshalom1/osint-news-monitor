@@ -129,7 +129,11 @@ def tone_judgment(recent, prior):
 
 
 def divergence_judgment(comparison):
-    """How differently do the countries' media cover the topic?"""
+    """How differently do the countries' media cover the topic?
+
+    Two separate questions: who gives the topic more attention, and who tells
+    it differently. The second is the more useful one for an analyst.
+    """
     if not comparison:
         return None
     data = {c: d for c, d in comparison["countries"].items() if d["matching"]}
@@ -139,9 +143,6 @@ def divergence_judgment(comparison):
             "confidence": "Low",
             "basis": "Fewer than two countries have articles on the topic.",
         }
-    shares = {c: d["share"] for c, d in data.items()}
-    top = max(shares, key=shares.get)
-    low = min(shares, key=shares.get)
 
     # The name whose share differs most between countries is the clearest
     # sign that they tell the story differently.
@@ -153,20 +154,31 @@ def divergence_judgment(comparison):
         if best is None or gap > best[0]:
             best = (gap, name, hi, values[hi], lo, values[lo])
 
-    parts = [f"{c} outlets give the topic {s}% of their articles"
-             for c, s in sorted(shares.items(), key=lambda x: -x[1])]
-    basis = "; ".join(parts) + "."
+    # Attention is only compared between countries that are not "home" press.
+    shares = {c: d["share"] for c, d in data.items() if not d["home"]}
+    basis = []
+    if len(shares) >= 2:
+        basis.append("; ".join(
+            f"{c} outlets give the topic {s}% of their articles"
+            for c, s in sorted(shares.items(), key=lambda x: -x[1])) + ".")
+    if any(d["home"] for d in data.values()):
+        basis.append("Home press is left out of the attention comparison, "
+                     "since it covers the topic as domestic news.")
+
     if best and best[0] >= 15:
         _, name, hi, hi_v, lo, lo_v = best
-        basis += (f" Largest framing gap: \"{name}\" appears in {hi_v}% of {hi} "
-                  f"topic articles and {lo_v}% of {lo}.")
+        claim = f"Countries frame the topic differently; the clearest gap is \"{name}\"."
+        basis.append(f"\"{name}\" appears in {hi_v}% of {hi} topic articles "
+                     f"and {lo_v}% of {lo}.")
+    else:
+        claim = "No large framing gap between countries."
+
     smallest = min(d["matching"] for d in data.values())
     fewest_outlets = min(len(d["sources"]) for d in data.values())
     return {
-        "claim": f"{top} media pay the most attention to the topic; "
-                 f"{low} media the least.",
+        "claim": claim,
         "confidence": confidence(smallest, fewest_outlets),
-        "basis": basis,
+        "basis": " ".join(basis),
     }
 
 

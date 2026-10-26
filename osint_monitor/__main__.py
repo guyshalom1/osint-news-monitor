@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .analyzer import analyze, compare_countries
+from .assessment import build_assessment
 from .collector import collect, connect
 from .gdelt import backfill
 from .report import make_report
@@ -59,9 +60,11 @@ def main():
             "days": outcomes,
         }, indent=2), encoding="utf-8")
     else:
-        result = analyze(conn, args.keywords, args.days)
-        comparison = compare_countries(conn, args.keywords, args.days)
-        path = make_report(result, args.out, comparison)
+        now = datetime.now(timezone.utc)  # one clock for every part of the report
+        result = analyze(conn, args.keywords, args.days, now=now)
+        comparison = compare_countries(conn, args.keywords, args.days, now=now)
+        assessment = build_assessment(result, comparison, now)
+        path = make_report(result, args.out, comparison, assessment)
         print(f"{result['total']} matching articles. Report: {path}")
 
 

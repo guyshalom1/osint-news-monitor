@@ -9,11 +9,14 @@ matplotlib.use("Agg")  # draw to a file, no window needed
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
+from .assessment import assessment_lines
+
 # Colors. One color for all data: the chart never needs to tell sources
 # apart by color, because each source gets its own labeled row instead.
 BAR, PARTIAL = "#2a78d6", "#cde2fb"
-# Country comparison: two validated colors, always paired with a legend/labels.
-COUNTRY_COLORS = {"Israel": "#2a78d6", "US": "#eb6834"}
+# Country comparison: three colors that stay apart for most color-blind viewers,
+# always paired with a legend and value labels, never color alone.
+COUNTRY_COLORS = {"Israel": "#2a78d6", "US": "#eb6834", "Iran": "#009e73"}
 INK, MUTED, GRID, SURFACE = "#1f1f1e", "#6b6a64", "#e6e5e0", "#fcfcfb"
 
 
@@ -97,11 +100,21 @@ def make_chart(result, path):
     plt.close(fig)
 
 
+def countries_with_data(comp):
+    """Countries that have at least one article on the topic."""
+    return [c for c, d in comp["countries"].items() if d["matching"]]
+
+
 def make_comparison_chart(comp, path):
     """Two panels: how much attention each country gives the topic (left),
-    and which names each country mentions alongside it (right)."""
-    countries = list(comp["countries"])
+    and which names each country mentions alongside it (right).
+
+    A home country (Iran, when tracking Iran) is left out of the left panel,
+    because its press covers the topic as domestic news.
+    """
     data = comp["countries"]
+    countries = countries_with_data(comp)
+    attention = [c for c in countries if not data[c]["home"]]
 
     fig, (ax1, ax2) = plt.subplots(
         1, 2, figsize=(11, 5.2), gridspec_kw={"width_ratios": [1, 1.6]}
@@ -109,15 +122,15 @@ def make_comparison_chart(comp, path):
     fig.patch.set_facecolor(SURFACE)
 
     # Left: % of each country's articles that are about the topic.
-    shares = [data[c]["share"] for c in countries]
-    ax1.barh(countries[::-1], shares[::-1], height=0.5,
-             color=[COUNTRY_COLORS[c] for c in countries[::-1]])
-    for y, c in enumerate(countries[::-1]):
+    shares = [data[c]["share"] for c in attention]
+    ax1.barh(attention[::-1], shares[::-1], height=0.5,
+             color=[COUNTRY_COLORS[c] for c in attention[::-1]])
+    for y, c in enumerate(attention[::-1]):
         d = data[c]
-        ax1.text(d["share"] + max(shares) * 0.04, y,
+        ax1.text(d["share"] + max(shares, default=1) * 0.04, y,
                  f"{d['share']}%  ({d['matching']} of {d['total']})",
                  va="center", fontsize=9.5, color=INK)
-    ax1.set_xlim(0, max(shares) * 1.8 or 1)
+    ax1.set_xlim(0, max(shares, default=1) * 1.8 or 1)
     ax1.set_title("Share of all articles about the topic", loc="left",
                   fontsize=11, color=INK)
     ax1.grid(axis="x", color=GRID, linewidth=1)
@@ -125,11 +138,14 @@ def make_comparison_chart(comp, path):
     style(ax1)
 
     # Right: % of each country's topic articles that mention each name.
+    # With n countries, each name gets n thin bars; the first country is on top.
     names = comp["top_names"][::-1]
-    height = 0.38
+    n = len(countries)
+    height = 0.8 / n
     for i, c in enumerate(countries):
-        values = [data[c]["names"].get(n, 0) for n in names]
-        offsets = [y + (height / 2 if i == 0 else -height / 2) for y in range(len(names))]
+        values = [data[c]["names"].get(name, 0) for name in names]
+        shift = ((n - 1) / 2 - i) * height
+        offsets = [y + shift for y in range(len(names))]
         ax2.barh(offsets, values, height=height, color=COUNTRY_COLORS[c],
                  edgecolor=SURFACE, linewidth=1.5, label=c)
         for y, v in zip(offsets, values):
@@ -144,29 +160,32 @@ def make_comparison_chart(comp, path):
     style(ax2)
 
     small = min(data[c]["matching"] for c in countries)
-    note = "Israeli outlets: " + ", ".join(data["Israel"]["sources"]) + ". US outlets: " \
-        + ", ".join(data["US"]["sources"]) + "."
+    note = ". ".join(f"{c} outlets: " + ", ".join(data[c]["sources"]) for c in countries) + "."
+    if any(data[c]["home"] for c in countries):
+        note += "\nHome press is left out of the left panel: it covers the topic as domestic news."
     if small < 30:
         note += f"\nSmall samples (fewest: {small} articles): read differences as indicative, not conclusive."
-    fig.suptitle(f"Israeli vs US media: {', '.join(comp['keywords'])}",
+    fig.suptitle(f"Media comparison by country: {', '.join(comp['keywords'])}",
                  x=0.012, y=0.985, ha="left", va="top", fontsize=14, color=INK)
     fig.text(0.012, 0.915, note, ha="left", va="top", fontsize=9, color=MUTED)
-    fig.tight_layout(rect=(0, 0, 1, 0.87))
+    fig.tight_layout(rect=(0, 0, 1, 0.84))
     fig.savefig(path, dpi=150, facecolor=SURFACE)
     plt.close(fig)
 
 
 def comparison_lines(comp):
     """Markdown section comparing the countries."""
-    data = comp["countries"]
-    lines = ["## Israeli vs US media", ""]
-    if not all(d["matching"] for d in data.values()):
-        lines += ["Not enough matching articles in both countries to compare.", ""]
+    data = {c: comp["countries"][c] for c in countries_with_data(comp)}
+    missing = [c for c in comp["countries"] if c not in data]
+    lines = ["## Media comparison by country", ""]
+    if len(data) < 2:
+        lines += ["Not enough matching articles in at least two countries to compare.", ""]
         return lines
-    lines += ["![Israeli vs US media](comparison.png)", ""]
+    lines += ["![Media comparison by country](comparison.png)", ""]
     lines += ["| | " + " | ".join(data) + " |", "|---|" + "---|" * len(data)]
     lines.append("| Articles about the topic | " + " | ".join(
-        f"{d['matching']} of {d['total']} ({d['share']}%)" for d in data.values()) + " |")
+        f"{d['matching']} of {d['total']} ({d['share']}%)" + (" home press" if d["home"] else "")
+        for d in data.values()) + " |")
     for name in comp["top_names"]:
         lines.append(f"| Mentions {name} | " + " | ".join(
             f"{d['names'].get(name, 0)}%" for d in data.values()) + " |")
@@ -175,16 +194,23 @@ def comparison_lines(comp):
         lines += [f"**Latest {country} headlines**", ""]
         lines += [f"- {a['source']}: [{a['title']}]({a['link']})" for a in d["headlines"]]
         lines.append("")
-    lines += [
+    caveats = [
         "Caveats: Israeli feeds are general news, US feeds are world sections, "
         "so the share of attention is not a like-for-like comparison. Outlets "
         "with longer feeds weigh more within their country.",
-        "",
     ]
+    if any(d["home"] for d in data.values()):
+        caveats.append(
+            "Home press (here the Iranian outlets) is state or state-affiliated. "
+            "It shows the official line, not public opinion, and it covers the "
+            "topic as domestic news, so its share of attention is not comparable.")
+    if missing:
+        caveats.append(f"No matching articles from {', '.join(missing)} in this period.")
+    lines += [" ".join(caveats), ""]
     return lines
 
 
-def make_report(result, out_dir, comparison=None):
+def make_report(result, out_dir, comparison=None, assessment=None):
     """Write report.md and coverage.png into out_dir. Returns the report path."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -206,6 +232,10 @@ def make_report(result, out_dir, comparison=None):
         path = out_dir / "report.md"
         path.write_text("\n".join(lines), encoding="utf-8")
         return path
+
+    # Bottom line first: the assessment comes before any chart or table.
+    if assessment:
+        lines += assessment_lines(assessment)
 
     make_chart(result, out_dir / "coverage.png")
     lines += ["![Coverage per day](coverage.png)", ""]
@@ -260,8 +290,8 @@ def make_report(result, out_dir, comparison=None):
     lines.append("")
 
     if comparison:
-        make_comparison_chart(comparison, out_dir / "comparison.png") \
-            if all(d["matching"] for d in comparison["countries"].values()) else None
+        if len(countries_with_data(comparison)) >= 2:
+            make_comparison_chart(comparison, out_dir / "comparison.png")
         lines += comparison_lines(comparison)
 
     lines += ["## Latest headlines", ""]

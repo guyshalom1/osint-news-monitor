@@ -26,6 +26,14 @@ FEEDS = {
     "Fox News": ("US", "https://moxie.foxnews.com/google-publisher/world.xml"),
     "CBS News": ("US", "https://www.cbsnews.com/latest/rss/world"),
     "ABC News": ("US", "https://abcnews.go.com/abcnews/internationalheadlines"),
+    # Iran: state and state-affiliated English-language outlets. They show the
+    # official line, not Iranian public opinion, and they cover Iran as home
+    # news, so their share of attention is not comparable with the others.
+    # Tested from GitHub's servers: Press TV (no dates in the feed), Tasnim and
+    # Fars (no connection) and Iran International (empty feed) are not usable.
+    "IRNA": ("Iran", "https://en.irna.ir/rss"),
+    "Mehr News": ("Iran", "https://en.mehrnews.com/rss"),
+    "Tehran Times": ("Iran", "https://www.tehrantimes.com/rss"),
     # International
     "BBC Middle East": ("International", "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"),
     "Al Jazeera": ("International", "https://www.aljazeera.com/xml/rss/all.xml"),
@@ -43,4 +51,5 @@ OUTLET_NAMES = {
     "The Guardian", "UN News", "Israel Hayom", "Haaretz", "JNS", "Globes", "Ynet", "Ynetnews",
     "Israel National News", "New York Times", "NPR", "Fox News", "Fox",
     "Wall Street Journal", "WSJ", "CBS News", "CBS", "ABC News", "ABC",
+    "IRNA", "Mehr", "Mehr News", "Tehran Times", "Press TV",
 }
