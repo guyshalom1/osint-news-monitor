@@ -1,19 +1,19 @@
 {
-  "checked": "2026-10-26T12:59+00:00",
+  "checked": "2026-10-26T22:39+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 10,
+      "new": 25,
       "newest": "2026-10-26"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 18,
-      "newest": "2026-10-26"
+      "new": 19,
+      "newest": "2026-10-27"
     },
     "Israel Hayom": {
       "fetched": 10,
-      "new": 10,
+      "new": 5,
       "newest": "2026-10-26"
     },
     "Israel National News": {
@@ -23,32 +23,32 @@
     },
     "JNS": {
       "fetched": 30,
-      "new": 30,
+      "new": 29,
       "newest": "2026-10-26"
     },
     "Ynetnews": {
       "fetched": 30,
       "new": 0,
-      "newest": "2026-10-21"
+      "newest": "2026-10-22"
     },
     "Globes": {
       "fetched": 10,
-      "new": 3,
+      "new": 6,
       "newest": "2026-10-26"
     },
     "New York Times": {
-      "fetched": 53,
-      "new": 7,
+      "fetched": 54,
+      "new": 12,
       "newest": "2026-10-26"
     },
     "NPR": {
       "fetched": 10,
-      "new": 1,
+      "new": 3,
       "newest": "2026-10-26"
     },
     "Fox News": {
       "fetched": 25,
-      "new": 0,
+      "new": 3,
       "newest": "2026-10-26"
     },
     "CBS News": {
@@ -58,12 +58,27 @@
     },
     "ABC News": {
       "fetched": 25,
-      "new": 9,
+      "new": 4,
+      "newest": "2026-10-26"
+    },
+    "IRNA": {
+      "fetched": 30,
+      "new": 30,
+      "newest": "2026-10-26"
+    },
+    "Mehr News": {
+      "fetched": 30,
+      "new": 30,
+      "newest": "2026-10-26"
+    },
+    "Tehran Times": {
+      "fetched": 30,
+      "new": 30,
       "newest": "2026-10-26"
     },
     "BBC Middle East": {
-      "fetched": 22,
-      "new": 2,
+      "fetched": 23,
+      "new": 1,
       "newest": "2026-10-26"
     },
     "Al Jazeera": {
@@ -73,13 +88,13 @@
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 22,
+      "new": 25,
       "newest": "2026-10-26"
     },
     "UN News": {
       "fetched": 30,
-      "new": 0,
-      "newest": "2026-10-25"
+      "new": 5,
+      "newest": "2026-10-26"
     }
   }
 }
