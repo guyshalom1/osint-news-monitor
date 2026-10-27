@@ -1,14 +1,14 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-27 18:05 UTC. Period: last 7 days. Matching articles: 480 (97 reprints removed).
+Generated 2026-10-27 22:20 UTC. Period: last 7 days. Matching articles: 477 (94 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 107 articles in the last 24 hours vs 122 in the 24 hours before (-12%), from 16 outlets.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 16% of articles (earlier 30%), diplomacy words in 8% (earlier 21%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 12.1% of their articles; US outlets give the topic 6.6% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 46% of Israel topic articles and 3% of Iran.
+1. **Coverage is steady.** Confidence: High. 105 articles in the last 24 hours vs 130 in the 24 hours before (-19%), from 16 outlets.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 11% of articles (earlier 32%), diplomacy words in 10% (earlier 20%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 11.5% of their articles; US outlets give the topic 5.9% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 44% of Israel topic articles and 3% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
@@ -17,8 +17,8 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - New story, 2 outlets: Without Iran’s participation Persian Gulf security impossible
 - New story, 2 outlets: UK prosecutors charge two after RAF Fairford incident
 - New story, 2 outlets: Iran voices against nuclear monopoly, calls for equal access to advanced technologies
-- Mentioned more: National Security Council (0% to 7%), Iraq (0% to 7%), Rezaei (0% to 7%).
-- Mentioned less: Saudi Arabia (15% to 7%), Trump (13% to 5%), Pakistan (14% to 7%).
+- Mentioned more: Rezaei (0% to 8%), National Security Council (0% to 8%), US (8% to 16%).
+- Mentioned less: Israel (15% to 4%), Netanyahu (19% to 8%), Trump (12% to 5%).
 
 ![Coverage per day](coverage.png)
 
@@ -27,7 +27,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-10-26: 128 articles.
 - Most widely covered story: "2 men rearrested in U . K . on suspicion of assisting Iran over suspected plot at a U . S .- run air base", reported by 3 outlets.
 - Spike on 2026-10-26, reported by: ABC News, Al Jazeera, BBC Middle East, CBS News, Fox News, Haaretz, IRNA, Israel Hayom, Israel National News, JNS, Jerusalem Post, Mehr News, New York Times, Tehran Times, The Guardian World, UN News.
-- Mehr News carried the most coverage (12% of articles).
+- IRNA carried the most coverage (13% of articles).
 
 ## Stories covered by the most outlets
 
@@ -48,21 +48,21 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
+| IRNA | 60 |
 | Mehr News | 58 |
-| IRNA | 53 |
 | Tehran Times | 49 |
-| Al Jazeera | 46 |
-| Jerusalem Post | 46 |
-| Haaretz | 32 |
-| Israel National News | 30 |
+| Al Jazeera | 47 |
+| Jerusalem Post | 44 |
+| Israel National News | 29 |
+| Haaretz | 28 |
 | JNS | 25 |
 | The Guardian World | 18 |
-| Israel Hayom | 13 |
-| New York Times | 10 |
-| CBS News | 8 |
-| Ynetnews | 8 |
+| Israel Hayom | 14 |
+| New York Times | 9 |
+| CBS News | 7 |
+| Ynetnews | 7 |
 | NPR | 6 |
-| Fox News | 4 |
+| Fox News | 3 |
 | ABC News | 3 |
 | UN News | 2 |
 | BBC Middle East | 2 |
@@ -118,25 +118,24 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | nbcnews.com | 1 |
 | theintercept.com | 1 |
 | jewishtimes.com | 1 |
+| wrno.iheart.com | 1 |
 | imra.org.il | 1 |
 | thehindu.com | 1 |
 | politicaldog101.com | 1 |
-| wlap.iheart.com | 1 |
-| dailyrecord.co.uk | 1 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 104 |
-| Netanyahu | 89 |
-| Trump | 88 |
-| Israel | 87 |
+| US | 103 |
+| Trump | 83 |
+| Israel | 83 |
+| Netanyahu | 81 |
 | Oct | 60 |
 | MNA | 58 |
-| Israeli | 45 |
+| Israeli | 44 |
 | Saudi Arabia | 38 |
-| Pezeshkian | 32 |
+| Pezeshkian | 37 |
 | Pakistan | 31 |
 
 ## Media comparison by country
@@ -145,23 +144,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 156 of 1292 (12.1%) | 32 of 488 (6.6%) | 161 of 168 (95.8%) home press |
-| Mentions Israel | 39% | 25% | 2% |
-| Mentions Netanyahu | 46% | 12% | 3% |
-| Mentions Trump | 32% | 12% | 4% |
-| Mentions US | 26% | 6% | 9% |
-| Mentions Oct | 0% | 0% | 37% |
-| Mentions MNA | 0% | 0% | 37% |
-| Mentions Saudi Arabia | 5% | 19% | 11% |
-| Mentions Israeli | 19% | 0% | 6% |
+| Articles about the topic | 149 of 1298 (11.5%) | 29 of 495 (5.9%) | 168 of 176 (95.5%) home press |
+| Mentions Israel | 38% | 28% | 2% |
+| Mentions Netanyahu | 44% | 14% | 3% |
+| Mentions Trump | 31% | 14% | 4% |
+| Mentions US | 25% | 7% | 9% |
+| Mentions Oct | 0% | 0% | 35% |
+| Mentions MNA | 0% | 0% | 35% |
+| Mentions Saudi Arabia | 6% | 17% | 10% |
+| Mentions Houthi | 5% | 24% | 0% |
 
 **Latest Israel headlines**
 
+- Israel Hayom: [Houthis call Egypt's troop deployment to Saudi Arabia 'declaration of war'](https://www.israelhayom.com/2026/10/27/houthis-call-egypts-troop-deployment-to-saudi-arabia-declaration-of-war/)
 - JNS: [UK prosecutors charge two over suspected Iranian spying near RAF Fairford](https://www.jns.org/news/world/uk-prosecutors-charge-two-over-suspected-iranian-spying-near-raf-fairford)
 - Haaretz: [Military officials say Netanyahu using clash with IDF chief for campaign purposes](https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article/.premium/military-officials-say-netanyahu-using-clash-with-idf-chief-for-campaign/000001a1-79d2-dfb9-a5a9-fbf705f70000)
 - Haaretz: [Netanyahu digs in, and Iran is never far](https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article/.premium/netanyahu-digs-in-and-iran-is-never-far/000001a1-79fa-d682-a7af-79fef7700000)
 - Israel National News: [Trump on Iran war: We had no choice, we didn’t start the war](https://www.israelnationalnews.com/flashes/696103)
-- Jerusalem Post: ['Complete fabrication': Netanyahu, Katz deny plans to fire IDF chief Zamir ahead of election](https://www.jpost.com/israel-news/defense-news/article-912979)
 
 **Latest US headlines**
 
@@ -173,23 +172,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
-- IRNA: [IRGC dismantles two terrorist teams in southeast Iran](https://en.irna.ir/news/86305261/IRGC-dismantles-two-terrorist-teams-in-southeast-Iran)
-- Mehr News: [Oil tanker on fire after hitting mines in Hormuz: Iran Army](https://en.mehrnews.com/news/248973/Oil-tanker-on-fire-after-hitting-mines-in-Hormuz-Iran-Army)
-- IRNA: [Iran to UNSC: Israel possesses nuclear weapons, yet you are concerned about absence of inspectors in Iran!](https://en.irna.ir/news/86305296/Iran-to-UNSC-Israel-possesses-nuclear-weapons-yet-you-are-concerned)
-- Mehr News: [Iran, Russia presidents hold meeting in Moscow](https://en.mehrnews.com/news/248972/Iran-Russia-presidents-hold-meeting-in-Moscow)
-- Mehr News: [Iran, Tajikistan to expand cultural cooperation](https://en.mehrnews.com/news/248971/Iran-Tajikistan-to-expand-cultural-cooperation)
+- IRNA: [Pezeshkian: Gas Exporting Countries Forum summit was constructive and fruitful](https://en.irna.ir/news/86305393/Pezeshkian-Gas-Exporting-Countries-Forum-summit-was-constructive)
+- IRNA: [Araghchi congratulates Lula da Silva on his victory in Brazilian election](https://en.irna.ir/news/86305385/Araghchi-congratulates-Lula-da-Silva-on-his-victory-in-Brazilian)
+- IRNA: [President Pezeshkian departs Moscow for Tehran](https://en.irna.ir/news/86305375/President-Pezeshkian-departs-Moscow-for-Tehran)
+- IRNA: [Iranian, Russian presidents pledge to expand bilateral ties, advance joint projects](https://en.irna.ir/news/86305374/Iranian-Russian-presidents-pledge-to-expand-bilateral-ties)
+- IRNA: [Iranian Ambassador’s response to US representative: Speak based on facts, not fabricated accusations](https://en.irna.ir/news/86305366/Iranian-Ambassador-s-response-to-US-representative-Speak-based)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-10-27 | IRNA | [IRGC dismantles two terrorist teams in southeast Iran](https://en.irna.ir/news/86305261/IRGC-dismantles-two-terrorist-teams-in-southeast-Iran)
-- 2026-10-27 | Mehr News | [Oil tanker on fire after hitting mines in Hormuz: Iran Army](https://en.mehrnews.com/news/248973/Oil-tanker-on-fire-after-hitting-mines-in-Hormuz-Iran-Army)
-- 2026-10-27 | IRNA | [Iran to UNSC: Israel possesses nuclear weapons, yet you are concerned about absence of inspectors in Iran!](https://en.irna.ir/news/86305296/Iran-to-UNSC-Israel-possesses-nuclear-weapons-yet-you-are-concerned)
-- 2026-10-27 | Mehr News | [Iran, Russia presidents hold meeting in Moscow](https://en.mehrnews.com/news/248972/Iran-Russia-presidents-hold-meeting-in-Moscow)
-- 2026-10-27 | Tehran Times | [Maintain control of Hormuz, Leader insists in meeting with security chief](https://www.tehrantimes.com/news/531583/Maintain-control-of-Hormuz)
-- 2026-10-27 | Mehr News | [IRGC dispmantles two terror teams in southeast Iran](https://en.mehrnews.com/news/248970/IRGC-dispmantles-two-terror-teams-in-southeast-Iran)
-- 2026-10-27 | Tehran Times | [Araghchi holds separate calls with Egyptian, Jordanian and Turkmen counterparts](https://www.tehrantimes.com/news/531579/Araghchi-holds-separate-calls-with-Egyptian-Jordanian-and-Turkmen)
-- 2026-10-27 | Tehran Times | [China to send special envoy to Middle East amid fears of conflict spillover](https://www.tehrantimes.com/news/531578/China-to-send-special-envoy-to-Middle-East-amid-fears-of-conflict)
-- 2026-10-27 | Tehran Times | [Oman: No lasting Persian Gulf security without Iran’s participation](https://www.tehrantimes.com/news/531577/Oman-No-lasting-Persian-Gulf-security-without-Iran-s-participation)
-- 2026-10-27 | Tehran Times | [Bagheri: Tehran quadrilateral meeting reflects Iran’s defense capabilities](https://www.tehrantimes.com/news/531576/Bagheri-Tehran-quadrilateral-meeting-reflects-Iran-s-defense)
+- 2026-10-27 | IRNA | [Pezeshkian: Gas Exporting Countries Forum summit was constructive and fruitful](https://en.irna.ir/news/86305393/Pezeshkian-Gas-Exporting-Countries-Forum-summit-was-constructive)
+- 2026-10-27 | Al Jazeera | [Trump showcases Venezuelan oil as he seeks to rally voters in Texas](https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss)
+- 2026-10-27 | Al Jazeera | [Forever Wars: Why can’t America stop?](https://www.aljazeera.com/video/lets-focus/2026/10/27/forever-wars-why-cant-america-stop?traffic_source=rss)
+- 2026-10-27 | IRNA | [Araghchi congratulates Lula da Silva on his victory in Brazilian election](https://en.irna.ir/news/86305385/Araghchi-congratulates-Lula-da-Silva-on-his-victory-in-Brazilian)
+- 2026-10-27 | Al Jazeera | [Will players in the Gulf establish a new security framework?](https://www.aljazeera.com/video/inside-story/2026/10/27/will-players-in-the-gulf-establish-a-new-security-framework?traffic_source=rss)
+- 2026-10-27 | IRNA | [President Pezeshkian departs Moscow for Tehran](https://en.irna.ir/news/86305375/President-Pezeshkian-departs-Moscow-for-Tehran)
+- 2026-10-27 | IRNA | [Iranian, Russian presidents pledge to expand bilateral ties, advance joint projects](https://en.irna.ir/news/86305374/Iranian-Russian-presidents-pledge-to-expand-bilateral-ties)
+- 2026-10-27 | IRNA | [Iranian Ambassador’s response to US representative: Speak based on facts, not fabricated accusations](https://en.irna.ir/news/86305366/Iranian-Ambassador-s-response-to-US-representative-Speak-based)
+- 2026-10-27 | Al Jazeera | [Qatar’s Emir and Putin call for diplomacy amid US-Iran conflict](https://www.aljazeera.com/video/newsfeed/2026/10/27/qatars-emir-and-putin-call-for-diplomacy-amid-us-iran-conflict?traffic_source=rss)
+- 2026-10-27 | IRNA | [Leader’s message to elites, driving force behind Iran’s progress: Adviser](https://en.irna.ir/news/86305329/Leader-s-message-to-elites-driving-force-behind-Iran-s-progress)

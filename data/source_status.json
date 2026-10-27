@@ -1,19 +1,19 @@
 {
-  "checked": "2026-10-27T17:59+00:00",
+  "checked": "2026-10-27T22:12+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 9,
+      "new": 12,
       "newest": "2026-10-27"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 12,
+      "new": 11,
       "newest": "2026-10-27"
     },
     "Israel Hayom": {
       "fetched": 10,
-      "new": 1,
+      "new": 6,
       "newest": "2026-10-27"
     },
     "Israel National News": {
@@ -23,7 +23,7 @@
     },
     "JNS": {
       "fetched": 30,
-      "new": 29,
+      "new": 12,
       "newest": "2026-10-27"
     },
     "Ynetnews": {
@@ -33,12 +33,12 @@
     },
     "Globes": {
       "fetched": 10,
-      "new": 0,
-      "newest": "2026-10-26"
+      "new": 1,
+      "newest": "2026-10-27"
     },
     "New York Times": {
       "fetched": 57,
-      "new": 9,
+      "new": 16,
       "newest": "2026-10-27"
     },
     "NPR": {
@@ -53,47 +53,47 @@
     },
     "CBS News": {
       "fetched": 30,
-      "new": 6,
+      "new": 2,
       "newest": "2026-10-27"
     },
     "ABC News": {
       "fetched": 25,
-      "new": 10,
+      "new": 3,
       "newest": "2026-10-27"
     },
     "IRNA": {
       "fetched": 30,
-      "new": 8,
+      "new": 7,
       "newest": "2026-10-27"
     },
     "Mehr News": {
       "fetched": 30,
-      "new": 10,
+      "new": 0,
       "newest": "2026-10-27"
     },
     "Tehran Times": {
       "fetched": 30,
-      "new": 18,
+      "new": 1,
       "newest": "2026-10-27"
     },
     "BBC Middle East": {
-      "fetched": 25,
-      "new": 1,
+      "fetched": 24,
+      "new": 0,
       "newest": "2026-10-27"
     },
     "Al Jazeera": {
       "fetched": 25,
-      "new": 25,
+      "new": 23,
       "newest": "2026-10-27"
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 15,
+      "new": 11,
       "newest": "2026-10-27"
     },
     "UN News": {
       "fetched": 30,
-      "new": 1,
+      "new": 0,
       "newest": "2026-10-27"
     }
   }
