@@ -27,6 +27,9 @@ STOPWORDS = {
     "Thursday", "Friday", "Saturday", "Sunday", "January", "February",
     "March", "April", "May", "June", "July", "August", "September",
     "October", "November", "December",
+    "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Sept", "Oct",
+    "Nov", "Dec", "Today", "Day", "Two", "Three", "Get", "According",
+    "Ministry", "Department", "News", "Breaking", "Video", "Photos", "Police",
 }
 
 # Job titles. They are not part of a person's name, so "Prime Minister Benjamin
