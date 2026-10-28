@@ -1,5 +1,8 @@
 # OSINT News Monitor
 
+[![Tests](https://github.com/guyshalom1/osint-news-monitor/actions/workflows/tests.yml/badge.svg)](https://github.com/guyshalom1/osint-news-monitor/actions/workflows/tests.yml)
+[![Collect and report](https://github.com/guyshalom1/osint-news-monitor/actions/workflows/monitor.yml/badge.svg)](https://github.com/guyshalom1/osint-news-monitor/actions/workflows/monitor.yml)
+
 A Python tool that tracks how a topic is covered across open news sources. It collects articles from public RSS feeds, stores them locally, and produces an analyst-style report: coverage volume over time, unusual spikes, which outlets lead the coverage, and which names and places appear alongside the topic.
 
 Built as a personal project to automate a task I do manually as a delegate intern at Israel's Permanent Mission to the UN: following how an issue develops across sources before a meeting.
@@ -72,9 +75,22 @@ python -m osint_monitor backfill --keywords Iran Iranian Tehran --days 7
 
 # report on a topic for the last 7 days
 python -m osint_monitor report --keywords Iran Iranian Tehran --days 7
+
+# optional: also refresh the assessment block at the top of this README
+python -m osint_monitor report --keywords Iran --days 7 --out reports/latest --readme README.md
 ```
 
-The report is written to `output/report.md` with `output/coverage.png`.
+The report is written to `output/report.md` (or `--out`) with its charts. The scheduled workflow runs the same commands every 6 hours and commits the data and the report back to the repository.
+
+## Design decisions
+
+- **Rule-based, not a language model.** The assessment is built from counts and short word lists, so the same data always gives the same text and every sentence can be traced to a number. That makes it auditable, which matters more than fluency for an analytic product.
+- **Confidence is stated, not implied.** Each judgment carries High, Medium or Low, set by how many articles and how many different outlets stand behind it. One outlet repeating itself does not raise confidence.
+- **Shares instead of raw counts.** Feeds differ in size, so countries are compared by the share of their output that covers the topic.
+- **Home press is excluded from attention comparisons.** Iranian state outlets cover Iran as domestic news, so they are compared on framing only.
+- **Incomplete days are labeled, not hidden.** Days before collection started are drawn as partial and left out of peak and spike detection.
+- **Reprints are removed before counting**, so wire copy republished by many sites does not look like independent coverage.
+- **Failures are visible.** Each run records source health, a failed scheduled run opens a GitHub issue, and tests run on every push without network access.
 
 ## Project structure
 
@@ -89,22 +105,22 @@ osint_monitor/
   report.py     Markdown report and chart
   __main__.py   command-line interface
 tests/          tests on a local sample feed (no internet needed)
+data/           SQLite database and source health, updated by the workflow
+reports/latest/ the latest report and charts, updated by the workflow
+.github/        scheduled collection (every 6 hours) and CI (lint and tests)
 ```
 
-Run the tests with `pytest`.
+Run the tests with `pytest` and the linter with `ruff check .`.
 
 ## Limitations
-
 - RSS feeds only carry recent items, so trends become meaningful after the collector has run for several days.
 - Entity extraction is a simple heuristic, not a trained NLP model. It can pick up generic capitalized words.
 - The assessment describes what media report, not what happens on the ground. Tone uses short word lists, so it misses sarcasm and context.
 - Iranian outlets are state-affiliated. Press TV (no dates), Tasnim and Fars (no connection from cloud servers) and Iran International (empty feed) could not be used.
 - Israeli feeds are general news while US feeds are world sections, so attention shares are indicative, not like-for-like. Times of Israel and i24NEWS block automated access from cloud servers.
 - Coverage volume is not importance: one outlet publishing many short updates can inflate a day's count.
-
 - GDELT results carry titles only, and it matches keywords in the full article text, so backfilled articles whose title lacks the keyword are filtered out of the report. It is capped at 250 articles per day per query; a capped day is not marked complete.
 - The same outlet can appear under an RSS name and a GDELT domain in the source table. Duplicate links are skipped, but the labels differ.
-
 - Reprint removal and story grouping compare headline words only (Jaccard similarity), so paraphrased headlines that share few words are treated as different stories. Grouping is deliberately conservative: one event can show up as two or three stories rather than risk merging unrelated ones.
 
 ## Possible next steps

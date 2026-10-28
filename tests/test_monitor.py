@@ -1,10 +1,13 @@
 """Tests run on a local sample feed, so they need no internet connection."""
 
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 
 from osint_monitor.analyzer import analyze, clean_name, find_spikes, top_entities
 from osint_monitor.collector import clean_text, collect, connect
+from osint_monitor.dedupe import remove_reprints, story_clusters, title_words
+from osint_monitor.gdelt import backfill, build_query, normalize, query_key
 from osint_monitor.report import make_report
 
 FEED = str(Path(__file__).parent / "fixtures" / "sample_feed.xml")
@@ -113,10 +116,6 @@ def test_report_written_when_all_days_partial(tmp_path):
 
 # --- GDELT backfill (no internet: responses are faked) ---
 
-import json
-
-from osint_monitor.gdelt import backfill, build_query, normalize, query_key
-
 
 class FakeResponse:
     def __init__(self, body):
@@ -201,13 +200,11 @@ def test_backfill_stops_after_repeated_errors_and_skips_empty_days_as_complete()
     assert sum("error" in v for v in out.values()) == 2
     assert sum("skipped" in v for v in out.values()) == 3
 
-    empty = backfill(conn, ["Iran"], days=2, now=NOW, opener=fake_opener([]), pause=0)
+    backfill(conn, ["Iran"], days=2, now=NOW, opener=fake_opener([]), pause=0)
     assert conn.execute("SELECT COUNT(*) FROM backfills").fetchone()[0] == 0
 
 
 # --- reprints and story clusters ---
-
-from osint_monitor.dedupe import remove_reprints, story_clusters, title_words
 
 
 def art(source, title, day="2026-10-10"):

@@ -21,7 +21,8 @@ from .collector import clean_text, save
 
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 MAX_RECORDS = 250      # the API's maximum per request
-PAUSE_SECONDS = 10     # GDELT asks for one request per 5 seconds; shared CI IPs get 429s, so be slower
+# GDELT asks for one request per 5 seconds; shared CI IPs get 429s, so be slower.
+PAUSE_SECONDS = 10
 MAX_CONSECUTIVE_ERRORS = 2
 TIME_BUDGET_SECONDS = 240   # stop early; the next scheduled run continues where this one left off
 

@@ -164,7 +164,8 @@ def make_comparison_chart(comp, path):
     if any(data[c]["home"] for c in countries):
         note += "\nHome press is left out of the left panel: it covers the topic as domestic news."
     if small < 30:
-        note += f"\nSmall samples (fewest: {small} articles): read differences as indicative, not conclusive."
+        note += (f"\nSmall samples (fewest: {small} articles): "
+                 "read differences as indicative, not conclusive.")
     fig.suptitle(f"Media comparison by country: {', '.join(comp['keywords'])}",
                  x=0.012, y=0.985, ha="left", va="top", fontsize=14, color=INK)
     fig.text(0.012, 0.915, note, ha="left", va="top", fontsize=9, color=MUTED)
