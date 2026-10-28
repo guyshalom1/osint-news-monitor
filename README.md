@@ -4,6 +4,29 @@ A Python tool that tracks how a topic is covered across open news sources. It co
 
 Built as a personal project to automate a task I do manually as a delegate intern at Israel's Permanent Mission to the UN: following how an issue develops across sources before a meeting.
 
+## Latest assessment
+
+<!-- assessment:start -->
+_Updated 2026-10-28 15:53 UTC. Full report: [reports/latest/report.md](reports/latest/report.md)_
+
+## Assessment
+
+The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
+
+1. **Coverage is steady.** Confidence: High. 100 articles in the last 24 hours vs 125 in the 24 hours before (-20%), from 16 outlets.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 23% of articles (earlier 17%), diplomacy words in 16% (earlier 12%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 11.3% of their articles; US outlets give the topic 7.0% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 44% of Israel topic articles and 2% of Iran.
+
+Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
+
+## What changed in the last 24 hours
+
+- New story, 2 outlets: IRGC dispmantles two terror teams in southeast Iran
+- New story, 2 outlets: Report: US tells Gulf allies to prepare for Iran strikes after midterms
+- Mentioned more: Ministry (0% to 7%), Oct (23% to 30%), Middle East (0% to 7%).
+- Mentioned less: Saudi Arabia (10% to 2%), Khamenei (8% to 0%), Turkey (7% to 0%).
+<!-- assessment:end -->
+
 ## Live report
 
 A scheduled GitHub Actions workflow collects new articles every 6 hours and rebuilds the report on real data. Latest report: [reports/latest/report.md](reports/latest/report.md)

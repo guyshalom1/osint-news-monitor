@@ -15,7 +15,7 @@ from .analyzer import analyze, compare_countries
 from .assessment import build_assessment
 from .collector import collect, connect
 from .gdelt import backfill
-from .report import make_report
+from .report import make_report, update_readme
 from .sources import SOURCES
 
 
@@ -34,6 +34,7 @@ def main():
     rep.add_argument("--keywords", nargs="+", required=True)
     rep.add_argument("--days", type=int, default=7)
     rep.add_argument("--out", default="output")
+    rep.add_argument("--readme", help="README file whose assessment block to refresh")
 
     args = parser.parse_args()
     conn = connect(args.db)
@@ -66,6 +67,10 @@ def main():
         assessment = build_assessment(result, comparison, now)
         path = make_report(result, args.out, comparison, assessment)
         print(f"{result['total']} matching articles. Report: {path}")
+        if args.readme and result["total"]:
+            stamp = now.strftime("%Y-%m-%d %H:%M UTC")
+            if not update_readme(args.readme, assessment, stamp):
+                print(f"No assessment markers in {args.readme}; left unchanged.")
 
 
 if __name__ == "__main__":

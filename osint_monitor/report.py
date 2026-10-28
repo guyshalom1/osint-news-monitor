@@ -210,6 +210,29 @@ def comparison_lines(comp):
     return lines
 
 
+README_START, README_END = "<!-- assessment:start -->", "<!-- assessment:end -->"
+
+
+def update_readme(readme_path, assessment, generated):
+    """Put the latest assessment between the markers in the README.
+
+    The repo's front page is the README, so the bottom line should be there
+    and not only inside reports/latest/report.md. Does nothing if the
+    markers are missing, so a hand-edited README never breaks the run.
+    """
+    path = Path(readme_path)
+    text = path.read_text(encoding="utf-8")
+    start, end = text.find(README_START), text.find(README_END)
+    if start == -1 or end < start:
+        return False
+    block = ["", f"_Updated {generated}. Full report: [reports/latest/report.md]"
+             "(reports/latest/report.md)_", ""]
+    block += assessment_lines(assessment)
+    new = text[:start + len(README_START)] + "\n".join(block) + text[end:]
+    path.write_text(new, encoding="utf-8")
+    return True
+
+
 def make_report(result, out_dir, comparison=None, assessment=None):
     """Write report.md and coverage.png into out_dir. Returns the report path."""
     out_dir = Path(out_dir)
