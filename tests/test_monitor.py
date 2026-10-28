@@ -263,3 +263,11 @@ def test_backfill_respects_time_budget():
                    pause=0, budget=150, clock=lambda: next(ticks))
     assert any("time budget" in v.get("skipped", "") for v in out.values()
                if isinstance(v, dict))
+
+
+def test_month_abbreviations_and_generic_words_are_not_names():
+    from osint_monitor.analyzer import clean_name
+
+    for word in ("Oct", "Ministry", "News", "According"):
+        assert clean_name(word, set()) == ""
+    assert clean_name("Tel Aviv", set()) == "Tel Aviv"
