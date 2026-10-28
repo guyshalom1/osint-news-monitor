@@ -1,19 +1,19 @@
 {
-  "checked": "2026-10-28T12:51+00:00",
+  "checked": "2026-10-28T22:34+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 14,
+      "new": 17,
       "newest": "2026-10-28"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 10,
+      "new": 13,
       "newest": "2026-10-28"
     },
     "Israel Hayom": {
       "fetched": 10,
-      "new": 9,
+      "new": 4,
       "newest": "2026-10-28"
     },
     "Israel National News": {
@@ -23,27 +23,27 @@
     },
     "JNS": {
       "fetched": 30,
-      "new": 18,
+      "new": 20,
       "newest": "2026-10-28"
     },
     "Ynetnews": {
       "fetched": 30,
-      "new": 30,
-      "newest": "2026-10-28"
+      "new": 0,
+      "newest": "2026-10-22"
     },
     "Globes": {
       "fetched": 10,
-      "new": 5,
+      "new": 4,
       "newest": "2026-10-28"
     },
     "New York Times": {
-      "fetched": 57,
-      "new": 9,
+      "fetched": 55,
+      "new": 17,
       "newest": "2026-10-28"
     },
     "NPR": {
       "fetched": 10,
-      "new": 5,
+      "new": 1,
       "newest": "2026-10-28"
     },
     "Fox News": {
@@ -53,32 +53,32 @@
     },
     "CBS News": {
       "fetched": 30,
-      "new": 4,
+      "new": 3,
       "newest": "2026-10-28"
     },
     "ABC News": {
       "fetched": 25,
-      "new": 5,
+      "new": 16,
       "newest": "2026-10-28"
     },
     "IRNA": {
       "fetched": 30,
-      "new": 14,
+      "new": 7,
       "newest": "2026-10-28"
     },
     "Mehr News": {
       "fetched": 30,
-      "new": 14,
+      "new": 9,
       "newest": "2026-10-28"
     },
     "Tehran Times": {
       "fetched": 30,
-      "new": 12,
+      "new": 22,
       "newest": "2026-10-28"
     },
     "BBC Middle East": {
-      "fetched": 24,
-      "new": 1,
+      "fetched": 23,
+      "new": 3,
       "newest": "2026-10-28"
     },
     "Al Jazeera": {
@@ -88,13 +88,13 @@
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 19,
+      "new": 23,
       "newest": "2026-10-28"
     },
     "UN News": {
       "fetched": 30,
-      "new": 0,
-      "newest": "2026-10-27"
+      "new": 8,
+      "newest": "2026-10-28"
     }
   }
 }

@@ -1,23 +1,24 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-28 12:58 UTC. Period: last 7 days. Matching articles: 611 (131 reprints removed).
+Generated 2026-10-28 22:41 UTC. Period: last 7 days. Matching articles: 619 (113 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 122 articles in the last 24 hours vs 125 in the 24 hours before (-2%), from 16 outlets.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 23% of articles (earlier 19%), diplomacy words in 15% (earlier 14%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 11.1% of their articles; US outlets give the topic 6.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 44% of Israel topic articles and 2% of Iran.
+1. **Coverage is steady.** Confidence: High. 114 articles in the last 24 hours vs 110 in the 24 hours before (+4%), from 16 outlets.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 25% of articles (earlier 12%), diplomacy words in 20% (earlier 10%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.6% of their articles; US outlets give the topic 6.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 41% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: IRGC dispmantles two terror teams in southeast Iran
 - New story, 2 outlets: Report: US tells Gulf allies to prepare for Iran strikes after midterms
-- Mentioned more: US (7% to 20%), Putin (0% to 7%), Trump (5% to 11%).
-- Mentioned less: Saudi Arabia (13% to 2%), Pakistan (12% to 2%), Turkey (10% to 0%).
+- New story, 2 outlets: Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot
+- New story, 2 outlets: Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation
+- Mentioned more: Araghchi (7% to 14%), MNA (25% to 31%), Israel (4% to 10%).
+- Mentioned less: Pezeshkian (19% to 8%), Rezaei (7% to 0%), Moscow (11% to 4%).
 
 ![Coverage per day](coverage.png)
 
@@ -26,7 +27,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-10-26: 132 articles.
 - Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
 - Spike on 2026-10-26, reported by: ABC News, Al Jazeera, BBC Middle East, CBS News, Fox News, Haaretz, IRNA, Israel Hayom, Israel National News, JNS, Jerusalem Post, Mehr News, New York Times, Tehran Times, The Guardian World, UN News, arabnews.com, bbc.com, dailyexcelsior.com, nuclear-news.net.
-- Mehr News carried the most coverage (14% of articles).
+- Mehr News carried the most coverage (15% of articles).
 
 ## Stories covered by the most outlets
 
@@ -47,31 +48,30 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Mehr News | 85 |
-| IRNA | 73 |
-| Tehran Times | 64 |
-| Al Jazeera | 46 |
-| Jerusalem Post | 42 |
-| Haaretz | 29 |
-| Israel National News | 27 |
-| JNS | 24 |
+| Mehr News | 93 |
+| Tehran Times | 84 |
+| IRNA | 80 |
+| Al Jazeera | 44 |
+| Jerusalem Post | 39 |
+| Haaretz | 27 |
+| Israel National News | 24 |
+| JNS | 22 |
 | The Guardian World | 16 |
-| Israel Hayom | 14 |
-| CBS News | 10 |
+| Israel Hayom | 15 |
 | New York Times | 10 |
-| Ynetnews | 7 |
+| CBS News | 8 |
 | NPR | 6 |
 | ABC News | 4 |
+| Ynetnews | 4 |
 | econotimes.com | 4 |
 | ncr-iran.org | 4 |
 | article.wn.com | 4 |
-| al-monitor.com | 4 |
-| Fox News | 3 |
 | UN News | 3 |
 | irannewsupdate.com | 3 |
 | grenadachronicle.com | 3 |
 | timesofindia.indiatimes.com | 3 |
-| theepochtimes.com | 3 |
+| al-monitor.com | 3 |
+| Fox News | 2 |
 | BBC Middle East | 2 |
 | thenationalnews.com | 2 |
 | middleeastmonitor.com | 2 |
@@ -85,12 +85,11 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | en.dailypakistan.com.pk | 2 |
 | themedialine.org | 2 |
 | presstv.co.uk | 2 |
-| en.apa.az | 2 |
+| theepochtimes.com | 2 |
 | moneycontrol.com | 2 |
 | aljazeera.com | 2 |
 | investinglive.com | 2 |
 | iranherald.com | 2 |
-| middleeaststar.com | 2 |
 | theyeshivaworld.com | 2 |
 | pjmedia.com | 2 |
 | dailyexcelsior.com | 1 |
@@ -115,6 +114,7 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | 2paragraphs.com | 1 |
 | jewishtimes.com | 1 |
 | atholdailynews.com | 1 |
+| en.apa.az | 1 |
 | newindianexpress.com | 1 |
 | stardem.com | 1 |
 | londonlovesbusiness.com | 1 |
@@ -141,6 +141,7 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | kten.com | 1 |
 | wgme.com | 1 |
 | hellenicshippingnews.com | 1 |
+| middleeaststar.com | 1 |
 | theuknews.com | 1 |
 | mg.co.za | 1 |
 | theage.com.au | 1 |
@@ -164,28 +165,22 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | middleeasteye.net | 1 |
 | israelnationalnews.com | 1 |
 | foxcarolina.com | 1 |
-| channelnewsasia.com | 1 |
-| navytimes.com | 1 |
-| naturalnews.com | 1 |
-| jpost.com | 1 |
-| wjdx.iheart.com | 1 |
-| trend.az | 1 |
-| nypost.com | 1 |
+| wsfcam.iheart.com | 1 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 123 |
-| Trump | 106 |
-| Israel | 87 |
-| Oct | 86 |
-| MNA | 85 |
-| Netanyahu | 82 |
-| Israeli | 52 |
-| Pezeshkian | 45 |
-| Saudi Arabia | 39 |
-| Pakistan | 31 |
+| US | 122 |
+| Trump | 98 |
+| MNA | 93 |
+| Israel | 76 |
+| Netanyahu | 70 |
+| Israeli | 49 |
+| Pezeshkian | 49 |
+| Saudi Arabia | 41 |
+| Araghchi | 35 |
+| Pakistan | 34 |
 
 ## Media comparison by country
 
@@ -193,23 +188,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 145 of 1304 (11.1%) | 34 of 500 (6.8%) | 223 of 232 (96.1%) home press |
-| Mentions Israel | 39% | 26% | 3% |
-| Mentions Netanyahu | 44% | 18% | 2% |
-| Mentions Trump | 34% | 12% | 4% |
-| Mentions US | 26% | 6% | 9% |
-| Mentions Oct | 0% | 0% | 39% |
-| Mentions MNA | 0% | 0% | 39% |
-| Mentions Israeli | 19% | 9% | 6% |
-| Mentions Houthi | 6% | 26% | 0% |
+| Articles about the topic | 133 of 1260 (10.6%) | 31 of 507 (6.1%) | 259 of 270 (95.9%) home press |
+| Mentions Israel | 35% | 29% | 3% |
+| Mentions Netanyahu | 41% | 19% | 2% |
+| Mentions Trump | 35% | 10% | 3% |
+| Mentions US | 24% | 6% | 10% |
+| Mentions MNA | 0% | 0% | 37% |
+| Mentions Israeli | 17% | 10% | 6% |
+| Mentions Houthi | 5% | 23% | 0% |
+| Mentions Saudi Arabia | 6% | 13% | 8% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [US moves Patriot missile defense system from Texas to Israel ahead of possible Iran strike - report](https://www.jpost.com/israel-news/defense-news/article-913105)
-- Haaretz: [Report: U.S. prepares Gulf allies for short post-midterm conflict with Iran](https://www.haaretz.com/middle-east-news/2026-10-28/ty-article/report-u-s-prepares-gulf-allies-for-short-post-midterm-conflict-with-iran/000001a1-81b7-db17-a3ff-d7b721580000)
-- JNS: [Who gets a veto over Israeli action against Hamas and Iran?](https://www.jns.org/opinion/column/jonathan-s-tobin/who-gets-a-veto-over-israeli-action-against-hamas-and-iran)
-- Haaretz: [Netanyahu claims victory without majority, declines to call for unity gov't](https://www.haaretz.com/israel-news/elections/2026-10-28/ty-article/.premium/netanyahu-claims-victory-without-majority-declines-to-call-for-unity-govt/000001a1-80ee-def6-abff-ccfe81460000)
-- JNS: [In first election post-10/7, Israeli voters choose same electoral deadlock](https://www.jns.org/analysis/three-years-after-oct-7-israelis-return-to-political-deadlock)
+- Jerusalem Post: [Erdogan tells Trump Turkey making diplomatic efforts on Strait of Hormuz, Yemen](https://www.jpost.com/middle-east/article-913160)
+- Jerusalem Post: [Qatar awaits Iran’s response to new nuclear proposal offering sanctions relief](https://www.jpost.com/middle-east/iran-news/article-913159)
+- Jerusalem Post: [How do Israeli election results impact timing of possible new Iran war? - analysis](https://www.jpost.com/israel-news/defense-news/article-913152)
+- Haaretz: [Iran says new proposal to reopen Strait of Hormuz under review](https://www.haaretz.com/middle-east-news/iran/2026-10-28/ty-article/iran-says-new-proposal-to-reopen-strait-of-hormuz-under-review/000001a1-83a4-d9b5-a3b5-cfb49a840000)
+- JNS: [Dem-controlled Congress would engage in ‘political warfare’ against Netanyahu if he stays in power, expert says](https://www.jns.org/news/u-s-news/dem-controlled-congress-would-engage-in-political-warfare-against-netanyahu-if-he-stays-in-power-expert-says)
 
 **Latest US headlines**
 
@@ -221,23 +216,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
-- IRNA: [Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation](https://en.irna.ir/news/86306120/Pezeshkian-vows-to-implement-Leader-s-directive-to-end-neither)
-- Mehr News: [President declares to implement Leader’s directives](https://en.mehrnews.com/news/249003/President-declares-to-implement-Leader-s-directives)
-- Tehran Times: [ICRC praises Iranian rescuers, pledges support for Red Crescent](https://www.tehrantimes.com/news/531604/ICRC-praises-Iranian-rescuers-pledges-support-for-Red-Crescent)
-- Tehran Times: [Health ministry, WHO hold TOT workshop on generating reliable mortality data](https://www.tehrantimes.com/news/531602/Health-ministry-WHO-hold-TOT-workshop-on-generating-reliable)
-- Mehr News: [Evacuate Aden Airport immediately: Yemen’s Armed Forces spox](https://en.mehrnews.com/news/249000/Evacuate-Aden-Airport-immediately-Yemen-s-Armed-Forces-spox)
+- Tehran Times: [Israeli firm turned Starlink traffic into espionage tool across 105 countries](https://www.tehrantimes.com/news/531624/Israeli-firm-turned-Starlink-traffic-into-espionage-tool-across)
+- Mehr News: [Iran to maintain close contact with mediators for diplomacy](https://en.mehrnews.com/news/249011/Iran-to-maintain-close-contact-with-mediators-for-diplomacy)
+- Tehran Times: [Each of the three options facing US in confrontation with Iran carries strategic losses](https://www.tehrantimes.com/news/531623/Each-of-the-three-options-facing-US-in-confrontation-with-Iran)
+- Tehran Times: [Lula’s victory once again showed Latin America is not US backyard](https://www.tehrantimes.com/news/531622/Lula-s-victory-once-again-showed-Latin-America-is-not-US-backyard)
+- IRNA: [New Iranian ambassador to Greece meets FM Araghchi ahead of mission](https://en.irna.ir/news/86306433/Iran-new-ambassador-to-Greece-meets-FM-Araghchi-ahead-of-mission)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-10-28 | ABC News | [Yemen appeals for help for civilians as Houthis tighten the siege of Taiz, and other Mideast news](https://abcnews.com/International/wireStory/yemen-appeals-civilians-houthis-tighten-siege-taiz-mideast-137634512)
-- 2026-10-28 | IRNA | [Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation](https://en.irna.ir/news/86306120/Pezeshkian-vows-to-implement-Leader-s-directive-to-end-neither)
-- 2026-10-28 | Mehr News | [President declares to implement Leader’s directives](https://en.mehrnews.com/news/249003/President-declares-to-implement-Leader-s-directives)
-- 2026-10-28 | Jerusalem Post | [US moves Patriot missile defense system from Texas to Israel ahead of possible Iran strike - report](https://www.jpost.com/israel-news/defense-news/article-913105)
-- 2026-10-28 | Tehran Times | [ICRC praises Iranian rescuers, pledges support for Red Crescent](https://www.tehrantimes.com/news/531604/ICRC-praises-Iranian-rescuers-pledges-support-for-Red-Crescent)
-- 2026-10-28 | Tehran Times | [Health ministry, WHO hold TOT workshop on generating reliable mortality data](https://www.tehrantimes.com/news/531602/Health-ministry-WHO-hold-TOT-workshop-on-generating-reliable)
-- 2026-10-28 | CBS News | [Qatari mediators hand Iran new proposal to end the war](https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/)
-- 2026-10-28 | Mehr News | [Evacuate Aden Airport immediately: Yemen’s Armed Forces spox](https://en.mehrnews.com/news/249000/Evacuate-Aden-Airport-immediately-Yemen-s-Armed-Forces-spox)
-- 2026-10-28 | IRNA | [Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot](https://en.irna.ir/news/86306018/Iran-embassy-in-Kuwait-rejects-allegation-linking-Iranian-national)
-- 2026-10-28 | Tehran Times | [National call launched to advance Persian medicine, herbal research](https://www.tehrantimes.com/news/531599/National-call-launched-to-advance-Persian-medicine-herbal-research)
+- 2026-10-28 | Jerusalem Post | [Erdogan tells Trump Turkey making diplomatic efforts on Strait of Hormuz, Yemen](https://www.jpost.com/middle-east/article-913160)
+- 2026-10-28 | Jerusalem Post | [Qatar awaits Iran’s response to new nuclear proposal offering sanctions relief](https://www.jpost.com/middle-east/iran-news/article-913159)
+- 2026-10-28 | Jerusalem Post | [How do Israeli election results impact timing of possible new Iran war? - analysis](https://www.jpost.com/israel-news/defense-news/article-913152)
+- 2026-10-28 | The Guardian World | [Budget 2026: Healey hikes taxes on banks and landlords to fund £100 handouts to 20m households](https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-healey-hikes-taxes-on-banks-and-landlords-to-fund-100-handouts-to-20m-households)
+- 2026-10-28 | Tehran Times | [Israeli firm turned Starlink traffic into espionage tool across 105 countries](https://www.tehrantimes.com/news/531624/Israeli-firm-turned-Starlink-traffic-into-espionage-tool-across)
+- 2026-10-28 | Mehr News | [Iran to maintain close contact with mediators for diplomacy](https://en.mehrnews.com/news/249011/Iran-to-maintain-close-contact-with-mediators-for-diplomacy)
+- 2026-10-28 | Tehran Times | [Each of the three options facing US in confrontation with Iran carries strategic losses](https://www.tehrantimes.com/news/531623/Each-of-the-three-options-facing-US-in-confrontation-with-Iran)
+- 2026-10-28 | Tehran Times | [Lula’s victory once again showed Latin America is not US backyard](https://www.tehrantimes.com/news/531622/Lula-s-victory-once-again-showed-Latin-America-is-not-US-backyard)
+- 2026-10-28 | IRNA | [New Iranian ambassador to Greece meets FM Araghchi ahead of mission](https://en.irna.ir/news/86306433/Iran-new-ambassador-to-Greece-meets-FM-Araghchi-ahead-of-mission)
+- 2026-10-28 | Tehran Times | [Iran’s embassy in Kuwait rejects allegations linking Iranian national to assassination plot](https://www.tehrantimes.com/news/531621/Iran-s-embassy-in-Kuwait-rejects-allegations-linking-Iranian)
