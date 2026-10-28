@@ -268,3 +268,30 @@ def test_two_word_places_are_not_merged_without_cause():
     from osint_monitor.analyzer import top_entities
     arts = [{"title": "Saudi Arabia hosts talks", "summary": ""}]
     assert "Saudi Arabia" in dict(top_entities(arts, ["talks"]))
+
+
+def test_update_readme_fills_block_and_is_repeatable(tmp_path):
+    from osint_monitor.report import update_readme
+
+    readme = tmp_path / "README.md"
+    readme.write_text("# T\n\n<!-- assessment:start -->\n<!-- assessment:end -->\n\nrest\n",
+                      encoding="utf-8")
+    articles = make(30, 5) + make(30, 30)
+    result = result_for(articles)
+    assessment = build_assessment(result, comparison(), NOW)
+
+    assert update_readme(readme, assessment, "2026-10-26 12:00 UTC")
+    first = readme.read_text(encoding="utf-8")
+    assert "## Assessment" in first and first.rstrip().endswith("rest")
+    assert update_readme(readme, assessment, "2026-10-26 12:00 UTC")
+    assert readme.read_text(encoding="utf-8") == first  # no duplicate blocks
+
+
+def test_update_readme_leaves_file_alone_without_markers(tmp_path):
+    from osint_monitor.report import update_readme
+
+    readme = tmp_path / "README.md"
+    readme.write_text("# T\n", encoding="utf-8")
+    assert not update_readme(readme, {"hours": 24, "judgments": [], "new_stories": [],
+                                      "rising": [], "falling": []}, "x")
+    assert readme.read_text(encoding="utf-8") == "# T\n"

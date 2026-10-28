@@ -35,13 +35,13 @@ jobs:
         run: python -m osint_monitor --db data/articles.db backfill --keywords Iran Iranian Tehran --days 7
 
       - name: Build report
-        run: python -m osint_monitor --db data/articles.db report --keywords Iran Iranian Tehran --days 7 --out reports/latest
+        run: python -m osint_monitor --db data/articles.db report --keywords Iran Iranian Tehran --days 7 --out reports/latest --readme README.md
 
       - name: Save results to the repository
         run: |
           git config user.name "osint-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data reports
+          git add data reports README.md
           git diff --cached --quiet || git commit -m "Update data and report $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
