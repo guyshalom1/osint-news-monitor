@@ -1,5 +1,6 @@
 """Turn analysis results into a Markdown report and a coverage chart."""
 
+import textwrap
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -109,30 +110,43 @@ def make_comparison_chart(comp, path):
     """Two panels: how much attention each country gives the topic (left),
     and which names each country mentions alongside it (right).
 
-    A home country (Iran, when tracking Iran) is left out of the left panel,
-    because its press covers the topic as domestic news.
+    A home country (Iran, when tracking Iran) covers the topic as domestic news,
+    so its bar in the left panel shows the mirror view instead.
     """
     data = comp["countries"]
     countries = countries_with_data(comp)
-    attention = [c for c in countries if not data[c]["home"]]
 
     fig, (ax1, ax2) = plt.subplots(
         1, 2, figsize=(11, 5.2), gridspec_kw={"width_ratios": [1, 1.6]}
     )
     fig.patch.set_facecolor(SURFACE)
 
-    # Left: % of each country's articles that are about the topic.
-    shares = [data[c]["share"] for c in attention]
-    ax1.barh(attention[::-1], shares[::-1], height=0.5,
-             color=[COUNTRY_COLORS[c] for c in attention[::-1]])
-    for y, c in enumerate(attention[::-1]):
+    # Left: one bar per country. Foreign press: % of articles about the topic.
+    # Home press covers the topic as domestic news, so it shows the mirror
+    # instead: % of its articles that mention the other countries.
+    def bar_value(c):
         d = data[c]
-        ax1.text(d["share"] + max(shares, default=1) * 0.04, y,
-                 f"{d['share']}%  ({d['matching']} of {d['total']})",
+        return d["mirror"].get("either", 0) if d["home"] and d.get("mirror") else d["share"]
+
+    shares = [bar_value(c) for c in countries]
+    top = max(shares, default=1) or 1
+    ax1.barh(countries[::-1], shares[::-1], height=0.5,
+             color=[COUNTRY_COLORS[c] for c in countries[::-1]])
+    for y, c in enumerate(countries[::-1]):
+        d = data[c]
+        if d["home"] and d.get("mirror"):
+            mirror = d["mirror"]
+            label = (f"{mirror['either']}% mention US or Israel\n"
+                     + ", ".join(f"{t} {mirror[t]}%" for t in mirror if t != "either"))
+            ax1.patches[y].set_hatch("//")
+            ax1.patches[y].set_edgecolor(SURFACE)
+        else:
+            label = f"{d['share']}%  ({d['matching']} of {d['total']})"
+        ax1.text(bar_value(c) + top * 0.04, y, label,
                  va="center", fontsize=9.5, color=INK)
-    ax1.set_xlim(0, max(shares, default=1) * 1.8 or 1)
-    ax1.set_title("Share of all articles about the topic", loc="left",
-                  fontsize=11, color=INK)
+    ax1.set_xlim(0, top * 2.1)
+    ax1.set_title("Attention to the topic\n(Iran: share mentioning US or Israel, hatched)",
+                  loc="left", fontsize=11, color=INK)
     ax1.grid(axis="x", color=GRID, linewidth=1)
     ax1.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
     style(ax1)
@@ -160,9 +174,12 @@ def make_comparison_chart(comp, path):
     style(ax2)
 
     small = min(data[c]["matching"] for c in countries)
-    note = ". ".join(f"{c} outlets: " + ", ".join(data[c]["sources"]) for c in countries) + "."
+    note = textwrap.fill(
+        ". ".join(f"{c} outlets: " + ", ".join(data[c]["sources"]) for c in countries) + ".",
+        width=150)
     if any(data[c]["home"] for c in countries):
-        note += "\nHome press is left out of the left panel: it covers the topic as domestic news."
+        note += ("\nHome press covers the topic as domestic news, so its bar shows the "
+                 "reverse: how often it mentions the other countries.")
     if small < 30:
         note += (f"\nSmall samples (fewest: {small} articles): "
                  "read differences as indicative, not conclusive.")
@@ -187,6 +204,12 @@ def comparison_lines(comp):
     lines.append("| Articles about the topic | " + " | ".join(
         f"{d['matching']} of {d['total']} ({d['share']}%)" + (" home press" if d["home"] else "")
         for d in data.values()) + " |")
+    if any(d.get("mirror") for d in data.values()):
+        for target in ("US", "Israel"):
+            cells = [f"{d['mirror'][target]}%" if d.get("mirror") and target in d["mirror"]
+                     else "-" for d in data.values()]
+            lines.append(f"| Home press: articles mentioning {target} | "
+                         + " | ".join(cells) + " |")
     for name in comp["top_names"]:
         lines.append(f"| Mentions {name} | " + " | ".join(
             f"{d['names'].get(name, 0)}%" for d in data.values()) + " |")

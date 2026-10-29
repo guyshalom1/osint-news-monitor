@@ -295,3 +295,14 @@ def test_update_readme_leaves_file_alone_without_markers(tmp_path):
     assert not update_readme(readme, {"hours": 24, "judgments": [], "new_stories": [],
                                       "rising": [], "falling": []}, "x")
     assert readme.read_text(encoding="utf-8") == "# T\n"
+
+
+def test_home_press_mirror_counts_mentions_of_other_countries():
+    from osint_monitor.analyzer import mirror_share
+
+    pool = [{"title": "US warns Tehran", "summary": ""},
+            {"title": "Israeli strike", "summary": "Washington silent"},
+            {"title": "Let us talk", "summary": ""},
+            {"title": "Oil prices rise", "summary": "Israel and America react"}]
+    m = mirror_share(pool, ["US", "Israel"])
+    assert m == {"US": 50, "Israel": 50, "either": 75}  # "us" the pronoun is not the US
