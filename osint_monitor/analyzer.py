@@ -47,7 +47,8 @@ ALIASES = {
     "Israeli": "Israel", "Russian": "Russia", "Saudi": "Saudi Arabia",
     "Lebanese": "Lebanon", "Syrian": "Syria", "Iraqi": "Iraq", "Yemeni": "Yemen",
     "Ukrainian": "Ukraine", "Chinese": "China", "British": "UK",
-    "Israelis": "Israel", "Americans": "US", "American": "US", "America": "US", "United States": "US", "U.S": "US",
+    "Israelis": "Israel", "Americans": "US", "American": "US", "America": "US",
+    "United States": "US", "U.S": "US",
 }
 
 # One or more capitalized words in a row, e.g. "Security Council", "Gaza".
