@@ -9,8 +9,8 @@ import hashlib
 import html
 import re
 import sqlite3
-from pathlib import Path
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import feedparser
 
