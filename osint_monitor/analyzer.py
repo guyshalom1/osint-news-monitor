@@ -41,6 +41,16 @@ TITLES = {
     "Dr", "Chairman", "Ambassador", "Speaker", "Premier", "Chancellor",
 }
 
+# Different forms of the same country, counted as one name. The merge happens
+# per article, so an article that says both "Israel" and "Israeli" counts once.
+ALIASES = {
+    "Israeli": "Israel", "Russian": "Russia", "Saudi": "Saudi Arabia",
+    "Lebanese": "Lebanon", "Syrian": "Syria", "Iraqi": "Iraq", "Yemeni": "Yemen",
+    "Ukrainian": "Ukraine", "Chinese": "China", "British": "UK",
+    "Israelis": "Israel", "Americans": "US", "American": "US", "America": "US",
+    "United States": "US", "U.S": "US",
+}
+
 # One or more capitalized words in a row, e.g. "Security Council", "Gaza".
 NAME_PATTERN = re.compile(r"\b[A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+)*\b")
 
@@ -132,6 +142,7 @@ def top_entities(articles, keywords, limit=10):
         found = set()  # count each name once per article
         for name in NAME_PATTERN.findall(f"{a['title']}. {a['summary']}"):
             name = clean_name(name, skip)
+            name = ALIASES.get(name, name)
             if len(name) >= 2 and name.lower() not in skip:
                 found.add(name)
         counter.update(found)

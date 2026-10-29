@@ -268,3 +268,13 @@ def test_month_abbreviations_and_generic_words_are_not_names():
     for word in ("Oct", "Ministry", "News", "According"):
         assert clean_name(word, set()) == ""
     assert clean_name("Tel Aviv", set()) == "Tel Aviv"
+
+
+def test_country_and_demonym_count_once_per_article():
+    articles = [
+        {"title": "Israeli strike", "summary": "Israel says the American envoy left"},
+        {"title": "Israel talks", "summary": "United States and Israeli officials met"},
+    ]
+    counts = dict(top_entities(articles, ["Iran"]))
+    assert counts["Israel"] == 2 and "Israeli" not in counts
+    assert counts["US"] == 2 and "American" not in counts
