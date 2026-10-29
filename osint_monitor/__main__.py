@@ -69,7 +69,7 @@ def main():
         print(f"{result['total']} matching articles. Report: {path}")
         if args.readme and result["total"]:
             stamp = now.strftime("%Y-%m-%d %H:%M UTC")
-            if not update_readme(args.readme, assessment, stamp):
+            if not update_readme(args.readme, assessment, stamp, result):
                 print(f"No assessment markers in {args.readme}; left unchanged.")
 
 

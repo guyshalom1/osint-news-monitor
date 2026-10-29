@@ -234,10 +234,59 @@ def comparison_lines(comp):
     return lines
 
 
+def key_findings_lines(result):
+    """Markdown bullets: peak, top story, spikes, leading source."""
+    lines = ["## Key findings", ""]
+    complete = {d: n for d, n in result["by_day"].items()
+                if d not in result["partial_days"]}
+    if complete:
+        peak_day = max(complete, key=complete.get)
+        lines.append(
+            f"- Peak coverage on {peak_day}: {plural(result['by_day'][peak_day])}."
+        )
+    else:
+        lines.append("- Not enough complete days of data yet to identify a peak.")
+    if result["partial_days"]:
+        lines.append(
+            f"- Collection started {result['collection_start']}. Earlier days are "
+            "incomplete and are left out of peak and spike detection."
+        )
+    if result["stories"]:
+        top = result["stories"][0]
+        lines.append(
+            f"- Most widely covered story: \"{top['headline']}\", "
+            f"reported by {len(top['outlets'])} outlets."
+        )
+    if result["spikes"]:
+        for day in result["spikes"]:
+            srcs = ", ".join(result["sources_per_day"][day])
+            lines.append(f"- Spike on {day}, reported by: {srcs}.")
+    else:
+        lines.append("- No unusual spikes; coverage was steady.")
+    top_source, top_n = next(iter(result["by_source"].items()))
+    share = round(100 * top_n / result["total"])
+    lines.append(f"- {top_source} carried the most coverage ({share}% of articles).")
+    lines.append("")
+    return lines
+
+
+def story_lines(result):
+    """Markdown table of the stories picked up by the most outlets."""
+    lines = []
+    if result["stories"]:
+        lines += ["## Stories covered by the most outlets", "",
+                  "| Story | Outlets | First seen |", "|---|---|---|"]
+        lines += [f"| {st['headline']} | {len(st['outlets'])} | {st['first']} |"
+                  for st in result["stories"]]
+        lines += ["", "Stories are groups of articles with similar headlines. "
+                  "Different outlets reporting the same event count once here.", ""]
+    return lines
+
+
 README_START, README_END = "<!-- assessment:start -->", "<!-- assessment:end -->"
 
 
-def update_readme(readme_path, assessment, generated):
+def update_readme(readme_path, assessment, generated, result=None):
     """Put the latest assessment between the markers in the README.
 
     The repo's front page is the README, so the bottom line should be there
@@ -249,9 +298,10 @@ def update_readme(readme_path, assessment, generated):
     start, end = text.find(README_START), text.find(README_END)
     if start == -1 or end < start:
         return False
-    block = ["", f"_Updated {generated}. Full report: [reports/latest/report.md]"
-             "(reports/latest/report.md)_", ""]
+    block = ["", f"_Updated {generated}._", ""]
     block += assessment_lines(assessment)
+    if result:
+        block += key_findings_lines(result) + story_lines(result)
     new = text[:start + len(README_START)] + "\n".join(block) + text[end:]
     path.write_text(new, encoding="utf-8")
     return True
@@ -287,45 +337,8 @@ def make_report(result, out_dir, comparison=None, assessment=None):
     make_chart(result, out_dir / "coverage.png")
     lines += ["![Coverage per day](coverage.png)", ""]
 
-    lines += ["## Key findings", ""]
-    complete = {d: n for d, n in result["by_day"].items()
-                if d not in result["partial_days"]}
-    if complete:
-        peak_day = max(complete, key=complete.get)
-        lines.append(
-            f"- Peak coverage on {peak_day}: {plural(result['by_day'][peak_day])}."
-        )
-    else:
-        lines.append("- Not enough complete days of data yet to identify a peak.")
-    if result["partial_days"]:
-        lines.append(
-            f"- Collection started {result['collection_start']}. Earlier days are "
-            "incomplete and are left out of peak and spike detection."
-        )
-    if result["stories"]:
-        top = result["stories"][0]
-        lines.append(
-            f"- Most widely covered story: \"{top['headline']}\", "
-            f"reported by {len(top['outlets'])} outlets."
-        )
-    if result["spikes"]:
-        for day in result["spikes"]:
-            srcs = ", ".join(result["sources_per_day"][day])
-            lines.append(f"- Spike on {day}, reported by: {srcs}.")
-    else:
-        lines.append("- No unusual spikes; coverage was steady.")
-    top_source, top_n = next(iter(result["by_source"].items()))
-    share = round(100 * top_n / result["total"])
-    lines.append(f"- {top_source} carried the most coverage ({share}% of articles).")
-    lines.append("")
-
-    if result["stories"]:
-        lines += ["## Stories covered by the most outlets", "",
-                  "| Story | Outlets | First seen |", "|---|---|---|"]
-        lines += [f"| {st['headline']} | {len(st['outlets'])} | {st['first']} |"
-                  for st in result["stories"]]
-        lines += ["", "Stories are groups of articles with similar headlines. "
-                  "Different outlets reporting the same event count once here.", ""]
+    lines += key_findings_lines(result)
+    lines += story_lines(result)
 
     lines += ["## Coverage by source", "", "| Source | Articles |", "|---|---|"]
     lines += [f"| {s} | {n} |" for s, n in result["by_source"].items()]

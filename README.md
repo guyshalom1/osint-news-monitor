@@ -10,15 +10,15 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-28 22:41 UTC. Full report: [reports/latest/report.md](reports/latest/report.md)_
+_Updated 2026-10-29 00:40 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 114 articles in the last 24 hours vs 110 in the 24 hours before (+4%), from 16 outlets.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 25% of articles (earlier 12%), diplomacy words in 20% (earlier 10%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.6% of their articles; US outlets give the topic 6.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 41% of Israel topic articles and 2% of Iran.
+1. **Coverage is steady.** Confidence: High. 113 articles in the last 24 hours vs 108 in the 24 hours before (+5%), from 16 outlets.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 24% of articles (earlier 11%), diplomacy words in 20% (earlier 9%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.3% of their articles; US outlets give the topic 6.0% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 42% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
@@ -27,8 +27,30 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - New story, 2 outlets: Report: US tells Gulf allies to prepare for Iran strikes after midterms
 - New story, 2 outlets: Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot
 - New story, 2 outlets: Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation
-- Mentioned more: Araghchi (7% to 14%), MNA (25% to 31%), Israel (4% to 10%).
+- Mentioned more: Israel (9% to 16%), Araghchi (7% to 14%), Trump (4% to 10%).
 - Mentioned less: Pezeshkian (19% to 8%), Rezaei (7% to 0%), Moscow (11% to 4%).
+
+## Key findings
+
+- Peak coverage on 2026-10-26: 132 articles.
+- Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
+- No unusual spikes; coverage was steady.
+- Mehr News carried the most coverage (15% of articles).
+
+## Stories covered by the most outlets
+
+| Story | Outlets | First seen |
+|---|---|---|
+| Iran President to attend GECF summit in Moscow | 3 | 2026-10-24 |
+| Iran says won’t allow US warships to get close as Trump ponders new attacks | 3 | 2026-10-24 |
+| Iran Pezeshkian blames US for interim deal failure , urges new try | 3 | 2026-10-24 |
+| Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
+| U.S. and Israel are planning for a possible attack on Iran, source tells NPR | 2 | 2026-10-22 |
+| Netanyahu to Arutz Sheva: Report Trump blocked Iran strike is 'incorrect' | 2 | 2026-10-22 |
+| Iran says seven oil tankers damaged overnight in Strait of Hormuz | 2 | 2026-10-22 |
+| Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of ... | 2 | 2026-10-22 |
+
+Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
 
 ## Live report
