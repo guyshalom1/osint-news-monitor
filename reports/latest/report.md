@@ -1,23 +1,24 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-29 05:50 UTC. Period: last 7 days. Matching articles: 606 (98 reprints removed).
+Generated 2026-10-29 13:05 UTC. Period: last 7 days. Matching articles: 612 (97 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 102 articles in the last 24 hours vs 116 in the 24 hours before (-12%), from 16 outlets.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 24% of articles (earlier 19%), diplomacy words in 23% (earlier 11%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.4% of their articles; US outlets give the topic 6.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 42% of Israel topic articles and 2% of Iran.
+1. **Coverage is falling.** Confidence: High. 75 articles in the last 24 hours vs 125 in the 24 hours before (-40%), from 15 outlets.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 43% of articles (earlier 22%), diplomacy words in 24% (earlier 14%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 9.9% of their articles; US outlets give the topic 5.5% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 41% of Israel topic articles and 0% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot
-- New story, 2 outlets: Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation
+- New story, 2 outlets: Iran embassy in Kuwait rejects allegations
 - New story, 2 outlets: Exclusive | Iran is pursuing energy diplomacy dynamically, resolutely: Minister
-- Mentioned less: Pezeshkian (18% to 7%), US (21% to 13%), Rezaei (6% to 0%).
+- New story, 2 outlets: IRGC downs 14th US MQ-1 over Strait of Hormuz
+- Mentioned more: Strait (0% to 15%), Hormuz (3% to 15%), Khamenei (0% to 9%).
+- Mentioned less: MNA (29% to 19%), Gas Exporting Countries Forum (8% to 1%), Israel (10% to 4%).
 
 ![Coverage per day](coverage.png)
 
@@ -26,7 +27,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-10-26: 132 articles.
 - Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Mehr News carried the most coverage (16% of articles).
+- Mehr News carried the most coverage (17% of articles).
 
 ## Stories covered by the most outlets
 
@@ -37,9 +38,9 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Iran Pezeshkian blames US for interim deal failure , urges new try | 3 | 2026-10-24 |
 | Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
-| U.S. and Israel are planning for a possible attack on Iran, source tells NPR | 2 | 2026-10-22 |
-| Netanyahu to Arutz Sheva: Report Trump blocked Iran strike is 'incorrect' | 2 | 2026-10-22 |
 | Iran says seven oil tankers damaged overnight in Strait of Hormuz | 2 | 2026-10-22 |
+| Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of ... | 2 | 2026-10-22 |
+| U . S . and Israel preparing for possible attack on Iran after elections | 2 | 2026-10-22 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 
@@ -47,22 +48,22 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Mehr News | 94 |
+| Mehr News | 101 |
+| IRNA | 91 |
 | Tehran Times | 84 |
-| IRNA | 80 |
-| Al Jazeera | 43 |
-| Jerusalem Post | 39 |
-| Haaretz | 28 |
-| Israel National News | 23 |
-| JNS | 22 |
-| The Guardian World | 15 |
-| Israel Hayom | 14 |
-| New York Times | 11 |
+| Al Jazeera | 42 |
+| Jerusalem Post | 35 |
+| Haaretz | 29 |
+| Israel National News | 22 |
+| JNS | 21 |
+| The Guardian World | 13 |
+| Israel Hayom | 13 |
+| New York Times | 10 |
 | CBS News | 7 |
-| NPR | 6 |
 | ABC News | 4 |
 | econotimes.com | 4 |
 | ncr-iran.org | 4 |
+| NPR | 4 |
 | UN News | 3 |
 | irannewsupdate.com | 3 |
 | grenadachronicle.com | 3 |
@@ -165,15 +166,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Name | Articles |
 |---|---|
-| US | 115 |
-| Trump | 96 |
-| MNA | 94 |
-| Israel | 72 |
-| Netanyahu | 69 |
-| Pezeshkian | 49 |
-| Israeli | 47 |
-| Saudi Arabia | 38 |
+| US | 116 |
+| MNA | 101 |
+| Trump | 92 |
+| Israel | 66 |
+| Netanyahu | 66 |
+| Pezeshkian | 54 |
+| Israeli | 48 |
 | Araghchi | 35 |
+| Saudi Arabia | 35 |
 | Pakistan | 34 |
 
 ## Media comparison by country
@@ -182,23 +183,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 129 of 1246 (10.4%) | 31 of 509 (6.1%) | 260 of 271 (95.9%) home press |
-| Mentions Israel | 33% | 29% | 3% |
-| Mentions Netanyahu | 42% | 19% | 2% |
-| Mentions Trump | 35% | 10% | 3% |
-| Mentions US | 24% | 6% | 10% |
+| Articles about the topic | 122 of 1233 (9.9%) | 28 of 511 (5.5%) | 278 of 289 (96.2%) home press |
+| Mentions Netanyahu | 41% | 21% | 0% |
+| Mentions Israel | 32% | 25% | 3% |
+| Mentions Trump | 34% | 11% | 3% |
+| Mentions US | 24% | 7% | 11% |
 | Mentions MNA | 0% | 0% | 37% |
-| Mentions Israeli | 17% | 10% | 6% |
-| Mentions Saudi Arabia | 6% | 10% | 8% |
-| Mentions Houthi | 5% | 19% | 0% |
+| Mentions Israeli | 17% | 11% | 6% |
+| Mentions Saudi Arabia | 7% | 11% | 8% |
+| Mentions Houthi | 6% | 18% | 0% |
 
 **Latest Israel headlines**
 
+- JNS: [Bessent: Iran unable to pay troops, funding for proxies being cut off](https://www.jns.org/news/u-s-news/bessent-iran-unable-to-pay-troops-funding-for-proxies-being-cut-off)
+- Haaretz: [U.S. urges Mideast allies to prepare for possible new Iran strikes after midterms, sources say](https://www.haaretz.com/middle-east-news/2026-10-29/ty-article/u-s-warns-mideast-allies-over-possible-iran-strikes-after-midterms-sources-say/000001a1-8650-d9b5-a3b5-cef078d60000)
+- Haaretz: [Report: Vance contacted Iranian official at Trump's behest to revive talks](https://www.haaretz.com/middle-east-news/2026-10-29/ty-article/report-vance-contacted-iranian-official-at-trumps-behest-to-revive-talks/000001a1-861b-d1b0-a1bb-e63fbec80000)
+- JNS: [Trump says Iran’s missile arsenal reduced, drone production hampered](https://www.jns.org/news/u-s-news/trump-says-irans-missile-arsenal-reduced-drone-production-hampered)
 - Israel National News: [IRGC claims it shot down US drone](https://www.israelnationalnews.com/flashes/696329)
-- Haaretz: [Iran sentences acclaimed film director Jafar Panahi to new prison term after his return home](https://www.haaretz.com/middle-east-news/iran/2026-10-29/ty-article/iran-sentences-acclaimed-film-director-to-new-prison-term-after-his-return-home/000001a1-85de-d4db-adf3-9dde91990000)
-- Haaretz: [Iran sees only unacceptable ideas in latest mediation to end war, official says](https://www.haaretz.com/middle-east-news/2026-10-29/ty-article/iran-sees-only-unacceptable-ideas-in-latest-mediation-to-end-war-official-says/000001a1-85bf-d4e0-afbf-b5bf48b90000)
-- JNS: [I heard it in Iran. Europe chose not to listen](https://www.jns.org/opinion/catherine-perez-shakdam/i-heard-it-in-iran-europe-chose-not-to-listen)
-- Israel National News: [Report | US tells allies: Prepare for possible Iran strikes and retaliation](https://www.israelnationalnews.com/flashes/696321)
 
 **Latest US headlines**
 
@@ -210,23 +211,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
-- Mehr News: [IRGC downs 14th US MQ-1 over Strait of Hormuz](https://en.mehrnews.com/news/249012/IRGC-downs-14th-US-MQ-1-over-Strait-of-Hormuz)
-- Tehran Times: [Israeli firm turned Starlink traffic into espionage tool across 105 countries](https://www.tehrantimes.com/news/531624/Israeli-firm-turned-Starlink-traffic-into-espionage-tool-across)
-- Mehr News: [Iran to maintain close contact with mediators for diplomacy](https://en.mehrnews.com/news/249011/Iran-to-maintain-close-contact-with-mediators-for-diplomacy)
-- Tehran Times: [Each of the three options facing US in confrontation with Iran carries strategic losses](https://www.tehrantimes.com/news/531623/Each-of-the-three-options-facing-US-in-confrontation-with-Iran)
-- Tehran Times: [Lula’s victory once again showed Latin America is not US backyard](https://www.tehrantimes.com/news/531622/Lula-s-victory-once-again-showed-Latin-America-is-not-US-backyard)
+- Mehr News: [Pezeshkian congratulates Turkey on national day](https://en.mehrnews.com/news/249019/Pezeshkian-congratulates-Turkey-on-national-day)
+- IRNA: [President Pezeshkian congratulates Turkiye on Republic Day](https://en.irna.ir/news/86306877/President-Pezeshkian-congratulates-Turkiye-on-Republic-Day)
+- IRNA: ['Surrender' does not exist in Iranian nation’s lexicon: Commander](https://en.irna.ir/news/86306865/Surrender-does-not-exist-in-Iranian-nation-s-lexicon-Commander)
+- Mehr News: [Three violating oil tankers explode in Strait of Hormuz](https://en.mehrnews.com/news/249018/Three-violating-oil-tankers-explode-in-Strait-of-Hormuz)
+- IRNA: [Strait of Hormuz reality determined on ground: IRGC spokesperson](https://en.irna.ir/news/86306814/Strait-of-Hormuz-reality-determined-on-ground-IRGC-spokesperson)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-10-29 | Mehr News | [IRGC downs 14th US MQ-1 over Strait of Hormuz](https://en.mehrnews.com/news/249012/IRGC-downs-14th-US-MQ-1-over-Strait-of-Hormuz)
-- 2026-10-29 | Israel National News | [IRGC claims it shot down US drone](https://www.israelnationalnews.com/flashes/696329)
-- 2026-10-29 | Haaretz | [Iran sentences acclaimed film director Jafar Panahi to new prison term after his return home](https://www.haaretz.com/middle-east-news/iran/2026-10-29/ty-article/iran-sentences-acclaimed-film-director-to-new-prison-term-after-his-return-home/000001a1-85de-d4db-adf3-9dde91990000)
-- 2026-10-29 | Haaretz | [Iran sees only unacceptable ideas in latest mediation to end war, official says](https://www.haaretz.com/middle-east-news/2026-10-29/ty-article/iran-sees-only-unacceptable-ideas-in-latest-mediation-to-end-war-official-says/000001a1-85bf-d4e0-afbf-b5bf48b90000)
-- 2026-10-29 | JNS | [I heard it in Iran. Europe chose not to listen](https://www.jns.org/opinion/catherine-perez-shakdam/i-heard-it-in-iran-europe-chose-not-to-listen)
-- 2026-10-29 | Israel National News | [Report | US tells allies: Prepare for possible Iran strikes and retaliation](https://www.israelnationalnews.com/flashes/696321)
-- 2026-10-29 | Jerusalem Post | [Vance tells Tehran that avoiding renewed US strikes will require nuclear negotiations - report](https://www.jpost.com/middle-east/iran-news/article-913174)
-- 2026-10-29 | New York Times | [Vance Proposes Restarting Peace Talks in Outreach to Iranian Official](https://www.nytimes.com/2026/10/28/us/politics/vance-peace-talks-letter-iran.html)
-- 2026-10-29 | Haaretz | [How the election results help Netanyahu avoid a reckoning over October 7](https://www.haaretz.com/israel-news/elections/2026-10-29/ty-article/.premium/the-election-stalemate-lets-netanyahu-avoid-an-october-7-reckoning/000001a1-8415-d9b5-a3b5-ccb58d770000)
-- 2026-10-29 | Al Jazeera | [Iran war live: Trump says he approved Vance outreach over medical supplies](https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss)
+- 2026-10-29 | JNS | [Bessent: Iran unable to pay troops, funding for proxies being cut off](https://www.jns.org/news/u-s-news/bessent-iran-unable-to-pay-troops-funding-for-proxies-being-cut-off)
+- 2026-10-29 | Mehr News | [Pezeshkian congratulates Turkey on national day](https://en.mehrnews.com/news/249019/Pezeshkian-congratulates-Turkey-on-national-day)
+- 2026-10-29 | IRNA | [President Pezeshkian congratulates Turkiye on Republic Day](https://en.irna.ir/news/86306877/President-Pezeshkian-congratulates-Turkiye-on-Republic-Day)
+- 2026-10-29 | IRNA | ['Surrender' does not exist in Iranian nation’s lexicon: Commander](https://en.irna.ir/news/86306865/Surrender-does-not-exist-in-Iranian-nation-s-lexicon-Commander)
+- 2026-10-29 | Al Jazeera | [What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’](https://www.aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare?traffic_source=rss)
+- 2026-10-29 | Al Jazeera | [Pentagon says Iran war has cost US taxpayers $47bn: What that means](https://www.aljazeera.com/news/2026/10/29/pentagon-says-iran-war-has-cost-us-taxpayers-47bn-what-that-means?traffic_source=rss)
+- 2026-10-29 | Mehr News | [Three violating oil tankers explode in Strait of Hormuz](https://en.mehrnews.com/news/249018/Three-violating-oil-tankers-explode-in-Strait-of-Hormuz)
+- 2026-10-29 | IRNA | [Strait of Hormuz reality determined on ground: IRGC spokesperson](https://en.irna.ir/news/86306814/Strait-of-Hormuz-reality-determined-on-ground-IRGC-spokesperson)
+- 2026-10-29 | IRNA | [IRGC Navy captures US drone intact over Strait of Hormuz](https://en.irna.ir/news/86306801/IRGC-Navy-captures-US-drone-intact-over-Strait-of-Hormuz)
+- 2026-10-29 | Mehr News | [IRGC captures US MQM-170 spy drone](https://en.mehrnews.com/news/249017/IRGC-captures-US-MQM-170-spy-drone)
