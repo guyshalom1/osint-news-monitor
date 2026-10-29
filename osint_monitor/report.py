@@ -10,16 +10,22 @@ matplotlib.use("Agg")  # draw to a file, no window needed
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
+from .analyzer import condense_sources
 from .assessment import assessment_lines
+from .dedupe import tidy_title
 
 # Colors. One color for all data: the chart never needs to tell sources
 # apart by color, because each source gets its own labeled row instead.
-BAR, PARTIAL = "#2a78d6", "#cde2fb"
+BAR, PARTIAL, OTHER = "#2a78d6", "#cde2fb", "#b9b8b0"
 # Country comparison: three colors that stay apart for most color-blind viewers,
 # always paired with a legend and value labels, never color alone.
 COUNTRY_COLORS = {"Israel": "#2a78d6", "US": "#eb6834", "Iran": "#009e73"}
 INK, MUTED, GRID, SURFACE = "#1f1f1e", "#6b6a64", "#e6e5e0", "#fcfcfb"
 
+
+# A report with 100+ outlets is unreadable, so only the largest are shown by name.
+TOP_SOURCES_TABLE = 15
+TOP_SOURCES_CHART = 10
 
 def plural(n):
     return f"{n} article" if n == 1 else f"{n} articles"
@@ -77,9 +83,12 @@ def make_chart(result, path):
     style(ax1)
 
     # Right: articles per source, largest on top.
-    sources = list(result["by_source"])[::-1]
-    values = [result["by_source"][s] for s in sources]
-    ax2.barh(sources, values, height=0.6, color=BAR)
+    by_source = condense_sources(result["by_source"], TOP_SOURCES_CHART)
+    sources = list(by_source)[::-1]
+    values = [by_source[s] for s in sources]
+    # The "Other" line adds up many small outlets, so it is drawn in grey, not as one source.
+    colors = [OTHER if s.startswith("Other (") else BAR for s in sources]
+    ax2.barh(sources, values, height=0.6, color=colors)
     for y, n in enumerate(values):
         ax2.text(n + max(values) * 0.03, y, str(n), va="center", fontsize=9, color=INK)
     ax2.set_xlim(0, max(values) * 1.25)
@@ -216,7 +225,8 @@ def comparison_lines(comp):
     lines.append("")
     for country, d in data.items():
         lines += [f"**Latest {country} headlines**", ""]
-        lines += [f"- {a['source']}: [{a['title']}]({a['link']})" for a in d["headlines"]]
+        lines += [f"- {a['source']}: [{tidy_title(a['title'])}]({a['link']})"
+                  for a in d["headlines"]]
         lines.append("")
     caveats = [
         "Caveats: Israeli feeds are general news, US feeds are world sections, "
@@ -341,7 +351,8 @@ def make_report(result, out_dir, comparison=None, assessment=None):
     lines += story_lines(result)
 
     lines += ["## Coverage by source", "", "| Source | Articles |", "|---|---|"]
-    lines += [f"| {s} | {n} |" for s, n in result["by_source"].items()]
+    lines += [f"| {s} | {n} |"
+              for s, n in condense_sources(result["by_source"], TOP_SOURCES_TABLE).items()]
     lines.append("")
 
     lines += ["## Names and places mentioned alongside the topic", ""]
@@ -356,7 +367,8 @@ def make_report(result, out_dir, comparison=None, assessment=None):
 
     lines += ["## Latest headlines", ""]
     for a in result["articles"][:10]:
-        lines.append(f"- {a['published'][:10]} | {a['source']} | [{a['title']}]({a['link']})")
+        title = tidy_title(a["title"])
+        lines.append(f"- {a['published'][:10]} | {a['source']} | [{title}]({a['link']})")
     lines.append("")
 
     path = out_dir / "report.md"

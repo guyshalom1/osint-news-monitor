@@ -4,9 +4,15 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from osint_monitor.analyzer import analyze, clean_name, find_spikes, top_entities
-from osint_monitor.collector import clean_text, collect, connect
-from osint_monitor.dedupe import remove_reprints, story_clusters, title_words
+from osint_monitor.analyzer import (
+    analyze,
+    clean_name,
+    condense_sources,
+    find_spikes,
+    top_entities,
+)
+from osint_monitor.collector import clean_text, collect, connect, save
+from osint_monitor.dedupe import remove_reprints, story_clusters, tidy_title, title_words
 from osint_monitor.gdelt import backfill, build_query, normalize, query_key
 from osint_monitor.report import make_report
 
@@ -278,3 +284,38 @@ def test_country_and_demonym_count_once_per_article():
     counts = dict(top_entities(articles, ["Iran"]))
     assert counts["Israel"] == 2 and "Israeli" not in counts
     assert counts["US"] == 2 and "American" not in counts
+
+
+def test_tidy_title_fixes_spacing_and_labels():
+    assert tidy_title("U . S . and Israel preparing , sources say") == (
+        "U.S. and Israel preparing, sources say")
+    assert tidy_title("Exclusive | Iran talks resume") == "Iran talks resume"
+    assert tidy_title("Said ( AP ) that talks failed") == "Said (AP) that talks failed"
+
+
+def test_tidy_title_keeps_report_label_and_normal_titles():
+    # "Report:" tells the reader the claim is unconfirmed, so it stays.
+    assert tidy_title("Report: US warns Gulf allies") == "Report: US warns Gulf allies"
+    assert tidy_title("Iran says talks will go on") == "Iran says talks will go on"
+
+
+def test_condense_sources_keeps_top_and_sums_rest():
+    by_source = {"A": 10, "B": 8, "C": 1, "D": 1, "E": 1}
+    assert condense_sources(by_source, 2) == {"A": 10, "B": 8, "Other (3 outlets)": 3}
+    assert condense_sources(by_source, 5) == by_source  # already fits, unchanged
+
+
+def test_report_source_table_is_condensed(tmp_path):
+    def word(i, k):  # a different made-up word per article, so none count as reprints
+        return chr(97 + i % 26) * (k + 2) + chr(97 + i // 26) * k
+
+    conn = connect(":memory:")
+    rows = [{"id": f"id{i}", "source": f"site{i}.com",
+             "title": "Hezbollah " + " ".join(word(i, k) for k in (1, 2, 3, 4)),
+             "summary": "", "link": f"http://x/{i}", "published": "2026-10-10",
+             "collected": "2026-10-10"} for i in range(30)]
+    save(conn, rows)
+    result = analyze(conn, ["Hezbollah"], days=7, now=NOW)
+    text = make_report(result, tmp_path).read_text()
+    assert "Other (15 outlets)" in text
+    assert "site29.com" not in text.split("## Coverage by source")[1].split("## Names")[0]

@@ -86,6 +86,23 @@ def source_counts(articles):
     return dict(Counter(a["source"] for a in articles).most_common())
 
 
+def condense_sources(by_source, top):
+    """Keep the `top` largest sources and add up the rest as one line.
+
+    Real runs have 100+ outlets, most of them one article each (a long tail
+    from GDELT). The long tail makes a table unreadable and a chart worse.
+    Returns {source: n} with "Other (N outlets)" last, or the input unchanged
+    when it already fits.
+    """
+    if len(by_source) <= top:
+        return dict(by_source)
+    items = list(by_source.items())
+    rest = items[top:]
+    condensed = dict(items[:top])
+    condensed[f"Other ({len(rest)} outlets)"] = sum(n for _, n in rest)
+    return condensed
+
+
 def fill_days(counts, days, now):
     """Add the days with no articles, so the timeline has no gaps.
 
