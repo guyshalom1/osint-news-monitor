@@ -197,6 +197,26 @@ def analyze(conn, keywords, days=7, now=None):
     }
 
 
+# How each country is referred to, for the mirror view of home press. Case
+# matters ("US" the country, not "us" the pronoun).
+MIRROR_TERMS = {
+    "US": re.compile(r"\b(?:US|U\.S\.|United States|America|American|Americans)\b"),
+    "Israel": re.compile(r"\b(?:Israel|Israeli|Israelis)\b"),
+}
+
+
+def mirror_share(pool, targets):
+    """% of a country's articles that mention each target country, and either."""
+    if not pool:
+        return {}
+    texts = [f"{a['title']}. {a['summary']}" for a in pool]
+    out = {t: round(100 * sum(bool(MIRROR_TERMS[t].search(x)) for x in texts) / len(texts))
+           for t in targets}
+    either = sum(any(MIRROR_TERMS[t].search(x) for t in targets) for x in texts)
+    out["either"] = round(100 * either / len(texts))
+    return out
+
+
 def compare_countries(conn, keywords, days=7, now=None,
                       countries=("Israel", "US", "Iran")):
     """Compare how media in different countries cover the same topic.
@@ -208,7 +228,8 @@ def compare_countries(conn, keywords, days=7, now=None,
 
     A country named in the keywords (Iran, when tracking Iran) is the "home"
     press for the topic. It covers the topic as domestic news, so its share of
-    attention is not comparable with the others. Its framing still is.
+    attention is not comparable with the others. Its framing still is, and its
+    "mirror" shows the opposite view: how often it mentions the other countries.
     """
     all_articles = load_articles(conn, days, now)
     result = {"keywords": keywords, "countries": {}}
@@ -218,8 +239,11 @@ def compare_countries(conn, keywords, days=7, now=None,
         pool = [a for a in all_articles if COUNTRY.get(a["source"]) == country]
         topic = [a for a in pool if matches(a, keywords)]
         names = top_entities(topic, keywords, limit=50)
+        home = country.lower() in keyword_set
+        targets = [c for c in countries if c != country and c in MIRROR_TERMS]
         result["countries"][country] = {
-            "home": country.lower() in keyword_set,
+            "home": home,
+            "mirror": mirror_share(pool, targets) if home else {},
             "total": len(pool),
             "matching": len(topic),
             "share": round(100 * len(topic) / len(pool), 1) if pool else 0.0,
