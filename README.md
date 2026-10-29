@@ -112,6 +112,7 @@ The report is written to `output/report.md` (or `--out`) with its charts. The sc
 - **Shares instead of raw counts.** Feeds differ in size, so countries are compared by the share of their output that covers the topic.
 - **Home press is excluded from attention comparisons.** Iranian state outlets cover Iran as domestic news, so they are compared on framing only.
 - **Incomplete days are labeled, not hidden.** Days before collection started are drawn as partial and left out of peak and spike detection.
+- **Agency datelines are stripped before names are counted.** Openings like "TEHRAN, Oct. 29 (MNA) -" say who filed the story, not what it is about. Left in, the agency tag "MNA" was the second most common "name" and showed up in the country comparison.
 - **Reprints are removed before counting**, so wire copy republished by many sites does not look like independent coverage.
 - **Failures are visible.** Each run records source health, a failed scheduled run opens a GitHub issue, and tests run on every push without network access.
 
