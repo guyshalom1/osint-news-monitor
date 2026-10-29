@@ -16,6 +16,7 @@ from osint_monitor.collector import clean_text, collect, connect, save
 from osint_monitor.dedupe import remove_reprints, story_clusters, tidy_title, title_words
 from osint_monitor.gdelt import backfill, build_query, normalize, query_key
 from osint_monitor.report import make_report
+from osint_monitor.sources import COUNTRY, outlet_name
 
 FEED = str(Path(__file__).parent / "fixtures" / "sample_feed.xml")
 NOW = datetime(2026, 10, 12, tzinfo=timezone.utc)
@@ -285,6 +286,26 @@ def test_country_and_demonym_count_once_per_article():
     counts = dict(top_entities(articles, ["Iran"]))
     assert counts["Israel"] == 2 and "Israeli" not in counts
     assert counts["US"] == 2 and "American" not in counts
+
+
+def test_outlet_name_maps_gdelt_domains_to_feed_names():
+    assert outlet_name("jpost.com") == "Jerusalem Post"
+    assert outlet_name("www.nytimes.com") == "New York Times"
+    assert outlet_name("Jerusalem Post") == "Jerusalem Post"   # feed names pass through
+    assert outlet_name("unknown-site.org") == "unknown-site.org"
+    assert COUNTRY[outlet_name("jpost.com")] == "Israel"       # so it counts for Israel
+
+
+def test_load_articles_counts_domain_and_feed_as_one_outlet():
+    conn = connect(":memory:")
+    save(conn, [
+        {"id": "a", "source": "Jerusalem Post", "title": "Hezbollah talks begin", "summary": "",
+         "link": "http://x/a", "published": "2026-10-10", "collected": "2026-10-10"},
+        {"id": "b", "source": "jpost.com", "title": "Border clash near Metula", "summary": "",
+         "link": "http://x/b", "published": "2026-10-10", "collected": "2026-10-10"},
+    ])
+    result = analyze(conn, ["Hezbollah", "Metula"], days=7, now=NOW)
+    assert result["by_source"] == {"Jerusalem Post": 2}
 
 
 def test_tidy_title_fixes_spacing_and_labels():
