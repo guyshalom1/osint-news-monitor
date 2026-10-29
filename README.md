@@ -10,25 +10,24 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-28 22:41 UTC. Full report: [reports/latest/report.md](reports/latest/report.md)_
+_Updated 2026-10-29 05:50 UTC. Full report: [reports/latest/report.md](reports/latest/report.md)_
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 114 articles in the last 24 hours vs 110 in the 24 hours before (+4%), from 16 outlets.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 25% of articles (earlier 12%), diplomacy words in 20% (earlier 10%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.6% of their articles; US outlets give the topic 6.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 41% of Israel topic articles and 2% of Iran.
+1. **Coverage is steady.** Confidence: High. 102 articles in the last 24 hours vs 116 in the 24 hours before (-12%), from 16 outlets.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 24% of articles (earlier 19%), diplomacy words in 23% (earlier 11%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.4% of their articles; US outlets give the topic 6.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 42% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Report: US tells Gulf allies to prepare for Iran strikes after midterms
 - New story, 2 outlets: Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot
 - New story, 2 outlets: Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation
-- Mentioned more: Araghchi (7% to 14%), MNA (25% to 31%), Israel (4% to 10%).
-- Mentioned less: Pezeshkian (19% to 8%), Rezaei (7% to 0%), Moscow (11% to 4%).
+- New story, 2 outlets: Exclusive | Iran is pursuing energy diplomacy dynamically, resolutely: Minister
+- Mentioned less: Pezeshkian (18% to 7%), US (21% to 13%), Rezaei (6% to 0%).
 <!-- assessment:end -->
 
 ## Live report
