@@ -9,6 +9,7 @@ from osint_monitor.analyzer import (
     clean_name,
     condense_sources,
     find_spikes,
+    strip_dateline,
     top_entities,
 )
 from osint_monitor.collector import clean_text, collect, connect, save
@@ -319,3 +320,29 @@ def test_report_source_table_is_condensed(tmp_path):
     text = make_report(result, tmp_path).read_text()
     assert "Other (15 outlets)" in text
     assert "site29.com" not in text.split("## Coverage by source")[1].split("## Names")[0]
+
+
+def test_strip_dateline():
+    assert strip_dateline("TEHRAN, Oct. 29 (MNA) \u2013 Iran said") == "Iran said"
+    assert strip_dateline("Tehran, IRNA \u2014 President spoke") == "President spoke"
+    assert strip_dateline("LONDON \u2013 Talks resumed") == "Talks resumed"
+    assert strip_dateline("JERUSALEM (AP) \u2014 Israel said") == "Israel said"
+
+
+def test_strip_dateline_leaves_normal_text():
+    for text in ("Trump \u2013 the president said", "Talks in Tehran, the capital, went on"):
+        assert strip_dateline(text) == text
+
+
+def test_agency_tag_not_counted_as_name():
+    articles = [
+        {"source": "Mehr News", "title": "Talks continue",
+         "summary": "TEHRAN, Oct. 29 (MNA) \u2013 Araghchi met Guterres",
+         "published": "2026-10-29"},
+        {"source": "IRNA", "title": "Visit planned",
+         "summary": "Tehran, IRNA \u2014 Araghchi will visit Oman",
+         "published": "2026-10-29"},
+    ]
+    names = dict(top_entities(articles, ["Iran"]))
+    assert "MNA" not in names and "IRNA" not in names
+    assert names["Araghchi"] == 2
