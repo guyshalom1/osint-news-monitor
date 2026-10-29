@@ -41,6 +41,32 @@ FEEDS = {
     "UN News": ("International", "https://news.un.org/feed/subscribe/en/news/all/rss.xml"),
 }
 
+# GDELT reports an article's website domain, not the outlet's name, so the same
+# outlet shows up twice: "Jerusalem Post" (RSS) and "jpost.com" (GDELT). This
+# maps the domain to the feed name so each outlet is counted once and gets its
+# country. Domains that are not here stay as they are.
+DOMAIN_TO_OUTLET = {
+    "haaretz.com": "Haaretz", "jpost.com": "Jerusalem Post",
+    "israelhayom.com": "Israel Hayom",
+    "israelnationalnews.com": "Israel National News", "jns.org": "JNS",
+    "ynetnews.com": "Ynetnews", "globes.co.il": "Globes",
+    "en.globes.co.il": "Globes", "nytimes.com": "New York Times",
+    "npr.org": "NPR", "foxnews.com": "Fox News", "cbsnews.com": "CBS News",
+    "abcnews.go.com": "ABC News", "irna.ir": "IRNA", "en.irna.ir": "IRNA",
+    "mehrnews.com": "Mehr News", "en.mehrnews.com": "Mehr News",
+    "tehrantimes.com": "Tehran Times", "aljazeera.com": "Al Jazeera",
+    "theguardian.com": "The Guardian World", "news.un.org": "UN News",
+}
+
+
+def outlet_name(source):
+    """The outlet's feed name for a GDELT domain such as "jpost.com", else unchanged."""
+    domain = source.lower()
+    if domain.startswith("www."):
+        domain = domain[4:]
+    return DOMAIN_TO_OUTLET.get(domain, source)
+
+
 SOURCES = {name: url for name, (_, url) in FEEDS.items()}
 COUNTRY = {name: country for name, (country, _) in FEEDS.items()}
 

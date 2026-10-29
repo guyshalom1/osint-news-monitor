@@ -13,7 +13,7 @@ from datetime import datetime, timedelta, timezone
 
 from .dedupe import remove_reprints, story_clusters
 from .gdelt import query_key
-from .sources import COUNTRY, OUTLET_NAMES
+from .sources import COUNTRY, OUTLET_NAMES, outlet_name
 
 # Capitalized words that start sentences or are too generic to be useful.
 STOPWORDS = {
@@ -65,7 +65,10 @@ def load_articles(conn, days, now=None):
         (since,),
     ).fetchall()
     keys = ("source", "title", "summary", "link", "published")
-    return [dict(zip(keys, row)) for row in rows]
+    articles = [dict(zip(keys, row)) for row in rows]
+    for a in articles:
+        a["source"] = outlet_name(a["source"])  # "jpost.com" -> "Jerusalem Post"
+    return articles
 
 
 def matches(article, keywords):
