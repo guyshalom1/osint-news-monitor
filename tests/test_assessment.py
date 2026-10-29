@@ -17,6 +17,8 @@ from osint_monitor.assessment import (
     split_windows,
     term_share,
     tone_judgment,
+    volume_baseline,
+    volume_claim,
     volume_judgment,
 )
 from osint_monitor.collector import connect, save
@@ -84,6 +86,43 @@ def test_volume_no_trend_when_earlier_period_is_incomplete():
     j = volume_judgment(make(30, 3), make(30, 30), incomplete=True)
     assert j["confidence"] == "Low"
     assert "before collection started" in j["basis"]
+
+
+def test_volume_claim_plain_when_both_comparisons_agree():
+    assert volume_claim("falling", "falling") == "Coverage is falling."
+    assert volume_claim("rising", None) == "Coverage is rising."
+
+
+def test_volume_claim_says_when_comparisons_differ():
+    assert volume_claim("falling", "steady") == (
+        "Coverage fell against the day before and is near its usual level.")
+    assert volume_claim("rising", "falling") == (
+        "Coverage rose against the day before and is below its usual level.")
+    assert volume_claim("steady", "rising") == (
+        "Coverage was steady against the day before and is above its usual level.")
+
+
+def test_volume_drop_from_a_busy_day_is_not_called_falling():
+    baseline = {"mean": 22, "days": 5}
+    j = volume_judgment(make(20, 3), make(40, 30), incomplete=False, baseline=baseline)
+    assert j["claim"] == "Coverage fell against the day before and is near its usual level."
+    assert "usual level is 22 a day" in j["basis"]
+
+
+def test_volume_baseline_leaves_out_edge_and_partial_days():
+    by_day = {"2026-10-19": 5, "2026-10-20": 100, "2026-10-21": 3, "2026-10-22": 100,
+              "2026-10-23": 120, "2026-10-24": 80, "2026-10-25": 90, "2026-10-26": 40}
+    # Out: the first day (cut short), the two days the last 24 hours touch
+    # (25 and 26 Oct), and the partial day (21 Oct).
+    result = {"by_day": by_day, "partial_days": ["2026-10-21"]}
+    assert volume_baseline(result, NOW) == {"mean": 100, "days": 4}
+
+
+def test_volume_baseline_needs_three_days():
+    result = {"by_day": {"2026-10-23": 50, "2026-10-24": 60, "2026-10-25": 70,
+                         "2026-10-26": 40}, "partial_days": []}
+    assert volume_baseline(result, NOW) is None
+    assert volume_baseline({"partial_days": []}, NOW) is None
 
 
 # --- tone --------------------------------------------------------------------

@@ -54,6 +54,25 @@ ALIASES = {
 # One or more capitalized words in a row, e.g. "Security Council", "Gaza".
 NAME_PATTERN = re.compile(r"\b[A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+)*\b")
 
+# News agencies open many articles with a dateline: "TEHRAN, Oct. 29 (MNA) -",
+# "Tehran, IRNA -" or "LONDON -". It says where and who filed the story, not
+# what it is about, so it is removed before names are counted. Without this,
+# the agency tag "MNA" tops the name list and looks like a real subject.
+AGENCIES = "MNA|IRNA|ISNA|TNA|AP|AFP|Reuters|WAFA"
+DATE_PART = r"(?:[A-Z][a-z]{2,8}\.?\s*\d{1,2}\s*)"
+DATELINE = re.compile(
+    # "City, [date] AGENCY"
+    rf"^\s*(?:[A-Za-z .]{{2,30}},\s*{DATE_PART}?\(?(?:{AGENCIES})\)?\s*"
+    # "CITY [, date] [(AGENCY)]"
+    rf"|[A-Z]{{3,}}(?: [A-Z]{{3,}})?(?:,\s*{DATE_PART})?\s*(?:\([A-Za-z]{{2,8}}\)\s*)?)"
+    r"[\u2013\u2014-]\s*"
+)
+
+
+def strip_dateline(text):
+    """Remove a leading agency dateline, e.g. "TEHRAN, Oct. 29 (MNA) - Iran said..."."""
+    return DATELINE.sub("", text, count=1)
+
 
 def load_articles(conn, days, now=None):
     """Return articles published in the last `days` days, newest first."""
@@ -87,6 +106,23 @@ def daily_counts(articles):
 def source_counts(articles):
     """Number of articles per source, largest first."""
     return dict(Counter(a["source"] for a in articles).most_common())
+
+
+def condense_sources(by_source, top):
+    """Keep the `top` largest sources and add up the rest as one line.
+
+    Real runs have 100+ outlets, most of them one article each (a long tail
+    from GDELT). The long tail makes a table unreadable and a chart worse.
+    Returns {source: n} with "Other (N outlets)" last, or the input unchanged
+    when it already fits.
+    """
+    if len(by_source) <= top:
+        return dict(by_source)
+    items = list(by_source.items())
+    rest = items[top:]
+    condensed = dict(items[:top])
+    condensed[f"Other ({len(rest)} outlets)"] = sum(n for _, n in rest)
+    return condensed
 
 
 def fill_days(counts, days, now):
@@ -143,7 +179,8 @@ def top_entities(articles, keywords, limit=10):
     counter = Counter()
     for a in articles:
         found = set()  # count each name once per article
-        for name in NAME_PATTERN.findall(f"{a['title']}. {a['summary']}"):
+        text = f"{a['title']}. {strip_dateline(a['summary'])}"
+        for name in NAME_PATTERN.findall(text):
             name = clean_name(name, skip)
             name = ALIASES.get(name, name)
             if len(name) >= 2 and name.lower() not in skip:

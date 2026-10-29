@@ -74,6 +74,30 @@ def remove_reprints(articles, threshold=REPRINT_THRESHOLD):
     return result, len(articles) - len(result)
 
 
+# Section labels that sites put in front of a headline. They are not part of it.
+# "Report:" stays, because it tells the reader the claim is not confirmed.
+HEADLINE_LABELS = re.compile(
+    r"^(?:Exclusive|Opinion|Analysis|Editorial|Live|Watch|Video|Photos)\s*[|:]\s*",
+    re.IGNORECASE,
+)
+
+
+def tidy_title(title):
+    """Clean a headline for display.
+
+    Some sources (GDELT in particular) return headlines with spaces around
+    punctuation, and many sites add a section label in front:
+    "U . S . and Israel preparing , sources say" -> "U.S. and Israel preparing, sources say",
+    "Exclusive | Iran talks resume" -> "Iran talks resume".
+    """
+    title = re.sub(r"\s+", " ", title).strip()
+    title = HEADLINE_LABELS.sub("", title)
+    title = re.sub(r"\s+([,.;:!?%)\]])", r"\1", title)   # "word ," -> "word,"
+    title = re.sub(r"([(\[])\s+", r"\1", title)           # "( word" -> "(word"
+    title = re.sub(r"(?<=\b[A-Z]\.)\s+(?=[A-Z]\.)", "", title)  # "U. S." -> "U.S."
+    return title
+
+
 def story_clusters(articles, threshold=STORY_THRESHOLD, min_outlets=2):
     """Group articles about the same event, across different outlets.
 
@@ -100,7 +124,7 @@ def story_clusters(articles, threshold=STORY_THRESHOLD, min_outlets=2):
         outlets = sorted({a["source"] for a in story["articles"]})
         if len(outlets) >= min_outlets:
             result.append({
-                "headline": story["seed"]["title"],
+                "headline": tidy_title(story["seed"]["title"]),
                 "first": story["seed"]["published"][:10],
                 "outlets": outlets,
                 "articles": len(story["articles"]),

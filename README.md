@@ -82,7 +82,7 @@ The same topic, compared between 7 Israeli, 5 US and 3 Iranian state or state-af
    - reprint removal: copies of the same headline under other domains (mostly wire copy on regional sites) are dropped before counting, keeping the earliest
    - stories: articles with similar headlines from different outlets are grouped, so the report shows which events the most outlets picked up
    - country comparison: share of attention and names mentioned, Israel vs US vs Iran
-5. **Assess**: a short written assessment at the top of the report, comparing the last 24 hours with the 24 hours before. It gives three judgments, each with a confidence level and the numbers behind it: is coverage rising or falling, is the language shifting toward escalation or diplomacy (two short word lists), and do countries frame the topic differently. It then lists what changed: new stories, and names mentioned more or less. It is rule-based, with no language model, so the same data always gives the same text. Confidence is High with 60+ articles from 5+ outlets, Medium with 20+ from 3+, otherwise Low.
+5. **Assess**: a short written assessment at the top of the report, comparing the last 24 hours with the 24 hours before. It gives three judgments, each with a confidence level and the numbers behind it: is coverage rising or falling (against the day before and against its usual daily level), is the language shifting toward escalation or diplomacy (two short word lists), and do countries frame the topic differently. It then lists what changed: new stories, and names mentioned more or less. It is rule-based, with no language model, so the same data always gives the same text. Confidence is High with 60+ articles from 5+ outlets, Medium with 20+ from 3+, otherwise Low.
 6. **Report** a Markdown file with the assessment, key findings, tables, latest headlines and a coverage chart.
 
 ## Usage
@@ -109,9 +109,11 @@ The report is written to `output/report.md` (or `--out`) with its charts. The sc
 
 - **Rule-based, not a language model.** The assessment is built from counts and short word lists, so the same data always gives the same text and every sentence can be traced to a number. That makes it auditable, which matters more than fluency for an analytic product.
 - **Confidence is stated, not implied.** Each judgment carries High, Medium or Low, set by how many articles and how many different outlets stand behind it. One outlet repeating itself does not raise confidence.
+- **Volume is judged against two baselines.** The last 24 hours are compared with the 24 hours before and with the usual daily level (the average of the complete days before today, at least 3). A 40% drop after an unusually busy day is reported as "fell against the day before and is near its usual level", not as coverage drying up.
 - **Shares instead of raw counts.** Feeds differ in size, so countries are compared by the share of their output that covers the topic.
 - **Home press is excluded from attention comparisons.** Iranian state outlets cover Iran as domestic news, so they are compared on framing only.
 - **Incomplete days are labeled, not hidden.** Days before collection started are drawn as partial and left out of peak and spike detection.
+- **Agency datelines are stripped before names are counted.** Openings like "TEHRAN, Oct. 29 (MNA) -" say who filed the story, not what it is about. Left in, the agency tag "MNA" was the second most common "name" and showed up in the country comparison.
 - **Reprints are removed before counting**, so wire copy republished by many sites does not look like independent coverage.
 - **Failures are visible.** Each run records source health, a failed scheduled run opens a GitHub issue, and tests run on every push without network access.
 

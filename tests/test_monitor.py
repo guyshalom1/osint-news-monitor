@@ -4,9 +4,16 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from osint_monitor.analyzer import analyze, clean_name, find_spikes, top_entities
+from osint_monitor.analyzer import (
+    analyze,
+    clean_name,
+    condense_sources,
+    find_spikes,
+    strip_dateline,
+    top_entities,
+)
 from osint_monitor.collector import clean_text, collect, connect, save
-from osint_monitor.dedupe import remove_reprints, story_clusters, title_words
+from osint_monitor.dedupe import remove_reprints, story_clusters, tidy_title, title_words
 from osint_monitor.gdelt import backfill, build_query, normalize, query_key
 from osint_monitor.report import make_report
 from osint_monitor.sources import COUNTRY, outlet_name
@@ -299,3 +306,64 @@ def test_load_articles_counts_domain_and_feed_as_one_outlet():
     ])
     result = analyze(conn, ["Hezbollah", "Metula"], days=7, now=NOW)
     assert result["by_source"] == {"Jerusalem Post": 2}
+
+
+def test_tidy_title_fixes_spacing_and_labels():
+    assert tidy_title("U . S . and Israel preparing , sources say") == (
+        "U.S. and Israel preparing, sources say")
+    assert tidy_title("Exclusive | Iran talks resume") == "Iran talks resume"
+    assert tidy_title("Said ( AP ) that talks failed") == "Said (AP) that talks failed"
+
+
+def test_tidy_title_keeps_report_label_and_normal_titles():
+    # "Report:" tells the reader the claim is unconfirmed, so it stays.
+    assert tidy_title("Report: US warns Gulf allies") == "Report: US warns Gulf allies"
+    assert tidy_title("Iran says talks will go on") == "Iran says talks will go on"
+
+
+def test_condense_sources_keeps_top_and_sums_rest():
+    by_source = {"A": 10, "B": 8, "C": 1, "D": 1, "E": 1}
+    assert condense_sources(by_source, 2) == {"A": 10, "B": 8, "Other (3 outlets)": 3}
+    assert condense_sources(by_source, 5) == by_source  # already fits, unchanged
+
+
+def test_report_source_table_is_condensed(tmp_path):
+    def word(i, k):  # a different made-up word per article, so none count as reprints
+        return chr(97 + i % 26) * (k + 2) + chr(97 + i // 26) * k
+
+    conn = connect(":memory:")
+    rows = [{"id": f"id{i}", "source": f"site{i}.com",
+             "title": "Hezbollah " + " ".join(word(i, k) for k in (1, 2, 3, 4)),
+             "summary": "", "link": f"http://x/{i}", "published": "2026-10-10",
+             "collected": "2026-10-10"} for i in range(30)]
+    save(conn, rows)
+    result = analyze(conn, ["Hezbollah"], days=7, now=NOW)
+    text = make_report(result, tmp_path).read_text()
+    assert "Other (15 outlets)" in text
+    assert "site29.com" not in text.split("## Coverage by source")[1].split("## Names")[0]
+
+
+def test_strip_dateline():
+    assert strip_dateline("TEHRAN, Oct. 29 (MNA) \u2013 Iran said") == "Iran said"
+    assert strip_dateline("Tehran, IRNA \u2014 President spoke") == "President spoke"
+    assert strip_dateline("LONDON \u2013 Talks resumed") == "Talks resumed"
+    assert strip_dateline("JERUSALEM (AP) \u2014 Israel said") == "Israel said"
+
+
+def test_strip_dateline_leaves_normal_text():
+    for text in ("Trump \u2013 the president said", "Talks in Tehran, the capital, went on"):
+        assert strip_dateline(text) == text
+
+
+def test_agency_tag_not_counted_as_name():
+    articles = [
+        {"source": "Mehr News", "title": "Talks continue",
+         "summary": "TEHRAN, Oct. 29 (MNA) \u2013 Araghchi met Guterres",
+         "published": "2026-10-29"},
+        {"source": "IRNA", "title": "Visit planned",
+         "summary": "Tehran, IRNA \u2014 Araghchi will visit Oman",
+         "published": "2026-10-29"},
+    ]
+    names = dict(top_entities(articles, ["Iran"]))
+    assert "MNA" not in names and "IRNA" not in names
+    assert names["Araghchi"] == 2

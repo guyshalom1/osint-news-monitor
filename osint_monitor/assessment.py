@@ -33,6 +33,7 @@ DIPLOMACY_TERMS = [
 VOLUME_CHANGE = 0.25   # a 25% move in daily volume counts as rising or falling
 TONE_SHIFT = 5         # percentage points of difference to call a tone shift
 MIN_PRIOR = 5          # fewer articles than this in the earlier window: no trend
+MIN_BASELINE_DAYS = 3  # complete days needed to call a "usual level"
 
 
 def split_windows(articles, now, hours=24):
@@ -70,8 +71,51 @@ def percent_change(now_value, before_value):
     return round(100 * (now_value - before_value) / before_value)
 
 
-def volume_judgment(recent, prior, incomplete):
-    """Is coverage rising, falling or steady compared with the day before?"""
+def direction(change):
+    """'rising', 'falling' or 'steady' for a relative change."""
+    if change >= VOLUME_CHANGE:
+        return "rising"
+    if change <= -VOLUME_CHANGE:
+        return "falling"
+    return "steady"
+
+
+def volume_baseline(result, now, hours=24):
+    """The usual daily volume: the average of the complete days before today.
+
+    Left out: the days the last 24 hours touch, the first day of the period
+    (it starts mid-day, so its count is cut short) and days before collection
+    started. Returns {"mean", "days"}, or None with fewer than three such days.
+    """
+    by_day = result.get("by_day", {})
+    skip = {now.date().isoformat(), (now - timedelta(hours=hours)).date().isoformat()}
+    if by_day:
+        skip.add(min(by_day))
+    skip |= set(result["partial_days"])
+    counts = [n for day, n in by_day.items() if day not in skip]
+    if len(counts) < MIN_BASELINE_DAYS:
+        return None
+    return {"mean": sum(counts) / len(counts), "days": len(counts)}
+
+
+def volume_claim(vs_prior, vs_usual):
+    """One sentence from two comparisons: with the day before, and with the usual level.
+
+    When both point the same way the claim is plain ("Coverage is falling.").
+    When they differ, the claim says so: a drop from an unusually busy day
+    is not the same as coverage drying up.
+    """
+    if vs_usual is None or vs_prior == vs_usual:
+        return {"rising": "Coverage is rising.", "falling": "Coverage is falling.",
+                "steady": "Coverage is steady."}[vs_prior]
+    day = {"rising": "rose", "falling": "fell", "steady": "was steady"}[vs_prior]
+    level = {"rising": "above", "falling": "below", "steady": "near"}[vs_usual]
+    return f"Coverage {day} against the day before and is {level} its usual level."
+
+
+def volume_judgment(recent, prior, incomplete, baseline=None):
+    """Is coverage rising, falling or steady? Against the day before, and
+    when there is enough history, against the usual daily level too."""
     r, p = len(recent), len(prior)
     outlets = len({a["source"] for a in recent + prior})
     if incomplete or p < MIN_PRIOR:
@@ -83,17 +127,19 @@ def volume_judgment(recent, prior, incomplete):
             "basis": f"{r} articles in the last 24 hours; {reason}.",
         }
     change = (r - p) / p
-    if change >= VOLUME_CHANGE:
-        word = "Coverage is rising."
-    elif change <= -VOLUME_CHANGE:
-        word = "Coverage is falling."
-    else:
-        word = "Coverage is steady."
+    basis = (f"{r} articles in the last 24 hours vs {p} in the 24 hours "
+             f"before ({percent_change(r, p):+d}%), from {outlets} outlets.")
+    vs_usual = None
+    if baseline and baseline["mean"] > 0:
+        usual = (r - baseline["mean"]) / baseline["mean"]
+        vs_usual = direction(usual)
+        basis += (f" The usual level is {round(baseline['mean'])} a day "
+                  f"(average of {baseline['days']} complete days), "
+                  f"so the last 24 hours are {percent_change(r, baseline['mean']):+d}% against it.")
     return {
-        "claim": word,
+        "claim": volume_claim(direction(change), vs_usual),
         "confidence": confidence(r + p, outlets),
-        "basis": (f"{r} articles in the last 24 hours vs {p} in the 24 hours "
-                  f"before ({percent_change(r, p):+d}%), from {outlets} outlets."),
+        "basis": basis,
     }
 
 
@@ -227,7 +273,8 @@ def build_assessment(result, comparison, now, hours=24):
                   (now - timedelta(hours=hours)).date().isoformat()}
     incomplete = bool(prior_days & set(result["partial_days"]))
 
-    judgments = [volume_judgment(recent, prior, incomplete),
+    baseline = volume_baseline(result, now, hours)
+    judgments = [volume_judgment(recent, prior, incomplete, baseline),
                  tone_judgment(recent, prior)]
     divergence = divergence_judgment(comparison)
     if divergence:
