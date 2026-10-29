@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from osint_monitor.analyzer import analyze, clean_name, find_spikes, top_entities
+from osint_monitor.analyzer import analyze, clean_name, find_spikes, strip_dateline, top_entities
 from osint_monitor.collector import clean_text, collect, connect
 from osint_monitor.dedupe import remove_reprints, story_clusters, title_words
 from osint_monitor.gdelt import backfill, build_query, normalize, query_key
@@ -278,3 +278,29 @@ def test_country_and_demonym_count_once_per_article():
     counts = dict(top_entities(articles, ["Iran"]))
     assert counts["Israel"] == 2 and "Israeli" not in counts
     assert counts["US"] == 2 and "American" not in counts
+
+
+def test_strip_dateline():
+    assert strip_dateline("TEHRAN, Oct. 29 (MNA) \u2013 Iran said") == "Iran said"
+    assert strip_dateline("Tehran, IRNA \u2014 President spoke") == "President spoke"
+    assert strip_dateline("LONDON \u2013 Talks resumed") == "Talks resumed"
+    assert strip_dateline("JERUSALEM (AP) \u2014 Israel said") == "Israel said"
+
+
+def test_strip_dateline_leaves_normal_text():
+    for text in ("Trump \u2013 the president said", "Talks in Tehran, the capital, went on"):
+        assert strip_dateline(text) == text
+
+
+def test_agency_tag_not_counted_as_name():
+    articles = [
+        {"source": "Mehr News", "title": "Talks continue",
+         "summary": "TEHRAN, Oct. 29 (MNA) \u2013 Araghchi met Guterres",
+         "published": "2026-10-29"},
+        {"source": "IRNA", "title": "Visit planned",
+         "summary": "Tehran, IRNA \u2014 Araghchi will visit Oman",
+         "published": "2026-10-29"},
+    ]
+    names = dict(top_entities(articles, ["Iran"]))
+    assert "MNA" not in names and "IRNA" not in names
+    assert names["Araghchi"] == 2
