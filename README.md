@@ -10,43 +10,43 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-29 22:51 UTC._
+_Updated 2026-10-30 05:50 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is falling.** Confidence: High. 53 articles in the last 24 hours vs 116 in the 24 hours before (-54%), from 14 outlets. The usual level is 92 a day (average of 4 complete days), so the last 24 hours are -43% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 49% of articles (earlier 26%), diplomacy words in 26% (earlier 21%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 5.0% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 2% of Iran.
+1. **Coverage is falling.** Confidence: High. 55 articles in the last 24 hours vs 105 in the 24 hours before (-48%), from 14 outlets. The usual level is 109 a day (average of 4 complete days), so the last 24 hours are -50% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 49% of articles (earlier 26%), diplomacy words in 22% (earlier 24%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.0% of their articles; US outlets give the topic 5.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 37% of Israel topic articles and 0% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: IRGC downs 14th US MQ-1 over Strait of Hormuz
-- Mentioned more: Vance (0% to 19%), Hormuz (3% to 19%), Strait (2% to 17%).
-- Mentioned less: Araghchi (14% to 0%), Israel (18% to 11%), Russia (6% to 0%).
+- No new story reached 2 or more outlets.
+- Mentioned more: US (15% to 31%), Hormuz (4% to 20%), Strait (4% to 18%).
+- Mentioned less: Araghchi (12% to 0%), Netanyahu (8% to 0%), Qatar (7% to 0%).
 
 ## Key findings
 
 - Peak coverage on 2026-10-26: 132 articles.
 - Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Mehr News carried the most coverage (17% of articles).
+- Mehr News carried the most coverage (18% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
 | Iran President to attend GECF summit in Moscow | 3 | 2026-10-24 |
+| Trump: We may do another little operation in Iran | 3 | 2026-10-23 |
 | Iran Pezeshkian blames US for interim deal failure, urges new try | 3 | 2026-10-24 |
 | Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
 | Iran says won’t allow US warships to get close as Trump ponders new attacks | 2 | 2026-10-24 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
-| Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of... | 2 | 2026-10-22 |
-| U.S. and Israel preparing for possible attack on Iran after elections | 2 | 2026-10-22 |
-| Trump says US may do it a little bit further in Iran | 2 | 2026-10-22 |
+| Trump at South Florida rally revives the idea of military intervention in Cuba after Iran | 2 | 2026-10-23 |
+| Trump tells South Florida rally that U.S. warships could do a little stopover in Cuba, after Iran | 2 | 2026-10-23 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
