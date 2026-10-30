@@ -10,15 +10,15 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-30 12:58 UTC._
+_Updated 2026-10-30 22:21 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage was steady against the day before and is below its usual level.** Confidence: High. 69 articles in the last 24 hours vs 77 in the 24 hours before (-10%), from 14 outlets. The usual level is 109 a day (average of 4 complete days), so the last 24 hours are -37% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 30% of articles (earlier 43%), diplomacy words in 25% (earlier 25%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.4% of their articles; US outlets give the topic 5.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 36% of Israel topic articles and 0% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 93 articles in the last 24 hours vs 52 in the 24 hours before (+79%), from 13 outlets. The usual level is 109 a day (average of 4 complete days), so the last 24 hours are -15% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 35% of articles (earlier 52%), diplomacy words in 20% (earlier 23%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 5.3% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
@@ -27,8 +27,8 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - New story, 2 outlets: Iran foreign minister offers condolences to Spain over deadly train crash
 - New story, 2 outlets: Qatari delegation arrives in Tehran for talks
 - New story, 2 outlets: IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz
-- Mentioned more: Qatari (0% to 9%), Baqaei (0% to 7%), Trump (10% to 16%).
-- Mentioned less: Pezeshkian (12% to 3%), Khamenei (9% to 0%), Araghchi (12% to 4%).
+- Mentioned more: Saudi Arabia (0% to 5%).
+- Mentioned less: Republic (12% to 0%), Vance (17% to 5%), Pezeshkian (13% to 4%).
 
 ## Key findings
 
@@ -42,12 +42,12 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Story | Outlets | First seen |
 |---|---|---|
 | Iran President to attend GECF summit in Moscow | 3 | 2026-10-24 |
-| Trump: We may do another little operation in Iran | 3 | 2026-10-23 |
 | Iran Pezeshkian blames US for interim deal failure, urges new try | 3 | 2026-10-24 |
 | Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
 | Iran says won’t allow US warships to get close as Trump ponders new attacks | 2 | 2026-10-24 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
 | Trump at South Florida rally revives the idea of military intervention in Cuba after Iran | 2 | 2026-10-23 |
+| Trump: We may do another operation against Iran | 2 | 2026-10-23 |
 | Trump tells South Florida rally that U.S. warships could do a little stopover in Cuba, after Iran | 2 | 2026-10-23 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
