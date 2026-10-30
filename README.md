@@ -10,23 +10,25 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-30 05:50 UTC._
+_Updated 2026-10-30 12:58 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is falling.** Confidence: High. 55 articles in the last 24 hours vs 105 in the 24 hours before (-48%), from 14 outlets. The usual level is 109 a day (average of 4 complete days), so the last 24 hours are -50% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 49% of articles (earlier 26%), diplomacy words in 22% (earlier 24%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.0% of their articles; US outlets give the topic 5.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 37% of Israel topic articles and 0% of Iran.
+1. **Coverage was steady against the day before and is below its usual level.** Confidence: High. 69 articles in the last 24 hours vs 77 in the 24 hours before (-10%), from 14 outlets. The usual level is 109 a day (average of 4 complete days), so the last 24 hours are -37% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 30% of articles (earlier 43%), diplomacy words in 25% (earlier 25%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.4% of their articles; US outlets give the topic 5.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 36% of Israel topic articles and 0% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- No new story reached 2 or more outlets.
-- Mentioned more: US (15% to 31%), Hormuz (4% to 20%), Strait (4% to 18%).
-- Mentioned less: Araghchi (12% to 0%), Netanyahu (8% to 0%), Qatar (7% to 0%).
+- New story, 2 outlets: Iran foreign minister offers condolences to Spain over deadly train crash
+- New story, 2 outlets: Qatari delegation arrives in Tehran for talks
+- New story, 2 outlets: IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz
+- Mentioned more: Qatari (0% to 9%), Baqaei (0% to 7%), Trump (10% to 16%).
+- Mentioned less: Pezeshkian (12% to 3%), Khamenei (9% to 0%), Araghchi (12% to 4%).
 
 ## Key findings
 
