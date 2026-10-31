@@ -1,24 +1,22 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-31 05:43 UTC. Period: last 7 days. Matching articles: 639 (25 reprints removed).
+Generated 2026-10-31 12:33 UTC. Period: last 7 days. Matching articles: 677 (24 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 86 articles in the last 24 hours vs 55 in the 24 hours before (+56%), from 11 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -18% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 31% of articles (earlier 49%), diplomacy words in 16% (earlier 22%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.0% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 2% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 92 articles in the last 24 hours vs 67 in the 24 hours before (+37%), from 12 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -12% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 34% of articles (earlier 31%), diplomacy words in 11% (earlier 25%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 0% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran foreign minister offers condolences to Spain over deadly train crash
-- New story, 2 outlets: Qatari delegation arrives in Tehran for talks
-- New story, 2 outlets: IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz
-- Mentioned more: Netanyahu (0% to 6%), Araghchi (0% to 5%).
-- Mentioned less: Vance (16% to 2%), Republic (11% to 0%), US (31% to 20%).
+- No new story reached 2 or more outlets.
+- Mentioned more: Rezaei (0% to 9%), Navy (3% to 11%), Strait (9% to 17%).
+- Mentioned less: Vance (10% to 0%), Qatari (9% to 0%), Baqaei (7% to 0%).
 
 ![Coverage per day](coverage.png)
 
@@ -27,7 +25,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-10-26: 132 articles.
 - Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Mehr News carried the most coverage (19% of articles).
+- Mehr News carried the most coverage (20% of articles).
 
 ## Stories covered by the most outlets
 
@@ -48,37 +46,37 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Mehr News | 119 |
-| IRNA | 117 |
-| Tehran Times | 112 |
-| Al Jazeera | 45 |
-| Jerusalem Post | 35 |
+| Mehr News | 133 |
+| IRNA | 132 |
+| Tehran Times | 119 |
+| Al Jazeera | 46 |
+| Jerusalem Post | 36 |
 | Haaretz | 29 |
 | JNS | 24 |
 | Israel National News | 18 |
-| The Guardian World | 13 |
+| The Guardian World | 14 |
 | Israel Hayom | 12 |
-| New York Times | 8 |
+| New York Times | 9 |
 | CBS News | 7 |
 | Ynetnews | 7 |
 | ABC News | 4 |
 | econotimes.com | 4 |
-| Other (60 outlets) | 85 |
+| Other (60 outlets) | 83 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 137 |
-| Israel | 96 |
-| Trump | 83 |
-| Netanyahu | 63 |
-| Pezeshkian | 60 |
+| US | 144 |
+| Israel | 99 |
+| Trump | 86 |
+| Netanyahu | 64 |
+| Pezeshkian | 62 |
 | Saudi Arabia | 46 |
-| Araghchi | 39 |
-| Hormuz | 35 |
+| Araghchi | 42 |
+| Hormuz | 38 |
+| Strait | 35 |
 | Pakistan | 34 |
-| Strait | 31 |
 
 ## Media comparison by country
 
@@ -86,53 +84,53 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 125 of 1254 (10.0%) | 24 of 495 (4.8%) | 351 of 363 (96.7%) home press |
+| Articles about the topic | 126 of 1252 (10.1%) | 23 of 477 (4.8%) | 387 of 399 (97.0%) home press |
 | Home press: articles mentioning US | - | - | 19% |
-| Home press: articles mentioning Israel | - | - | 10% |
-| Mentions Israel | 41% | 29% | 8% |
-| Mentions US | 26% | 25% | 15% |
-| Mentions Netanyahu | 39% | 17% | 2% |
-| Mentions Trump | 32% | 12% | 3% |
-| Mentions Houthi | 6% | 21% | 0% |
-| Mentions Yemen | 2% | 21% | 2% |
-| Mentions Saudi Arabia | 6% | 8% | 8% |
-| Mentions Turkey | 6% | 8% | 5% |
+| Home press: articles mentioning Israel | - | - | 9% |
+| Mentions Israel | 42% | 35% | 7% |
+| Mentions US | 27% | 26% | 15% |
+| Mentions Netanyahu | 39% | 22% | 0% |
+| Mentions Trump | 33% | 17% | 3% |
+| Mentions Saudi Arabia | 6% | 9% | 7% |
+| Mentions Turkey | 6% | 9% | 5% |
+| Mentions Houthi | 6% | 13% | 0% |
+| Mentions Pakistan | 3% | 9% | 5% |
 
 **Latest Israel headlines**
 
+- Jerusalem Post: [Khamenei: IRGC will have 'immediate, unrestricted response' to any US, Israeli threats](https://www.jpost.com/middle-east/iran-news/article-913390)
+- Haaretz: [Iran's Khamenei meets military brass as U.S. said to plot post-midterm strikes](https://www.haaretz.com/middle-east-news/2026-10-31/ty-article/irans-khamenei-meets-military-brass-as-u-s-said-to-plot-post-midterm-strikes/000001a1-915e-def7-adad-9bfe31080001)
+- Haaretz: [Report: Trump planning to resume Iran strikes as soon as one day after midterms](https://www.haaretz.com/middle-east-news/2026-10-31/ty-article/report-trump-planning-to-resume-iran-strikes-as-soon-as-one-day-after-midterms/000001a1-908c-d03f-aded-daffa1180000)
 - Jerusalem Post: [Trump's oil holdings surge 43% amid Iran war, raising conflict of interest concerns - report](https://www.jpost.com/international/article-913375)
 - JNS: [US government seeks forfeiture of Chinese-registered Gulfstream that landed in Iran](https://www.jns.org/news/u-s-news/us-government-seeks-forfeiture-of-chinese-registered-gulfstream-that-landed-in-iran)
-- Jerusalem Post: [Pakistan military 'cautiously optimistic' on Iran-US mediation](https://www.jpost.com/middle-east/article-913359)
-- Israel National News: [Trump: Iran wants talks, war could end soon](https://www.israelnationalnews.com/flashes/696439)
-- JNS: [Senate Foreign Relations Committee Dems chastise Trump, Kushner for alleged Middle East conflicts of interest](https://www.jns.org/news/u-s-news/senate-foreign-relations-committee-dems-chastise-trump-kushner-for-alleged-middle-east-conflicts-of-interest)
 
 **Latest US headlines**
 
+- New York Times: [Iran Braces for More War, No Matter the Outcome of the U.S. and Israeli Elections](https://www.nytimes.com/2026/10/31/world/middleeast/iran-war-israel-us-elections-trump-netanyahu.html)
 - CBS News: [Qatar pushes for U.S.-Iran deal under shadow of Trump's threats](https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/)
 - NPR: [Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general](https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans)
 - CBS News: [10/29: The Takeout with Major Garrett](https://www.cbsnews.com/video/102926-the-takeout-with-major-garrett/)
 - New York Times: [Vance Proposes Restarting Peace Talks in Outreach to Iranian Official](https://www.nytimes.com/2026/10/28/us/politics/vance-peace-talks-letter-iran.html)
-- ABC News: [Yemen appeals for help for civilians as Houthis tighten the siege of Taiz, and other Mideast news](https://abcnews.com/International/wireStory/yemen-appeals-civilians-houthis-tighten-siege-taiz-mideast-137634512)
 
 **Latest Iran headlines**
 
-- IRNA: [Lebanon’s death toll from Israeli acts of aggression climbs to 8,956](https://en.irna.ir/news/86307808/Lebanon-s-death-toll-from-Israeli-acts-of-aggression-climbs-to)
-- Mehr News: [Iran slams German chancellor for backing US-Israel aggression](https://en.mehrnews.com/news/249037/Iran-slams-German-chancellor-for-backing-US-Israel-aggression)
-- IRNA: [In photos: Iranian epic tale of ‘Siavash’ comes to stage](https://en.irna.ir/photo/86307792/In-photos-Iranian-epic-tale-of-Siavash-comes-to-stage)
-- Mehr News: [Iran lambastes Canadian PM’s baseless remarks on trio Islands](https://en.mehrnews.com/news/249036/Iran-lambastes-Canadian-PM-s-baseless-unfounded-remarks)
-- IRNA: [Top security official tells Europe: War and terror come at a price; Now it’s your turn to pay.](https://en.irna.ir/news/86307707/Top-security-official-tells-Europe-War-and-terror-come-at-a)
+- Mehr News: [Presser of Natl. Conf. on "Wake-Up Call: From Iran to Palesti](https://en.mehrnews.com/photo/249051/Presser-of-Natl-Conf-on-Wake-Up-Call-From-Iran-to-Palesti)
+- IRNA: [First VP hails Iran’s growing role in regional blocs ahead of ECO summit](https://en.irna.ir/news/86308389/First-VP-hails-Iran-s-growing-role-in-regional-blocs-ahead-of)
+- Mehr News: [Gas prices in Europe nearly triple in October](https://en.mehrnews.com/news/249050/Gas-prices-in-Europe-nearly-triple-in-October)
+- IRNA: [Araghchi warns Merz: ‘Red lines are a thing of the past’](https://en.irna.ir/photo/86308341/Araghchi-warns-Merz-Red-lines-are-a-thing-of-the-past)
+- Mehr News: [US attacks 2 Iranian fishing boats off Masan, Qeshm Island](https://en.mehrnews.com/news/249049/US-attacks-2-Iranian-fishing-boats-off-Masan-Qeshm-Island)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-10-31 | Jerusalem Post | [Trump's oil holdings surge 43% amid Iran war, raising conflict of interest concerns - report](https://www.jpost.com/international/article-913375)
-- 2026-10-31 | IRNA | [Lebanon’s death toll from Israeli acts of aggression climbs to 8,956](https://en.irna.ir/news/86307808/Lebanon-s-death-toll-from-Israeli-acts-of-aggression-climbs-to)
-- 2026-10-31 | Mehr News | [Iran slams German chancellor for backing US-Israel aggression](https://en.mehrnews.com/news/249037/Iran-slams-German-chancellor-for-backing-US-Israel-aggression)
-- 2026-10-31 | IRNA | [In photos: Iranian epic tale of ‘Siavash’ comes to stage](https://en.irna.ir/photo/86307792/In-photos-Iranian-epic-tale-of-Siavash-comes-to-stage)
-- 2026-10-31 | Mehr News | [Iran lambastes Canadian PM’s baseless remarks on trio Islands](https://en.mehrnews.com/news/249036/Iran-lambastes-Canadian-PM-s-baseless-unfounded-remarks)
-- 2026-10-31 | Al Jazeera | [Iran says four tankers on fire after striking mines in Hormuz](https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss)
-- 2026-10-31 | Al Jazeera | [Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end ‘soon’](https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss)
-- 2026-10-30 | IRNA | [Top security official tells Europe: War and terror come at a price; Now it’s your turn to pay.](https://en.irna.ir/news/86307707/Top-security-official-tells-Europe-War-and-terror-come-at-a)
-- 2026-10-30 | IRNA | [IRGC Navy captures second US drone intact over Qeshm island](https://en.irna.ir/news/86307704/IRGC-Navy-captures-second-US-drone-intact-over-Qeshm-island)
-- 2026-10-30 | IRNA | [IRGC: Fourth offending tanker catches fire in Strait of Hormuz after defying Iranian warnings](https://en.irna.ir/news/86307702/IRGC-Fourth-offending-tanker-catches-fire-in-Strait-of-Hormuz)
+- 2026-10-31 | Jerusalem Post | [Khamenei: IRGC will have 'immediate, unrestricted response' to any US, Israeli threats](https://www.jpost.com/middle-east/iran-news/article-913390)
+- 2026-10-31 | Mehr News | [Presser of Natl. Conf. on "Wake-Up Call: From Iran to Palesti](https://en.mehrnews.com/photo/249051/Presser-of-Natl-Conf-on-Wake-Up-Call-From-Iran-to-Palesti)
+- 2026-10-31 | IRNA | [First VP hails Iran’s growing role in regional blocs ahead of ECO summit](https://en.irna.ir/news/86308389/First-VP-hails-Iran-s-growing-role-in-regional-blocs-ahead-of)
+- 2026-10-31 | Mehr News | [Gas prices in Europe nearly triple in October](https://en.mehrnews.com/news/249050/Gas-prices-in-Europe-nearly-triple-in-October)
+- 2026-10-31 | IRNA | [Araghchi warns Merz: ‘Red lines are a thing of the past’](https://en.irna.ir/photo/86308341/Araghchi-warns-Merz-Red-lines-are-a-thing-of-the-past)
+- 2026-10-31 | Mehr News | [US attacks 2 Iranian fishing boats off Masan, Qeshm Island](https://en.mehrnews.com/news/249049/US-attacks-2-Iranian-fishing-boats-off-Masan-Qeshm-Island)
+- 2026-10-31 | Haaretz | [Iran's Khamenei meets military brass as U.S. said to plot post-midterm strikes](https://www.haaretz.com/middle-east-news/2026-10-31/ty-article/irans-khamenei-meets-military-brass-as-u-s-said-to-plot-post-midterm-strikes/000001a1-915e-def7-adad-9bfe31080001)
+- 2026-10-31 | Tehran Times | [Persian language proficiency test held for 200 international students](https://www.tehrantimes.com/news/531673/Persian-language-proficiency-test-held-for-200-international)
+- 2026-10-31 | Tehran Times | [Baghdad seeks to beef up pharmaceutical partnerships with Tehran](https://www.tehrantimes.com/news/531671/Baghdad-seeks-to-beef-up-pharmaceutical-partnerships-with-Tehran)
+- 2026-10-31 | Tehran Times | [Iran proposes joint peace and friendship park with Armenia for biodiversity protection](https://www.tehrantimes.com/news/531668/Iran-proposes-joint-peace-and-friendship-park-with-Armenia-for)

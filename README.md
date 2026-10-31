@@ -10,32 +10,30 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-31 05:43 UTC._
+_Updated 2026-10-31 12:33 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 86 articles in the last 24 hours vs 55 in the 24 hours before (+56%), from 11 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -18% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 31% of articles (earlier 49%), diplomacy words in 16% (earlier 22%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.0% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 2% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 92 articles in the last 24 hours vs 67 in the 24 hours before (+37%), from 12 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -12% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 34% of articles (earlier 31%), diplomacy words in 11% (earlier 25%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 0% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran foreign minister offers condolences to Spain over deadly train crash
-- New story, 2 outlets: Qatari delegation arrives in Tehran for talks
-- New story, 2 outlets: IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz
-- Mentioned more: Netanyahu (0% to 6%), Araghchi (0% to 5%).
-- Mentioned less: Vance (16% to 2%), Republic (11% to 0%), US (31% to 20%).
+- No new story reached 2 or more outlets.
+- Mentioned more: Rezaei (0% to 9%), Navy (3% to 11%), Strait (9% to 17%).
+- Mentioned less: Vance (10% to 0%), Qatari (9% to 0%), Baqaei (7% to 0%).
 
 ## Key findings
 
 - Peak coverage on 2026-10-26: 132 articles.
 - Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Mehr News carried the most coverage (19% of articles).
+- Mehr News carried the most coverage (20% of articles).
 
 ## Stories covered by the most outlets
 
