@@ -1,14 +1,14 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-30 22:21 UTC. Period: last 7 days. Matching articles: 644 (40 reprints removed).
+Generated 2026-10-31 05:43 UTC. Period: last 7 days. Matching articles: 639 (25 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 93 articles in the last 24 hours vs 52 in the 24 hours before (+79%), from 13 outlets. The usual level is 109 a day (average of 4 complete days), so the last 24 hours are -15% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 35% of articles (earlier 52%), diplomacy words in 20% (earlier 23%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 5.3% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 2% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 86 articles in the last 24 hours vs 55 in the 24 hours before (+56%), from 11 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -18% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 31% of articles (earlier 49%), diplomacy words in 16% (earlier 22%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.0% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
@@ -17,8 +17,8 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - New story, 2 outlets: Iran foreign minister offers condolences to Spain over deadly train crash
 - New story, 2 outlets: Qatari delegation arrives in Tehran for talks
 - New story, 2 outlets: IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz
-- Mentioned more: Saudi Arabia (0% to 5%).
-- Mentioned less: Republic (12% to 0%), Vance (17% to 5%), Pezeshkian (13% to 4%).
+- Mentioned more: Netanyahu (0% to 6%), Araghchi (0% to 5%).
+- Mentioned less: Vance (16% to 2%), Republic (11% to 0%), US (31% to 20%).
 
 ![Coverage per day](coverage.png)
 
@@ -27,7 +27,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-10-26: 132 articles.
 - Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Mehr News carried the most coverage (18% of articles).
+- Mehr News carried the most coverage (19% of articles).
 
 ## Stories covered by the most outlets
 
@@ -38,9 +38,9 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
 | Iran says won’t allow US warships to get close as Trump ponders new attacks | 2 | 2026-10-24 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
-| Trump at South Florida rally revives the idea of military intervention in Cuba after Iran | 2 | 2026-10-23 |
-| Trump: We may do another operation against Iran | 2 | 2026-10-23 |
-| Trump tells South Florida rally that U.S. warships could do a little stopover in Cuba, after Iran | 2 | 2026-10-23 |
+| Is Iran planning attacks on Americans; why is the US on alert? | 2 | 2026-10-24 |
+| Iran remains open to talks with US under Pakistan-brokered deal, envoy says | 2 | 2026-10-24 |
+| Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms | 2 | 2026-10-25 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 
@@ -48,37 +48,37 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Mehr News | 117 |
-| IRNA | 115 |
+| Mehr News | 119 |
+| IRNA | 117 |
 | Tehran Times | 112 |
-| Al Jazeera | 44 |
-| Jerusalem Post | 36 |
-| Haaretz | 30 |
+| Al Jazeera | 45 |
+| Jerusalem Post | 35 |
+| Haaretz | 29 |
 | JNS | 24 |
 | Israel National News | 18 |
-| The Guardian World | 14 |
+| The Guardian World | 13 |
 | Israel Hayom | 12 |
-| New York Times | 9 |
-| CBS News | 8 |
+| New York Times | 8 |
+| CBS News | 7 |
 | Ynetnews | 7 |
 | ABC News | 4 |
 | econotimes.com | 4 |
-| Other (64 outlets) | 90 |
+| Other (60 outlets) | 85 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 138 |
-| Israel | 93 |
-| Trump | 90 |
+| US | 137 |
+| Israel | 96 |
+| Trump | 83 |
 | Netanyahu | 63 |
 | Pezeshkian | 60 |
 | Saudi Arabia | 46 |
-| Araghchi | 38 |
-| Hormuz | 33 |
-| Pakistan | 33 |
-| Strait | 29 |
+| Araghchi | 39 |
+| Hormuz | 35 |
+| Pakistan | 34 |
+| Strait | 31 |
 
 ## Media comparison by country
 
@@ -86,25 +86,25 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 127 of 1255 (10.1%) | 26 of 491 (5.3%) | 347 of 359 (96.7%) home press |
+| Articles about the topic | 125 of 1254 (10.0%) | 24 of 495 (4.8%) | 351 of 363 (96.7%) home press |
 | Home press: articles mentioning US | - | - | 19% |
-| Home press: articles mentioning Israel | - | - | 9% |
-| Mentions Israel | 40% | 27% | 8% |
-| Mentions US | 27% | 23% | 14% |
-| Mentions Netanyahu | 39% | 15% | 2% |
-| Mentions Trump | 31% | 12% | 3% |
-| Mentions Saudi Arabia | 6% | 12% | 8% |
-| Mentions Houthi | 6% | 19% | 0% |
-| Mentions Yemen | 2% | 19% | 2% |
+| Home press: articles mentioning Israel | - | - | 10% |
+| Mentions Israel | 41% | 29% | 8% |
+| Mentions US | 26% | 25% | 15% |
+| Mentions Netanyahu | 39% | 17% | 2% |
+| Mentions Trump | 32% | 12% | 3% |
+| Mentions Houthi | 6% | 21% | 0% |
+| Mentions Yemen | 2% | 21% | 2% |
+| Mentions Saudi Arabia | 6% | 8% | 8% |
 | Mentions Turkey | 6% | 8% | 5% |
 
 **Latest Israel headlines**
 
+- Jerusalem Post: [Trump's oil holdings surge 43% amid Iran war, raising conflict of interest concerns - report](https://www.jpost.com/international/article-913375)
 - JNS: [US government seeks forfeiture of Chinese-registered Gulfstream that landed in Iran](https://www.jns.org/news/u-s-news/us-government-seeks-forfeiture-of-chinese-registered-gulfstream-that-landed-in-iran)
 - Jerusalem Post: [Pakistan military 'cautiously optimistic' on Iran-US mediation](https://www.jpost.com/middle-east/article-913359)
 - Israel National News: [Trump: Iran wants talks, war could end soon](https://www.israelnationalnews.com/flashes/696439)
 - JNS: [Senate Foreign Relations Committee Dems chastise Trump, Kushner for alleged Middle East conflicts of interest](https://www.jns.org/news/u-s-news/senate-foreign-relations-committee-dems-chastise-trump-kushner-for-alleged-middle-east-conflicts-of-interest)
-- Jerusalem Post: [PM's son Yair Netanyahu deems Israeli Arabs 'greatest danger' to Israel besides Iran](https://www.jpost.com/israel-election-2026/article-913356)
 
 **Latest US headlines**
 
@@ -116,23 +116,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
+- IRNA: [Lebanon’s death toll from Israeli acts of aggression climbs to 8,956](https://en.irna.ir/news/86307808/Lebanon-s-death-toll-from-Israeli-acts-of-aggression-climbs-to)
+- Mehr News: [Iran slams German chancellor for backing US-Israel aggression](https://en.mehrnews.com/news/249037/Iran-slams-German-chancellor-for-backing-US-Israel-aggression)
+- IRNA: [In photos: Iranian epic tale of ‘Siavash’ comes to stage](https://en.irna.ir/photo/86307792/In-photos-Iranian-epic-tale-of-Siavash-comes-to-stage)
+- Mehr News: [Iran lambastes Canadian PM’s baseless remarks on trio Islands](https://en.mehrnews.com/news/249036/Iran-lambastes-Canadian-PM-s-baseless-unfounded-remarks)
 - IRNA: [Top security official tells Europe: War and terror come at a price; Now it’s your turn to pay.](https://en.irna.ir/news/86307707/Top-security-official-tells-Europe-War-and-terror-come-at-a)
-- IRNA: [IRGC Navy captures second US drone intact over Qeshm island](https://en.irna.ir/news/86307704/IRGC-Navy-captures-second-US-drone-intact-over-Qeshm-island)
-- IRNA: [IRGC: Fourth offending tanker catches fire in Strait of Hormuz after defying Iranian warnings](https://en.irna.ir/news/86307702/IRGC-Fourth-offending-tanker-catches-fire-in-Strait-of-Hormuz)
-- IRNA: [Pezeshkian: We must be so strong that no one dares to covet our territory and identity](https://en.irna.ir/news/86307693/Pezeshkian-We-must-be-so-strong-that-no-one-dares-to-covet-our)
-- Mehr News: [Iranian wrestlers win 2 bronze medals at world championship](https://en.mehrnews.com/news/249035/Iranian-wrestlers-win-2-bronze-medals-at-world-championship)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
+- 2026-10-31 | Jerusalem Post | [Trump's oil holdings surge 43% amid Iran war, raising conflict of interest concerns - report](https://www.jpost.com/international/article-913375)
+- 2026-10-31 | IRNA | [Lebanon’s death toll from Israeli acts of aggression climbs to 8,956](https://en.irna.ir/news/86307808/Lebanon-s-death-toll-from-Israeli-acts-of-aggression-climbs-to)
+- 2026-10-31 | Mehr News | [Iran slams German chancellor for backing US-Israel aggression](https://en.mehrnews.com/news/249037/Iran-slams-German-chancellor-for-backing-US-Israel-aggression)
+- 2026-10-31 | IRNA | [In photos: Iranian epic tale of ‘Siavash’ comes to stage](https://en.irna.ir/photo/86307792/In-photos-Iranian-epic-tale-of-Siavash-comes-to-stage)
+- 2026-10-31 | Mehr News | [Iran lambastes Canadian PM’s baseless remarks on trio Islands](https://en.mehrnews.com/news/249036/Iran-lambastes-Canadian-PM-s-baseless-unfounded-remarks)
+- 2026-10-31 | Al Jazeera | [Iran says four tankers on fire after striking mines in Hormuz](https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss)
+- 2026-10-31 | Al Jazeera | [Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end ‘soon’](https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss)
 - 2026-10-30 | IRNA | [Top security official tells Europe: War and terror come at a price; Now it’s your turn to pay.](https://en.irna.ir/news/86307707/Top-security-official-tells-Europe-War-and-terror-come-at-a)
 - 2026-10-30 | IRNA | [IRGC Navy captures second US drone intact over Qeshm island](https://en.irna.ir/news/86307704/IRGC-Navy-captures-second-US-drone-intact-over-Qeshm-island)
 - 2026-10-30 | IRNA | [IRGC: Fourth offending tanker catches fire in Strait of Hormuz after defying Iranian warnings](https://en.irna.ir/news/86307702/IRGC-Fourth-offending-tanker-catches-fire-in-Strait-of-Hormuz)
-- 2026-10-30 | JNS | [US government seeks forfeiture of Chinese-registered Gulfstream that landed in Iran](https://www.jns.org/news/u-s-news/us-government-seeks-forfeiture-of-chinese-registered-gulfstream-that-landed-in-iran)
-- 2026-10-30 | Al Jazeera | [G20 drops group photo as Europeans refuse to stand with Lavrov](https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss)
-- 2026-10-30 | IRNA | [Pezeshkian: We must be so strong that no one dares to covet our territory and identity](https://en.irna.ir/news/86307693/Pezeshkian-We-must-be-so-strong-that-no-one-dares-to-covet-our)
-- 2026-10-30 | Jerusalem Post | [Pakistan military 'cautiously optimistic' on Iran-US mediation](https://www.jpost.com/middle-east/article-913359)
-- 2026-10-30 | Israel National News | [Trump: Iran wants talks, war could end soon](https://www.israelnationalnews.com/flashes/696439)
-- 2026-10-30 | Mehr News | [Iranian wrestlers win 2 bronze medals at world championship](https://en.mehrnews.com/news/249035/Iranian-wrestlers-win-2-bronze-medals-at-world-championship)
-- 2026-10-30 | Tehran Times | [Trump’s bluff meets Iran’s resolve: Limits of American power](https://www.tehrantimes.com/news/531659/Trump-s-bluff-meets-Iran-s-resolve-Limits-of-American-power)
