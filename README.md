@@ -10,43 +10,44 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-31 12:33 UTC._
+_Updated 2026-10-31 21:40 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 92 articles in the last 24 hours vs 67 in the 24 hours before (+37%), from 12 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -12% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 34% of articles (earlier 31%), diplomacy words in 11% (earlier 25%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 39% of Israel topic articles and 0% of Iran.
+1. **Coverage is steady.** Confidence: High. 99 articles in the last 24 hours vs 93 in the 24 hours before (+6%), from 14 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -5% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 30% of articles (earlier 34%), diplomacy words in 14% (earlier 22%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 5.0% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 38% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- No new story reached 2 or more outlets.
-- Mentioned more: Rezaei (0% to 9%), Navy (3% to 11%), Strait (9% to 17%).
-- Mentioned less: Vance (10% to 0%), Qatari (9% to 0%), Baqaei (7% to 0%).
+- New story, 2 outlets: Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox
+- New story, 2 outlets: Iran’s response will have no geographical limits: top general
+- Mentioned more: Rezaei (0% to 10%), Araghchi (3% to 11%), Khamenei (0% to 6%).
+- Mentioned less: Hormuz (17% to 6%), Strait (17% to 7%), Navy (12% to 2%).
 
 ## Key findings
 
 - Peak coverage on 2026-10-26: 132 articles.
-- Most widely covered story: "Iran President to attend GECF summit in Moscow", reported by 3 outlets.
+- Most widely covered story: "Abbas Araghchi says resumption of war would not change Iran policies", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Mehr News carried the most coverage (20% of articles).
+- Tehran Times carried the most coverage (21% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
-| Iran President to attend GECF summit in Moscow | 3 | 2026-10-24 |
-| Iran Pezeshkian blames US for interim deal failure, urges new try | 3 | 2026-10-24 |
 | Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
-| Iran says won’t allow US warships to get close as Trump ponders new attacks | 2 | 2026-10-24 |
+| President Pezeshkian departs for Moscow to attend GECF summit | 2 | 2026-10-26 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
-| Is Iran planning attacks on Americans; why is the US on alert? | 2 | 2026-10-24 |
-| Iran remains open to talks with US under Pakistan-brokered deal, envoy says | 2 | 2026-10-24 |
 | Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms | 2 | 2026-10-25 |
+| IDF eliminates two terrorists who transferred millions to Hamas | 2 | 2026-10-25 |
+| Iran President to Visit Moscow for Talks With Putin | 2 | 2026-10-25 |
+| Sri Lanka provides medical help and repatriates 40 Iranian sailors stranded in the Indian Ocean | 2 | 2026-10-25 |
+| Forty Iranian sailors stranded off Sri Lanka coast rescued | 2 | 2026-10-26 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
