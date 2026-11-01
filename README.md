@@ -10,24 +10,24 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-10-31 21:40 UTC._
+_Updated 2026-11-01 06:05 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 99 articles in the last 24 hours vs 93 in the 24 hours before (+6%), from 14 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -5% against it.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 30% of articles (earlier 34%), diplomacy words in 14% (earlier 22%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 5.0% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 38% of Israel topic articles and 2% of Iran.
+1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 89 in the 24 hours before (+17%), from 14 outlets. The usual level is 94 a day (average of 4 complete days), so the last 24 hours are +10% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 34% of articles (earlier 30%), diplomacy words in 17% (earlier 16%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.6% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 38% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox
 - New story, 2 outlets: Iran’s response will have no geographical limits: top general
-- Mentioned more: Rezaei (0% to 10%), Araghchi (3% to 11%), Khamenei (0% to 6%).
-- Mentioned less: Hormuz (17% to 6%), Strait (17% to 7%), Navy (12% to 2%).
+- New story, 2 outlets: Iran FM congratulates Algeria on National Day
+- Mentioned more: US (18% to 32%), Araghchi (4% to 12%), Vance (2% to 8%).
+- Mentioned less: Strait (18% to 3%), Hormuz (17% to 4%), Navy (13% to 0%).
 
 ## Key findings
 

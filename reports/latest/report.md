@@ -1,23 +1,23 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-10-31 21:40 UTC. Period: last 7 days. Matching articles: 692 (13 reprints removed).
+Generated 2026-11-01 06:05 UTC. Period: last 7 days. Matching articles: 696 (13 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 99 articles in the last 24 hours vs 93 in the 24 hours before (+6%), from 14 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are -5% against it.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 30% of articles (earlier 34%), diplomacy words in 14% (earlier 22%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.1% of their articles; US outlets give the topic 5.0% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 38% of Israel topic articles and 2% of Iran.
+1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 89 in the 24 hours before (+17%), from 14 outlets. The usual level is 94 a day (average of 4 complete days), so the last 24 hours are +10% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 34% of articles (earlier 30%), diplomacy words in 17% (earlier 16%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.6% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 38% of Israel topic articles and 2% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox
 - New story, 2 outlets: Iran’s response will have no geographical limits: top general
-- Mentioned more: Rezaei (0% to 10%), Araghchi (3% to 11%), Khamenei (0% to 6%).
-- Mentioned less: Hormuz (17% to 6%), Strait (17% to 7%), Navy (12% to 2%).
+- New story, 2 outlets: Iran FM congratulates Algeria on National Day
+- Mentioned more: US (18% to 32%), Araghchi (4% to 12%), Vance (2% to 8%).
+- Mentioned less: Strait (18% to 3%), Hormuz (17% to 4%), Navy (13% to 0%).
 
 ![Coverage per day](coverage.png)
 
@@ -48,34 +48,34 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Source | Articles |
 |---|---|
 | Tehran Times | 144 |
-| IRNA | 140 |
-| Mehr News | 140 |
+| Mehr News | 142 |
+| IRNA | 142 |
 | Al Jazeera | 43 |
-| Jerusalem Post | 38 |
-| Haaretz | 29 |
+| Jerusalem Post | 39 |
+| Haaretz | 30 |
 | JNS | 24 |
-| Israel National News | 17 |
+| Israel National News | 19 |
+| Israel Hayom | 14 |
 | The Guardian World | 14 |
-| Israel Hayom | 13 |
-| New York Times | 10 |
+| New York Times | 9 |
 | CBS News | 7 |
 | Ynetnews | 6 |
 | ABC News | 4 |
 | ncr-iran.org | 4 |
-| Other (47 outlets) | 59 |
+| Other (44 outlets) | 55 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 144 |
-| Israel | 102 |
-| Trump | 83 |
-| Netanyahu | 64 |
+| US | 145 |
+| Israel | 100 |
+| Trump | 84 |
+| Netanyahu | 66 |
 | Pezeshkian | 60 |
-| Araghchi | 49 |
+| Araghchi | 52 |
 | Saudi Arabia | 48 |
-| Hormuz | 39 |
+| Hormuz | 40 |
 | Strait | 36 |
 | Pakistan | 34 |
 
@@ -85,25 +85,25 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 127 of 1254 (10.1%) | 24 of 482 (5.0%) | 427 of 442 (96.6%) home press |
+| Articles about the topic | 132 of 1244 (10.6%) | 23 of 482 (4.8%) | 431 of 446 (96.6%) home press |
 | Home press: articles mentioning US | - | - | 20% |
 | Home press: articles mentioning Israel | - | - | 9% |
-| Mentions Israel | 41% | 38% | 8% |
-| Mentions US | 28% | 21% | 16% |
-| Mentions Netanyahu | 38% | 21% | 2% |
+| Mentions Israel | 39% | 35% | 8% |
+| Mentions Netanyahu | 38% | 22% | 2% |
+| Mentions US | 28% | 17% | 16% |
 | Mentions Trump | 34% | 17% | 3% |
-| Mentions Saudi Arabia | 6% | 12% | 7% |
-| Mentions Turkey | 6% | 12% | 4% |
+| Mentions Saudi Arabia | 6% | 13% | 7% |
+| Mentions Turkey | 5% | 13% | 4% |
 | Mentions Houthi | 5% | 17% | 0% |
-| Mentions Pakistan | 3% | 12% | 5% |
+| Mentions Pakistan | 3% | 13% | 5% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Iran debating whether to maintain ban on nuclear weapons, regime's security chief Rezaei says](https://www.jpost.com/middle-east/iran-news/article-913416)
-- Israel Hayom: [Iran claims victory as US shifts tone, weighs changing nuclear doctrine](https://www.israelhayom.com/2026/10/31/iran-claims-victory-as-us-shifts-tone-weighs-changing-nuclear-doctrine/)
-- Jerusalem Post: [Trump 'has not made a decision' on Iran, Rubio tells press](https://www.jpost.com/middle-east/iran-news/article-913411)
-- Haaretz: [Trump yet to decide on Iran strikes, U.S. open to diplomacy, Rubio says](https://www.haaretz.com/middle-east-news/iran/2026-10-31/ty-article/trump-yet-to-decide-on-iran-strikes-u-s-open-to-diplomacy-rubio-says/000001a1-92df-d03f-aded-daff49480000)
-- Jerusalem Post: [Araghchi says Vance's letter 'positive step' toward opening dialogue between Iran, US](https://www.jpost.com/middle-east/iran-news/article-913396)
+- Israel National News: [What Britain, the Arab States and Iran owe the Jewish People](https://www.israelnationalnews.com/flashes/696475)
+- Israel National News: [Report: Two million barrels of oil from Iran arrived in China after three and a half months](https://www.israelnationalnews.com/flashes/696474)
+- Israel National News: [Iran threatens: We will respond forcefully to any threat, with an open target bank](https://www.israelnationalnews.com/flashes/696473)
+- Jerusalem Post: [Hezbollah unlikely to attack Israel in case of US-Iran war unless regime under threat - report](https://www.jpost.com/middle-east/iran-news/article-913425)
+- Israel National News: [Rubio: No deadline for Iran talks, military strikes remain an option](https://www.israelnationalnews.com/flashes/696468)
 
 **Latest US headlines**
 
@@ -115,23 +115,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
+- Mehr News: [Iran FM Araghchi felicitates Algeria on National Day](https://en.mehrnews.com/news/249060/Iran-FM-Araghchi-felicitates-Algeria-on-National-Day)
+- IRNA: [Iran FM congratulates Algeria on National Day](https://en.irna.ir/news/86308757/Iran-FM-congratulates-Algeria-on-National-Day)
+- Mehr News: [Iran FM designates British Royal Navy, Air Force as terrorist](https://en.mehrnews.com/news/249059/Iran-FM-strongly-condemns-UK-s-anti-Iran-movements-policies)
+- IRNA: [Major General Rezaei: Path of diplomacy remains open if conditions set by Iran are met](https://en.irna.ir/news/86308690/Major-General-Rezaei-Path-of-diplomacy-remains-open-if-conditions)
 - IRNA: [Top security official says not yet responded to Vance’s letter; No new decision has been made regarding a change to nuclear doctrine](https://en.irna.ir/news/86308655/Top-security-official-says-not-yet-responded-to-Vance-s-letter)
-- Tehran Times: [Regional agreement and threat of a joint response](https://www.tehrantimes.com/news/531698/Regional-agreement-and-threat-of-a-joint-response)
-- Tehran Times: [Major Iranian singers, orchestras take stage across country this week](https://www.tehrantimes.com/news/531666/Major-Iranian-singers-orchestras-take-stage-across-country-this)
-- Tehran Times: [Iranian team makes IDFA 2026 trailer](https://www.tehrantimes.com/news/531665/Iranian-team-makes-IDFA-2026-trailer)
-- Tehran Times: [Iranian strikes damage 274 structures at 24 US-linked military sites](https://www.tehrantimes.com/news/531697/Iranian-strikes-damage-274-structures-at-24-US-linked-military)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-10-31 | Jerusalem Post | [Iran debating whether to maintain ban on nuclear weapons, regime's security chief Rezaei says](https://www.jpost.com/middle-east/iran-news/article-913416)
-- 2026-10-31 | IRNA | [Top security official says not yet responded to Vance’s letter; No new decision has been made regarding a change to nuclear doctrine](https://en.irna.ir/news/86308655/Top-security-official-says-not-yet-responded-to-Vance-s-letter)
-- 2026-10-31 | Israel Hayom | [Iran claims victory as US shifts tone, weighs changing nuclear doctrine](https://www.israelhayom.com/2026/10/31/iran-claims-victory-as-us-shifts-tone-weighs-changing-nuclear-doctrine/)
-- 2026-10-31 | Tehran Times | [Regional agreement and threat of a joint response](https://www.tehrantimes.com/news/531698/Regional-agreement-and-threat-of-a-joint-response)
-- 2026-10-31 | Tehran Times | [Major Iranian singers, orchestras take stage across country this week](https://www.tehrantimes.com/news/531666/Major-Iranian-singers-orchestras-take-stage-across-country-this)
-- 2026-10-31 | Tehran Times | [Iranian team makes IDFA 2026 trailer](https://www.tehrantimes.com/news/531665/Iranian-team-makes-IDFA-2026-trailer)
-- 2026-10-31 | Tehran Times | [Iranian strikes damage 274 structures at 24 US-linked military sites](https://www.tehrantimes.com/news/531697/Iranian-strikes-damage-274-structures-at-24-US-linked-military)
-- 2026-10-31 | Tehran Times | [Canada’s support for UAE claim to Iranian islands violates UN Charter, Tehran says](https://www.tehrantimes.com/news/531696/Canada-s-support-for-UAE-claim-to-Iranian-islands-violates-UN)
-- 2026-10-31 | Mehr News | [No serious decision made about change in nuclear doctrine](https://en.mehrnews.com/news/249058/No-serious-decision-made-about-change-in-nuclear-doctrine)
-- 2026-10-31 | Tehran Times | [VP orders formation of five specialized committees to prepare for ECO summit in Tehran](https://www.tehrantimes.com/news/531695/VP-orders-formation-of-five-specialized-committees-to-prepare)
+- 2026-11-01 | Mehr News | [Iran FM Araghchi felicitates Algeria on National Day](https://en.mehrnews.com/news/249060/Iran-FM-Araghchi-felicitates-Algeria-on-National-Day)
+- 2026-11-01 | Israel National News | [What Britain, the Arab States and Iran owe the Jewish People](https://www.israelnationalnews.com/flashes/696475)
+- 2026-11-01 | IRNA | [Iran FM congratulates Algeria on National Day](https://en.irna.ir/news/86308757/Iran-FM-congratulates-Algeria-on-National-Day)
+- 2026-11-01 | Israel National News | [Report: Two million barrels of oil from Iran arrived in China after three and a half months](https://www.israelnationalnews.com/flashes/696474)
+- 2026-11-01 | Israel National News | [Iran threatens: We will respond forcefully to any threat, with an open target bank](https://www.israelnationalnews.com/flashes/696473)
+- 2026-11-01 | Mehr News | [Iran FM designates British Royal Navy, Air Force as terrorist](https://en.mehrnews.com/news/249059/Iran-FM-strongly-condemns-UK-s-anti-Iran-movements-policies)
+- 2026-11-01 | Jerusalem Post | [Hezbollah unlikely to attack Israel in case of US-Iran war unless regime under threat - report](https://www.jpost.com/middle-east/iran-news/article-913425)
+- 2026-11-01 | Israel National News | [Rubio: No deadline for Iran talks, military strikes remain an option](https://www.israelnationalnews.com/flashes/696468)
+- 2026-11-01 | Al Jazeera | [What we know about latest efforts to end US war on Iran](https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss)
+- 2026-11-01 | Haaretz | [Israel's opposition should tell Netanyahu: 'enough with Iran'](https://www.haaretz.com/opinion/editorial/2026-11-01/ty-article-opinion/israels-opposition-should-tell-netanyahu-enough-with-iran/000001a1-93a4-d8ec-a9b7-f7ae0e0f0000)
