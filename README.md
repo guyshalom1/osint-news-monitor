@@ -10,44 +10,45 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-01 06:05 UTC._
+_Updated 2026-11-01 13:24 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 89 in the 24 hours before (+17%), from 14 outlets. The usual level is 94 a day (average of 4 complete days), so the last 24 hours are +10% against it.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 34% of articles (earlier 30%), diplomacy words in 17% (earlier 16%).
-3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 10.6% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 38% of Israel topic articles and 2% of Iran.
+1. **Coverage is steady.** Confidence: High. 114 articles in the last 24 hours vs 92 in the 24 hours before (+24%), from 12 outlets. The usual level is 94 a day (average of 4 complete days), so the last 24 hours are +21% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 39% of articles (earlier 34%), diplomacy words in 18% (earlier 12%).
+3. **Countries frame the topic differently; the clearest gap is "Netanyahu".** Confidence: Medium. Israel outlets give the topic 11.0% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Netanyahu" appears in 36% of Israel topic articles and 1% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran’s response will have no geographical limits: top general
 - New story, 2 outlets: Iran FM congratulates Algeria on National Day
-- Mentioned more: US (18% to 32%), Araghchi (4% to 12%), Vance (2% to 8%).
-- Mentioned less: Strait (18% to 3%), Hormuz (17% to 4%), Navy (13% to 0%).
+- New story, 2 outlets: Iran’s response will have no geographical limits: top general
+- New story, 2 outlets: Leader issues message on anniversary of Operation Zulfaqari in Abadan
+- Mentioned more: US (22% to 35%), Vance (2% to 9%), China (0% to 6%).
+- Mentioned less: Strait (13% to 3%), Hormuz (13% to 4%), Navy (7% to 0%).
 
 ## Key findings
 
-- Peak coverage on 2026-10-26: 132 articles.
-- Most widely covered story: "Abbas Araghchi says resumption of war would not change Iran policies", reported by 3 outlets.
+- Peak coverage on 2026-10-26: 133 articles.
+- Most widely covered story: "Report: US tells Gulf allies to prepare for Iran strikes after midterms", reported by 2 outlets.
 - No unusual spikes; coverage was steady.
-- Tehran Times carried the most coverage (21% of articles).
+- Mehr News carried the most coverage (23% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
-| Abbas Araghchi says resumption of war would not change Iran policies | 3 | 2026-10-25 |
-| President Pezeshkian departs for Moscow to attend GECF summit | 2 | 2026-10-26 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
-| Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms | 2 | 2026-10-25 |
-| IDF eliminates two terrorists who transferred millions to Hamas | 2 | 2026-10-25 |
-| Iran President to Visit Moscow for Talks With Putin | 2 | 2026-10-25 |
+| Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
 | Sri Lanka provides medical help and repatriates 40 Iranian sailors stranded in the Indian Ocean | 2 | 2026-10-25 |
 | Forty Iranian sailors stranded off Sri Lanka coast rescued | 2 | 2026-10-26 |
+| Tehran to host Saudi, Turkish, Pakistani officials | 2 | 2026-10-26 |
+| Iran, Pakistan, Turkey and Saudi Arabia meeting held | 2 | 2026-10-26 |
+| Iran, Pakistan, Turkey, and Saudi Arabia open quadrilateral talks in Tehran | 2 | 2026-10-26 |
+| President Pezeshkian departs for Moscow to attend GECF summit | 2 | 2026-10-26 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
