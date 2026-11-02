@@ -10,29 +10,28 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-01 22:04 UTC._
+_Updated 2026-11-02 06:04 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 114 articles in the last 24 hours vs 100 in the 24 hours before (+14%), from 12 outlets. The usual level is 94 a day (average of 4 complete days), so the last 24 hours are +21% against it.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 38% of articles (earlier 31%), diplomacy words in 19% (earlier 14%).
-3. **Countries frame the topic differently; the clearest gap is "Israel".** Confidence: Medium. Israel outlets give the topic 11.0% of their articles; US outlets give the topic 4.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Israel" appears in 41% of Israel topic articles and 7% of Iran.
+1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 118 articles in the last 24 hours vs 104 in the 24 hours before (+13%), from 14 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +30% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 39% of articles (earlier 34%), diplomacy words in 20% (earlier 17%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 11.1% of their articles; US outlets give the topic 5.5% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 38% of Israel topic articles and 4% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran FM congratulates Algeria on National Day
-- New story, 2 outlets: Iran FM designates British Royal Navy, Air Force as terrorist
 - New story, 2 outlets: Araghchi to visit Turkmenistan Monday
-- Mentioned more: Trump (8% to 18%), US-Iran (0% to 5%).
-- Mentioned less: Washington (9% to 2%), Rezaei (10% to 4%), Khamenei (6% to 0%).
+- New story, 2 outlets: Iran FM Araghchi arrives in Ashgabat for high-profile talks
+- Mentioned more: Trump (12% to 18%).
+- Mentioned less: Rezaei (10% to 0%), Khamenei (6% to 0%), Washington (9% to 3%).
 
 ## Key findings
 
-- Peak coverage on 2026-10-26: 133 articles.
+- Peak coverage on 2026-10-27: 116 articles.
 - Most widely covered story: "IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
 - Tehran Times carried the most coverage (24% of articles).
@@ -44,11 +43,11 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Forty Iranian sailors stranded off Sri Lanka coast rescued | 2 | 2026-10-26 |
-| Tehran to host Saudi, Turkish, Pakistani officials | 2 | 2026-10-26 |
 | Iran, Pakistan, Turkey and Saudi Arabia meeting held | 2 | 2026-10-26 |
 | Iran, Pakistan, Turkey, and Saudi Arabia open quadrilateral talks in Tehran | 2 | 2026-10-26 |
 | President Pezeshkian departs for Moscow to attend GECF summit | 2 | 2026-10-26 |
+| Tehran summit press statement: Talks on regional peace and security will continue | 2 | 2026-10-26 |
+| Pezeshkian congratulates Lula da Silva on election victory in Brazil | 2 | 2026-10-26 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
