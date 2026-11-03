@@ -10,31 +10,32 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-02 15:52 UTC._
+_Updated 2026-11-03 01:04 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 117 articles in the last 24 hours vs 109 in the 24 hours before (+7%), from 16 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +29% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 30% of articles (earlier 40%), diplomacy words in 25% (earlier 20%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 10.8% of their articles; US outlets give the topic 5.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 37% of Israel topic articles and 4% of Iran.
+1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 121 articles in the last 24 hours vs 117 in the 24 hours before (+3%), from 17 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +34% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 30% of articles (earlier 38%), diplomacy words in 24% (earlier 20%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 10.9% of their articles; US outlets give the topic 5.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 40% of Israel topic articles and 3% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Trump on Iran: At some point, we're going to give them the hammer
 - New story, 2 outlets: Iran FM Araghchi arrives in Ashgabat for high-profile talks
-- Mentioned more: Strait (4% to 12%), Hormuz (5% to 11%).
-- Mentioned less: US (33% to 25%), Vance (7% to 0%), Rezaei (7% to 0%).
+- New story, 2 outlets: Putin, Rezaei discuss West Asia in phone call
+- New story, 2 outlets: Araghchi returns to Tehran after talks with Turkmen officials
+- Mentioned more: Strait (5% to 14%), Hormuz (5% to 13%).
+- Mentioned less: US (32% to 21%), US-Iran (5% to 0%).
 
 ## Key findings
 
-- Peak coverage on 2026-10-27: 116 articles.
+- Peak coverage on 2026-11-02: 122 articles.
 - Most widely covered story: "IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Tehran Times carried the most coverage (25% of articles).
+- Tehran Times carried the most coverage (24% of articles).
 
 ## Stories covered by the most outlets
 
@@ -43,11 +44,11 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Tehran summit press statement: Talks on regional peace and security will continue | 2 | 2026-10-26 |
-| Pezeshkian congratulates Lula da Silva on election victory in Brazil | 2 | 2026-10-26 |
 | Without Iran’s participation Persian Gulf security impossible | 2 | 2026-10-27 |
 | UK prosecutors charge two after RAF Fairford incident | 2 | 2026-10-27 |
 | Iran voices against nuclear monopoly, calls for equal access to advanced technologies | 2 | 2026-10-27 |
+| IRGC dispmantles two terror teams in southeast Iran | 2 | 2026-10-27 |
+| Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot | 2 | 2026-10-28 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
