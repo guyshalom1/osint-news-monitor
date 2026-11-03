@@ -1,14 +1,12 @@
 {
-  "checked": "2026-11-03T01:04+00:00",
+  "checked": "2026-11-03T14:19+00:00",
   "keywords": [
     "Iran",
     "Iranian",
     "Tehran"
   ],
   "days": {
-    "2026-10-28": {
-      "error": "<urlopen error timed out>"
-    },
+    "2026-10-28": 0,
     "2026-10-29": 0,
     "2026-10-30": {
       "skipped": "time budget used up"
