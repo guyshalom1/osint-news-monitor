@@ -10,29 +10,29 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-03 14:19 UTC._
+_Updated 2026-11-03 23:27 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 137 articles in the last 24 hours vs 115 in the 24 hours before (+19%), from 17 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +51% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 36% of articles (earlier 28%), diplomacy words in 23% (earlier 25%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 11.7% of their articles; US outlets give the topic 5.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 41% of Israel topic articles and 3% of Iran.
+1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 134 articles in the last 24 hours vs 122 in the 24 hours before (+10%), from 17 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +48% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 32% of articles (earlier 28%), diplomacy words in 22% (earlier 24%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.0% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 39% of Israel topic articles and 4% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Putin, Rezaei discuss West Asia in phone call
-- New story, 2 outlets: Araghchi returns to Tehran after talks with Turkmen officials
 - New story, 2 outlets: Trump raises doubts about renewed attacks on Iran, says deal with Tehran possible
-- Mentioned more: Qeshm Island (0% to 12%), US (23% to 32%), Trump (12% to 18%).
-- Mentioned less: Israel (11% to 6%).
+- New story, 2 outlets: Neighbors are Iran's priority, Araghchi says
+- New story, 2 outlets: Iran harbors no hostility toward regional states: FM Araghchi
+- Mentioned more: US (20% to 37%), Qeshm Island (2% to 10%), Pezeshkian (2% to 10%).
+- Mentioned less: Strait (15% to 7%), Araghchi (12% to 5%), Hormuz (14% to 8%).
 
 ## Key findings
 
-- Peak coverage on 2026-11-02: 123 articles.
+- Peak coverage on 2026-11-03: 131 articles.
 - Most widely covered story: "IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
 - Tehran Times carried the most coverage (25% of articles).
@@ -44,11 +44,11 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| IRGC dispmantles two terror teams in southeast Iran | 2 | 2026-10-27 |
 | Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot | 2 | 2026-10-28 |
 | Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation | 2 | 2026-10-28 |
 | Iran is pursuing energy diplomacy dynamically, resolutely: Minister | 2 | 2026-10-28 |
 | IRGC downs 14th US MQ-1 over Strait of Hormuz | 2 | 2026-10-29 |
+| Baqaei condemns territorial claims by UAE and Canada regarding three Iranian islands | 2 | 2026-10-29 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->

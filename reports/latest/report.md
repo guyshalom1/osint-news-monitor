@@ -1,30 +1,30 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-11-03 14:19 UTC. Period: last 7 days. Matching articles: 726 (4 reprints removed).
+Generated 2026-11-03 23:27 UTC. Period: last 7 days. Matching articles: 732 (5 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 137 articles in the last 24 hours vs 115 in the 24 hours before (+19%), from 17 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +51% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 36% of articles (earlier 28%), diplomacy words in 23% (earlier 25%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 11.7% of their articles; US outlets give the topic 5.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 41% of Israel topic articles and 3% of Iran.
+1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 134 articles in the last 24 hours vs 122 in the 24 hours before (+10%), from 17 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +48% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 32% of articles (earlier 28%), diplomacy words in 22% (earlier 24%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.0% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 39% of Israel topic articles and 4% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Putin, Rezaei discuss West Asia in phone call
-- New story, 2 outlets: Araghchi returns to Tehran after talks with Turkmen officials
 - New story, 2 outlets: Trump raises doubts about renewed attacks on Iran, says deal with Tehran possible
-- Mentioned more: Qeshm Island (0% to 12%), US (23% to 32%), Trump (12% to 18%).
-- Mentioned less: Israel (11% to 6%).
+- New story, 2 outlets: Neighbors are Iran's priority, Araghchi says
+- New story, 2 outlets: Iran harbors no hostility toward regional states: FM Araghchi
+- Mentioned more: US (20% to 37%), Qeshm Island (2% to 10%), Pezeshkian (2% to 10%).
+- Mentioned less: Strait (15% to 7%), Araghchi (12% to 5%), Hormuz (14% to 8%).
 
 ![Coverage per day](coverage.png)
 
 ## Key findings
 
-- Peak coverage on 2026-11-02: 123 articles.
+- Peak coverage on 2026-11-03: 131 articles.
 - Most widely covered story: "IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
 - Tehran Times carried the most coverage (25% of articles).
@@ -36,11 +36,11 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
 | Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| IRGC dispmantles two terror teams in southeast Iran | 2 | 2026-10-27 |
 | Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot | 2 | 2026-10-28 |
 | Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation | 2 | 2026-10-28 |
 | Iran is pursuing energy diplomacy dynamically, resolutely: Minister | 2 | 2026-10-28 |
 | IRGC downs 14th US MQ-1 over Strait of Hormuz | 2 | 2026-10-29 |
+| Baqaei condemns territorial claims by UAE and Canada regarding three Iranian islands | 2 | 2026-10-29 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 
@@ -48,37 +48,37 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Tehran Times | 180 |
-| Mehr News | 169 |
-| IRNA | 154 |
-| Al Jazeera | 42 |
-| Jerusalem Post | 39 |
+| Tehran Times | 182 |
+| Mehr News | 170 |
+| IRNA | 156 |
+| Jerusalem Post | 42 |
+| Al Jazeera | 34 |
+| Haaretz | 31 |
 | JNS | 31 |
-| Haaretz | 29 |
-| Israel National News | 20 |
+| Israel National News | 21 |
+| Israel Hayom | 15 |
 | The Guardian World | 14 |
-| Israel Hayom | 13 |
-| CBS News | 7 |
-| New York Times | 7 |
+| New York Times | 9 |
+| CBS News | 8 |
 | ABC News | 6 |
 | Ynetnews | 5 |
-| BBC Middle East | 4 |
-| Other (3 outlets) | 6 |
+| BBC Middle East | 3 |
+| Other (3 outlets) | 5 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 191 |
-| Trump | 99 |
-| Israel | 83 |
-| Araghchi | 69 |
-| Hormuz | 67 |
-| Strait | 61 |
+| US | 198 |
+| Trump | 100 |
+| Israel | 85 |
+| Hormuz | 69 |
+| Strait | 66 |
+| Araghchi | 65 |
+| Pezeshkian | 43 |
 | IRGC | 40 |
-| Pezeshkian | 39 |
-| Netanyahu | 36 |
-| Vance | 33 |
+| Washington | 37 |
+| Navy | 35 |
 
 ## Media comparison by country
 
@@ -86,53 +86,53 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 137 of 1168 (11.7%) | 25 of 441 (5.7%) | 507 of 528 (96.0%) home press |
-| Home press: articles mentioning US | - | - | 22% |
+| Articles about the topic | 145 of 1112 (13.0%) | 28 of 420 (6.7%) | 512 of 536 (95.5%) home press |
+| Home press: articles mentioning US | - | - | 23% |
 | Home press: articles mentioning Israel | - | - | 7% |
-| Mentions US | 36% | 16% | 20% |
-| Mentions Trump | 41% | 24% | 3% |
-| Mentions Israel | 34% | 20% | 6% |
-| Mentions Netanyahu | 20% | 12% | 0% |
-| Mentions Strait | 6% | 8% | 9% |
-| Mentions Hormuz | 6% | 8% | 9% |
-| Mentions Middle East | 4% | 12% | 0% |
-| Mentions Qatar | 2% | 12% | 0% |
+| Mentions US | 39% | 11% | 21% |
+| Mentions Trump | 39% | 25% | 4% |
+| Mentions Israel | 35% | 18% | 5% |
+| Mentions Netanyahu | 19% | 14% | 0% |
+| Mentions Strait | 6% | 11% | 10% |
+| Mentions Hormuz | 6% | 11% | 9% |
+| Mentions Gulf | 6% | 11% | 0% |
+| Mentions Washington | 11% | 0% | 4% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Iran after the midterms: Which decision will President Trump choose to make? - opinion](https://www.jpost.com/opinion/article-913700)
-- Haaretz: [A reinvention of Israeli diplomacy can put our 'super Sparta' days behind us](https://www.haaretz.com/opinion/2026-11-03/ty-article-opinion/.premium/a-reinvention-of-israeli-diplomacy-can-put-our-super-sparta-days-behind-us/000001a1-a0f4-de48-abb1-fdf5d16e0000)
-- Israel Hayom: [Heading toward escalation? The competing interests shaping Iran's strategy](https://www.israelhayom.com/2026/11/03/heading-toward-escalation-the-competing-interests-shaping-irans-strategy/)
-- Israel Hayom: [Iran rebuilds missile arsenal, fortifies production sites ahead of possible new war](https://www.israelhayom.com/2026/11/03/iran-rebuilds-missile-arsenal-fortifies-production-sites-ahead-of-possible-new-war/)
-- JNS: [Israel's election leaves the country in limbo as tensions with Iran rise](https://www.jns.org/jns-tv/the-quad/israels-election-leaves-the-country-in-limbo-as-tensions-with-iran-rise)
+- Jerusalem Post: [Israel warns US that Iran may use chemical weapons, but Washington questions intelligence - report](https://www.jpost.com/middle-east/iran-news/article-913753)
+- Jerusalem Post: [US-Iran talks stuck, sources tell 'Post,' as US sends additional forces to the region](https://www.jpost.com/middle-east/article-913751)
+- Israel National News: [Iran rejects US response to peace proposal, insists on its seven conditions](https://www.israelnationalnews.com/flashes/696674)
+- Jerusalem Post: [Inside Syria's campaign against Hezbollah: How Damascus is countering Iran’s proxy - analysis](https://www.jpost.com/middle-east/article-913748)
+- Haaretz: [Israel reportedly told U.S. that Iran is weighing use of chemical weapons](https://www.haaretz.com/israel-news/israel-security/2026-11-03/ty-article/.premium/israel-reportedly-told-u-s-that-iran-is-weighing-use-of-chemical-weapons/000001a1-a2ab-db8d-a9f7-a7ef83f30000)
 
 **Latest US headlines**
 
+- New York Times: [More Iranians Call for Nuclear Weapons After War With U.S.](https://www.nytimes.com/2026/11/03/world/europe/iran-nuclear-weapons-war.html)
+- New York Times: [Israeli Claims of Iranian Chemical Weapons Divide U.S. Officials](https://www.nytimes.com/2026/11/03/world/middleeast/iran-chemical-weapons-israel-trump.html)
+- CBS News: [U.S. launches strikes on Iranian targets in Strait of Hormuz, officials say](https://www.cbsnews.com/video/us-launches-strikes-on-iranian-targets-in-strait-of-hormuz-officials-say/)
+- NPR: [Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia](https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia)
 - ABC News: [Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia](https://abcnews.com/International/wireStory/indian-navy-rescues-20-crew-iranian-fishing-boat-137803504)
-- CBS News: [U.S. launches strikes on Iranian targets in Strait of Hormuz](https://www.cbsnews.com/news/u-s-strikes-iran-targets/)
-- New York Times: [As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War](https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-midterms-election.html)
-- New York Times: [Why Trump Often Mentioned Iran in the Midterm Campaign](https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html)
-- CBS News: [Iran says "ball is in the U.S. court" on any deal to end the war](https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/)
 
 **Latest Iran headlines**
 
-- Tehran Times: [Why Tehran Businesses Choose DMRoom for SEO Services](https://www.tehrantimes.com/news/531792/Why-Tehran-Businesses-Choose-DMRoom-for-SEO-Services)
-- Tehran Times: [No more excuses: Asian Cup delay puts Ghalenoei’s youth policy to the test](https://www.tehrantimes.com/news/531791/No-more-excuses-Asian-Cup-delay-puts-Ghalenoei-s-youth-policy)
-- Mehr News: [Fardin Hedayati named best Greco-Roman Wrestler of 2026](https://en.mehrnews.com/news/249143/Fardin-Hedayati-named-best-Greco-Roman-Wrestler-of-2026)
-- Mehr News: [Oman, Egypt calls for de-escalation amid rising tensions](https://en.mehrnews.com/news/249142/Oman-Egypt-calls-for-de-escalation-amid-rising-tensions)
-- Mehr News: [US barbarism driving world toward nuclear deterrence: Mokhber](https://en.mehrnews.com/news/249141/US-barbarism-driving-world-toward-nuclear-deterrence-Mokhber)
+- Mehr News: [Iran won't bow to coercion or accept imposed demands](https://en.mehrnews.com/news/249149/Iran-won-t-bow-to-coercion-or-accept-imposed-demands)
+- Mehr News: [Iranian, Egyptian FMs discuss de-escalation of tensions](https://en.mehrnews.com/news/249148/Iranian-Egyptian-FMs-discuss-de-escalation-of-tensions)
+- IRNA: [Iranian, Egyptian FMs discuss de-escalation of tensions and latest regional developments](https://en.irna.ir/news/86311750/Iranian-Egyptian-FMs-discuss-de-escalation-of-tensions-and-latest)
+- IRNA: [IRGC vows effective, unlimited’ response to any aggression](https://en.irna.ir/news/86311744/IRGC-vows-effective-unlimited-response-to-any-aggression)
+- IRNA: [President Pezeshkian urges ambassadors to prioritize diplomacy, implementation of agreements](https://en.irna.ir/news/86311732/President-Pezeshkian-urges-ambassadors-to-prioritize-diplomacy)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-11-03 | Jerusalem Post | [Iran after the midterms: Which decision will President Trump choose to make? - opinion](https://www.jpost.com/opinion/article-913700)
-- 2026-11-03 | The Guardian World | [US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda](https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting)
-- 2026-11-03 | Haaretz | [A reinvention of Israeli diplomacy can put our 'super Sparta' days behind us](https://www.haaretz.com/opinion/2026-11-03/ty-article-opinion/.premium/a-reinvention-of-israeli-diplomacy-can-put-our-super-sparta-days-behind-us/000001a1-a0f4-de48-abb1-fdf5d16e0000)
-- 2026-11-03 | The Guardian World | [US strikes Iran’s Qeshm Island as Vance voices optimism about a deal](https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island)
-- 2026-11-03 | Tehran Times | [Why Tehran Businesses Choose DMRoom for SEO Services](https://www.tehrantimes.com/news/531792/Why-Tehran-Businesses-Choose-DMRoom-for-SEO-Services)
-- 2026-11-03 | Tehran Times | [No more excuses: Asian Cup delay puts Ghalenoei’s youth policy to the test](https://www.tehrantimes.com/news/531791/No-more-excuses-Asian-Cup-delay-puts-Ghalenoei-s-youth-policy)
-- 2026-11-03 | Al Jazeera | [Iran commander sets out five conditions for regional security](https://www.aljazeera.com/news/2026/11/3/iran-commander-sets-out-five-conditions-for-regional-security?traffic_source=rss)
-- 2026-11-03 | Mehr News | [Fardin Hedayati named best Greco-Roman Wrestler of 2026](https://en.mehrnews.com/news/249143/Fardin-Hedayati-named-best-Greco-Roman-Wrestler-of-2026)
-- 2026-11-03 | ABC News | [Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia](https://abcnews.com/International/wireStory/indian-navy-rescues-20-crew-iranian-fishing-boat-137803504)
-- 2026-11-03 | The Guardian World | [Trump’s troubles with Iran could open the door to China](https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping)
+- 2026-11-03 | New York Times | [More Iranians Call for Nuclear Weapons After War With U.S.](https://www.nytimes.com/2026/11/03/world/europe/iran-nuclear-weapons-war.html)
+- 2026-11-03 | Jerusalem Post | [Israel warns US that Iran may use chemical weapons, but Washington questions intelligence - report](https://www.jpost.com/middle-east/iran-news/article-913753)
+- 2026-11-03 | Jerusalem Post | [US-Iran talks stuck, sources tell 'Post,' as US sends additional forces to the region](https://www.jpost.com/middle-east/article-913751)
+- 2026-11-03 | Israel National News | [Iran rejects US response to peace proposal, insists on its seven conditions](https://www.israelnationalnews.com/flashes/696674)
+- 2026-11-03 | Jerusalem Post | [Inside Syria's campaign against Hezbollah: How Damascus is countering Iran’s proxy - analysis](https://www.jpost.com/middle-east/article-913748)
+- 2026-11-03 | Mehr News | [Iran won't bow to coercion or accept imposed demands](https://en.mehrnews.com/news/249149/Iran-won-t-bow-to-coercion-or-accept-imposed-demands)
+- 2026-11-03 | Haaretz | [Israel reportedly told U.S. that Iran is weighing use of chemical weapons](https://www.haaretz.com/israel-news/israel-security/2026-11-03/ty-article/.premium/israel-reportedly-told-u-s-that-iran-is-weighing-use-of-chemical-weapons/000001a1-a2ab-db8d-a9f7-a7ef83f30000)
+- 2026-11-03 | Mehr News | [Iranian, Egyptian FMs discuss de-escalation of tensions](https://en.mehrnews.com/news/249148/Iranian-Egyptian-FMs-discuss-de-escalation-of-tensions)
+- 2026-11-03 | IRNA | [Iranian, Egyptian FMs discuss de-escalation of tensions and latest regional developments](https://en.irna.ir/news/86311750/Iranian-Egyptian-FMs-discuss-de-escalation-of-tensions-and-latest)
+- 2026-11-03 | IRNA | [IRGC vows effective, unlimited’ response to any aggression](https://en.irna.ir/news/86311744/IRGC-vows-effective-unlimited-response-to-any-aggression)
