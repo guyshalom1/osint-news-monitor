@@ -10,25 +10,25 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-04 06:25 UTC._
+_Updated 2026-11-04 19:50 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 124 articles in the last 24 hours vs 120 in the 24 hours before (+3%), from 16 outlets. The usual level is 108 a day (average of 4 complete days), so the last 24 hours are +15% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 26% of articles (earlier 35%), diplomacy words in 21% (earlier 25%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 12.9% of their articles; US outlets give the topic 6.2% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 39% of Israel topic articles and 4% of Iran.
+1. **Coverage is steady.** Confidence: High. 119 articles in the last 24 hours vs 136 in the 24 hours before (-12%), from 15 outlets. The usual level is 108 a day (average of 4 complete days), so the last 24 hours are +10% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 38% of articles (earlier 32%), diplomacy words in 4% (earlier 23%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.0% of their articles; US outlets give the topic 6.9% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 42% of Israel topic articles and 7% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran harbors no hostility toward regional states: FM Araghchi
-- New story, 2 outlets: Iranian judo athlete Karimi wins silver at 2026 Youth Olympic Games
-- New story, 2 outlets: Former Iran captain Hassan Habibi passes away
-- Mentioned more: US (24% to 37%), Pezeshkian (2% to 11%), Trump (12% to 19%).
-- Mentioned less: Araghchi (13% to 2%), Strait (13% to 7%), China (7% to 2%).
+- New story, 2 outlets: Iranian, Egyptian FMs discuss de-escalation of tensions and latest regional developments
+- New story, 2 outlets: Trump says US has no immediate plans to strike Iran, ‘getting everything we want’ in negotiations
+- New story, 2 outlets: Aban 13 rallies kick off in Tehran
+- Mentioned more: Trump (18% to 35%), Arrogance (0% to 9%), Republican (0% to 9%).
+- Mentioned less: Qeshm Island (12% to 0%), Pezeshkian (10% to 3%), Hormuz (10% to 4%).
 
 ## Key findings
 
@@ -43,12 +43,12 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 |---|---|---|
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot | 2 | 2026-10-28 |
-| Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation | 2 | 2026-10-28 |
-| Iran is pursuing energy diplomacy dynamically, resolutely: Minister | 2 | 2026-10-28 |
 | IRGC downs 14th US MQ-1 over Strait of Hormuz | 2 | 2026-10-29 |
 | Baqaei condemns territorial claims by UAE and Canada regarding three Iranian islands | 2 | 2026-10-29 |
 | Iran foreign minister offers condolences to Spain over deadly train crash | 2 | 2026-10-30 |
+| Qatari delegation arrives in Tehran for talks | 2 | 2026-10-30 |
+| Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox | 2 | 2026-10-31 |
+| Iran’s response will have no geographical limits: top general | 2 | 2026-10-31 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
