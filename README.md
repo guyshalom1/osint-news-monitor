@@ -10,25 +10,25 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-03 23:27 UTC._
+_Updated 2026-11-04 06:25 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage was steady against the day before and is above its usual level.** Confidence: High. 134 articles in the last 24 hours vs 122 in the 24 hours before (+10%), from 17 outlets. The usual level is 90 a day (average of 4 complete days), so the last 24 hours are +48% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 32% of articles (earlier 28%), diplomacy words in 22% (earlier 24%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.0% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 39% of Israel topic articles and 4% of Iran.
+1. **Coverage is steady.** Confidence: High. 124 articles in the last 24 hours vs 120 in the 24 hours before (+3%), from 16 outlets. The usual level is 108 a day (average of 4 complete days), so the last 24 hours are +15% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 26% of articles (earlier 35%), diplomacy words in 21% (earlier 25%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 12.9% of their articles; US outlets give the topic 6.2% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 39% of Israel topic articles and 4% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Trump raises doubts about renewed attacks on Iran, says deal with Tehran possible
-- New story, 2 outlets: Neighbors are Iran's priority, Araghchi says
 - New story, 2 outlets: Iran harbors no hostility toward regional states: FM Araghchi
-- Mentioned more: US (20% to 37%), Qeshm Island (2% to 10%), Pezeshkian (2% to 10%).
-- Mentioned less: Strait (15% to 7%), Araghchi (12% to 5%), Hormuz (14% to 8%).
+- New story, 2 outlets: Iranian judo athlete Karimi wins silver at 2026 Youth Olympic Games
+- New story, 2 outlets: Former Iran captain Hassan Habibi passes away
+- Mentioned more: US (24% to 37%), Pezeshkian (2% to 11%), Trump (12% to 19%).
+- Mentioned less: Araghchi (13% to 2%), Strait (13% to 7%), China (7% to 2%).
 
 ## Key findings
 
@@ -42,13 +42,13 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Story | Outlets | First seen |
 |---|---|---|
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
-| Report: US tells Gulf allies to prepare for Iran strikes after midterms | 2 | 2026-10-28 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
 | Iran embassy in Kuwait rejects allegation linking Iranian national to assassination plot | 2 | 2026-10-28 |
 | Pezeshkian vows to implement Leader’s directive to end ‘neither war nor peace’ situation | 2 | 2026-10-28 |
 | Iran is pursuing energy diplomacy dynamically, resolutely: Minister | 2 | 2026-10-28 |
 | IRGC downs 14th US MQ-1 over Strait of Hormuz | 2 | 2026-10-29 |
 | Baqaei condemns territorial claims by UAE and Canada regarding three Iranian islands | 2 | 2026-10-29 |
+| Iran foreign minister offers condolences to Spain over deadly train crash | 2 | 2026-10-30 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
