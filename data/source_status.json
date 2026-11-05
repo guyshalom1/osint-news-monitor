@@ -1,30 +1,30 @@
 {
-  "checked": "2026-11-04T19:44+00:00",
+  "checked": "2026-11-05T06:43+00:00",
   "sources": {
     "Haaretz": {
       "fetched": 100,
-      "new": 24,
-      "newest": "2026-11-04"
+      "new": 12,
+      "newest": "2026-11-05"
     },
     "Jerusalem Post": {
       "fetched": 26,
-      "new": 20,
-      "newest": "2026-11-04"
+      "new": 11,
+      "newest": "2026-11-05"
     },
     "Israel Hayom": {
       "fetched": 10,
-      "new": 10,
-      "newest": "2026-11-04"
+      "new": 4,
+      "newest": "2026-11-05"
     },
     "Israel National News": {
       "fetched": 10,
       "new": 10,
-      "newest": "2026-11-04"
+      "newest": "2026-11-05"
     },
     "JNS": {
       "fetched": 30,
-      "new": 30,
-      "newest": "2026-11-04"
+      "new": 16,
+      "newest": "2026-11-05"
     },
     "Ynetnews": {
       "fetched": 30,
@@ -33,67 +33,67 @@
     },
     "Globes": {
       "fetched": 10,
-      "new": 7,
-      "newest": "2026-11-04"
+      "new": 2,
+      "newest": "2026-11-05"
     },
     "New York Times": {
       "fetched": 55,
-      "new": 10,
-      "newest": "2026-11-04"
+      "new": 7,
+      "newest": "2026-11-05"
     },
     "NPR": {
       "fetched": 10,
-      "new": 3,
-      "newest": "2026-11-04"
+      "new": 1,
+      "newest": "2026-11-05"
     },
     "Fox News": {
       "fetched": 25,
-      "new": 1,
-      "newest": "2026-11-04"
+      "new": 2,
+      "newest": "2026-11-05"
     },
     "CBS News": {
       "fetched": 30,
-      "new": 7,
-      "newest": "2026-11-04"
+      "new": 2,
+      "newest": "2026-11-05"
     },
     "ABC News": {
       "fetched": 25,
       "new": 8,
-      "newest": "2026-11-04"
+      "newest": "2026-11-05"
     },
     "IRNA": {
       "fetched": 30,
-      "new": 29,
-      "newest": "2026-11-04"
+      "new": 5,
+      "newest": "2026-11-05"
     },
     "Mehr News": {
       "fetched": 30,
-      "new": 21,
-      "newest": "2026-11-04"
+      "new": 6,
+      "newest": "2026-11-05"
     },
     "Tehran Times": {
       "fetched": 30,
-      "new": 30,
+      "new": 1,
       "newest": "2026-11-04"
     },
     "BBC Middle East": {
       "fetched": 24,
-      "new": 2,
+      "new": 0,
       "newest": "2026-11-04"
     },
     "Al Jazeera": {
       "fetched": 25,
       "new": 25,
-      "newest": "2026-11-04"
+      "newest": "2026-11-05"
     },
     "The Guardian World": {
       "fetched": 45,
-      "new": 24,
-      "newest": "2026-11-04"
+      "new": 21,
+      "newest": "2026-11-05"
     },
     "UN News": {
       "fetched": 30,
-      "new": 2,
+      "new": 6,
       "newest": "2026-11-04"
     }
   }
