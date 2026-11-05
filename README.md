@@ -10,25 +10,25 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-05 06:49 UTC._
+_Updated 2026-11-05 20:00 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 118 articles in the last 24 hours vs 123 in the 24 hours before (-4%), from 15 outlets. The usual level is 118 a day (average of 4 complete days), so the last 24 hours are +0% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 38% of articles (earlier 28%), diplomacy words in 3% (earlier 21%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 12.6% of their articles; US outlets give the topic 7.3% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 43% of Israel topic articles and 8% of Iran.
+1. **Coverage is falling.** Confidence: High. 62 articles in the last 24 hours vs 125 in the 24 hours before (-50%), from 16 outlets. The usual level is 118 a day (average of 4 complete days), so the last 24 hours are -47% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 50% of articles (earlier 40%), diplomacy words in 15% (earlier 4%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.8% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 45% of Israel topic articles and 8% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Aban 13 rallies kick off in Tehran
-- New story, 2 outlets: Baqaei to US ruling class: Attacking Iran will bring you defeat, not victory
-- New story, 2 outlets: Iran protests IMO’s biased reports on shipping security
-- Mentioned more: Trump (19% to 42%), Republican (2% to 13%), Vance (2% to 12%).
-- Mentioned less: Pezeshkian (11% to 2%), Qeshm Island (7% to 0%).
+- New story, 2 outlets: US faces united front in Hormuz, Bab al-Mandab: Gen. Ghaani
+- New story, 2 outlets: Iran sharply reacts to remarks by German FM
+- New story, 2 outlets: Iran, Oman FMs discuss regional developments
+- Mentioned more: Vance (10% to 23%), Hormuz (5% to 18%), FM (0% to 10%).
+- Mentioned less: Arrogance (9% to 0%), Student (6% to 0%), Aban (6% to 0%).
 
 ## Key findings
 
@@ -43,12 +43,12 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 |---|---|---|
 | IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Baqaei condemns territorial claims by UAE and Canada regarding three Iranian islands | 2 | 2026-10-29 |
 | Iran foreign minister offers condolences to Spain over deadly train crash | 2 | 2026-10-30 |
 | Qatari delegation arrives in Tehran for talks | 2 | 2026-10-30 |
 | Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox | 2 | 2026-10-31 |
 | Iran’s response will have no geographical limits: top general | 2 | 2026-10-31 |
 | Leader issues message on anniversary of Operation Zulfaqari in Abadan | 2 | 2026-10-31 |
+| Iran FM designates British Royal Navy, Air Force as terrorist | 2 | 2026-11-01 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
