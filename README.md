@@ -10,29 +10,30 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-06 06:49 UTC._
+_Updated 2026-11-06 19:31 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is falling.** Confidence: High. 54 articles in the last 24 hours vs 126 in the 24 hours before (-57%), from 16 outlets. The usual level is 124 a day (average of 4 complete days), so the last 24 hours are -56% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 50% of articles (earlier 41%), diplomacy words in 20% (earlier 3%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.7% of their articles; US outlets give the topic 7.6% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 44% of Israel topic articles and 8% of Iran.
+1. **Coverage rose against the day before and is below its usual level.** Confidence: High. 78 articles in the last 24 hours vs 62 in the 24 hours before (+26%), from 15 outlets. The usual level is 125 a day (average of 4 complete days), so the last 24 hours are -38% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 44% of articles (earlier 52%), diplomacy words in 19% (earlier 13%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.4% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 47% of Israel topic articles and 10% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran, Oman FMs discuss regional developments
-- New story, 2 outlets: Iran’s top security official meets with Putin, delivers Leader’s message
-- Mentioned more: Putin (0% to 17%), Rezaei (0% to 11%), Washington (5% to 13%).
-- Mentioned less: Trump (44% to 26%), US (39% to 26%), Republican (16% to 6%).
+- New story, 2 outlets: Iran downs fifth and sixth MQM-170 US drones over Qeshm Island
+- New story, 2 outlets: Possible breakthrough in negotiations with Iran
+- New story, 2 outlets: US threats against Iran’s nuclear facilities reflect Washington’s growing desperation: AEOI chief
+- Mentioned more: Washington (3% to 18%), China (0% to 8%), US (31% to 38%).
+- Mentioned less: Trump (40% to 24%), Republican (18% to 5%), Vance (19% to 8%).
 
 ## Key findings
 
-- Peak coverage on 2026-11-03: 131 articles.
-- Most widely covered story: "IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz", reported by 3 outlets.
+- Peak coverage on 2026-11-03: 135 articles.
+- Most widely covered story: "Report: Israel warns US that Iran may use chemical weapons", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
 - Tehran Times carried the most coverage (25% of articles).
 
@@ -40,14 +41,14 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 
 | Story | Outlets | First seen |
 |---|---|---|
-| IRGC Navy: Two violating oil tankers stopped in south of Strait of Hormuz | 3 | 2026-10-30 |
+| Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Iran foreign minister offers condolences to Spain over deadly train crash | 2 | 2026-10-30 |
-| Qatari delegation arrives in Tehran for talks | 2 | 2026-10-30 |
 | Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox | 2 | 2026-10-31 |
 | Iran’s response will have no geographical limits: top general | 2 | 2026-10-31 |
 | Leader issues message on anniversary of Operation Zulfaqari in Abadan | 2 | 2026-10-31 |
 | Iran FM designates British Royal Navy, Air Force as terrorist | 2 | 2026-11-01 |
+| Araghchi to visit Turkmenistan Monday | 2 | 2026-11-01 |
+| Shahshahani seizes silver in 2026 Youth Olympic Games | 2 | 2026-11-01 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
