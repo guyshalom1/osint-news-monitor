@@ -1,22 +1,22 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-11-07 06:02 UTC. Period: last 7 days. Matching articles: 737 (7 reprints removed).
+Generated 2026-11-07 13:05 UTC. Period: last 7 days. Matching articles: 740 (8 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is below its usual level.** Confidence: High. 78 articles in the last 24 hours vs 57 in the 24 hours before (+37%), from 14 outlets. The usual level is 111 a day (average of 4 complete days), so the last 24 hours are -30% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 41% of articles (earlier 51%), diplomacy words in 22% (earlier 19%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.4% of their articles; US outlets give the topic 7.4% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 47% of Israel topic articles and 10% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 95 articles in the last 24 hours vs 66 in the 24 hours before (+44%), from 15 outlets. The usual level is 111 a day (average of 4 complete days), so the last 24 hours are -14% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 47% of articles (earlier 41%), diplomacy words in 22% (earlier 21%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.5% of their articles; US outlets give the topic 7.6% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 46% of Israel topic articles and 11% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran defeat China at Futsal International Tournament Yinchuan Women
-- Mentioned more: Island (0% to 8%), Trump (26% to 33%), Israel (11% to 17%).
-- Mentioned less: Vance (18% to 0%), Khamenei (11% to 0%), Republican (9% to 0%).
+- New story, 2 outlets: Iran’s Army Navy reports a tanker catches fire on east Hormuz
+- Mentioned more: Island (0% to 9%), Trump (23% to 31%), US (30% to 36%).
+- Mentioned less: Putin (15% to 2%), Khamenei (9% to 0%), China (8% to 0%).
 
 ![Coverage per day](coverage.png)
 
@@ -25,7 +25,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-11-03: 135 articles.
 - Most widely covered story: "Report: Israel warns US that Iran may use chemical weapons", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Tehran Times carried the most coverage (25% of articles).
+- Tehran Times carried the most coverage (24% of articles).
 
 ## Stories covered by the most outlets
 
@@ -46,36 +46,36 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Tehran Times | 181 |
-| Mehr News | 162 |
-| IRNA | 154 |
-| Jerusalem Post | 42 |
-| Al Jazeera | 38 |
+| Tehran Times | 177 |
+| Mehr News | 160 |
+| IRNA | 155 |
+| Jerusalem Post | 44 |
+| Al Jazeera | 42 |
 | Haaretz | 26 |
 | JNS | 26 |
 | Israel National News | 25 |
 | Israel Hayom | 21 |
-| The Guardian World | 14 |
+| The Guardian World | 15 |
 | Ynetnews | 14 |
-| New York Times | 11 |
-| ABC News | 7 |
+| New York Times | 10 |
+| ABC News | 8 |
 | CBS News | 6 |
 | BBC Middle East | 5 |
-| Other (3 outlets) | 5 |
+| Other (3 outlets) | 6 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 243 |
-| Trump | 171 |
+| US | 249 |
+| Trump | 179 |
 | Israel | 91 |
-| Hormuz | 62 |
+| Hormuz | 67 |
+| Strait | 58 |
 | Araghchi | 55 |
-| Strait | 53 |
+| Vance | 51 |
 | Washington | 51 |
-| Vance | 49 |
-| IRGC | 38 |
+| IRGC | 41 |
 | Republican | 35 |
 
 ## Media comparison by country
@@ -84,53 +84,53 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 155 of 1079 (14.4%) | 29 of 393 (7.4%) | 502 of 530 (94.7%) home press |
-| Home press: articles mentioning US | - | - | 30% |
-| Home press: articles mentioning Israel | - | - | 7% |
-| Mentions Trump | 47% | 41% | 10% |
-| Mentions US | 42% | 17% | 27% |
-| Mentions Israel | 37% | 14% | 5% |
+| Articles about the topic | 157 of 1080 (14.5%) | 30 of 393 (7.6%) | 498 of 526 (94.7%) home press |
+| Home press: articles mentioning US | - | - | 31% |
+| Home press: articles mentioning Israel | - | - | 8% |
+| Mentions Trump | 46% | 37% | 11% |
+| Mentions US | 41% | 17% | 27% |
+| Mentions Israel | 36% | 10% | 6% |
+| Mentions Strait | 4% | 10% | 9% |
+| Mentions Hormuz | 4% | 10% | 9% |
 | Mentions Vance | 19% | 0% | 3% |
-| Mentions Hormuz | 4% | 10% | 8% |
-| Mentions Strait | 4% | 10% | 8% |
-| Mentions Washington | 15% | 0% | 5% |
+| Mentions Washington | 14% | 0% | 5% |
 | Mentions Democrats | 8% | 10% | 0% |
 
 **Latest Israel headlines**
 
-- Haaretz: [U.S. aid to Israel replaced by political aid to Netanyahu](https://www.haaretz.com/israel-news/2026-11-07/ty-article/.premium/u-s-aid-to-israel-replaced-by-political-aid-to-netanyahu/000001a1-b3c3-dcd2-a7fd-f3eb52820000)
-- Jerusalem Post: [Political division, crisis in Kurdistan region of Iraq could provide Iran with opening](https://www.jpost.com/middle-east/article-914102)
-- Jerusalem Post: [Two missiles struck Iran's Qeshm Island after aircraft heard above - report](https://www.jpost.com/middle-east/iran-news/article-914097)
-- Haaretz: [Report: Russia in talks to supply Iran with advanced air defense systems](https://www.haaretz.com/middle-east-news/iran/2026-11-07/ty-article/report-russia-in-talks-to-supply-iran-with-advanced-air-defense-systems/000001a1-b20a-d9f6-aba3-b61bed330000)
-- Israel Hayom: [Netanyahu's Iran gamble backfires on both Israel, US](https://www.israelhayom.com/2026/11/06/netanyahus-iran-gamble-backfires-on-both-israel-us/)
+- Jerusalem Post: [After midterm rout, Vance tries to build his own 2028 brand](https://www.jpost.com/international/article-914125)
+- Jerusalem Post: [Syria foils alleged Hezbollah plot as cleric warns of Iranian plans to disrupt oil supplies](https://www.jpost.com/middle-east/article-914124)
+- Jerusalem Post: [US offers reward of up to $20 million, possible relocation for information on Iran nuclear program](https://www.jpost.com/middle-east/iran-news/article-914113)
+- Haaretz: [Airstrikes on a market in southwestern Yemen kill at least 30, Houthis say](https://www.haaretz.com/middle-east-news/2026-11-07/ty-article/airstrikes-on-a-market-in-southwestern-yemen-kill-at-least-30-houthis-say/000001a1-b4eb-dd7a-a3ed-f5ebfed70000)
+- Haaretz: [Trump says U.S. carried out 'minor' strikes on Iranian air defense system](https://www.haaretz.com/middle-east-news/iran/2026-11-07/ty-article/trump-says-u-s-carried-out-minor-strikes-on-iranian-air-defense-system/000001a1-b4c4-d041-a5f9-f5e56f0f0000)
 
 **Latest US headlines**
 
+- ABC News: [Iran says it has lifted its self-imposed limit on missile ranges, and other Mideast news](https://abcnews.com/International/wireStory/iran-lifted-imposed-limit-missile-ranges-mideast-news-137937910)
+- Fox News: [Top Gulf official offers glimmer of hope on Trump-Iran nuclear talks as threat of war hangs over region](https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region)
 - CBS News: [Trump touts imminent decision on potential new attack on Iran](https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/)
 - New York Times: [Europe Still Sees Trump As Powerful, Especially in Foreign Policy](https://www.nytimes.com/2026/11/06/world/europe/europe-trump-midterms.html)
 - New York Times: [Iran is Reviewing ‘Concrete Proposals’ on Nuclear Program, Officials Say](https://www.nytimes.com/2026/11/05/world/middleeast/peace-talks-iran-united-states-qatar-nuclear-program.html)
-- New York Times: [Midterm Election Losses Complicate Trump’s Options on Iran War](https://www.nytimes.com/2026/11/05/us/politics/trump-iran-war-midterm-elections.html)
-- ABC News: [Bank of England set to hike interest rates to tackle higher inflation caused by Iran war](https://abcnews.com/International/wireStory/bank-england-set-hike-interest-rates-tackle-higher-137867519)
 
 **Latest Iran headlines**
 
-- Mehr News: [Israeli settlers attack Palestinian residents in WB](https://en.mehrnews.com/news/249204/VIDEO-Israeli-settlers-attack-Palestinian-residents-in-WB)
-- Mehr News: [Iran, Tunisia diplomats hold phone call on diplomatic efforts](https://en.mehrnews.com/news/249203/Top-Iran-Tunisia-diplomats-ongoing-diplomatic-effort-in-call)
-- Mehr News: [Hormuz not to be reopened until Iran’s 7 conditions are met](https://en.mehrnews.com/news/249202/Hormuz-not-to-be-reopened-until-Iran-s-7-conditions-are-met)
-- Mehr News: [Iran, Iraq FMs discuss ties, latest developments in region](https://en.mehrnews.com/news/249201/Iran-Iraq-FMs-discuss-ties-latest-developments-in-region)
-- Mehr News: [Iran not let Trump flee region sans paying price, reparation](https://en.mehrnews.com/news/249200/Iran-not-let-Trump-flee-region-sans-paying-price-reparation)
+- Mehr News: [Iran U17 team arrive in Laos for AFC U17 Asian Cup qualifiers](https://en.mehrnews.com/news/249215/Iran-U17-team-arrive-in-Laos-for-AFC-U17-Asian-Cup-qualifiers)
+- Mehr News: [Iran, Uganda to expand coop. in agricultural field: envoy](https://en.mehrnews.com/news/249214/Iran-Uganda-to-expand-coop-in-agricultural-field-envoy)
+- Tehran Times: [“Putin Gets the Message, Washington Gets the Ultimatum”](https://www.tehrantimes.com/news/531899/Putin-Gets-the-Message-Washington-Gets-the-Ultimatum)
+- Tehran Times: [Semnan: a natural treasure trove of plant and animal diversity](https://www.tehrantimes.com/news/531898/Semnan-a-natural-treasure-trove-of-plant-and-animal-diversity)
+- Tehran Times: [Iranian, Iraqi officials explore avenues for developing academic ties](https://www.tehrantimes.com/news/531896/Iranian-Iraqi-officials-explore-avenues-for-developing-academic)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-11-07 | Mehr News | [Israeli settlers attack Palestinian residents in WB](https://en.mehrnews.com/news/249204/VIDEO-Israeli-settlers-attack-Palestinian-residents-in-WB)
-- 2026-11-07 | Mehr News | [Iran, Tunisia diplomats hold phone call on diplomatic efforts](https://en.mehrnews.com/news/249203/Top-Iran-Tunisia-diplomats-ongoing-diplomatic-effort-in-call)
-- 2026-11-07 | Mehr News | [Hormuz not to be reopened until Iran’s 7 conditions are met](https://en.mehrnews.com/news/249202/Hormuz-not-to-be-reopened-until-Iran-s-7-conditions-are-met)
-- 2026-11-07 | Mehr News | [Iran, Iraq FMs discuss ties, latest developments in region](https://en.mehrnews.com/news/249201/Iran-Iraq-FMs-discuss-ties-latest-developments-in-region)
-- 2026-11-07 | Mehr News | [Iran not let Trump flee region sans paying price, reparation](https://en.mehrnews.com/news/249200/Iran-not-let-Trump-flee-region-sans-paying-price-reparation)
-- 2026-11-07 | Al Jazeera | [US Treasury sanctions eight Canadian money exchange firms over Iran ties](https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss)
-- 2026-11-07 | Haaretz | [U.S. aid to Israel replaced by political aid to Netanyahu](https://www.haaretz.com/israel-news/2026-11-07/ty-article/.premium/u-s-aid-to-israel-replaced-by-political-aid-to-netanyahu/000001a1-b3c3-dcd2-a7fd-f3eb52820000)
-- 2026-11-07 | Al Jazeera | [Trump confirms new US strikes on Iran’s Qeshm island](https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss)
-- 2026-11-07 | The Guardian World | [US carries out another round of ‘minor’ strikes on Iran, Trump says](https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says)
-- 2026-11-07 | Jerusalem Post | [Political division, crisis in Kurdistan region of Iraq could provide Iran with opening](https://www.jpost.com/middle-east/article-914102)
+- 2026-11-07 | Jerusalem Post | [After midterm rout, Vance tries to build his own 2028 brand](https://www.jpost.com/international/article-914125)
+- 2026-11-07 | Jerusalem Post | [Syria foils alleged Hezbollah plot as cleric warns of Iranian plans to disrupt oil supplies](https://www.jpost.com/middle-east/article-914124)
+- 2026-11-07 | ABC News | [Iran says it has lifted its self-imposed limit on missile ranges, and other Mideast news](https://abcnews.com/International/wireStory/iran-lifted-imposed-limit-missile-ranges-mideast-news-137937910)
+- 2026-11-07 | Al Jazeera | [Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation](https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss)
+- 2026-11-07 | Mehr News | [Iran, Uganda to expand coop. in agricultural field: envoy](https://en.mehrnews.com/news/249214/Iran-Uganda-to-expand-coop-in-agricultural-field-envoy)
+- 2026-11-07 | Tehran Times | [“Putin Gets the Message, Washington Gets the Ultimatum”](https://www.tehrantimes.com/news/531899/Putin-Gets-the-Message-Washington-Gets-the-Ultimatum)
+- 2026-11-07 | Tehran Times | [Semnan: a natural treasure trove of plant and animal diversity](https://www.tehrantimes.com/news/531898/Semnan-a-natural-treasure-trove-of-plant-and-animal-diversity)
+- 2026-11-07 | Tehran Times | [Iranian, Iraqi officials explore avenues for developing academic ties](https://www.tehrantimes.com/news/531896/Iranian-Iraqi-officials-explore-avenues-for-developing-academic)
+- 2026-11-07 | IRNA | [Iran’s Navy: Tanker catches fire after hitting sea mine east of Strait of Hormuz](https://en.irna.ir/news/86314896/Iran-s-Navy-Tanker-catches-fire-after-hitting-sea-mine-east)
+- 2026-11-07 | Tehran Times | [Iran proposes regional educational cooperation network within ECO](https://www.tehrantimes.com/news/531894/Iran-proposes-regional-educational-cooperation-network-within)

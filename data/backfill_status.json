@@ -1,29 +1,31 @@
 {
-  "checked": "2026-11-07T06:02+00:00",
+  "checked": "2026-11-07T13:05+00:00",
   "keywords": [
     "Iran",
     "Iranian",
     "Tehran"
   ],
   "days": {
-    "2026-11-01": 0,
+    "2026-11-01": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
     "2026-11-02": {
       "error": "HTTP Error 429: Too Many Requests"
     },
     "2026-11-03": {
-      "skipped": "time budget used up"
+      "skipped": "stopped after repeated errors"
     },
     "2026-11-04": {
-      "skipped": "time budget used up"
+      "skipped": "stopped after repeated errors"
     },
     "2026-11-05": {
-      "skipped": "time budget used up"
+      "skipped": "stopped after repeated errors"
     },
     "2026-11-06": {
-      "skipped": "time budget used up"
+      "skipped": "stopped after repeated errors"
     },
     "2026-11-07": {
-      "skipped": "time budget used up"
+      "skipped": "stopped after repeated errors"
     }
   }
 }
