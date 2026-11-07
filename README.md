@@ -10,25 +10,23 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-06 19:31 UTC._
+_Updated 2026-11-07 06:02 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is below its usual level.** Confidence: High. 78 articles in the last 24 hours vs 62 in the 24 hours before (+26%), from 15 outlets. The usual level is 125 a day (average of 4 complete days), so the last 24 hours are -38% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 44% of articles (earlier 52%), diplomacy words in 19% (earlier 13%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.4% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 47% of Israel topic articles and 10% of Iran.
+1. **Coverage rose against the day before and is below its usual level.** Confidence: High. 78 articles in the last 24 hours vs 57 in the 24 hours before (+37%), from 14 outlets. The usual level is 111 a day (average of 4 complete days), so the last 24 hours are -30% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 41% of articles (earlier 51%), diplomacy words in 22% (earlier 19%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.4% of their articles; US outlets give the topic 7.4% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 47% of Israel topic articles and 10% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran downs fifth and sixth MQM-170 US drones over Qeshm Island
-- New story, 2 outlets: Possible breakthrough in negotiations with Iran
-- New story, 2 outlets: US threats against Iran’s nuclear facilities reflect Washington’s growing desperation: AEOI chief
-- Mentioned more: Washington (3% to 18%), China (0% to 8%), US (31% to 38%).
-- Mentioned less: Trump (40% to 24%), Republican (18% to 5%), Vance (19% to 8%).
+- New story, 2 outlets: Iran defeat China at Futsal International Tournament Yinchuan Women
+- Mentioned more: Island (0% to 8%), Trump (26% to 33%), Israel (11% to 17%).
+- Mentioned less: Vance (18% to 0%), Khamenei (11% to 0%), Republican (9% to 0%).
 
 ## Key findings
 
@@ -43,12 +41,12 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 |---|---|---|
 | Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox | 2 | 2026-10-31 |
 | Iran’s response will have no geographical limits: top general | 2 | 2026-10-31 |
 | Leader issues message on anniversary of Operation Zulfaqari in Abadan | 2 | 2026-10-31 |
 | Iran FM designates British Royal Navy, Air Force as terrorist | 2 | 2026-11-01 |
 | Araghchi to visit Turkmenistan Monday | 2 | 2026-11-01 |
 | Shahshahani seizes silver in 2026 Youth Olympic Games | 2 | 2026-11-01 |
+| Trump on Iran: At some point, we're going to give them the hammer | 2 | 2026-11-02 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->

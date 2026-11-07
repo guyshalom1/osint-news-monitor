@@ -1,24 +1,22 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-11-06 19:31 UTC. Period: last 7 days. Matching articles: 748 (7 reprints removed).
+Generated 2026-11-07 06:02 UTC. Period: last 7 days. Matching articles: 737 (7 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is below its usual level.** Confidence: High. 78 articles in the last 24 hours vs 62 in the 24 hours before (+26%), from 15 outlets. The usual level is 125 a day (average of 4 complete days), so the last 24 hours are -38% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 44% of articles (earlier 52%), diplomacy words in 19% (earlier 13%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.4% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 47% of Israel topic articles and 10% of Iran.
+1. **Coverage rose against the day before and is below its usual level.** Confidence: High. 78 articles in the last 24 hours vs 57 in the 24 hours before (+37%), from 14 outlets. The usual level is 111 a day (average of 4 complete days), so the last 24 hours are -30% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 41% of articles (earlier 51%), diplomacy words in 22% (earlier 19%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.4% of their articles; US outlets give the topic 7.4% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 47% of Israel topic articles and 10% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran downs fifth and sixth MQM-170 US drones over Qeshm Island
-- New story, 2 outlets: Possible breakthrough in negotiations with Iran
-- New story, 2 outlets: US threats against Iran’s nuclear facilities reflect Washington’s growing desperation: AEOI chief
-- Mentioned more: Washington (3% to 18%), China (0% to 8%), US (31% to 38%).
-- Mentioned less: Trump (40% to 24%), Republican (18% to 5%), Vance (19% to 8%).
+- New story, 2 outlets: Iran defeat China at Futsal International Tournament Yinchuan Women
+- Mentioned more: Island (0% to 8%), Trump (26% to 33%), Israel (11% to 17%).
+- Mentioned less: Vance (18% to 0%), Khamenei (11% to 0%), Republican (9% to 0%).
 
 ![Coverage per day](coverage.png)
 
@@ -35,12 +33,12 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 |---|---|---|
 | Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
 | Iran FM congratulates Algeria on National Day | 2 | 2026-11-01 |
-| Canada backing UAE claim on Iranian islands violates UN Charter principles: FM spox | 2 | 2026-10-31 |
 | Iran’s response will have no geographical limits: top general | 2 | 2026-10-31 |
 | Leader issues message on anniversary of Operation Zulfaqari in Abadan | 2 | 2026-10-31 |
 | Iran FM designates British Royal Navy, Air Force as terrorist | 2 | 2026-11-01 |
 | Araghchi to visit Turkmenistan Monday | 2 | 2026-11-01 |
 | Shahshahani seizes silver in 2026 Youth Olympic Games | 2 | 2026-11-01 |
+| Trump on Iran: At some point, we're going to give them the hammer | 2 | 2026-11-02 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 
@@ -48,17 +46,17 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Tehran Times | 189 |
-| IRNA | 164 |
+| Tehran Times | 181 |
 | Mehr News | 162 |
-| Jerusalem Post | 41 |
-| Al Jazeera | 37 |
-| JNS | 28 |
-| Israel National News | 23 |
-| Haaretz | 23 |
-| Israel Hayom | 20 |
+| IRNA | 154 |
+| Jerusalem Post | 42 |
+| Al Jazeera | 38 |
+| Haaretz | 26 |
+| JNS | 26 |
+| Israel National News | 25 |
+| Israel Hayom | 21 |
+| The Guardian World | 14 |
 | Ynetnews | 14 |
-| The Guardian World | 13 |
 | New York Times | 11 |
 | ABC News | 7 |
 | CBS News | 6 |
@@ -70,15 +68,15 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 | Name | Articles |
 |---|---|
 | US | 243 |
-| Trump | 164 |
-| Israel | 89 |
-| Hormuz | 68 |
-| Strait | 60 |
-| Araghchi | 54 |
-| Vance | 50 |
-| Washington | 49 |
-| IRGC | 43 |
-| Rezaei | 34 |
+| Trump | 171 |
+| Israel | 91 |
+| Hormuz | 62 |
+| Araghchi | 55 |
+| Strait | 53 |
+| Washington | 51 |
+| Vance | 49 |
+| IRGC | 38 |
+| Republican | 35 |
 
 ## Media comparison by country
 
@@ -86,25 +84,25 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 150 of 1079 (13.9%) | 29 of 390 (7.4%) | 520 of 548 (94.9%) home press |
+| Articles about the topic | 155 of 1079 (14.4%) | 29 of 393 (7.4%) | 502 of 530 (94.7%) home press |
 | Home press: articles mentioning US | - | - | 30% |
 | Home press: articles mentioning Israel | - | - | 7% |
 | Mentions Trump | 47% | 41% | 10% |
 | Mentions US | 42% | 17% | 27% |
-| Mentions Israel | 35% | 14% | 6% |
-| Mentions Strait | 4% | 10% | 9% |
-| Mentions Hormuz | 4% | 10% | 9% |
+| Mentions Israel | 37% | 14% | 5% |
 | Mentions Vance | 19% | 0% | 3% |
-| Mentions Washington | 14% | 0% | 5% |
-| Mentions Democrats | 9% | 10% | 0% |
+| Mentions Hormuz | 4% | 10% | 8% |
+| Mentions Strait | 4% | 10% | 8% |
+| Mentions Washington | 15% | 0% | 5% |
+| Mentions Democrats | 8% | 10% | 0% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Lufthansa Group says crews will not spend overnights in Israel amid Iran threat - report](https://www.jpost.com/business-and-innovation/article-914070)
-- Israel Hayom: [Another strike or economic collapse? Experts divided over next phase of Iran campaign](https://www.israelhayom.com/2026/11/06/another-strike-or-economic-collapse-experts-divided-over-next-phase-of-iran-campaign/)
-- JNS: [Vance is wrong about why the Republicans lost](https://www.jns.org/opinion/jeff-ballabon/vance-is-wrong-about-why-the-republicans-lost)
-- Israel Hayom: [Iranian officials distribute iodine pills anticipating American nuclear bombardment](https://www.israelhayom.com/2026/11/06/iodine-nuclear-strike-pickaxe-mountain-iran/)
-- Israel National News: [Bloomberg: US, Iran closing in on possible breakthrough in negotiations](https://www.israelnationalnews.com/flashes/696914)
+- Haaretz: [U.S. aid to Israel replaced by political aid to Netanyahu](https://www.haaretz.com/israel-news/2026-11-07/ty-article/.premium/u-s-aid-to-israel-replaced-by-political-aid-to-netanyahu/000001a1-b3c3-dcd2-a7fd-f3eb52820000)
+- Jerusalem Post: [Political division, crisis in Kurdistan region of Iraq could provide Iran with opening](https://www.jpost.com/middle-east/article-914102)
+- Jerusalem Post: [Two missiles struck Iran's Qeshm Island after aircraft heard above - report](https://www.jpost.com/middle-east/iran-news/article-914097)
+- Haaretz: [Report: Russia in talks to supply Iran with advanced air defense systems](https://www.haaretz.com/middle-east-news/iran/2026-11-07/ty-article/report-russia-in-talks-to-supply-iran-with-advanced-air-defense-systems/000001a1-b20a-d9f6-aba3-b61bed330000)
+- Israel Hayom: [Netanyahu's Iran gamble backfires on both Israel, US](https://www.israelhayom.com/2026/11/06/netanyahus-iran-gamble-backfires-on-both-israel-us/)
 
 **Latest US headlines**
 
@@ -116,23 +114,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
-- Mehr News: [US forces retreated 1,000 km from Iran’s borders](https://en.mehrnews.com/news/249199/US-forces-retreated-1-000-km-from-Iran-s-borders)
-- Mehr News: [IRGC says it shot down US MQ-1 drone over Qeshm island](https://en.mehrnews.com/news/249198/IRGC-says-it-shot-down-US-MQ-1-drone-over-Qeshm-island)
-- Tehran Times: [Iran brings Washington to its knees](https://www.tehrantimes.com/news/531887/Iran-brings-Washington-to-its-knees)
-- Tehran Times: [Outcome of three years of regional confrontation: The emergence of new alliances](https://www.tehrantimes.com/news/531886/Outcome-of-three-years-of-regional-confrontation-The-emergence)
-- Tehran Times: [IRGC adviser: US forces have pulled naval assets more than 1,000 kilometers from Iran’s borders](https://www.tehrantimes.com/news/531884/IRGC-adviser-US-forces-have-pulled-naval-assets-more-than-1-000)
+- Mehr News: [Israeli settlers attack Palestinian residents in WB](https://en.mehrnews.com/news/249204/VIDEO-Israeli-settlers-attack-Palestinian-residents-in-WB)
+- Mehr News: [Iran, Tunisia diplomats hold phone call on diplomatic efforts](https://en.mehrnews.com/news/249203/Top-Iran-Tunisia-diplomats-ongoing-diplomatic-effort-in-call)
+- Mehr News: [Hormuz not to be reopened until Iran’s 7 conditions are met](https://en.mehrnews.com/news/249202/Hormuz-not-to-be-reopened-until-Iran-s-7-conditions-are-met)
+- Mehr News: [Iran, Iraq FMs discuss ties, latest developments in region](https://en.mehrnews.com/news/249201/Iran-Iraq-FMs-discuss-ties-latest-developments-in-region)
+- Mehr News: [Iran not let Trump flee region sans paying price, reparation](https://en.mehrnews.com/news/249200/Iran-not-let-Trump-flee-region-sans-paying-price-reparation)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-11-06 | Mehr News | [US forces retreated 1,000 km from Iran’s borders](https://en.mehrnews.com/news/249199/US-forces-retreated-1-000-km-from-Iran-s-borders)
-- 2026-11-06 | Mehr News | [IRGC says it shot down US MQ-1 drone over Qeshm island](https://en.mehrnews.com/news/249198/IRGC-says-it-shot-down-US-MQ-1-drone-over-Qeshm-island)
-- 2026-11-06 | Jerusalem Post | [Lufthansa Group says crews will not spend overnights in Israel amid Iran threat - report](https://www.jpost.com/business-and-innovation/article-914070)
-- 2026-11-06 | CBS News | [Trump touts imminent decision on potential new attack on Iran](https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/)
-- 2026-11-06 | Tehran Times | [Iran brings Washington to its knees](https://www.tehrantimes.com/news/531887/Iran-brings-Washington-to-its-knees)
-- 2026-11-06 | Tehran Times | [Outcome of three years of regional confrontation: The emergence of new alliances](https://www.tehrantimes.com/news/531886/Outcome-of-three-years-of-regional-confrontation-The-emergence)
-- 2026-11-06 | Tehran Times | [IRGC adviser: US forces have pulled naval assets more than 1,000 kilometers from Iran’s borders](https://www.tehrantimes.com/news/531884/IRGC-adviser-US-forces-have-pulled-naval-assets-more-than-1-000)
-- 2026-11-06 | Tehran Times | [IRGC downs two more US MQM-170 reconnaissance drones over Qeshm Island](https://www.tehrantimes.com/news/531883/IRGC-downs-two-more-US-MQM-170-reconnaissance-drones-over-Qeshm)
-- 2026-11-06 | IRNA | [Iran envoy slams Europe’s stance on US, Israeli aggression](https://en.irna.ir/news/86314145/Iran-envoy-slams-Europe-s-stance-on-US-Israeli-aggression)
-- 2026-11-06 | Tehran Times | [Iranian House of Cinema, French Embassy willing to implement cultural, cinematic programs](https://www.tehrantimes.com/news/531853/Iranian-House-of-Cinema-French-Embassy-willing-to-implement)
+- 2026-11-07 | Mehr News | [Israeli settlers attack Palestinian residents in WB](https://en.mehrnews.com/news/249204/VIDEO-Israeli-settlers-attack-Palestinian-residents-in-WB)
+- 2026-11-07 | Mehr News | [Iran, Tunisia diplomats hold phone call on diplomatic efforts](https://en.mehrnews.com/news/249203/Top-Iran-Tunisia-diplomats-ongoing-diplomatic-effort-in-call)
+- 2026-11-07 | Mehr News | [Hormuz not to be reopened until Iran’s 7 conditions are met](https://en.mehrnews.com/news/249202/Hormuz-not-to-be-reopened-until-Iran-s-7-conditions-are-met)
+- 2026-11-07 | Mehr News | [Iran, Iraq FMs discuss ties, latest developments in region](https://en.mehrnews.com/news/249201/Iran-Iraq-FMs-discuss-ties-latest-developments-in-region)
+- 2026-11-07 | Mehr News | [Iran not let Trump flee region sans paying price, reparation](https://en.mehrnews.com/news/249200/Iran-not-let-Trump-flee-region-sans-paying-price-reparation)
+- 2026-11-07 | Al Jazeera | [US Treasury sanctions eight Canadian money exchange firms over Iran ties](https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss)
+- 2026-11-07 | Haaretz | [U.S. aid to Israel replaced by political aid to Netanyahu](https://www.haaretz.com/israel-news/2026-11-07/ty-article/.premium/u-s-aid-to-israel-replaced-by-political-aid-to-netanyahu/000001a1-b3c3-dcd2-a7fd-f3eb52820000)
+- 2026-11-07 | Al Jazeera | [Trump confirms new US strikes on Iran’s Qeshm island](https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss)
+- 2026-11-07 | The Guardian World | [US carries out another round of ‘minor’ strikes on Iran, Trump says](https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says)
+- 2026-11-07 | Jerusalem Post | [Political division, crisis in Kurdistan region of Iraq could provide Iran with opening](https://www.jpost.com/middle-east/article-914102)
