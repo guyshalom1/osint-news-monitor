@@ -10,44 +10,43 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-08 06:03 UTC._
+_Updated 2026-11-08 13:26 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 102 articles in the last 24 hours vs 79 in the 24 hours before (+29%), from 15 outlets. The usual level is 103 a day (average of 4 complete days), so the last 24 hours are -1% against it.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 31% of articles (earlier 42%), diplomacy words in 12% (earlier 22%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.2% of their articles; US outlets give the topic 7.3% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 46% of Israel topic articles and 12% of Iran.
+1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 93 in the 24 hours before (+12%), from 14 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are +0% against it.
+2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 22% of articles (earlier 46%), diplomacy words in 7% (earlier 20%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 45% of Israel topic articles and 11% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: Iran’s Army Navy reports a tanker catches fire on east Hormuz
+- New story, 2 outlets: 'You lost the war and the election': Iran's security chief ridicules Trump
 - New story, 2 outlets: Yemeni military coducts 6 operations deep inside Saudi Arabia
-- Mentioned more: Qeshm Island (0% to 6%), Yemen (0% to 5%), Saudi Arabia (0% to 5%).
-- Mentioned less: Trump (35% to 20%), US (37% to 23%), Israel (16% to 7%).
+- Mentioned less: US (34% to 14%), Trump (31% to 13%), Island (10% to 0%).
 
 ## Key findings
 
 - Peak coverage on 2026-11-03: 151 articles.
 - Most widely covered story: "Report: Israel warns US that Iran may use chemical weapons", reported by 3 outlets.
-- No unusual spikes; coverage was steady.
-- Tehran Times carried the most coverage (24% of articles).
+- Spike on 2026-11-03, reported by: 1190kex.iheart.com, ABC News, Al Jazeera, BBC Middle East, CBS News, Haaretz, IRNA, Israel Hayom, Israel National News, JNS, Jerusalem Post, Mehr News, New York Times, Tehran Times, The Guardian World, Ynetnews, americanthinker.com, arabnews.com, bgnes.com, bozemandailychronicle.com, metro.co.uk, newcastleherald.com.au, nypost.com, pragativadi.com, rnz.co.nz, theglobeandmail.com, thehindu.com, thehindubusinessline.com, thestar.com.my, wgow.com.
+- Tehran Times carried the most coverage (23% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
 | Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
-| Iran designates MI6 as ‘hostile group’, British navy and air force as ‘terrorist organizations’ | 2 | 2026-11-01 |
 | Araghchi to visit Turkmenistan Monday | 2 | 2026-11-01 |
 | Shahshahani seizes silver in 2026 Youth Olympic Games | 2 | 2026-11-01 |
 | Trump on Iran: At some point, we're going to give them the hammer | 2 | 2026-11-02 |
 | Iran FM Araghchi arrives in Ashgabat for high-profile talks | 2 | 2026-11-02 |
 | Eleven offending oil tankers catch fire in Strait of Hormuz in nine days: IRGC Navy | 2 | 2026-11-02 |
 | Putin, Rezaei discuss West Asia in phone call | 2 | 2026-11-02 |
+| Araghchi returns to Tehran after talks with Turkmen officials | 2 | 2026-11-02 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
