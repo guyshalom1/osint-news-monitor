@@ -10,38 +10,38 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-08 13:26 UTC._
+_Updated 2026-11-08 22:08 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 93 in the 24 hours before (+12%), from 14 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are +0% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 22% of articles (earlier 46%), diplomacy words in 7% (earlier 20%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 45% of Israel topic articles and 11% of Iran.
+1. **Coverage is steady.** Confidence: High. 112 articles in the last 24 hours vs 109 in the 24 hours before (+3%), from 18 outlets. The usual level is 115 a day (average of 4 complete days), so the last 24 hours are -3% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 29% of articles (earlier 37%), diplomacy words in 11% (earlier 17%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.1% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 46% of Israel topic articles and 11% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: 'You lost the war and the election': Iran's security chief ridicules Trump
-- New story, 2 outlets: Yemeni military coducts 6 operations deep inside Saudi Arabia
-- Mentioned less: US (34% to 14%), Trump (31% to 13%), Island (10% to 0%).
+- New story, 2 outlets: SNSC endorses agreement on Rasht-Astara railway
+- New story, 2 outlets: Iran condemns airstrikes on Yemen, calls for end to attacks and blockade
+- Mentioned less: Trump (29% to 10%), Island (9% to 0%), Qatar (5% to 0%).
 
 ## Key findings
 
 - Peak coverage on 2026-11-03: 151 articles.
 - Most widely covered story: "Report: Israel warns US that Iran may use chemical weapons", reported by 3 outlets.
 - Spike on 2026-11-03, reported by: 1190kex.iheart.com, ABC News, Al Jazeera, BBC Middle East, CBS News, Haaretz, IRNA, Israel Hayom, Israel National News, JNS, Jerusalem Post, Mehr News, New York Times, Tehran Times, The Guardian World, Ynetnews, americanthinker.com, arabnews.com, bgnes.com, bozemandailychronicle.com, metro.co.uk, newcastleherald.com.au, nypost.com, pragativadi.com, rnz.co.nz, theglobeandmail.com, thehindu.com, thehindubusinessline.com, thestar.com.my, wgow.com.
-- Tehran Times carried the most coverage (23% of articles).
+- Tehran Times carried the most coverage (22% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
 | Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
-| Araghchi to visit Turkmenistan Monday | 2 | 2026-11-01 |
-| Shahshahani seizes silver in 2026 Youth Olympic Games | 2 | 2026-11-01 |
+| Arab News | Iran sent nuclear proposal to the US via Qatar, senior Iranian official says | 3 | 2026-11-05 |
+| Iran’s Army Navy reports a tanker catches fire on east Hormuz | 2 | 2026-11-07 |
 | Trump on Iran: At some point, we're going to give them the hammer | 2 | 2026-11-02 |
 | Iran FM Araghchi arrives in Ashgabat for high-profile talks | 2 | 2026-11-02 |
 | Eleven offending oil tankers catch fire in Strait of Hormuz in nine days: IRGC Navy | 2 | 2026-11-02 |

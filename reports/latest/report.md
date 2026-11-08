@@ -1,22 +1,22 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-11-08 13:26 UTC. Period: last 7 days. Matching articles: 749 (22 reprints removed).
+Generated 2026-11-08 22:08 UTC. Period: last 7 days. Matching articles: 807 (47 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 93 in the 24 hours before (+12%), from 14 outlets. The usual level is 104 a day (average of 4 complete days), so the last 24 hours are +0% against it.
-2. **Language is shifting toward diplomacy.** Confidence: High. Escalation words in 22% of articles (earlier 46%), diplomacy words in 7% (earlier 20%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.9% of their articles; US outlets give the topic 7.1% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 45% of Israel topic articles and 11% of Iran.
+1. **Coverage is steady.** Confidence: High. 112 articles in the last 24 hours vs 109 in the 24 hours before (+3%), from 18 outlets. The usual level is 115 a day (average of 4 complete days), so the last 24 hours are -3% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 29% of articles (earlier 37%), diplomacy words in 11% (earlier 17%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.1% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 46% of Israel topic articles and 11% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: 'You lost the war and the election': Iran's security chief ridicules Trump
-- New story, 2 outlets: Yemeni military coducts 6 operations deep inside Saudi Arabia
-- Mentioned less: US (34% to 14%), Trump (31% to 13%), Island (10% to 0%).
+- New story, 2 outlets: SNSC endorses agreement on Rasht-Astara railway
+- New story, 2 outlets: Iran condemns airstrikes on Yemen, calls for end to attacks and blockade
+- Mentioned less: Trump (29% to 10%), Island (9% to 0%), Qatar (5% to 0%).
 
 ![Coverage per day](coverage.png)
 
@@ -25,15 +25,15 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 - Peak coverage on 2026-11-03: 151 articles.
 - Most widely covered story: "Report: Israel warns US that Iran may use chemical weapons", reported by 3 outlets.
 - Spike on 2026-11-03, reported by: 1190kex.iheart.com, ABC News, Al Jazeera, BBC Middle East, CBS News, Haaretz, IRNA, Israel Hayom, Israel National News, JNS, Jerusalem Post, Mehr News, New York Times, Tehran Times, The Guardian World, Ynetnews, americanthinker.com, arabnews.com, bgnes.com, bozemandailychronicle.com, metro.co.uk, newcastleherald.com.au, nypost.com, pragativadi.com, rnz.co.nz, theglobeandmail.com, thehindu.com, thehindubusinessline.com, thestar.com.my, wgow.com.
-- Tehran Times carried the most coverage (23% of articles).
+- Tehran Times carried the most coverage (22% of articles).
 
 ## Stories covered by the most outlets
 
 | Story | Outlets | First seen |
 |---|---|---|
 | Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
-| Araghchi to visit Turkmenistan Monday | 2 | 2026-11-01 |
-| Shahshahani seizes silver in 2026 Youth Olympic Games | 2 | 2026-11-01 |
+| Arab News | Iran sent nuclear proposal to the US via Qatar, senior Iranian official says | 3 | 2026-11-05 |
+| Iran’s Army Navy reports a tanker catches fire on east Hormuz | 2 | 2026-11-07 |
 | Trump on Iran: At some point, we're going to give them the hammer | 2 | 2026-11-02 |
 | Iran FM Araghchi arrives in Ashgabat for high-profile talks | 2 | 2026-11-02 |
 | Eleven offending oil tankers catch fire in Strait of Hormuz in nine days: IRGC Navy | 2 | 2026-11-02 |
@@ -46,37 +46,37 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Tehran Times | 176 |
-| Mehr News | 163 |
-| IRNA | 155 |
-| Jerusalem Post | 43 |
-| Al Jazeera | 38 |
-| Israel National News | 27 |
-| JNS | 24 |
-| Haaretz | 24 |
-| The Guardian World | 16 |
-| Israel Hayom | 16 |
+| Tehran Times | 180 |
+| Mehr News | 161 |
+| IRNA | 157 |
+| Jerusalem Post | 44 |
+| Al Jazeera | 42 |
+| Israel National News | 28 |
+| Haaretz | 25 |
+| JNS | 23 |
+| Israel Hayom | 17 |
+| The Guardian World | 15 |
 | Ynetnews | 14 |
 | New York Times | 9 |
-| ABC News | 7 |
 | BBC Middle East | 6 |
+| ABC News | 6 |
 | CBS News | 6 |
-| Other (21 outlets) | 25 |
+| Other (59 outlets) | 74 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 230 |
-| Trump | 177 |
-| Israel | 86 |
-| Hormuz | 74 |
-| Strait | 67 |
-| Washington | 49 |
+| US | 246 |
+| Trump | 192 |
+| Israel | 93 |
+| Hormuz | 76 |
+| Strait | 68 |
+| Washington | 51 |
 | IRGC | 47 |
-| Araghchi | 45 |
-| Island | 41 |
-| Vance | 40 |
+| Island | 45 |
+| Vance | 43 |
+| Araghchi | 39 |
 
 ## Media comparison by country
 
@@ -84,25 +84,25 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 149 of 1073 (13.9%) | 28 of 394 (7.1%) | 500 of 526 (95.1%) home press |
+| Articles about the topic | 153 of 1083 (14.1%) | 27 of 401 (6.7%) | 504 of 529 (95.3%) home press |
 | Home press: articles mentioning US | - | - | 28% |
-| Home press: articles mentioning Israel | - | - | 8% |
-| Mentions Trump | 45% | 39% | 11% |
-| Mentions US | 40% | 18% | 24% |
-| Mentions Israel | 36% | 7% | 6% |
-| Mentions Hormuz | 4% | 11% | 10% |
-| Mentions Strait | 4% | 11% | 10% |
-| Mentions Washington | 14% | 0% | 5% |
+| Home press: articles mentioning Israel | - | - | 9% |
+| Mentions Trump | 46% | 41% | 11% |
+| Mentions US | 38% | 19% | 24% |
+| Mentions Israel | 33% | 7% | 7% |
+| Mentions Hormuz | 5% | 11% | 10% |
+| Mentions Strait | 5% | 11% | 10% |
+| Mentions Washington | 15% | 0% | 5% |
 | Mentions Democrats | 8% | 11% | 0% |
-| Mentions Vance | 17% | 0% | 0% |
+| Mentions Vance | 18% | 0% | 0% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Iran-linked ships suspected of mapping, placing mines around undersea telecommunications cables](https://www.jpost.com/middle-east/iran-news/article-914199)
-- Jerusalem Post: ['They sent missiles, we sent a bill': Bat Yam mayor serves Iranian diplomat with NIS 250m. lawsuit](https://www.jpost.com/middle-east/iran-news/article-914191)
-- Jerusalem Post: [‘No good options’: Iran war caught between Trump's midterm troubles, Israel's election shake-up](https://www.jpost.com/middle-east/iran-news/article-914189)
-- Israel National News: [Bat Yam mayor persoanlly delivers NIS 250 lawsuit to Iran](https://www.israelnationalnews.com/flashes/696982)
-- Jerusalem Post: [Iran rejects possibility of US enforcing economic blockade, closing trade routes](https://www.jpost.com/middle-east/iran-news/article-914180)
+- Jerusalem Post: [Trump held off on Iran strike as Israel, US prepared for military operation, sources tell 'Post'](https://www.jpost.com/middle-east/iran-news/article-914268)
+- Jerusalem Post: [Four explosions heard on Qeshm Island, Iranian state media says - report](https://www.jpost.com/middle-east/iran-news/article-914265)
+- Jerusalem Post: [Iraq says it lost $60b from Iran war, reaches understandings with US on Hormuz oil route](https://www.jpost.com/middle-east/article-914263)
+- Israel Hayom: [Trump: Renewed strikes on Iran 'highly unlikely'](https://www.israelhayom.com/2026/11/08/trump-renewed-strikes-on-iran-highly-unlikely-to-be-necessary/)
+- Israel National News: [Reports of explosions heard near Iran's Qeshm Island](https://www.israelnationalnews.com/flashes/697019)
 
 **Latest US headlines**
 
@@ -114,23 +114,23 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 **Latest Iran headlines**
 
-- IRNA: [IRGC Aerospace Force plays key role in strengthening Iran’s defense capabilities: Judicial official](https://en.irna.ir/news/86316025/IRGC-Aerospace-Force-plays-key-role-in-strengthening-Iran-s-defense)
-- Tehran Times: [Iran, South Korea explore cooperation in sustainable ecotourism](https://www.tehrantimes.com/news/531943/Iran-South-Korea-explore-cooperation-in-sustainable-ecotourism)
-- Mehr News: [Funeral for eight unidentified martyrs in Hamedan](https://en.mehrnews.com/photo/249244/Funeral-for-eight-unidentified-martyrs-in-Hamedan)
-- IRNA: [Shanghai expo spotlights Iran's economic, scientific potential to deepen cooperation: Ambassador](https://en.irna.ir/news/86316002/Shanghai-expo-spotlights-Iran-s-economic-scientific-potential)
-- Mehr News: [Strait of Hormuz fully under IRGC Navy control: spox](https://en.mehrnews.com/news/249243/Strait-of-Hormuz-fully-under-IRGC-Navy-control-spox)
+- IRNA: [Iranian Army reports another tanker fire in east of Hormuz](https://en.irna.ir/news/86316283/Iranian-Army-reports-another-tanker-fire-in-east-of-Hormuz)
+- Mehr News: [Iranian military ready to defend with advanced homegrown arms](https://en.mehrnews.com/news/249252/Iranian-military-ready-to-defend-with-advanced-homegrown-arms)
+- Mehr News: [Iranian Army reports another tanker fire in east of Hormuz](https://en.mehrnews.com/news/249251/Iranian-Army-reports-another-tanker-fire-in-east-of-Hormuz)
+- IRNA: [Araghchi: Now it is White House’s turn to make a choice](https://en.irna.ir/news/86316245/Araghchi-Now-it-is-White-House-s-turn-to-make-a-choice)
+- Mehr News: [White House must choose between deal and war: Iran FM](https://en.mehrnews.com/news/249250/White-House-must-choose-between-deal-and-war-Iran-FM)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-11-08 | IRNA | [IRGC Aerospace Force plays key role in strengthening Iran’s defense capabilities: Judicial official](https://en.irna.ir/news/86316025/IRGC-Aerospace-Force-plays-key-role-in-strengthening-Iran-s-defense)
-- 2026-11-08 | Tehran Times | [Iran, South Korea explore cooperation in sustainable ecotourism](https://www.tehrantimes.com/news/531943/Iran-South-Korea-explore-cooperation-in-sustainable-ecotourism)
-- 2026-11-08 | Jerusalem Post | [Iran-linked ships suspected of mapping, placing mines around undersea telecommunications cables](https://www.jpost.com/middle-east/iran-news/article-914199)
-- 2026-11-08 | The Guardian World | [US datacenter demand spurs increased fossil fuel pipeline projects as rules are discarded](https://www.theguardian.com/us-news/2026/nov/08/datacenters-fossil-fuel-pipelines-regulations)
-- 2026-11-08 | Mehr News | [Funeral for eight unidentified martyrs in Hamedan](https://en.mehrnews.com/photo/249244/Funeral-for-eight-unidentified-martyrs-in-Hamedan)
-- 2026-11-08 | IRNA | [Shanghai expo spotlights Iran's economic, scientific potential to deepen cooperation: Ambassador](https://en.irna.ir/news/86316002/Shanghai-expo-spotlights-Iran-s-economic-scientific-potential)
-- 2026-11-08 | Jerusalem Post | ['They sent missiles, we sent a bill': Bat Yam mayor serves Iranian diplomat with NIS 250m. lawsuit](https://www.jpost.com/middle-east/iran-news/article-914191)
-- 2026-11-08 | Jerusalem Post | [‘No good options’: Iran war caught between Trump's midterm troubles, Israel's election shake-up](https://www.jpost.com/middle-east/iran-news/article-914189)
-- 2026-11-08 | Mehr News | [Strait of Hormuz fully under IRGC Navy control: spox](https://en.mehrnews.com/news/249243/Strait-of-Hormuz-fully-under-IRGC-Navy-control-spox)
-- 2026-11-08 | Tehran Times | [QS Asia University Ranking includes more Iranian universities](https://www.tehrantimes.com/news/531937/QS-Asia-University-Ranking-includes-more-Iranian-universities)
+- 2026-11-08 | Jerusalem Post | [Trump held off on Iran strike as Israel, US prepared for military operation, sources tell 'Post'](https://www.jpost.com/middle-east/iran-news/article-914268)
+- 2026-11-08 | Jerusalem Post | [Four explosions heard on Qeshm Island, Iranian state media says - report](https://www.jpost.com/middle-east/iran-news/article-914265)
+- 2026-11-08 | Jerusalem Post | [Iraq says it lost $60b from Iran war, reaches understandings with US on Hormuz oil route](https://www.jpost.com/middle-east/article-914263)
+- 2026-11-08 | Israel Hayom | [Trump: Renewed strikes on Iran 'highly unlikely'](https://www.israelhayom.com/2026/11/08/trump-renewed-strikes-on-iran-highly-unlikely-to-be-necessary/)
+- 2026-11-08 | Al Jazeera | [Iran waiting to resume talks after US midterms ‘shock’Iranian Foreign Minis](https://www.aljazeera.com/video/newsfeed/2026/11/8/iran-waiting-to-resume-talks-after-us-midterms-shockiranian-foreign-minis?traffic_source=rss)
+- 2026-11-08 | Al Jazeera | [Iran threatens to ‘rain down hell’ if US escalates war](https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war?traffic_source=rss)
+- 2026-11-08 | Israel National News | [Reports of explosions heard near Iran's Qeshm Island](https://www.israelnationalnews.com/flashes/697019)
+- 2026-11-08 | Jerusalem Post | [Trump says return to war with Iran ‘highly unlikely’ if negotiations produce progress](https://www.jpost.com/middle-east/iran-news/article-914255)
+- 2026-11-08 | Israel National News | [Washington blinked. Now Israel enters the Blame Game](https://www.israelnationalnews.com/flashes/697013)
+- 2026-11-08 | Mehr News | [Iranian military ready to defend with advanced homegrown arms](https://en.mehrnews.com/news/249252/Iranian-military-ready-to-defend-with-advanced-homegrown-arms)
