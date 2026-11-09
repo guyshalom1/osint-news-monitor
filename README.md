@@ -10,30 +10,30 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-09 06:27 UTC._
+_Updated 2026-11-09 22:24 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 115 articles in the last 24 hours vs 104 in the 24 hours before (+11%), from 13 outlets. The usual level is 105 a day (average of 4 complete days), so the last 24 hours are +10% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 35% of articles (earlier 30%), diplomacy words in 12% (earlier 12%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.1% of their articles; US outlets give the topic 6.2% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 46% of Israel topic articles and 11% of Iran.
+1. **Coverage is steady.** Confidence: High. 105 articles in the last 24 hours vs 120 in the 24 hours before (-12%), from 21 outlets. The usual level is 117 a day (average of 4 complete days), so the last 24 hours are -10% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 31% of articles (earlier 29%), diplomacy words in 16% (earlier 11%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.7% of their articles; US outlets give the topic 6.6% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 48% of US topic articles and 12% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 2 outlets: SNSC endorses agreement on Rasht-Astara railway
-- New story, 2 outlets: Iran condemns airstrikes on Yemen, calls for end to attacks and blockade
-- Mentioned more: Israel (7% to 17%), Gaza (0% to 6%), China (0% to 6%).
+- New story, 3 outlets: France accuses Iran of cyberattack on supermarket fridges
+- Mentioned more: France (0% to 9%), Trump (9% to 18%), Qatar (0% to 8%).
+- Mentioned less: Strait (12% to 6%), Yemen (6% to 0%), Navy (5% to 0%).
 
 ## Key findings
 
-- Peak coverage on 2026-11-03: 151 articles.
+- Peak coverage on 2026-11-07: 157 articles.
 - Most widely covered story: "Report: Israel warns US that Iran may use chemical weapons", reported by 3 outlets.
 - No unusual spikes; coverage was steady.
-- Tehran Times carried the most coverage (22% of articles).
+- Tehran Times carried the most coverage (21% of articles).
 
 ## Stories covered by the most outlets
 
@@ -41,10 +41,10 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 |---|---|---|
 | Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
 | Arab News | Iran sent nuclear proposal to the US via Qatar, senior Iranian official says | 3 | 2026-11-05 |
+| US offers reward of up to $20 million, possible relocation for information on Iran nuclear program | 3 | 2026-11-07 |
+| US army announces new task force to disrupt Iran supply routes | 3 | 2026-11-07 |
+| France accuses Iran of cyberattack on supermarket fridges | 3 | 2026-11-09 |
 | Iran’s Army Navy reports a tanker catches fire on east Hormuz | 2 | 2026-11-07 |
-| Eleven offending oil tankers catch fire in Strait of Hormuz in nine days: IRGC Navy | 2 | 2026-11-02 |
-| Putin, Rezaei discuss West Asia in phone call | 2 | 2026-11-02 |
-| Araghchi returns to Tehran after talks with Turkmen officials | 2 | 2026-11-02 |
 | Trump raises doubts about renewed attacks on Iran, says deal with Tehran possible | 2 | 2026-11-02 |
 | Arab News | US struck Iran Qeshm Island, Wall Street Journal reports | 2 | 2026-11-03 |
 
