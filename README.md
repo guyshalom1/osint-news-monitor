@@ -10,31 +10,31 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-10 07:23 UTC._
+_Updated 2026-11-10 19:47 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage is steady.** Confidence: High. 104 articles in the last 24 hours vs 117 in the 24 hours before (-11%), from 16 outlets. The usual level is 114 a day (average of 4 complete days), so the last 24 hours are -9% against it.
-2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 38% of articles (earlier 33%), diplomacy words in 17% (earlier 12%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 13.8% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 46% of US topic articles and 12% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 135 articles in the last 24 hours vs 103 in the 24 hours before (+31%), from 16 outlets. The usual level is 114 a day (average of 4 complete days), so the last 24 hours are +18% against it.
+2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 38% of articles (earlier 29%), diplomacy words in 17% (earlier 17%).
+3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.5% of their articles; US outlets give the topic 5.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 42% of Israel topic articles and 11% of Iran.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
 ## What changed in the last 24 hours
 
-- New story, 3 outlets: France accuses Iran of cyberattack on supermarket fridges
-- New story, 2 outlets: France Blames Iran for Cyberattack on Refrigeration Systems
+- New story, 3 outlets: Iran’s IRGC Aerospace Force unveils new missile city (+VIDEO)
+- New story, 3 outlets: Rubio: ‘No need for major combat operations’ against Iran
 - New story, 2 outlets: IRGC commander: Iranian Armed Forces disrupted enemy calculations
-- Mentioned more: France (0% to 11%), Qatar (0% to 10%), Baqaei (0% to 5%).
-- Mentioned less: Israel (18% to 11%), Republican (6% to 0%), China (8% to 2%).
+- Mentioned more: US (19% to 28%), Rezaei (2% to 7%).
+- Mentioned less: Israel (17% to 8%), Gaza (7% to 0%), China (6% to 1%).
 
 ## Key findings
 
 - Peak coverage on 2026-11-07: 157 articles.
 - Most widely covered story: "France accuses Iran of cyberattack on supermarket fridges", reported by 3 outlets.
-- No unusual spikes; coverage was steady.
+- Spike on 2026-11-07, reported by: ABC News, Al Jazeera, BBC Middle East, Fox News, Haaretz, IRNA, Israel National News, Jerusalem Post, Mehr News, Tehran Times, The Guardian World, Ynetnews, aa.com.tr, aol.com, arabnews.com, article.wn.com, arynews.tv, bdnews24.com, breitbart.com, calcuttanews.net, centralasiatimes.com, dailykos.com, dailypost.ng, egyptindependent.com, el-balad.com, en.shafaqna.com, english.globalarabnetwork.com, express.co.uk, freemalaysiatoday.com, freerepublic.com, heraldglobe.com, inewsgr.com, iraqsun.com, ktrh.iheart.com, middleeaststar.com, moneycontrol.com, morningstar.com, naharnet.com, newstodaynet.com, omanobserver.om, rawstory.com, saharareporters.com, sana.sy, tert.am, themarysue.com, thestar.com.my, timesofindia.indiatimes.com, tonyskansascity.com, wjla.com, wokv.com, wsls.com.
 - Tehran Times carried the most coverage (21% of articles).
 
 ## Stories covered by the most outlets
@@ -42,13 +42,13 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Story | Outlets | First seen |
 |---|---|---|
 | France accuses Iran of cyberattack on supermarket fridges | 3 | 2026-11-09 |
-| Report: Israel warns US that Iran may use chemical weapons | 3 | 2026-11-03 |
 | Arab News | Iran sent nuclear proposal to the US via Qatar, senior Iranian official says | 3 | 2026-11-05 |
 | US offers reward of up to $20 million, possible relocation for information on Iran nuclear program | 3 | 2026-11-07 |
 | US army announces new task force to disrupt Iran supply routes | 3 | 2026-11-07 |
+| Iran’s IRGC Aerospace Force unveils new missile city (+VIDEO) | 3 | 2026-11-10 |
+| Rubio: ‘No need for major combat operations’ against Iran | 3 | 2026-11-10 |
 | Iran’s Army Navy reports a tanker catches fire on east Hormuz | 2 | 2026-11-07 |
-| Iranian judo athlete Karimi wins silver at 2026 Youth Olympic Games | 2 | 2026-11-03 |
-| Former Iran captain Hassan Habibi passes away | 2 | 2026-11-03 |
+| Iranian, Egyptian FMs discuss de-escalation of tensions and latest regional developments | 2 | 2026-11-03 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->
