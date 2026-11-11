@@ -10,15 +10,15 @@ Built as a personal project to automate a task I do manually as a delegate inter
 ## Latest assessment
 
 <!-- assessment:start -->
-_Updated 2026-11-10 19:47 UTC._
+_Updated 2026-11-11 06:22 UTC._
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 135 articles in the last 24 hours vs 103 in the 24 hours before (+31%), from 16 outlets. The usual level is 114 a day (average of 4 complete days), so the last 24 hours are +18% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 38% of articles (earlier 29%), diplomacy words in 17% (earlier 17%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.5% of their articles; US outlets give the topic 5.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 42% of Israel topic articles and 11% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 142 articles in the last 24 hours vs 106 in the 24 hours before (+34%), from 16 outlets. The usual level is 122 a day (average of 4 complete days), so the last 24 hours are +17% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 34% of articles (earlier 35%), diplomacy words in 16% (earlier 18%).
+3. **Countries frame the topic differently; the clearest gap is "Israel".** Confidence: Medium. Israel outlets give the topic 14.7% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Israel" appears in 34% of Israel topic articles and 0% of US.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
@@ -26,15 +26,15 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 
 - New story, 3 outlets: Iran’s IRGC Aerospace Force unveils new missile city (+VIDEO)
 - New story, 3 outlets: Rubio: ‘No need for major combat operations’ against Iran
-- New story, 2 outlets: IRGC commander: Iranian Armed Forces disrupted enemy calculations
-- Mentioned more: US (19% to 28%), Rezaei (2% to 7%).
-- Mentioned less: Israel (17% to 8%), Gaza (7% to 0%), China (6% to 1%).
+- New story, 2 outlets: US reportedly evacuated aircraft from RAF Mildenhall over Iran threat
+- Mentioned more: US (15% to 30%), Hegseth (0% to 8%), Navy (0% to 6%).
+- Mentioned less: Trump (19% to 7%), Qatar (9% to 2%), France (10% to 3%).
 
 ## Key findings
 
 - Peak coverage on 2026-11-07: 157 articles.
 - Most widely covered story: "France accuses Iran of cyberattack on supermarket fridges", reported by 3 outlets.
-- Spike on 2026-11-07, reported by: ABC News, Al Jazeera, BBC Middle East, Fox News, Haaretz, IRNA, Israel National News, Jerusalem Post, Mehr News, Tehran Times, The Guardian World, Ynetnews, aa.com.tr, aol.com, arabnews.com, article.wn.com, arynews.tv, bdnews24.com, breitbart.com, calcuttanews.net, centralasiatimes.com, dailykos.com, dailypost.ng, egyptindependent.com, el-balad.com, en.shafaqna.com, english.globalarabnetwork.com, express.co.uk, freemalaysiatoday.com, freerepublic.com, heraldglobe.com, inewsgr.com, iraqsun.com, ktrh.iheart.com, middleeaststar.com, moneycontrol.com, morningstar.com, naharnet.com, newstodaynet.com, omanobserver.om, rawstory.com, saharareporters.com, sana.sy, tert.am, themarysue.com, thestar.com.my, timesofindia.indiatimes.com, tonyskansascity.com, wjla.com, wokv.com, wsls.com.
+- No unusual spikes; coverage was steady.
 - Tehran Times carried the most coverage (21% of articles).
 
 ## Stories covered by the most outlets
@@ -48,7 +48,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Iran’s IRGC Aerospace Force unveils new missile city (+VIDEO) | 3 | 2026-11-10 |
 | Rubio: ‘No need for major combat operations’ against Iran | 3 | 2026-11-10 |
 | Iran’s Army Navy reports a tanker catches fire on east Hormuz | 2 | 2026-11-07 |
-| Iranian, Egyptian FMs discuss de-escalation of tensions and latest regional developments | 2 | 2026-11-03 |
+| Aban 13 rallies kick off in Tehran | 2 | 2026-11-04 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 <!-- assessment:end -->

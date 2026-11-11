@@ -1,14 +1,14 @@
 # OSINT Coverage Report: Iran, Iranian, Tehran
 
-Generated 2026-11-10 19:47 UTC. Period: last 7 days. Matching articles: 829 (57 reprints removed).
+Generated 2026-11-11 06:22 UTC. Period: last 7 days. Matching articles: 843 (59 reprints removed).
 
 ## Assessment
 
 The last 24 hours compared with the 24 hours before. Rule-based, from coverage counts only. It describes what the media report, not what is happening on the ground.
 
-1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 135 articles in the last 24 hours vs 103 in the 24 hours before (+31%), from 16 outlets. The usual level is 114 a day (average of 4 complete days), so the last 24 hours are +18% against it.
-2. **Language is shifting toward escalation.** Confidence: High. Escalation words in 38% of articles (earlier 29%), diplomacy words in 17% (earlier 17%).
-3. **Countries frame the topic differently; the clearest gap is "Trump".** Confidence: Medium. Israel outlets give the topic 14.5% of their articles; US outlets give the topic 5.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Trump" appears in 42% of Israel topic articles and 11% of Iran.
+1. **Coverage rose against the day before and is near its usual level.** Confidence: High. 142 articles in the last 24 hours vs 106 in the 24 hours before (+34%), from 16 outlets. The usual level is 122 a day (average of 4 complete days), so the last 24 hours are +17% against it.
+2. **The balance between escalation and diplomacy language is unchanged.** Confidence: High. Escalation words in 34% of articles (earlier 35%), diplomacy words in 16% (earlier 18%).
+3. **Countries frame the topic differently; the clearest gap is "Israel".** Confidence: Medium. Israel outlets give the topic 14.7% of their articles; US outlets give the topic 6.7% of their articles. Home press is left out of the attention comparison, since it covers the topic as domestic news. "Israel" appears in 34% of Israel topic articles and 0% of US.
 
 Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ outlets, Low means less than that.
 
@@ -16,9 +16,9 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 
 - New story, 3 outlets: Iran’s IRGC Aerospace Force unveils new missile city (+VIDEO)
 - New story, 3 outlets: Rubio: ‘No need for major combat operations’ against Iran
-- New story, 2 outlets: IRGC commander: Iranian Armed Forces disrupted enemy calculations
-- Mentioned more: US (19% to 28%), Rezaei (2% to 7%).
-- Mentioned less: Israel (17% to 8%), Gaza (7% to 0%), China (6% to 1%).
+- New story, 2 outlets: US reportedly evacuated aircraft from RAF Mildenhall over Iran threat
+- Mentioned more: US (15% to 30%), Hegseth (0% to 8%), Navy (0% to 6%).
+- Mentioned less: Trump (19% to 7%), Qatar (9% to 2%), France (10% to 3%).
 
 ![Coverage per day](coverage.png)
 
@@ -26,7 +26,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 
 - Peak coverage on 2026-11-07: 157 articles.
 - Most widely covered story: "France accuses Iran of cyberattack on supermarket fridges", reported by 3 outlets.
-- Spike on 2026-11-07, reported by: ABC News, Al Jazeera, BBC Middle East, Fox News, Haaretz, IRNA, Israel National News, Jerusalem Post, Mehr News, Tehran Times, The Guardian World, Ynetnews, aa.com.tr, aol.com, arabnews.com, article.wn.com, arynews.tv, bdnews24.com, breitbart.com, calcuttanews.net, centralasiatimes.com, dailykos.com, dailypost.ng, egyptindependent.com, el-balad.com, en.shafaqna.com, english.globalarabnetwork.com, express.co.uk, freemalaysiatoday.com, freerepublic.com, heraldglobe.com, inewsgr.com, iraqsun.com, ktrh.iheart.com, middleeaststar.com, moneycontrol.com, morningstar.com, naharnet.com, newstodaynet.com, omanobserver.om, rawstory.com, saharareporters.com, sana.sy, tert.am, themarysue.com, thestar.com.my, timesofindia.indiatimes.com, tonyskansascity.com, wjla.com, wokv.com, wsls.com.
+- No unusual spikes; coverage was steady.
 - Tehran Times carried the most coverage (21% of articles).
 
 ## Stories covered by the most outlets
@@ -40,7 +40,7 @@ Confidence: High means 60+ articles from 5+ outlets, Medium means 20+ from 3+ ou
 | Iran’s IRGC Aerospace Force unveils new missile city (+VIDEO) | 3 | 2026-11-10 |
 | Rubio: ‘No need for major combat operations’ against Iran | 3 | 2026-11-10 |
 | Iran’s Army Navy reports a tanker catches fire on east Hormuz | 2 | 2026-11-07 |
-| Iranian, Egyptian FMs discuss de-escalation of tensions and latest regional developments | 2 | 2026-11-03 |
+| Aban 13 rallies kick off in Tehran | 2 | 2026-11-04 |
 
 Stories are groups of articles with similar headlines. Different outlets reporting the same event count once here.
 
@@ -48,37 +48,37 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | Source | Articles |
 |---|---|
-| Tehran Times | 175 |
-| Mehr News | 158 |
-| IRNA | 149 |
-| Jerusalem Post | 49 |
-| Al Jazeera | 43 |
+| Tehran Times | 179 |
+| Mehr News | 163 |
+| IRNA | 150 |
+| Al Jazeera | 47 |
+| Jerusalem Post | 47 |
 | Israel National News | 30 |
-| Haaretz | 24 |
-| JNS | 23 |
-| The Guardian World | 19 |
-| Ynetnews | 12 |
+| Haaretz | 25 |
+| JNS | 24 |
+| The Guardian World | 20 |
 | Israel Hayom | 11 |
+| Ynetnews | 10 |
+| New York Times | 8 |
+| CBS News | 8 |
 | BBC Middle East | 8 |
-| New York Times | 7 |
-| CBS News | 7 |
-| ABC News | 5 |
-| Other (78 outlets) | 109 |
+| Fox News | 5 |
+| Other (75 outlets) | 108 |
 
 ## Names and places mentioned alongside the topic
 
 | Name | Articles |
 |---|---|
-| US | 237 |
-| Trump | 191 |
+| US | 243 |
+| Trump | 189 |
 | Israel | 100 |
-| Hormuz | 65 |
-| Strait | 60 |
-| Washington | 56 |
-| IRGC | 50 |
+| Hormuz | 63 |
+| Strait | 59 |
+| Washington | 55 |
+| IRGC | 51 |
 | Vance | 47 |
-| Republican | 43 |
-| Araghchi | 34 |
+| Republican | 42 |
+| Araghchi | 37 |
 
 ## Media comparison by country
 
@@ -86,53 +86,53 @@ Stories are groups of articles with similar headlines. Different outlets reporti
 
 | | Israel | US | Iran |
 |---|---|---|---|
-| Articles about the topic | 151 of 1044 (14.5%) | 24 of 420 (5.7%) | 489 of 511 (95.7%) home press |
-| Home press: articles mentioning US | - | - | 28% |
-| Home press: articles mentioning Israel | - | - | 11% |
-| Mentions Trump | 42% | 42% | 11% |
-| Mentions US | 36% | 21% | 22% |
-| Mentions Israel | 33% | 4% | 8% |
-| Mentions France | 3% | 21% | 0% |
-| Mentions Washington | 15% | 0% | 7% |
+| Articles about the topic | 149 of 1017 (14.7%) | 28 of 416 (6.7%) | 501 of 524 (95.6%) home press |
+| Home press: articles mentioning US | - | - | 27% |
+| Home press: articles mentioning Israel | - | - | 10% |
+| Mentions Trump | 40% | 39% | 11% |
+| Mentions US | 35% | 25% | 22% |
+| Mentions Israel | 34% | 0% | 8% |
+| Mentions France | 3% | 18% | 0% |
+| Mentions Washington | 13% | 0% | 7% |
 | Mentions Vance | 17% | 0% | 2% |
-| Mentions Republican | 15% | 0% | 2% |
-| Mentions Hormuz | 4% | 4% | 9% |
+| Mentions Strait | 3% | 4% | 10% |
+| Mentions Hormuz | 3% | 4% | 10% |
 
 **Latest Israel headlines**
 
-- Jerusalem Post: [Doha secured two-week window to prevent US attack on Iran, Qatari PM tells G7 ministers](https://www.jpost.com/middle-east/article-914504)
-- Israel National News: [Huckabee: Settler violence? 'A mischaracterization'](https://www.israelnationalnews.com/flashes/697162)
-- Jerusalem Post: [Rubio says no need for major combat operations against Iran given US economic campaign](https://www.jpost.com/middle-east/iran-news/article-914493)
-- Jerusalem Post: [US, Iran more likely to reach deal to end war than two months ago, ex-Mossad official tells 'Post'](https://www.jpost.com/middle-east/iran-news/article-914491)
-- Haaretz: [Iran says Strait of Hormuz will stay closed until U.S. meets demands](https://www.haaretz.com/middle-east-news/iran/2026-11-10/ty-article/iran-says-strait-of-hormuz-will-stay-closed-until-u-s-meets-demands/000001a1-c658-df80-a9e3-e6fc56fb0000)
+- Haaretz: [After Trump's midterm thrashing, Israel remains alone in pushing for war with Iran](https://www.haaretz.com/israel-news/israel-security/2026-11-11/ty-article/.premium/after-trumps-midterm-blowout-israel-remains-alone-in-pushing-for-war-with-iran/000001a1-c6eb-df80-a9e3-e6ff569d0000)
+- Jerusalem Post: [US Treasury Secretary Scott Bessent moved to military base after Iranian threats - report](https://www.jpost.com/middle-east/iran-news/article-914534)
+- Israel National News: [Report: Bessent moves to military base after Iranian threats](https://www.israelnationalnews.com/flashes/697180)
+- JNS: [Three men indicted for nearly 20 Iran-backed terror plots across US, Europe, including attack on London synagogue](https://www.jns.org/news/u-s-news/three-men-indicted-for-nearly-20-iran-backed-terror-plots-across-us-europe-including-attack-on-london-synagogue)
+- JNS: [Danon to lead dozens of UN envoys on visit to Poland, Israel amid tensions with Iran](https://www.jns.org/news/israel-news/danon-to-lead-40-un-envoys-on-visit-to-poland-israel-amid-tensions-with-iran)
 
 **Latest US headlines**
 
-- New York Times: [Rubio Says ‘Major Combat Operations’ in Iran War Are No Longer Needed](https://www.nytimes.com/2026/11/10/us/politics/rubio-iran-war.html)
-- CBS News: [Reported Iran threat sees U.S. moves planes from second U.K. base](https://www.cbsnews.com/news/raf-mildenhall-us-tanker-relocation-iran-threat-military-aircraft-moved/)
-- CBS News: [No sign of progress as U.S.-Ukraine-Russia talks get underway](https://www.cbsnews.com/news/us-russia-ukraine-war-talks-peace-abu-dhabi-deal/)
-- NPR: [France accuses Iran of cyber 'sabotage' in fridge attacks](https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks)
-- CBS News: [Trump says Iran war at "status quo," warns U.S. "locked and loaded"](https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/)
+- New York Times: [No Good Choices on Iran](https://www.nytimes.com/2026/11/10/world/iran-trump-war-hegseth-impeach.html)
+- New York Times: [ICE Deportation Flight Carrying Iranians Turns Back and Lands in Arizona](https://www.nytimes.com/2026/11/10/world/asia/ice-deportation-flight-iran-mesa.html)
+- Fox News: [US evacuates 13 military aircraft from second UK base as new Iran threat raises alarm](https://www.foxnews.com/world/us-evacuates-13-military-aircraft-second-uk-base-new-iran-threat-raises-alarm)
+- CBS News: [3 Iran-backed operatives indicted for alleged role in terror plots](https://www.cbsnews.com/news/3-iran-operatives-indicted-terror-plots/)
+- Fox News: [Mojtaba Khamenei aide's chilling '40 years' warning surfaces amid US push for Iran deal](https://www.foxnews.com/world/mojtaba-khamenei-aide-chilling-40-years-warning-surfaces-us-push-iran-deal)
 
 **Latest Iran headlines**
 
-- IRNA: [Gharibabadi and Russian ambassador discuss US unilateral actions in Caspian Sea](https://en.irna.ir/news/86318417/Gharibabadi-and-Russian-ambassador-discuss-US-unilateral-actions)
-- Mehr News: [Rezaei rejects Washington's claim of talks with Iran as lies](https://en.mehrnews.com/news/249312/Rezaei-rejects-Washington-s-claim-of-talks-with-Iran-as-lies)
-- Mehr News: [IRGC Navy reports blast in third tanker in Hormuz Strait](https://en.mehrnews.com/news/249311/IRGC-Navy-reports-third-tanker-catches-fire-in-Hormuz)
-- IRNA: [Araghchi reacts to the French government’s ridiculous claim](https://en.irna.ir/news/86318401/Araghchi-reacts-to-the-French-government-s-ridiculous-claim)
-- Mehr News: [Iran to follow environmental damages in war internationally](https://en.mehrnews.com/news/249310/Iran-to-follow-environmental-damages-in-war-internationally)
+- Mehr News: [Saudis launch heavy airstrikes on border villages in Saada](https://en.mehrnews.com/news/249324/Saudis-launch-heavy-airstrikes-on-border-villages-in-Saada)
+- Mehr News: [US House blocks bid to impeach Hegseth, for now](https://en.mehrnews.com/news/249323/US-House-blocks-bid-to-impeach-Hegseth-for-now)
+- IRNA: [Pezeshkian departs for Turkiye](https://en.irna.ir/news/86318576/Pezeshkian-departs-for-Turkiye)
+- Mehr News: [Iran designates Argentine Navy, Air Force as terrorist org.](https://en.mehrnews.com/news/249322/Iran-designates-Argentine-Navy-Air-Force-as-terrorist-org)
+- Mehr News: [US, Israel war crimes backfired at their polls](https://en.mehrnews.com/news/249321/US-Israel-war-crimes-backfired-at-their-polls)
 
 Caveats: Israeli feeds are general news, US feeds are world sections, so the share of attention is not a like-for-like comparison. Outlets with longer feeds weigh more within their country. Home press (here the Iranian outlets) is state or state-affiliated. It shows the official line, not public opinion, and it covers the topic as domestic news, so its share of attention is not comparable.
 
 ## Latest headlines
 
-- 2026-11-10 | Jerusalem Post | [Doha secured two-week window to prevent US attack on Iran, Qatari PM tells G7 ministers](https://www.jpost.com/middle-east/article-914504)
-- 2026-11-10 | New York Times | [Rubio Says ‘Major Combat Operations’ in Iran War Are No Longer Needed](https://www.nytimes.com/2026/11/10/us/politics/rubio-iran-war.html)
-- 2026-11-10 | IRNA | [Gharibabadi and Russian ambassador discuss US unilateral actions in Caspian Sea](https://en.irna.ir/news/86318417/Gharibabadi-and-Russian-ambassador-discuss-US-unilateral-actions)
-- 2026-11-10 | The Guardian World | [Pete Hegseth defiant in wake of Republican’s impeachment effort as House prepares for key vote – US politics live](https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates)
-- 2026-11-10 | Israel National News | [Huckabee: Settler violence? 'A mischaracterization'](https://www.israelnationalnews.com/flashes/697162)
-- 2026-11-10 | Mehr News | [Rezaei rejects Washington's claim of talks with Iran as lies](https://en.mehrnews.com/news/249312/Rezaei-rejects-Washington-s-claim-of-talks-with-Iran-as-lies)
-- 2026-11-10 | Mehr News | [IRGC Navy reports blast in third tanker in Hormuz Strait](https://en.mehrnews.com/news/249311/IRGC-Navy-reports-third-tanker-catches-fire-in-Hormuz)
-- 2026-11-10 | Jerusalem Post | [Rubio says no need for major combat operations against Iran given US economic campaign](https://www.jpost.com/middle-east/iran-news/article-914493)
-- 2026-11-10 | IRNA | [Araghchi reacts to the French government’s ridiculous claim](https://en.irna.ir/news/86318401/Araghchi-reacts-to-the-French-government-s-ridiculous-claim)
-- 2026-11-10 | Jerusalem Post | [US, Iran more likely to reach deal to end war than two months ago, ex-Mossad official tells 'Post'](https://www.jpost.com/middle-east/iran-news/article-914491)
+- 2026-11-11 | Mehr News | [Saudis launch heavy airstrikes on border villages in Saada](https://en.mehrnews.com/news/249324/Saudis-launch-heavy-airstrikes-on-border-villages-in-Saada)
+- 2026-11-11 | Mehr News | [US House blocks bid to impeach Hegseth, for now](https://en.mehrnews.com/news/249323/US-House-blocks-bid-to-impeach-Hegseth-for-now)
+- 2026-11-11 | IRNA | [Pezeshkian departs for Turkiye](https://en.irna.ir/news/86318576/Pezeshkian-departs-for-Turkiye)
+- 2026-11-11 | New York Times | [No Good Choices on Iran](https://www.nytimes.com/2026/11/10/world/iran-trump-war-hegseth-impeach.html)
+- 2026-11-11 | Mehr News | [Iran designates Argentine Navy, Air Force as terrorist org.](https://en.mehrnews.com/news/249322/Iran-designates-Argentine-Navy-Air-Force-as-terrorist-org)
+- 2026-11-11 | Mehr News | [US, Israel war crimes backfired at their polls](https://en.mehrnews.com/news/249321/US-Israel-war-crimes-backfired-at-their-polls)
+- 2026-11-11 | Mehr News | [Pezeshkian departs for Turkey to attend COP31 conference](https://en.mehrnews.com/news/249320/Pezeshkian-departs-for-Turkey-to-attend-COP31-conference)
+- 2026-11-11 | Mehr News | [UKMTO reports suspicious activity involving tanker in Hormuz](https://en.mehrnews.com/news/249319/UKMTO-reports-suspicious-activity-involving-tanker-in-Hormuz)
+- 2026-11-11 | Mehr News | [Qalibaf calls for concrete Iran-China cooperation](https://en.mehrnews.com/news/249318/Qalibaf-calls-for-concrete-Iran-China-cooperation)
+- 2026-11-11 | Haaretz | [After Trump's midterm thrashing, Israel remains alone in pushing for war with Iran](https://www.haaretz.com/israel-news/israel-security/2026-11-11/ty-article/.premium/after-trumps-midterm-blowout-israel-remains-alone-in-pushing-for-war-with-iran/000001a1-c6eb-df80-a9e3-e6ff569d0000)
