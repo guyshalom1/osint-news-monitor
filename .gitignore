@@ -1,6 +1,15 @@
 __pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+
+# Local runs. The live database and reports are on the `data` branch.
+output/
+_data/
 *.db
 !data/articles.db
-output/
-.pytest_cache/
-.venv/

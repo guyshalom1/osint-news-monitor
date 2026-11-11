@@ -13,8 +13,16 @@ Both rely on word overlap between titles (Jaccard similarity), which is
 simple, fast and easy to explain. It misses paraphrases that share few words.
 """
 
+from __future__ import annotations
+
 import re
+from collections.abc import Mapping, Sequence
 from datetime import date
+from typing import Any, TypeVar
+
+from .models import Story
+
+ArticleT = TypeVar("ArticleT", bound=Mapping[str, Any])
 
 STOPWORDS = {
     "a", "an", "the", "of", "to", "in", "on", "for", "and", "or", "at", "by",
@@ -29,36 +37,38 @@ MIN_WORDS = 3             # shorter titles ("Live updates") match too easily
 WINDOW_DAYS = 2           # only compare articles published close together
 
 
-def title_words(title):
+def title_words(title: str | None) -> frozenset[str]:
     """Content words of a title, without a trailing ' - Outlet' tag."""
     title = re.sub(r"\s[-|–]\s[^-|–]{2,40}$", "", title or "")
     words = re.findall(r"[a-z0-9']+", title.lower())
     return frozenset(w for w in words if len(w) > 1 and w not in STOPWORDS)
 
 
-def similarity(a, b):
+def similarity(a: frozenset[str], b: frozenset[str]) -> float:
     """Jaccard similarity of two word sets: shared words / all words."""
     if not a or not b:
         return 0.0
     return len(a & b) / len(a | b)
 
 
-def _day(article):
+def _day(article: Mapping[str, Any]) -> date:
     return date.fromisoformat(article["published"][:10])
 
 
-def _close_in_time(x, y):
+def _close_in_time(x: Mapping[str, Any], y: Mapping[str, Any]) -> bool:
     return abs((_day(x) - _day(y)).days) <= WINDOW_DAYS
 
 
-def remove_reprints(articles, threshold=REPRINT_THRESHOLD):
+def remove_reprints(articles: Sequence[ArticleT],
+                    threshold: float = REPRINT_THRESHOLD) -> tuple[list[ArticleT], int]:
     """Drop articles whose title is a near-copy of an earlier one.
 
     The earliest published copy is kept. Returns (kept, removed_count); the
     kept list preserves the input order.
     """
     ordered = sorted(articles, key=lambda a: a["published"])
-    kept, words_of = [], {}
+    kept: list[ArticleT] = []
+    words_of: dict[int, frozenset[str]] = {}
     for article in ordered:
         words = title_words(article["title"])
         duplicate = len(words) >= MIN_WORDS and any(
@@ -82,23 +92,36 @@ HEADLINE_LABELS = re.compile(
 )
 
 
-def tidy_title(title):
+# The site's own name or section glued to a headline: "Arab News | Iran sent...",
+# "...if talks show progress | Politics", "...if talks advance - Middle East Monitor".
+# A pipe is always a site separator. A dash is only treated as one when a short
+# capitalized tail follows, so "Iran talks - what we know" keeps its ending.
+SITE_PREFIX = re.compile(r"^(?:[A-Z][\w.&'-]*\s?){1,3}\s\|\s+")
+SITE_SUFFIX = re.compile(
+    r"\s+\|\s+[^|]{2,40}$|\s[-\u2013\u2014]\s(?:[A-Z][\w.&'-]*\s?){1,4}$")
+
+
+def tidy_title(title: str) -> str:
     """Clean a headline for display.
 
     Some sources (GDELT in particular) return headlines with spaces around
-    punctuation, and many sites add a section label in front:
+    punctuation, and many sites add a section label or their own name:
     "U . S . and Israel preparing , sources say" -> "U.S. and Israel preparing, sources say",
-    "Exclusive | Iran talks resume" -> "Iran talks resume".
+    "Exclusive | Iran talks resume" -> "Iran talks resume",
+    "Trump says war unlikely | Politics" -> "Trump says war unlikely".
     """
     title = re.sub(r"\s+", " ", title).strip()
     title = HEADLINE_LABELS.sub("", title)
+    stripped = SITE_SUFFIX.sub("", SITE_PREFIX.sub("", title))
+    if len(stripped.split()) >= MIN_WORDS:   # never strip a headline down to nothing
+        title = stripped
     title = re.sub(r"\s+([,.;:!?%)\]])", r"\1", title)   # "word ," -> "word,"
     title = re.sub(r"([(\[])\s+", r"\1", title)           # "( word" -> "(word"
-    title = re.sub(r"(?<=\b[A-Z]\.)\s+(?=[A-Z]\.)", "", title)  # "U. S." -> "U.S."
-    return title
+    return re.sub(r"(?<=\b[A-Z]\.)\s+(?=[A-Z]\.)", "", title)  # "U. S." -> "U.S."
 
 
-def story_clusters(articles, threshold=STORY_THRESHOLD, min_outlets=2):
+def story_clusters(articles: Sequence[Mapping[str, Any]], threshold: float = STORY_THRESHOLD,
+                   min_outlets: int = 2) -> list[Story]:
     """Group articles about the same event, across different outlets.
 
     Each article joins the first story whose first headline it resembles, or
@@ -106,7 +129,7 @@ def story_clusters(articles, threshold=STORY_THRESHOLD, min_outlets=2):
     member, stops long chains of loosely related titles from merging into one.
     Returns stories covered by at least `min_outlets` outlets, widest first.
     """
-    stories = []
+    stories: list[dict[str, Any]] = []
     for article in sorted(articles, key=lambda a: a["published"]):
         words = title_words(article["title"])
         if len(words) < MIN_WORDS:
@@ -119,7 +142,7 @@ def story_clusters(articles, threshold=STORY_THRESHOLD, min_outlets=2):
         else:
             stories.append({"seed": article, "words": words, "articles": [article]})
 
-    result = []
+    result: list[Story] = []
     for story in stories:
         outlets = sorted({a["source"] for a in story["articles"]})
         if len(outlets) >= min_outlets:

@@ -1,0 +1,674 @@
+{
+ "_about": "50 articles drawn at random (seeded, stratified by country group) from the live database on 2026-11-11. Summaries are cut to about 220 characters. 'entities' lists the people, places, organizations and groups in the text, in the form the cleanup produces (titles removed, aliases applied), with the topic keywords Iran, Iranian and Tehran left out. A list inside the list means any of those forms is correct. 'optional' names are neither required nor counted as errors. 'tone' is the reader's call: does the text report or threaten military or hostile action (escalation), negotiation or mediation (diplomacy), both, or neither. One annotator, so treat the scores as indicative.",
+ "articles": [
+  {
+   "source": "Israel Hayom",
+   "title": "Another strike or economic collapse? Experts divided over next phase of Iran campaign",
+   "summary": "The elections in both Israel and the US are now over. In the US, Democrats control Congress and are expected to push hard to bring the war with Iran to an end.",
+   "entities": [
+    "Israel",
+    "US",
+    "Democrats",
+    "Congress"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Israel National News",
+   "title": "Watch: Bat Yam mayor persoanlly delivers NIS 250 lawsuit to Iran",
+   "summary": "Bat Yam Municipality files lawsuit against Iran over ballistic missile attack that killed 9 civilians and injured hundreds, with the mayor personally delivering the papers to Iranisn officials.",
+   "entities": [
+    "Bat Yam"
+   ],
+   "optional": [
+    "Bat Yam Municipality",
+    "NIS",
+    "Iranisn"
+   ],
+   "tone": "neither"
+  },
+  {
+   "source": "Jerusalem Post",
+   "title": "US offers reward of up to $20 million, possible relocation for information on Iran nuclear program",
+   "summary": "Rewards for Justice, dedicated to gathering information on terrorism and hostile foreign operations, issued a new offer for information, including nuclear facilities, equipment, and personnel.",
+   "entities": [
+    "US",
+    "Rewards for Justice"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Jerusalem Post",
+   "title": "Trump says Saudi Arabia, Qatar want peaceful resolution to Iran war, US ready to strike if needed",
+   "summary": "Trump told Reuters that Qatar and Saudi Arabia favor a peaceful resolution to the Iran conflict, but warned that US military strikes remain an option.",
+   "entities": [
+    "Trump",
+    "Saudi Arabia",
+    "Qatar",
+    "US",
+    "Reuters"
+   ],
+   "optional": [],
+   "tone": "both"
+  },
+  {
+   "source": "Jerusalem Post",
+   "title": "After US midterms, is there a time limit on the Iran war? - analysis",
+   "summary": "There is also a lack of clarity about why the nuclear program, which has been singled out as the reason for the conflict, has not been eviscerated, despite the time provided for the conflict.",
+   "entities": [
+    "US"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Jerusalem Post",
+   "title": "Yemen accuses Iran, Hezbollah of sending 21 military 'experts' to support Houthis",
+   "summary": "Interior Minister Brig-Gen Ibrahim Haidan said in a statement published by the ministry on Tuesday that the group included 14 IRGC members and seven Hezbollah operatives working across Yemen.",
+   "entities": [
+    "Yemen",
+    "Hezbollah",
+    "Houthis",
+    "Ibrahim Haidan",
+    "IRGC"
+   ],
+   "optional": [
+    "Brig-Gen Ibrahim Haidan",
+    "Interior"
+   ],
+   "tone": "escalation"
+  },
+  {
+   "source": "Israel National News",
+   "title": "Trump on Iran: At some point, we're going to give them the hammer",
+   "summary": "Trump says he is holding back further action against Iran to save lives, but warns a decisive blow may be coming and predicts the war will end very soon.",
+   "entities": [
+    "Trump"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Jerusalem Post",
+   "title": "Iran after the midterms: Which decision will President Trump choose to make? - opinion",
+   "summary": "As we approach the next stage in this ongoing saga, it is important to look back briefly and understand what happened at the White House before the United States and Iran signed their hollow MoU.",
+   "entities": [
+    "Trump",
+    "White House",
+    "US"
+   ],
+   "optional": [
+    "MoU"
+   ],
+   "tone": "neither"
+  },
+  {
+   "source": "Ynetnews",
+   "title": "‘Trump lost the war and politics’: Iran mocks US midterm election defeat",
+   "summary": "Iranian officials portray the Democratic sweep as a rejection of war and threaten Washington with further defeats, while Arab outlets highlight Abdul El-Sayed's Senate victory and Lebanese American Abbas Alawieh's win",
+   "entities": [
+    "Trump",
+    "US",
+    "Democratic",
+    "Washington",
+    "Arab",
+    "Abdul El-Sayed",
+    "Senate",
+    "Lebanon",
+    "Abbas Alawieh"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "JNS",
+   "title": "Canada reimposes sanctions on 11 Iranian entities",
+   "summary": "",
+   "entities": [
+    "Canada"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Haaretz",
+   "title": "Iranian hacker group distributes threatening leaflets in Tel Aviv",
+   "summary": "The leaflets, placed in mailboxes at several locations, direct readers to a website warning that Israeli civilian infrastructure could be targeted in retaliation for attacks on energy infrastructure belonging to the",
+   "entities": [
+    "Tel Aviv",
+    "Israel"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Israel National News",
+   "title": "Opening the Electronic Gates: The strategic case for an EMP strike against Iran",
+   "summary": "Could an EMP fundamentally alter not only the opening phase of an Israeli Air Force (IAF) campaign, but also Iran’s ability to sustain a prolonged conflict? Opinion.",
+   "entities": [
+    [
+     "Israeli Air Force",
+     "IAF"
+    ]
+   ],
+   "optional": [
+    "Israel",
+    "Air Force",
+    "EMP"
+   ],
+   "tone": "escalation"
+  },
+  {
+   "source": "Jerusalem Post",
+   "title": "Rubio says no need for major combat operations against Iran given US economic campaign",
+   "summary": "Speaking to reporters in Paris after two days of meetings with G7 allies, Rubio repeatedly pushed back on the assertion that not returning to military action would amount to a stalemate or status quo",
+   "entities": [
+    "Rubio",
+    "US",
+    "Paris",
+    "G7"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Israel National News",
+   "title": "Report: Bessent moves to military base after Iranian threats",
+   "summary": "<i>The New York Times</i> reports that Treasury Secretary Scott Bessent has been relocated to a military base amid Iranian threats, as US intelligence warns of advanced plots against officials.",
+   "entities": [
+    [
+     "Bessent",
+     "Scott Bessent"
+    ],
+    "US"
+   ],
+   "optional": [
+    "Treasury"
+   ],
+   "tone": "escalation"
+  },
+  {
+   "source": "Israel National News",
+   "title": "Iranian official, Putin discuss gas pipeline from Iran to Russia",
+   "summary": "<p>Iranian Secretary of the Supreme National Security Council Mohsen Rezai met on Thursday with Russian President Vladimir Putin.",
+   "entities": [
+    [
+     "Putin",
+     "Vladimir Putin"
+    ],
+    "Russia",
+    [
+     "National Security Council",
+     "Supreme National Security Council"
+    ],
+    "Mohsen Rezai"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "CBS News",
+   "title": "Iran says U.S. election results show Americans reject the war",
+   "summary": "As the war Trump launched with Israel against Iran drags into month nine, he acknowledges its role in the GOP's election defeat, but says he'd have done it anyway.",
+   "entities": [
+    "US",
+    "Trump",
+    "Israel",
+    "GOP"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "New York Times",
+   "title": "France Blames Iran for Cyberattack on Refrigeration Systems",
+   "summary": "The French foreign minister said he had summoned the Iranian ambassador to France after a cyberattack on hundreds of supermarkets last month. Iran did not immediately respond.",
+   "entities": [
+    "France"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "CBS News",
+   "title": "3 Iran-backed operatives indicted for alleged role in terror plots",
+   "summary": "Three Iran-linked operatives are accused of plotting a terrorist attack at an air base in the U.K. and attempting over a dozen attacks in the U.S. and Europe.",
+   "entities": [
+    "UK",
+    "US",
+    "Europe"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "ABC News",
+   "title": "France blames Iran for the last month's cyberattack on supermarket fridges",
+   "summary": "France has blamed Iran for a cyberattack on supermarket fridges last month",
+   "entities": [
+    "France"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Fox News",
+   "title": "Top Gulf official offers glimmer of hope on Trump-Iran nuclear talks as threat of war hangs over region",
+   "summary": "A senior United Arab Emirates official says he is cautiously optimistic about U.S.-Iran nuclear talks through Qatari mediation but won't rule out war.",
+   "entities": [
+    "Gulf",
+    "Trump",
+    "United Arab Emirates",
+    "US",
+    "Qatar"
+   ],
+   "optional": [],
+   "tone": "both"
+  },
+  {
+   "source": "New York Times",
+   "title": "ICE Deportation Flight Carrying Iranians Turns Back and Lands in Arizona",
+   "summary": "The Iranian immigrants in the plane were scheduled to be flown to Pakistan and then transferred to Iran, lawyers for the group said.",
+   "entities": [
+    "ICE",
+    "Arizona",
+    "Pakistan"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "CBS News",
+   "title": "U.S. launches strikes on Iranian targets in Strait of Hormuz",
+   "summary": "The U.S. launched limited strikes on Iran's Qeshm Island in the Strait of Hormuz after Iran fired at a U.S. aircraft, a senior U.S. official told CBS News.",
+   "entities": [
+    "US",
+    "Hormuz",
+    [
+     "Qeshm Island",
+     "Qeshm"
+    ]
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Fox News",
+   "title": "Trump meets key Iran war mediator as UAE reveals major oil export surge despite conflict",
+   "summary": "Trump met Qatar's prime minister at the White House as Marco Rubio warns Iran negotiations are far from a breakthrough amid Strait of Hormuz chaos.",
+   "entities": [
+    "Trump",
+    "UAE",
+    "Qatar",
+    "White House",
+    "Marco Rubio",
+    "Hormuz"
+   ],
+   "optional": [],
+   "tone": "diplomacy"
+  },
+  {
+   "source": "New York Times",
+   "title": "Israeli Claims of Iranian Chemical Weapons Divide U.S. Officials",
+   "summary": "Some administration officials suggested Prime Minister Benjamin Netanyahu is trying to draw President Trump back into military action.",
+   "entities": [
+    "Israel",
+    "US",
+    "Benjamin Netanyahu",
+    "Trump"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "CBS News",
+   "title": "Reported Iran threat sees U.S. moves planes from second U.K. base",
+   "summary": "The reported movement comes just over a month after a security incident at a separate air base hosting U.S. aircraft used in the war with Iran.",
+   "entities": [
+    "US",
+    "UK"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Mehr News",
+   "title": "IRGC Navy reports blast in third tanker in Hormuz Strait",
+   "summary": "TEHRAN, Nov. 10 (MNA) – The Islamic Revolution Guards Corps (IRGC) Navy said Tuesday night that a third oil tanker attempting to cross an unauthorized route through the Strait of Hormuz detonated after hitting a naval",
+   "entities": [
+    [
+     "IRGC",
+     "IRGC Navy",
+     "Islamic Revolution Guards Corps"
+    ],
+    "Hormuz"
+   ],
+   "optional": [
+    "Navy"
+   ],
+   "tone": "escalation"
+  },
+  {
+   "source": "Mehr News",
+   "title": "Qatari delegation in Tehran for mediation talks",
+   "summary": "TEHRAN, Nov. 03 (MNA) – A Qatari delegation traveled to Tehran on Monday night to continue mediation efforts between Iran and the US, the third Qatari visit in a week, as Doha pushes for a deal to end the war.",
+   "entities": [
+    "Qatar",
+    "US",
+    "Doha"
+   ],
+   "optional": [],
+   "tone": "diplomacy"
+  },
+  {
+   "source": "IRNA",
+   "title": "Hormozgan exports $222 million in seafood despite US-Israeli attacks",
+   "summary": "Bandar Abbas, IRNA – The director-general of fisheries in Iran’s southern Hormozgan province said that, despite the critical conditions caused by the recent war, the province ranked first in the country in seafood",
+   "entities": [
+    "Hormozgan",
+    "US",
+    "Israel"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "IRNA",
+   "title": "Qalibaf warns: Iran’s new missile city a clear message to enemies",
+   "summary": "Tehran, IRNA – Iranian parliament speaker described the IRGC Aerospace Force’s newly unveiled missile city as a clear message to enemies, warning that “from now on, it is Iran’s armed forces who will dictate the",
+   "entities": [
+    "Qalibaf",
+    [
+     "IRGC",
+     "IRGC Aerospace Force"
+    ]
+   ],
+   "optional": [
+    "Aerospace Force"
+   ],
+   "tone": "escalation"
+  },
+  {
+   "source": "Mehr News",
+   "title": "Saudis launch heavy airstrikes on border villages in Saada",
+   "summary": "TEHRAN, Nov. 11 (MNA) – The border villages in Saada province, Yemen, came under heavy airstrikes of artillery of the Saudi Arabia on Wednesday.",
+   "entities": [
+    [
+     "Saudi Arabia",
+     "Saudis"
+    ],
+    "Saada",
+    "Yemen"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Tehran Times",
+   "title": "Saudi Arabia in Ansarallah’s sights as Trump sees air campaign futility",
+   "summary": "TEHRAN - Yemen’s Ansarallah forces are on the march, and America’s ally Saudi Arabia is in their crosshairs.",
+   "entities": [
+    "Saudi Arabia",
+    "Ansarallah",
+    "Trump",
+    "Yemen",
+    "US"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Tehran Times",
+   "title": "Semnan’s oral heritage: a living reflection of history and cultural identity",
+   "summary": "TEHRAN - Semnan province, with its ancient history and remarkable cultural heritage, is home to a rich collection of Iran’s oral traditions, customs, traditional arts and local narratives.",
+   "entities": [
+    "Semnan"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Mehr News",
+   "title": "N. Korea tests strategic cruise missile with cluster warhead",
+   "summary": "TEHRAN, Nov. 03 (MNA) – North Korea has tested a cluster warhead for a strategic cruise missile which, according to its developers, is capable of striking targets across an area of up to 6 hectares.",
+   "entities": [
+    [
+     "North Korea",
+     "N. Korea",
+     "Korea"
+    ]
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Tehran Times",
+   "title": "US-Israel military aid: End of dependence, or a new chapter?",
+   "summary": "TEHRAN – On November 3, President Trump said the U.S. would end what he described as approximately $4 billion in annual aid to Israel by the end of the year.",
+   "entities": [
+    "US",
+    "Israel",
+    "Trump"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Tehran Times",
+   "title": "Iran chamber, Uruguayan envoy discuss joint committee, market opportunities, private-sector co-op",
+   "summary": "TEHRAN- The head of the Iran Chamber of Commerce, Industries, Mines and Agriculture (ICCIMA) announced the follow-up on the formation of a joint Iran-Uruguay committee and the proposal to hold a webinar aimed at",
+   "entities": [
+    [
+     "Uruguayan",
+     "Uruguay"
+    ],
+    "ICCIMA"
+   ],
+   "optional": [
+    "Chamber of Commerce",
+    "Chamber of Commerce, Industries, Mines and Agriculture",
+    "Chamber"
+   ],
+   "tone": "neither"
+  },
+  {
+   "source": "Tehran Times",
+   "title": "Restored version of ‘Bashu, the Little Stranger’ to screen in Canada",
+   "summary": "TEHRAN – A restored 4K version of “Bashu, the Little Stranger,” the acclaimed film by late Iranian filmmaker Bahram Beyzaie, will be screened at Carbon Arc Cinema, an independent art-house theater in Halifax, Canada, on",
+   "entities": [
+    "Canada",
+    "Bahram Beyzaie",
+    "Carbon Arc Cinema",
+    "Halifax"
+   ],
+   "optional": [
+    "Bashu",
+    "Little Stranger",
+    "Bashu, the Little Stranger"
+   ],
+   "tone": "neither"
+  },
+  {
+   "source": "IRNA",
+   "title": "Vice president calls for documenting impact of US-Israeli attacks on Iranian children",
+   "summary": "Tehran, IRNA — The vice president for women and family affairs has called for documenting the human and educational consequences of US-Israeli attacks on Iranian children, stressing the need to pursue justice for",
+   "entities": [
+    "US",
+    "Israel"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Mehr News",
+   "title": "Defeated in war on Iran, US votes, Trump seeks an exit way",
+   "summary": "TEHRAN, Nov. 06 (MNA) – The US President Donald Trump now faces crisis in Washington after widespread defeat in the mid-term elections, which came in turn as a result of waging an illegal war on Iran.",
+   "entities": [
+    "US",
+    [
+     "Trump",
+     "Donald Trump"
+    ],
+    "Washington"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "The Guardian World",
+   "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+   "summary": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance,",
+   "entities": [
+    "US",
+    [
+     "Qeshm Island",
+     "Qeshm"
+    ],
+    [
+     "Vance",
+     "JD Vance"
+    ]
+   ],
+   "optional": [],
+   "tone": "both"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "France accuses Iran of cyberattack on supermarket fridges",
+   "summary": "Paris says a cyber unit linked to Iran's Revolutionary Guard was behind hack, which hit more than 1,000 stores.",
+   "entities": [
+    "France",
+    "Paris",
+    "IRGC"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+   "summary": "US secretary of state says Iran's negotiation demands are 'outrageous and ridiculous, and really not realistic'.",
+   "entities": [
+    "Rubio",
+    "US"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "US launches task force to disrupt Iran’s land-based supply routes",
+   "summary": "The operation is to prevent Iran from using ground routes to transport weapons and other materials, US says.",
+   "entities": [
+    "US"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "BBC Middle East",
+   "title": "Iran killed her teenage daughter - now she is facing up to the regime",
+   "summary": "Samira's 16-year-old daughter Sevda was shot dead as they took part in mass protests in January.",
+   "entities": [
+    "Samira",
+    "Sevda"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "The Guardian World",
+   "title": "US midterm elections 2026 live: Democrats eye historic upset in Mississippi Senate race as Republican blame game begins",
+   "summary": "Democrat Scott Colom is leading Republican incumbent Cindy Hyde-Smith in the southern state; JD Vance pointed to the war in Iran as the ‘obvious’ culprit for Republicans’ loss Live results | How do you feel about the",
+   "entities": [
+    "US",
+    [
+     "Democrats",
+     "Democrat"
+    ],
+    "Mississippi",
+    "Senate",
+    [
+     "Republican",
+     "Republicans"
+    ],
+    "Scott Colom",
+    "Cindy Hyde-Smith",
+    "JD Vance"
+   ],
+   "optional": [
+    "Mississippi Senate"
+   ],
+   "tone": "neither"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+   "summary": "Iranian forces say five oil tankers and a tugboat have caught fire in several incidents in the Strait of Hormuz.",
+   "entities": [
+    "Hormuz",
+    "US"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "How US oil firms profit $130bn from Iran war as household bills surge",
+   "summary": "As energy from the Gulf and Russia take a hit, American oil and gas firms are the big gainers.",
+   "entities": [
+    "US",
+    "Gulf",
+    "Russia"
+   ],
+   "optional": [],
+   "tone": "neither"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "Iran war live: Vance sees ‘progress’, Tehran says ‘ball is in US court’",
+   "summary": "Tehran says the US must lift its naval blockade and meet its demands in full before any agreement is reached.",
+   "entities": [
+    "Vance",
+    "US"
+   ],
+   "optional": [],
+   "tone": "diplomacy"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "‘Positive momentum’: Is the US war on Iran about to end?",
+   "summary": "Domestic pressures are injecting new life into stalled diplomatic talks, but analysts say peace still hangs by a thread.",
+   "entities": [
+    "US"
+   ],
+   "optional": [],
+   "tone": "diplomacy"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "How would Tehran respond if the US and Israel bomb Iran again?",
+   "summary": "Iran has retained significant offensive capability, but civilians and critical infrastructure remain largely exposed.",
+   "entities": [
+    "US",
+    "Israel"
+   ],
+   "optional": [],
+   "tone": "escalation"
+  },
+  {
+   "source": "Al Jazeera",
+   "title": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
+   "summary": "Iran says its offer to reopen the Strait of Hormuz can be implemented in two days if the US agrees to terms.",
+   "entities": [
+    "Trump",
+    "Hormuz",
+    "US"
+   ],
+   "optional": [],
+   "tone": "diplomacy"
+  }
+ ]
+}

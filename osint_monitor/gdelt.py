@@ -9,15 +9,28 @@ skipped by link). Each fully covered day is recorded per keyword set in the
 `backfills` table, so the analyzer can treat those days as complete.
 """
 
+from __future__ import annotations
+
 import hashlib
 import json
+import logging
+import sqlite3
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from collections.abc import Callable, Mapping, Sequence
+from datetime import date, datetime, timedelta, timezone
+from typing import Any
 
 from .collector import clean_text, save
+from .http import USER_AGENT, Opener
+from .models import Article
+
+log = logging.getLogger(__name__)
+
+# Outcome of one day: new articles saved, or why the day was not fetched.
+DayOutcome = int | dict[str, str]
 
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 MAX_RECORDS = 250      # the API's maximum per request
@@ -27,18 +40,18 @@ MAX_CONSECUTIVE_ERRORS = 2
 TIME_BUDGET_SECONDS = 240   # stop early; the next scheduled run continues where this one left off
 
 
-def query_key(keywords):
+def query_key(keywords: Sequence[str]) -> str:
     """Stable identifier for a keyword set, used to record covered days."""
     return " ".join(sorted(k.lower() for k in keywords))
 
 
-def build_query(keywords):
+def build_query(keywords: Sequence[str]) -> str:
     """GDELT query: any keyword, English only. Phrases are quoted."""
     terms = [f'"{k}"' if " " in k else k for k in keywords]
     return f"({' OR '.join(terms)}) sourcelang:english"
 
 
-def day_params(day, keywords):
+def day_params(day: date, keywords: Sequence[str]) -> dict[str, str | int]:
     """Request parameters for one UTC day (a date)."""
     start = datetime(day.year, day.month, day.day, tzinfo=timezone.utc)
     end = start + timedelta(days=1) - timedelta(seconds=1)
@@ -53,13 +66,13 @@ def day_params(day, keywords):
     }
 
 
-def parse_seendate(text):
+def parse_seendate(text: str) -> str:
     """GDELT dates look like 20261012T153000Z. Returns an ISO string in UTC."""
     return datetime.strptime(text, "%Y%m%dT%H%M%SZ").replace(
         tzinfo=timezone.utc).isoformat()
 
 
-def normalize(item, now):
+def normalize(item: Mapping[str, Any], now: datetime) -> Article | None:
     """Turn one GDELT article into the same dict the RSS collector produces."""
     url = item.get("url", "")
     title = clean_text(item.get("title", ""))
@@ -77,20 +90,22 @@ def normalize(item, now):
         "link": url,
         "published": published,
         "collected": now.isoformat(),
+        "origin": "gdelt",
     }
 
 
-def fetch_day(params, opener=urllib.request.urlopen, retries=3,
-              pause=PAUSE_SECONDS):
+def fetch_day(params: Mapping[str, str | int], opener: Opener = urllib.request.urlopen,
+              retries: int = 3, pause: float = PAUSE_SECONDS) -> list[dict[str, Any]]:
     """Download one day of results. Returns a list of raw GDELT items."""
     url = f"{API}?{urllib.parse.urlencode(params)}"
-    request = urllib.request.Request(url, headers={"User-Agent": "osint-news-monitor"})
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     for attempt in range(retries + 1):
         try:
             with opener(request, timeout=30) as response:
                 body = response.read().decode("utf-8", errors="replace")
             if body.lstrip().startswith("{"):
-                return json.loads(body).get("articles", [])
+                articles: list[dict[str, Any]] = json.loads(body).get("articles", [])
+                return articles
             if not body.strip():
                 return []  # an empty reply means no matches
             # Anything else is plain text: a rate-limit notice or a query error.
@@ -100,15 +115,19 @@ def fetch_day(params, opener=urllib.request.urlopen, retries=3,
             raise ValueError(f"unexpected reply: {body.strip()[:150]}")
         except ValueError:
             raise
-        except (urllib.error.URLError, RuntimeError):
+        except (urllib.error.URLError, RuntimeError) as err:
             if attempt == retries:
                 raise
-            time.sleep(pause * 3 * (attempt + 1))
+            delay = pause * 3 * (attempt + 1)   # linear backoff: 30s, 60s, 90s
+            log.info("GDELT request failed (%s); retrying in %.0fs", err, delay)
+            time.sleep(delay)
     return []
 
 
-def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
-             pause=PAUSE_SECONDS, budget=TIME_BUDGET_SECONDS, clock=time.monotonic):
+def backfill(conn: sqlite3.Connection, keywords: Sequence[str], days: int = 7,
+             now: datetime | None = None, opener: Opener = urllib.request.urlopen,
+             pause: float = PAUSE_SECONDS, budget: float = TIME_BUDGET_SECONDS,
+             clock: Callable[[], float] = time.monotonic) -> dict[str, DayOutcome]:
     """Fill the last `days` days (including today) for a keyword set.
 
     Past days already recorded for these keywords are skipped; today is always
@@ -120,7 +139,7 @@ def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
     today = now.date()
     done = {row[0] for row in conn.execute(
         "SELECT day FROM backfills WHERE query = ?", (key,))}
-    results = {}
+    results: dict[str, DayOutcome] = {}
     deadline = clock() + budget
     errors_in_a_row = 0
     first_request = True
@@ -141,11 +160,13 @@ def backfill(conn, keywords, days=7, now=None, opener=urllib.request.urlopen,
             items = fetch_day(day_params(day, keywords), opener, pause=pause)
         except Exception as err:  # one bad day should not stop the others
             results[day.isoformat()] = {"error": str(err)[:200]}
+            log.warning("GDELT %s failed: %s", day, err)
             errors_in_a_row += 1
             continue
         errors_in_a_row = 0
         articles = [a for a in (normalize(i, now) for i in items) if a]
         results[day.isoformat()] = save(conn, articles)
+        log.info("GDELT %s: %d returned, %d new", day, len(items), results[day.isoformat()])
         # A day is complete once it is over, was not truncated by the API, and
         # returned something (an empty day for a real topic means a bad reply).
         if day < today and 0 < len(items) < MAX_RECORDS:

@@ -61,13 +61,13 @@ def test_confidence_levels():
 # --- volume ------------------------------------------------------------------
 
 def test_volume_rising():
-    j = volume_judgment(make(30, 3), make(20, 30), incomplete=False)
+    j = volume_judgment(make(60, 3), make(40, 30), incomplete=False)
     assert j["claim"] == "Coverage is rising."
     assert "+50%" in j["basis"]
 
 
 def test_volume_falling():
-    j = volume_judgment(make(10, 3), make(20, 30), incomplete=False)
+    j = volume_judgment(make(20, 3), make(40, 30), incomplete=False)
     assert j["claim"] == "Coverage is falling."
 
 
@@ -194,8 +194,8 @@ def comparison(iran_matching=20):
         return {"home": home, "total": 100, "matching": matching, "share": share,
                 "sources": ["S1", "S2", "S3"], "names": names, "headlines": []}
     return {"keywords": ["Iran"], "top_names": ["Houthi", "Trump"], "countries": {
-        "Israel": country(13.0, 40, {"Houthi": 0, "Trump": 30}),
-        "US": country(7.0, 30, {"Houthi": 28, "Trump": 14}),
+        "Israel": country(13.0, 80, {"Houthi": 0, "Trump": 30}),
+        "US": country(7.0, 60, {"Houthi": 28, "Trump": 14}),
         "Iran": country(60.0, iran_matching, {"Houthi": 5, "Trump": 40}, home=True),
     }}
 
@@ -291,7 +291,7 @@ def test_report_still_works_when_iran_feeds_return_nothing(tmp_path):
 # --- the same person under different names ---------------------------------
 
 def test_titles_and_full_names_count_as_one_person():
-    from osint_monitor.analyzer import top_entities
+    from osint_monitor.entities import top_entities
     arts = [
         {"title": "Prime Minister Benjamin Netanyahu said talks failed", "summary": ""},
         {"title": "Netanyahu warns Tehran", "summary": ""},
@@ -304,7 +304,7 @@ def test_titles_and_full_names_count_as_one_person():
 
 
 def test_two_word_places_are_not_merged_without_cause():
-    from osint_monitor.analyzer import top_entities
+    from osint_monitor.entities import top_entities
     arts = [{"title": "Saudi Arabia hosts talks", "summary": ""}]
     assert "Saudi Arabia" in dict(top_entities(arts, ["talks"]))
 

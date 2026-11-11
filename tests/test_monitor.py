@@ -4,16 +4,10 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from osint_monitor.analyzer import (
-    analyze,
-    clean_name,
-    condense_sources,
-    find_spikes,
-    strip_dateline,
-    top_entities,
-)
+from osint_monitor.analyzer import analyze, condense_sources, find_spikes
 from osint_monitor.collector import clean_text, collect, connect, save
 from osint_monitor.dedupe import remove_reprints, story_clusters, tidy_title, title_words
+from osint_monitor.entities import clean_name, strip_dateline, top_entities
 from osint_monitor.gdelt import backfill, build_query, normalize, query_key
 from osint_monitor.report import make_report
 from osint_monitor.sources import COUNTRY, outlet_name
@@ -271,8 +265,6 @@ def test_backfill_respects_time_budget():
 
 
 def test_month_abbreviations_and_generic_words_are_not_names():
-    from osint_monitor.analyzer import clean_name
-
     for word in ("Oct", "Ministry", "News", "According"):
         assert clean_name(word, set()) == ""
     assert clean_name("Tel Aviv", set()) == "Tel Aviv"

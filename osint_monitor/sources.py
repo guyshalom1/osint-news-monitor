@@ -11,7 +11,7 @@ All feeds are in English, so the same keywords work for every country.
 # Removed after testing from GitHub's servers: Times of Israel and i24NEWS
 # (return a web page, not a feed) and Wall Street Journal (no longer updated).
 # Ynetnews: the old feed (3089) died; 3082 works but updates slowly.
-FEEDS = {
+FEEDS: dict[str, tuple[str, str]] = {
     # Israel
     "Haaretz": ("Israel", "https://www.haaretz.com/srv/haaretz-latest-headlines"),
     "Jerusalem Post": ("Israel", "https://rss.jpost.com/rss/rssfeedsfrontpage.aspx"),
@@ -59,7 +59,7 @@ DOMAIN_TO_OUTLET = {
 }
 
 
-def outlet_name(source):
+def outlet_name(source: str) -> str:
     """The outlet's feed name for a GDELT domain such as "jpost.com", else unchanged."""
     domain = source.lower()
     if domain.startswith("www."):
