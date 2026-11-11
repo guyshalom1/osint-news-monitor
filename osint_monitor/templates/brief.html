@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media brief: {{ topic }} ({{ as_of }})</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f3f2ee; color: #1f1f1e;
+         font: 15px/1.5 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 36px 44px 48px; background: #fff; }
+  header { border-bottom: 3px solid #1f1f1e; padding-bottom: 14px; margin-bottom: 22px; }
+  .kicker { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #6b6a64; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 4px 0 8px; }
+  .meta { color: #6b6a64; font-size: 13px; }
+  h2 { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #6b6a64;
+       border-bottom: 1px solid #e6e5e0; padding-bottom: 5px; margin: 30px 0 12px; }
+  .bluf { background: #f6f8fc; border-left: 4px solid #2a78d6; padding: 14px 18px; }
+  .bluf p { margin: 0 0 6px; font-size: 16px; }
+  .bluf p:last-child { margin-bottom: 0; }
+  .bluf p:first-child { font-weight: 600; }
+  ol.judgments { list-style: none; counter-reset: j; margin: 0; padding: 0; }
+  ol.judgments li { counter-increment: j; position: relative; padding: 0 0 14px 34px;
+                    break-inside: avoid; }
+  ol.judgments li::before { content: counter(j); position: absolute; left: 0; top: 1px;
+       width: 22px; height: 22px; border-radius: 50%; background: #1f1f1e; color: #fff;
+       font-size: 12px; font-weight: 600; text-align: center; line-height: 22px; }
+  .claim { font-weight: 600; font-size: 16px; }
+  .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .04em;
+          text-transform: uppercase; padding: 1px 8px; border-radius: 10px;
+          margin-left: 6px; vertical-align: 2px; white-space: nowrap; }
+  .chip.High { background: #dff3e6; color: #17603a; }
+  .chip.Medium { background: #fdf0d0; color: #7a5200; }
+  .chip.Low { background: #f6dedb; color: #8c2a20; }
+  .basis { margin: 3px 0 0; color: #3a3a38; }
+  .caveat { margin: 3px 0 0; color: #6b6a64; font-size: 14px; }
+  .caveat::before { content: "Caveat: "; font-weight: 600; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  img { width: 100%; height: auto; margin: 6px 0 2px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid #e6e5e0;
+           vertical-align: top; }
+  th { font-size: 12px; color: #6b6a64; font-weight: 600; }
+  td.num, th.num { text-align: right; padding-right: 0; white-space: nowrap; }
+  a { color: #1d5fb0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .note { color: #6b6a64; font-size: 13px; margin: 8px 0 0; }
+  .names { columns: 2; }
+  footer { margin-top: 34px; padding-top: 12px; border-top: 1px solid #e6e5e0;
+           color: #6b6a64; font-size: 12px; }
+  @media print { body { background: #fff; font-size: 12.5px; } main { padding: 0; max-width: none; }
+                 h2 { break-after: avoid; } tr, img { break-inside: avoid; } }
+  @media screen and (max-width: 600px) { main { padding: 22px 18px; } .names { columns: 1; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="kicker">Open-source media brief</div>
+  <h1>{{ topic }}</h1>
+  <div class="meta">As of {{ as_of }}. Last {{ hours }} hours against the {{ hours }} hours before,
+  in a {{ days }}-day window: {{ total }} articles from {{ outlets }} outlets.
+  Describes media coverage, not events on the ground.</div>
+</header>
+
+<h2>Bottom line</h2>
+<div class="bluf">
+  {% for line in bluf %}
+  <p>{{ line }}</p>
+  {% endfor %}
+</div>
+
+<h2>Key judgments</h2>
+<ol class="judgments">
+  {% for j in judgments %}
+  <li>
+    <span class="claim">{{ j.claim }}</span><span class="chip {{ j.confidence }}">{{ j.confidence }} confidence</span>
+    <p class="basis">{{ j.basis }}</p>
+    {% for caveat in j.caveats or [] %}
+    <p class="caveat">{{ caveat }}</p>
+    {% endfor %}
+  </li>
+  {% endfor %}
+</ol>
+<p class="note">{% if scope %}Trend judgments are measured on {{ scope }}. {% endif %}{{ confidence_note }}</p>
+
+<h2>What changed in the last {{ hours }} hours</h2>
+<ul>
+  {% for s in new_stories %}
+  <li>New story, {{ s.outlets|length }} outlets ({{ s.outlets|join(", ") }}): {{ s.headline }}</li>
+  {% else %}
+  <li>No new story reached two or more outlets.</li>
+  {% endfor %}
+  {% if rising %}
+  <li>Mentioned more: {% for n, before, after in rising %}{{ n }} ({{ before }}% to {{ after }}%){{ ", " if not loop.last else "." }}{% endfor %}</li>
+  {% endif %}
+  {% if falling %}
+  <li>Mentioned less: {% for n, before, after in falling %}{{ n }} ({{ before }}% to {{ after }}%){{ ", " if not loop.last else "." }}{% endfor %}</li>
+  {% endif %}
+  {% if not rising and not falling %}
+  <li>No name moved by 5 percentage points or more beyond sampling noise.</li>
+  {% endif %}
+</ul>
+
+<h2>Coverage</h2>
+{% if coverage_chart %}
+<img src="{{ coverage_chart }}" alt="Articles per day and per source">
+{% endif %}
+{% if stories %}
+<table>
+  <tr><th>Stories carried by the most outlets</th><th>Outlets</th><th class="num">First seen</th></tr>
+  {% for s in stories %}
+  <tr><td>{{ s.headline }}</td><td>{{ s.outlets|length }}</td><td class="num">{{ s.first }}</td></tr>
+  {% endfor %}
+</table>
+<p class="note">A story is a group of similar headlines from different outlets. Reprints of one text are removed first.</p>
+{% endif %}
+
+{% if comparison %}
+<h2>Framing by country</h2>
+{% if comparison_chart %}
+<img src="{{ comparison_chart }}" alt="Attention and names mentioned, by country">
+{% endif %}
+<table>
+  <tr><th></th>{% for c in comparison.countries %}<th>{{ c }}</th>{% endfor %}</tr>
+  {% for label, cells in comparison.rows %}
+  <tr><td>{{ label }}</td>{% for cell in cells %}<td>{{ cell }}</td>{% endfor %}</tr>
+  {% endfor %}
+</table>
+<p class="note">Shares of each country's own articles from the fixed feeds, not raw counts. Feeds differ in size and scope, so shares are indicative.</p>
+{% endif %}
+
+<h2>Names alongside the topic</h2>
+<ul class="names">
+  {% for name, n in entities %}
+  <li>{{ name }} <span class="meta">({{ n }} articles)</span></li>
+  {% endfor %}
+</ul>
+<p class="note">Extracted with {{ "spaCy named-entity recognition" if ner_backend == "spacy" else "a capitalized-phrase heuristic" }}.</p>
+
+<h2>Latest headlines</h2>
+<ul>
+  {% for a in headlines %}
+  <li>{{ a.published[:10] }}, {{ a.source }}:
+    {% if a.link|safe_url %}<a href="{{ a.link|safe_url }}" rel="noopener noreferrer">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Source caveats</h2>
+<ul>
+  {% for c in caveats %}
+  <li>{{ c }}</li>
+  {% endfor %}
+</ul>
+
+<footer>
+  Generated by osint-news-monitor {{ version }} from public RSS feeds and the GDELT index.
+  Rule-based: the same data always gives the same text, and every sentence traces to a count.
+</footer>
+</main>
+</body>
+</html>

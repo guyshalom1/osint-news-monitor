@@ -1,8 +1,12 @@
 """Turn analysis results into a Markdown report and a coverage chart."""
 
+from __future__ import annotations
+
 import textwrap
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
+from urllib.parse import quote
 
 import matplotlib
 
@@ -13,10 +17,13 @@ from matplotlib.ticker import MaxNLocator
 from .analyzer import condense_sources
 from .assessment import assessment_lines
 from .dedupe import tidy_title
+from .models import AnalysisResult, Assessment, Comparison
 
 # Colors. One color for all data: the chart never needs to tell sources
 # apart by color, because each source gets its own labeled row instead.
 BAR, PARTIAL, OTHER = "#2a78d6", "#cde2fb", "#b9b8b0"
+# Per-day bars stack three kinds of article. Only the first is the trend series.
+HOME, GDELT = "#8a8980", "#d9d8d1"
 # Country comparison: three colors that stay apart for most color-blind viewers,
 # always paired with a legend and value labels, never color alone.
 COUNTRY_COLORS = {"Israel": "#2a78d6", "US": "#eb6834", "Iran": "#009e73"}
@@ -27,16 +34,45 @@ INK, MUTED, GRID, SURFACE = "#1f1f1e", "#6b6a64", "#e6e5e0", "#fcfcfb"
 TOP_SOURCES_TABLE = 15
 TOP_SOURCES_CHART = 10
 
-def plural(n):
+
+
+def plural(n: int) -> str:
     return f"{n} article" if n == 1 else f"{n} articles"
 
 
-def short_date(day):
+def md_cell(text: str) -> str:
+    """Text made safe for a Markdown table cell or link label.
+
+    Headlines are untrusted input. A "|" in one would end the cell early and
+    shift every column after it, and "[" or "]" would break a link label.
+    """
+    text = " ".join(str(text).split())   # a newline would end the table row
+    for char in ("\\", "|", "[", "]"):
+        text = text.replace(char, "\\" + char)
+    return text
+
+
+def md_link(text: str, url: str) -> str:
+    """A Markdown link, or plain text when the URL is not a web address."""
+    label = md_cell(text)
+    if not url.startswith(("http://", "https://")):
+        return label
+    return f"[{label}]({quote(url, safe=':/?&=#%+@,;~!$*')})"
+
+
+def trend_series(result: AnalysisResult) -> dict[str, int]:
+    """Per-day counts used for peak and trend: the fixed feeds when they
+    have data, otherwise every article."""
+    panel = result.get("by_day_panel") or {}
+    return panel if any(panel.values()) else result["by_day"]
+
+
+def short_date(day: str) -> str:
     """'2026-10-12' -> '12/10'."""
     return f"{day[8:]}/{day[5:7]}"
 
 
-def style(ax):
+def style(ax: Any) -> None:
     """Quiet axes so the data stands out."""
     ax.set_facecolor(SURFACE)
     ax.spines[["top", "right", "left"]].set_visible(False)
@@ -45,17 +81,22 @@ def style(ax):
     ax.set_axisbelow(True)
 
 
-def make_chart(result, path):
+def make_chart(result: AnalysisResult, path: Path) -> None:
     """Two panels: coverage per day (left) and coverage per source (right).
 
-    Every day in the period is shown. Days before collection started are
-    drawn pale and labeled "partial", so a low count there is not misread
-    as low coverage.
+    Every day in the period is shown. Each bar stacks the fixed feeds (the
+    trend series, labeled with its count), the topic country's own press and
+    GDELT backfill, so a day that is tall only because the backfill ran is
+    visible as such. Days before collection started are drawn pale and
+    labeled "partial", so a low count there is not misread as low coverage.
     """
     days = list(result["by_day"])
-    counts = list(result["by_day"].values())
+    series = trend_series(result)
+    counts = [series[d] for d in days]
+    home = [result.get("by_day_home", {}).get(d, 0) for d in days]
+    gdelt = [result["by_day"][d] - series[d] - h for d, h in zip(days, home)]
     partial = set(result["partial_days"])
-    top = max(counts) or 1
+    top = max(result["by_day"].values()) or 1
 
     fig, (ax1, ax2) = plt.subplots(
         1, 2, figsize=(11, 4.6), gridspec_kw={"width_ratios": [2.2, 1]}
@@ -65,7 +106,16 @@ def make_chart(result, path):
     # Left: articles per day.
     labels = [datetime.fromisoformat(d).strftime("%a\n%d/%m") for d in days]
     colors = [PARTIAL if d in partial else BAR for d in days]
-    ax1.bar(labels, counts, width=0.62, color=colors)
+    ax1.bar(labels, counts, width=0.62, color=colors, label="Fixed feeds (trend series)")
+    if any(home):
+        ax1.bar(labels, home, width=0.62, bottom=counts, color=HOME,
+                label=f"{' and '.join(result.get('home_countries', []))} press")
+    if any(gdelt):
+        ax1.bar(labels, gdelt, width=0.62, bottom=[c + h for c, h in zip(counts, home)],
+                color=GDELT, label="GDELT backfill (uneven)")
+    if any(home) or any(gdelt):
+        ax1.legend(loc="upper left", frameon=False, fontsize=8, ncols=3,
+                   handlelength=1, columnspacing=1.2)
     for x, (day, n) in enumerate(zip(days, counts)):
         if day in partial:
             text = f"{n}\npartial"
@@ -73,10 +123,15 @@ def make_chart(result, path):
             text = f"{n}\nspike"
         else:
             text = str(n)
-        ax1.text(x, n + top * 0.03, text, ha="center", va="bottom", fontsize=9,
-                 color=MUTED if day in partial else INK,
+        stacked = result["by_day"][day] > n   # the count labels the blue segment only
+        if stacked and n >= top * 0.08:
+            ax1.text(x, n / 2, str(n), ha="center", va="center", fontsize=9,
+                     color="white", fontweight="bold")
+            text = text.partition("\n")[2]
+        ax1.text(x, result["by_day"][day] + top * 0.03, text, ha="center", va="bottom",
+                 fontsize=9, color=MUTED if day in partial else INK,
                  fontweight="bold" if day in result["spikes"] else "normal")
-    ax1.set_ylim(0, top * 1.3 + 0.5)
+    ax1.set_ylim(0, top * 1.4 + 0.5)
     ax1.yaxis.set_major_locator(MaxNLocator(integer=True))
     ax1.grid(axis="y", color=GRID, linewidth=1)
     ax1.set_title("Articles per day", loc="left", fontsize=11, color=INK)
@@ -110,12 +165,12 @@ def make_chart(result, path):
     plt.close(fig)
 
 
-def countries_with_data(comp):
+def countries_with_data(comp: Comparison) -> list[str]:
     """Countries that have at least one article on the topic."""
     return [c for c, d in comp["countries"].items() if d["matching"]]
 
 
-def make_comparison_chart(comp, path):
+def make_comparison_chart(comp: Comparison, path: Path) -> None:
     """Two panels: how much attention each country gives the topic (left),
     and which names each country mentions alongside it (right).
 
@@ -133,7 +188,7 @@ def make_comparison_chart(comp, path):
     # Left: one bar per country. Foreign press: % of articles about the topic.
     # Home press covers the topic as domestic news, so it shows the mirror
     # instead: % of its articles that mention the other countries.
-    def bar_value(c):
+    def bar_value(c: str) -> float:
         d = data[c]
         return d["mirror"].get("either", 0) if d["home"] and d.get("mirror") else d["share"]
 
@@ -171,8 +226,8 @@ def make_comparison_chart(comp, path):
         offsets = [y + shift for y in range(len(names))]
         ax2.barh(offsets, values, height=height, color=COUNTRY_COLORS[c],
                  edgecolor=SURFACE, linewidth=1.5, label=c)
-        for y, v in zip(offsets, values):
-            ax2.text(v + 1, y, f"{v}%", va="center", fontsize=8, color=MUTED)
+        for offset, v in zip(offsets, values):
+            ax2.text(v + 1, offset, f"{v}%", va="center", fontsize=8, color=MUTED)
     ax2.set_yticks(range(len(names)), names)
     ax2.set_xlim(0, 100)
     ax2.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
@@ -200,7 +255,7 @@ def make_comparison_chart(comp, path):
     plt.close(fig)
 
 
-def comparison_lines(comp):
+def comparison_lines(comp: Comparison) -> list[str]:
     """Markdown section comparing the countries."""
     data = {c: comp["countries"][c] for c in countries_with_data(comp)}
     missing = [c for c in comp["countries"] if c not in data]
@@ -220,12 +275,12 @@ def comparison_lines(comp):
             lines.append(f"| Home press: articles mentioning {target} | "
                          + " | ".join(cells) + " |")
     for name in comp["top_names"]:
-        lines.append(f"| Mentions {name} | " + " | ".join(
+        lines.append(f"| Mentions {md_cell(name)} | " + " | ".join(
             f"{d['names'].get(name, 0)}%" for d in data.values()) + " |")
     lines.append("")
     for country, d in data.items():
         lines += [f"**Latest {country} headlines**", ""]
-        lines += [f"- {a['source']}: [{tidy_title(a['title'])}]({a['link']})"
+        lines += [f"- {a['source']}: {md_link(tidy_title(a['title']), a['link'])}"
                   for a in d["headlines"]]
         lines.append("")
     caveats = [
@@ -244,16 +299,15 @@ def comparison_lines(comp):
     return lines
 
 
-def key_findings_lines(result):
+def key_findings_lines(result: AnalysisResult) -> list[str]:
     """Markdown bullets: peak, top story, spikes, leading source."""
     lines = ["## Key findings", ""]
-    complete = {d: n for d, n in result["by_day"].items()
-                if d not in result["partial_days"]}
+    series = trend_series(result)
+    complete = {d: n for d, n in series.items() if d not in result["partial_days"]}
     if complete:
-        peak_day = max(complete, key=complete.get)
-        lines.append(
-            f"- Peak coverage on {peak_day}: {plural(result['by_day'][peak_day])}."
-        )
+        peak_day = max(complete, key=lambda d: complete[d])
+        fixed = " from the fixed feeds" if series is not result["by_day"] else ""
+        lines.append(f"- Peak coverage on {peak_day}: {plural(complete[peak_day])}{fixed}.")
     else:
         lines.append("- Not enough complete days of data yet to identify a peak.")
     if result["partial_days"]:
@@ -280,13 +334,13 @@ def key_findings_lines(result):
     return lines
 
 
-def story_lines(result):
+def story_lines(result: AnalysisResult) -> list[str]:
     """Markdown table of the stories picked up by the most outlets."""
     lines = []
     if result["stories"]:
         lines += ["## Stories covered by the most outlets", "",
                   "| Story | Outlets | First seen |", "|---|---|---|"]
-        lines += [f"| {st['headline']} | {len(st['outlets'])} | {st['first']} |"
+        lines += [f"| {md_cell(st['headline'])} | {len(st['outlets'])} | {st['first']} |"
                   for st in result["stories"]]
         lines += ["", "Stories are groups of articles with similar headlines. "
                   "Different outlets reporting the same event count once here.", ""]
@@ -296,7 +350,8 @@ def story_lines(result):
 README_START, README_END = "<!-- assessment:start -->", "<!-- assessment:end -->"
 
 
-def update_readme(readme_path, assessment, generated, result=None):
+def update_readme(readme_path: str | Path, assessment: Assessment, generated: str,
+                  result: AnalysisResult | None = None) -> bool:
     """Put the latest assessment between the markers in the README.
 
     The repo's front page is the README, so the bottom line should be there
@@ -317,17 +372,20 @@ def update_readme(readme_path, assessment, generated, result=None):
     return True
 
 
-def make_report(result, out_dir, comparison=None, assessment=None):
+def make_report(result: AnalysisResult, out_dir: str | Path,
+                comparison: Comparison | None = None,
+                assessment: Assessment | None = None,
+                now: datetime | None = None) -> Path:
     """Write report.md and coverage.png into out_dir. Returns the report path."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     keywords = ", ".join(result["keywords"])
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    stamp = (now or datetime.now(timezone.utc)).strftime("%Y-%m-%d %H:%M UTC")
 
     lines = [
         f"# OSINT Coverage Report: {keywords}",
         "",
-        f"Generated {now}. Period: last {result['days']} days. "
+        f"Generated {stamp}. Period: last {result['days']} days. "
         f"Matching articles: {result['total']}"
         + (f" ({result['reprints_removed']} reprints removed)."
            if result["reprints_removed"] else "."),
@@ -351,14 +409,16 @@ def make_report(result, out_dir, comparison=None, assessment=None):
     lines += story_lines(result)
 
     lines += ["## Coverage by source", "", "| Source | Articles |", "|---|---|"]
-    lines += [f"| {s} | {n} |"
+    lines += [f"| {md_cell(s)} | {n} |"
               for s, n in condense_sources(result["by_source"], TOP_SOURCES_TABLE).items()]
     lines.append("")
 
     lines += ["## Names and places mentioned alongside the topic", ""]
     lines += ["| Name | Articles |", "|---|---|"]
-    lines += [f"| {name} | {n} |" for name, n in result["entities"]]
-    lines.append("")
+    lines += [f"| {md_cell(name)} | {n} |" for name, n in result["entities"]]
+    method = ("spaCy named-entity recognition" if result.get("ner_backend") == "spacy"
+              else "a capitalized-phrase heuristic (spaCy not installed)")
+    lines += ["", f"Names extracted with {method}.", ""]
 
     if comparison:
         if len(countries_with_data(comparison)) >= 2:
@@ -367,8 +427,8 @@ def make_report(result, out_dir, comparison=None, assessment=None):
 
     lines += ["## Latest headlines", ""]
     for a in result["articles"][:10]:
-        title = tidy_title(a["title"])
-        lines.append(f"- {a['published'][:10]} | {a['source']} | [{title}]({a['link']})")
+        link = md_link(tidy_title(a["title"]), a["link"])
+        lines.append(f"- {a['published'][:10]}, {md_cell(a['source'])}: {link}")
     lines.append("")
 
     path = out_dir / "report.md"

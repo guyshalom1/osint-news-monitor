@@ -11,6 +11,40 @@ permissions:
 
 jobs:
   test:
+    name: Lint, types, tests (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: System libraries for the PDF brief
+        run: sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends libpango-1.0-0 libpangoft2-1.0-0
+
+      - name: Install with every optional feature
+        run: |
+          pip install -e ".[dev,nlp,pdf]"
+          python -m spacy download en_core_web_sm
+
+      - run: ruff check .
+
+      - run: mypy
+
+      - run: pytest -q --cov=osint_monitor --cov-report=term-missing:skip-covered
+
+      - name: Scores on the labeled sample
+        run: osint-monitor evaluate
+
+  minimal:
+    name: Tests without spaCy or WeasyPrint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,11 +53,32 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: pyproject.toml
 
-      - run: pip install -r requirements.txt
-
-      - run: pip install ruff
-
-      - run: ruff check .
+      # The optional extras are left out on purpose: this job proves the
+      # regex fallback and the HTML-only brief work on a bare install.
+      - run: pip install -e ".[dev]"
 
       - run: pytest -q
+
+  live-feeds:
+    name: Live feeds (informational)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    continue-on-error: true   # the open web is not a test fixture; this job only reports
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - run: pip install -e .
+
+      # One real collection from GitHub's servers into a throwaway database:
+      # shows whether a change to the HTTP client or the feed list still works.
+      - run: osint-monitor --db "$RUNNER_TEMP/live/articles.db" collect
+
+      - run: cat "$RUNNER_TEMP/live/source_status.json"

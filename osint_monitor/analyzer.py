@@ -4,111 +4,92 @@ Answers three questions an analyst would ask:
 1. Volume: how much coverage is the topic getting, per day and per source?
 2. Spikes: on which days did coverage jump well above normal?
 3. Context: which names and places appear most often alongside the topic?
+
+Counting over time needs a fixed set of sources. The database holds two
+kinds of articles: items from the fixed RSS feeds, collected on every run,
+and GDELT backfill, which succeeds on some days and is rate-limited on
+others. Mixing them makes a day look busy because the backfill worked, so
+trend, peak and spike detection use the RSS panel only. GDELT articles still
+count for breadth: stories, sources and names.
 """
 
+from __future__ import annotations
+
+import math
 import re
+import sqlite3
 import statistics
 from collections import Counter, defaultdict
+from collections.abc import Iterable, Mapping, Sequence
 from datetime import datetime, timedelta, timezone
+from typing import Any
 
+from . import entities
 from .dedupe import remove_reprints, story_clusters
+from .entities import top_entities
 from .gdelt import query_key
-from .sources import COUNTRY, OUTLET_NAMES, outlet_name
-
-# Capitalized words that start sentences or are too generic to be useful.
-STOPWORDS = {
-    "The", "A", "An", "In", "On", "At", "For", "And", "But", "Or", "Of", "To",
-    "With", "By", "From", "As", "After", "Before", "Over", "Under", "Amid",
-    "He", "She", "It", "They", "We", "His", "Her", "Their", "This", "That",
-    "These", "Those", "What", "Who", "Why", "How", "When", "Where", "Is",
-    "Are", "Was", "Were", "Will", "Would", "Could", "Should", "Says", "Said",
-    "New", "Live", "Watch", "Update", "Continue", "Read", "More", "Monday", "Tuesday", "Wednesday",
-    "Report", "Reports", "Analysis", "Opinion", "Exclusive",
-    "Thursday", "Friday", "Saturday", "Sunday", "January", "February",
-    "March", "April", "May", "June", "July", "August", "September",
-    "October", "November", "December",
-    "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Sept", "Oct",
-    "Nov", "Dec", "Today", "Day", "Two", "Three", "Get", "According",
-    "Ministry", "Department", "News", "Breaking", "Video", "Photos", "Police",
-}
-
-# Job titles. They are not part of a person's name, so "Prime Minister Benjamin
-# Netanyahu" and "Netanyahu" must count as the same name.
-TITLES = {
-    "Prime", "Minister", "President", "Vice", "Foreign", "Defense", "Defence",
-    "Secretary", "Senator", "Sen", "Rep", "Representative", "General", "Gen",
-    "Supreme", "Leader", "Ayatollah", "King", "Prince", "Crown", "Mr", "Mrs",
-    "Dr", "Chairman", "Ambassador", "Speaker", "Premier", "Chancellor",
-}
-
-# Different forms of the same country, counted as one name. The merge happens
-# per article, so an article that says both "Israel" and "Israeli" counts once.
-ALIASES = {
-    "Israeli": "Israel", "Russian": "Russia", "Saudi": "Saudi Arabia",
-    "Lebanese": "Lebanon", "Syrian": "Syria", "Iraqi": "Iraq", "Yemeni": "Yemen",
-    "Ukrainian": "Ukraine", "Chinese": "China", "British": "UK",
-    "Israelis": "Israel", "Americans": "US", "American": "US", "America": "US",
-    "United States": "US", "U.S": "US",
-}
-
-# One or more capitalized words in a row, e.g. "Security Council", "Gaza".
-NAME_PATTERN = re.compile(r"\b[A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+)*\b")
-
-# News agencies open many articles with a dateline: "TEHRAN, Oct. 29 (MNA) -",
-# "Tehran, IRNA -" or "LONDON -". It says where and who filed the story, not
-# what it is about, so it is removed before names are counted. Without this,
-# the agency tag "MNA" tops the name list and looks like a real subject.
-AGENCIES = "MNA|IRNA|ISNA|TNA|AP|AFP|Reuters|WAFA"
-DATE_PART = r"(?:[A-Z][a-z]{2,8}\.?\s*\d{1,2}\s*)"
-DATELINE = re.compile(
-    # "City, [date] AGENCY"
-    rf"^\s*(?:[A-Za-z .]{{2,30}},\s*{DATE_PART}?\(?(?:{AGENCIES})\)?\s*"
-    # "CITY [, date] [(AGENCY)]"
-    rf"|[A-Z]{{3,}}(?: [A-Z]{{3,}})?(?:,\s*{DATE_PART})?\s*(?:\([A-Za-z]{{2,8}}\)\s*)?)"
-    r"[\u2013\u2014-]\s*"
-)
+from .models import AnalysisResult, Article, Comparison, CountryData
+from .sources import COUNTRY, outlet_name
 
 
-def strip_dateline(text):
-    """Remove a leading agency dateline, e.g. "TEHRAN, Oct. 29 (MNA) - Iran said..."."""
-    return DATELINE.sub("", text, count=1)
-
-
-def load_articles(conn, days, now=None):
+def load_articles(conn: sqlite3.Connection, days: int,
+                  now: datetime | None = None) -> list[Article]:
     """Return articles published in the last `days` days, newest first."""
     now = now or datetime.now(timezone.utc)
     since = (now - timedelta(days=days)).isoformat()
     rows = conn.execute(
-        "SELECT source, title, summary, link, published FROM articles "
-        "WHERE published >= ? ORDER BY published DESC",
-        (since,),
+        "SELECT source, title, summary, link, published, origin FROM articles "
+        "WHERE published >= ? AND published <= ? ORDER BY published DESC, rowid",
+        (since, (now + timedelta(hours=1)).isoformat()),   # drop items dated in the future
     ).fetchall()
-    keys = ("source", "title", "summary", "link", "published")
-    articles = [dict(zip(keys, row)) for row in rows]
-    for a in articles:
-        a["source"] = outlet_name(a["source"])  # "jpost.com" -> "Jerusalem Post"
-    return articles
+    return [{
+        "source": outlet_name(source),   # "jpost.com" -> "Jerusalem Post"
+        "title": title, "summary": summary or "", "link": link or "",
+        "published": published, "origin": origin or "rss",
+    } for source, title, summary, link, published, origin in rows]
 
 
-def matches(article, keywords):
+def keyword_pattern(keywords: Iterable[str]) -> re.Pattern[str]:
+    """One regex matching any keyword as a whole word, case-insensitive."""
+    return re.compile(
+        r"\b(?:" + "|".join(re.escape(k) for k in keywords) + r")\b", re.IGNORECASE)
+
+
+def matches(article: Mapping[str, Any], keywords: Iterable[str] | re.Pattern[str]) -> bool:
     """True if any keyword appears as a whole word in the title or summary."""
-    text = f"{article['title']} {article['summary']}"
-    return any(
-        re.search(rf"\b{re.escape(k)}\b", text, re.IGNORECASE) for k in keywords
-    )
+    pattern = keywords if isinstance(keywords, re.Pattern) else keyword_pattern(keywords)
+    return bool(pattern.search(f"{article['title']} {article.get('summary') or ''}"))
 
 
-def daily_counts(articles):
+def home_countries(keywords: Iterable[str]) -> list[str]:
+    """Countries named in the keywords. Their press covers the topic as home news."""
+    wanted = {k.lower() for k in keywords}
+    return sorted(c for c in set(COUNTRY.values()) if c.lower() in wanted)
+
+
+def is_panel(article: Mapping[str, Any], home: Iterable[str] = ()) -> bool:
+    """True for the articles used to judge change over time: collected from a
+    fixed RSS feed, and not from the topic country's own press.
+
+    The topic country's outlets mention it in almost every story, sports and
+    tourism included, so their count measures how much they publish, not how
+    much attention the topic gets.
+    """
+    return (article.get("origin", "rss") == "rss"
+            and COUNTRY.get(article["source"]) not in set(home))
+
+
+def daily_counts(articles: Iterable[Mapping[str, Any]]) -> dict[str, int]:
     """Number of articles per day, e.g. {'2026-10-10': 4, ...}."""
     return dict(sorted(Counter(a["published"][:10] for a in articles).items()))
 
 
-def source_counts(articles):
+def source_counts(articles: Iterable[Mapping[str, Any]]) -> dict[str, int]:
     """Number of articles per source, largest first."""
     return dict(Counter(a["source"] for a in articles).most_common())
 
 
-def condense_sources(by_source, top):
+def condense_sources(by_source: Mapping[str, int], top: int) -> dict[str, int]:
     """Keep the `top` largest sources and add up the rest as one line.
 
     Real runs have 100+ outlets, most of them one article each (a long tail
@@ -125,7 +106,7 @@ def condense_sources(by_source, top):
     return condensed
 
 
-def fill_days(counts, days, now):
+def fill_days(counts: Mapping[str, int], days: int, now: datetime) -> dict[str, int]:
     """Add the days with no articles, so the timeline has no gaps.
 
     Without this, a quiet day simply disappears from the chart and the
@@ -136,88 +117,52 @@ def fill_days(counts, days, now):
     return {day: counts.get(day, 0) for day in all_days}
 
 
-def find_spikes(counts, threshold=1.5, min_articles=3):
-    """Days where coverage is well above the period's average.
+def find_spikes(counts: Mapping[str, int], threshold: float = 3.0,
+                min_articles: int = 3) -> list[str]:
+    """Days where coverage is well above the other days of the period.
 
-    A day is a spike if its count is above mean + threshold * standard
-    deviation, and it has at least `min_articles` (to ignore noise on
-    quiet topics).
+    Each day is compared with the mean and spread of the *other* days, so a
+    spike does not raise its own bar. The spread has a floor of sqrt(mean),
+    the noise expected from counting alone, so 4 articles after a run of 2s
+    is not a spike.
+
+    The bar is 3 standard deviations. On simulated weeks of pure random
+    variation at 30 articles a day this flags something in about 3% of
+    weeks and still catches a doubling 93% of the time. A bar of 1.5 over
+    the whole week, the earlier rule, flagged over half of such weeks.
     """
-    values = list(counts.values())
-    if len(values) < 3:
+    if len(counts) < 3:
         return []
-    cutoff = statistics.mean(values) + threshold * statistics.pstdev(values)
-    return [day for day, n in counts.items() if n > cutoff and n >= min_articles]
+    spikes = []
+    for day, n in counts.items():
+        others = [v for d, v in counts.items() if d != day]
+        mean = statistics.mean(others)
+        spread = max(statistics.pstdev(others), math.sqrt(mean))
+        if n >= min_articles and n > mean + threshold * spread:
+            spikes.append(day)
+    return spikes
 
 
-def clean_name(name, skip):
-    """Normalize one capitalized phrase, or return "" to drop it.
-
-    "Riyadh's" -> "Riyadh", "Iran's Houthi" -> "Houthi" (keyword removed),
-    "Iran-backed Houthis" -> "Houthis".
-    """
-    words = []
-    for word in name.split():
-        word = re.sub(r"'s$", "", word)
-        lower = word.lower()
-        if word in STOPWORDS or word in TITLES or lower in skip:
-            continue
-        if any(lower.startswith(k + "-") for k in skip):  # "Iran-backed"
-            continue
-        words.append(word)
-    return " ".join(words)
-
-
-def top_entities(articles, keywords, limit=10):
-    """Most frequent names/places mentioned alongside the keywords.
-
-    A simple heuristic: runs of capitalized words. Not as accurate as a full
-    NLP model, but fast, transparent and good enough to surface patterns.
-    """
-    skip = {k.lower() for k in keywords}
-    skip |= {name.lower() for name in OUTLET_NAMES}
-    counter = Counter()
-    for a in articles:
-        found = set()  # count each name once per article
-        text = f"{a['title']}. {strip_dateline(a['summary'])}"
-        for name in NAME_PATTERN.findall(text):
-            name = clean_name(name, skip)
-            name = ALIASES.get(name, name)
-            if len(name) >= 2 and name.lower() not in skip:
-                found.add(name)
-        counter.update(found)
-
-    # Merge plurals into the singular when both appear: "Houthis" -> "Houthi".
-    for name in list(counter):
-        if name.endswith("s") and name[:-1] in counter:
-            counter[name[:-1]] += counter.pop(name)
-    merge_full_names(counter)
-    return counter.most_common(limit)
-
-
-def merge_full_names(counter):
-    """Merge a longer name into its last word when that word is also counted.
-
-    "Benjamin Netanyahu" -> "Netanyahu", "Donald Trump" -> "Trump". Only the
-    last word is used, so "Saudi Arabia" stays as is unless "Arabia" alone is
-    also a counted name. Changes the counter in place.
-    """
-    for name in sorted(counter, key=lambda n: -len(n.split())):
-        words = name.split()
-        if len(words) >= 2 and words[-1] in counter and name in counter:
-            counter[words[-1]] += counter.pop(name)
-
-
-def analyze(conn, keywords, days=7, now=None):
+def analyze(conn: sqlite3.Connection, keywords: Sequence[str], days: int = 7,
+            now: datetime | None = None) -> AnalysisResult:
     """Run the full analysis and return the results as one dict."""
     now = now or datetime.now(timezone.utc)
-    matched = [a for a in load_articles(conn, days, now) if matches(a, keywords)]
+    pattern = keyword_pattern(keywords)
+    matched = [a for a in load_articles(conn, days, now) if matches(a, pattern)]
     # Wire copy republished under other domains would inflate every count.
     articles, reprints_removed = remove_reprints(matched)
-    by_day = fill_days(daily_counts(articles), days, now)
+    home = home_countries(keywords)
+
+    def series(keep: Any) -> dict[str, int]:
+        return fill_days(daily_counts(a for a in articles if keep(a)), days, now)
+
+    by_day = series(lambda a: True)
+    by_day_panel = series(lambda a: is_panel(a, home))
+    by_day_gdelt = series(lambda a: a.get("origin") == "gdelt")
+    by_day_home = {d: by_day[d] - by_day_panel[d] - by_day_gdelt[d] for d in by_day}
 
     # For each day, how many articles each source published: {day: {source: n}}
-    by_day_source = defaultdict(Counter)
+    by_day_source: defaultdict[str, Counter[str]] = defaultdict(Counter)
     for a in articles:
         by_day_source[a["published"][:10]][a["source"]] += 1
 
@@ -231,17 +176,22 @@ def analyze(conn, keywords, days=7, now=None):
     partial = [d for d in by_day if d < start and d not in covered]
 
     return {
-        "keywords": keywords,
+        "keywords": list(keywords),
         "collection_start": start,
         "partial_days": partial,
+        "home_countries": home,
         "days": days,
         "total": len(articles),
         "reprints_removed": reprints_removed,
         "stories": story_clusters(articles)[:8],
         "by_day": by_day,
+        "by_day_panel": by_day_panel,
+        "by_day_home": by_day_home,
+        "by_day_gdelt": by_day_gdelt,
         "by_source": source_counts(articles),
-        "spikes": find_spikes({d: n for d, n in by_day.items() if d not in partial}),
+        "spikes": find_spikes({d: n for d, n in by_day_panel.items() if d not in partial}),
         "entities": top_entities(articles, keywords),
+        "ner_backend": entities.backend(),
         "by_day_source": {d: dict(c) for d, c in by_day_source.items()},
         "sources_per_day": {d: sorted(c) for d, c in sorted(by_day_source.items())},
         "articles": articles,
@@ -256,7 +206,7 @@ MIRROR_TERMS = {
 }
 
 
-def mirror_share(pool, targets):
+def mirror_share(pool: Sequence[Mapping[str, Any]], targets: Sequence[str]) -> dict[str, int]:
     """% of a country's articles that mention each target country, and either."""
     if not pool:
         return {}
@@ -268,8 +218,9 @@ def mirror_share(pool, targets):
     return out
 
 
-def compare_countries(conn, keywords, days=7, now=None,
-                      countries=("Israel", "US", "Iran")):
+def compare_countries(conn: sqlite3.Connection, keywords: Sequence[str], days: int = 7,
+                      now: datetime | None = None,
+                      countries: Sequence[str] = ("Israel", "US", "Iran")) -> Comparison:
     """Compare how media in different countries cover the same topic.
 
     Counts differ a lot between countries (more feeds, longer feeds), so the
@@ -279,34 +230,39 @@ def compare_countries(conn, keywords, days=7, now=None,
 
     A country named in the keywords (Iran, when tracking Iran) is the "home"
     press for the topic. It covers the topic as domestic news, so its share of
-    attention is not comparable with the others. Its framing still is, and its
-    "mirror" shows the opposite view: how often it mentions the other countries.
+    attention is not comparable with the others, and its "mirror" shows the
+    opposite view: how often it mentions the other countries.
+
+    Only articles from the fixed feeds are used. GDELT articles carry no
+    summary, so they would mention fewer names for a technical reason.
     """
-    all_articles = load_articles(conn, days, now)
-    result = {"keywords": keywords, "countries": {}}
-    keyword_set = {k.lower() for k in keywords}
+    pattern = keyword_pattern(keywords)
+    feed_articles = [a for a in load_articles(conn, days, now) if a.get("origin") == "rss"]
+    home_set = set(home_countries(keywords))
+    data: dict[str, CountryData] = {}
 
     for country in countries:
-        pool = [a for a in all_articles if COUNTRY.get(a["source"]) == country]
-        topic = [a for a in pool if matches(a, keywords)]
-        names = top_entities(topic, keywords, limit=50)
-        home = country.lower() in keyword_set
+        pool = [a for a in feed_articles if COUNTRY.get(a["source"]) == country]
+        topic = [a for a in pool if matches(a, pattern)]
+        counts = dict(top_entities(topic, keywords, limit=None))
+        home = country in home_set
         targets = [c for c in countries if c != country and c in MIRROR_TERMS]
-        result["countries"][country] = {
+        data[country] = {
             "home": home,
             "mirror": mirror_share(pool, targets) if home else {},
             "total": len(pool),
             "matching": len(topic),
             "share": round(100 * len(topic) / len(pool), 1) if pool else 0.0,
             "sources": sorted({a["source"] for a in pool}),
+            "name_counts": counts,
             # % of this country's topic articles that mention each name
-            "names": {n: round(100 * c / len(topic)) for n, c in names} if topic else {},
+            "names": {n: round(100 * c / len(topic)) for n, c in counts.items()},
             "headlines": topic[:5],
         }
 
     # Names to compare: the most mentioned overall, by combined share.
-    combined = Counter()
-    for data in result["countries"].values():
-        combined.update(data["names"])
-    result["top_names"] = [n for n, _ in combined.most_common(8)]
-    return result
+    combined: Counter[str] = Counter()
+    for country_data in data.values():
+        combined.update(country_data["names"])
+    return {"keywords": list(keywords), "countries": data,
+            "top_names": [n for n, _ in combined.most_common(8)]}

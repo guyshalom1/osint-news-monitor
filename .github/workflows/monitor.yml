@@ -13,8 +13,18 @@ concurrency:
   group: monitor
   cancel-in-progress: false
 
+env:
+  KEYWORDS: Iran Iranian Tehran
+  DB: _data/data/articles.db
+
+# Code lives on main. The database and the reports live on the `data` branch,
+# which always holds exactly one commit: each run replaces it. A binary file
+# cannot be diffed, so its git history is only weight, and main stays a
+# history of human changes. The last 14 days of snapshots are kept as
+# workflow artifacts in case a run has to be rolled back.
 jobs:
   run:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,26 +33,73 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: pyproject.toml
 
-      - run: pip install -r requirements.txt
+      - name: System libraries for the PDF brief
+        run: sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends libpango-1.0-0 libpangoft2-1.0-0
+
+      - name: Install
+        run: |
+          pip install ".[nlp,pdf]"
+          python -m spacy download en_core_web_sm
+
+      - name: Load the data branch
+        run: |
+          mkdir -p _data
+          if git fetch --depth 1 origin data; then
+            git archive FETCH_HEAD | tar -x -C _data
+          elif [ -f data/articles.db ]; then
+            # First run after the move: start from the copy still on main.
+            cp -r data reports _data/
+          fi
 
       - name: Collect articles
-        run: python -m osint_monitor --db data/articles.db collect
+        run: osint-monitor --db "$DB" collect
 
       - name: Backfill history from GDELT
         timeout-minutes: 8
         continue-on-error: true   # GDELT is a bonus source; RSS collection must not depend on it
-        run: python -m osint_monitor --db data/articles.db backfill --keywords Iran Iranian Tehran --days 7
+        run: osint-monitor --db "$DB" backfill --keywords $KEYWORDS --days 7
 
-      - name: Build report
-        run: python -m osint_monitor --db data/articles.db report --keywords Iran Iranian Tehran --days 7 --out reports/latest --readme README.md
+      - name: Drop articles past the retention window
+        run: osint-monitor --db "$DB" prune --keep-days 180
 
-      - name: Save results to the repository
+      - name: Build report and brief
+        run: |
+          osint-monitor --db "$DB" report --keywords $KEYWORDS --days 7 --out _data/reports/latest --pdf
+          # Keep one dated text copy a day, so past assessments can be checked against events.
+          mkdir -p _data/reports/archive
+          grep -v '^!\[' _data/reports/latest/report.md > "_data/reports/archive/$(date -u +%F).md"
+
+      - name: Verify the database before publishing it
+        run: osint-monitor --db "$DB" check
+
+      - name: Keep a snapshot for rollback
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ github.run_id }}
+          path: _data
+          retention-days: 14
+
+      - name: Publish to the data branch
+        run: |
+          # Build one parentless commit from the _data folder and point the
+          # branch at it. A separate index keeps main's checkout untouched.
+          export GIT_WORK_TREE="$PWD/_data" GIT_INDEX_FILE="$PWD/.git/data-index"
+          export GIT_AUTHOR_NAME="osint-monitor-bot" GIT_AUTHOR_EMAIL="actions@users.noreply.github.com"
+          export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME" GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+          git add -A
+          commit=$(git commit-tree "$(git write-tree)" -m "Data and report $(date -u +'%Y-%m-%d %H:%M UTC')")
+          git push --force origin "$commit:refs/heads/data"
+
+      - name: "One-time cleanup: remove the old data files from main"
+        if: hashFiles('data/articles.db') != ''
         run: |
           git config user.name "osint-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data reports README.md
-          git diff --cached --quiet || git commit -m "Update data and report $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git rm -r -q data reports
+          sed -i '/<!-- legacy-block:start -->/,/<!-- legacy-block:end -->/d' README.md
+          git commit -q -am "Move data and reports to the data branch"
           git push
 
       - name: Open an issue if the run failed
