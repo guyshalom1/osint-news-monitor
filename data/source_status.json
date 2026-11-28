@@ -1,0 +1,101 @@
+{
+  "checked": "2026-11-28T07:45+00:00",
+  "sources": {
+    "Haaretz": {
+      "fetched": 100,
+      "new": 10,
+      "newest": "2026-11-28"
+    },
+    "Jerusalem Post": {
+      "fetched": 25,
+      "new": 15,
+      "newest": "2026-11-28"
+    },
+    "Israel Hayom": {
+      "fetched": 10,
+      "new": 1,
+      "newest": "2026-11-27"
+    },
+    "Israel National News": {
+      "fetched": 10,
+      "new": 0,
+      "newest": "2026-11-27"
+    },
+    "JNS": {
+      "fetched": 30,
+      "new": 0,
+      "newest": "2026-11-27"
+    },
+    "Ynetnews": {
+      "fetched": 30,
+      "new": 0,
+      "newest": "2026-11-24"
+    },
+    "Globes": {
+      "fetched": 10,
+      "new": 0,
+      "newest": "2026-11-26"
+    },
+    "New York Times": {
+      "fetched": 62,
+      "new": 5,
+      "newest": "2026-11-28"
+    },
+    "NPR": {
+      "fetched": 10,
+      "new": 0,
+      "newest": "2026-11-27"
+    },
+    "Fox News": {
+      "fetched": 25,
+      "new": 1,
+      "newest": "2026-11-28"
+    },
+    "CBS News": {
+      "fetched": 30,
+      "new": 2,
+      "newest": "2026-11-28"
+    },
+    "ABC News": {
+      "fetched": 25,
+      "new": 3,
+      "newest": "2026-11-28"
+    },
+    "IRNA": {
+      "fetched": 30,
+      "new": 4,
+      "newest": "2026-11-28"
+    },
+    "Mehr News": {
+      "fetched": 30,
+      "new": 5,
+      "newest": "2026-11-28"
+    },
+    "Tehran Times": {
+      "fetched": 30,
+      "new": 2,
+      "newest": "2026-11-28"
+    },
+    "BBC Middle East": {
+      "fetched": 27,
+      "new": 0,
+      "newest": "2026-11-27"
+    },
+    "Al Jazeera": {
+      "fetched": 25,
+      "new": 25,
+      "newest": "2026-11-28",
+      "saturated": true
+    },
+    "The Guardian World": {
+      "fetched": 45,
+      "new": 12,
+      "newest": "2026-11-28"
+    },
+    "UN News": {
+      "fetched": 30,
+      "new": 0,
+      "newest": "2026-11-27"
+    }
+  }
+}
